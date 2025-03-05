@@ -1,0 +1,102 @@
+1. 가슴이 답답하다 > Feel frustrated  
+2. 가슴이 아프다 > Feel heartbroken  
+3. 가슴을 치다 > Regret deeply  
+4. 고개를 숙이다 > Show humility  
+5. 골치 아프다 > Be troubled  
+6. 귀가 얇다 > Be gullible  
+7. 귀를 기울이다 > Listen attentively  
+8. 기가 막히다 > Be dumbfounded  
+9. 날개가 돋치다 > Sell out fast  
+10. 낯이 뜨겁다 > Feel embarrassed  
+11. 눈을 감아주다 > Overlook a mistake  
+12. 눈을 맞추다 > Make eye contact  
+13. 눈빛이 달라지다 > Change one's attitude  
+14. 눈에 넣어도 아프지 않다 > Love dearly  
+15. 눈에 불을 켜다 > Be eager for something  
+16. 눈이 높다 > Have high standards  
+17. 눈코 뜰 새 없다 > Be extremely busy  
+18. 다리가 풀리다 > Feel weak in the legs  
+19. 두 손 들다 > Give up  
+20. 등을 돌리다 > Turn one's back on  
+21. 마음에 두다 > Keep in mind  
+22. 마음을 비우다 > Let go of attachments  
+23. 머리를 맞대다 > Brainstorm together  
+24. 머리를 식히다 > Cool down  
+25. 몸을 사리다 > Avoid risk  
+26. 발 벗고 나서다 > Act enthusiastically  
+27. 발등에 불이 떨어지다 > Be in urgent need  
+28. 발목을 잡다 > Hold back  
+29. 배가 아프다 > Feel jealous  
+30. 배를 잡다 > Laugh uncontrollably  
+31. 뼈를 묻다 > Devote one's life  
+32. 뼈에 사무치다 > Be deeply moved  
+33. 손에 땀을 쥐다 > Be nervous  
+34. 손발이 맞다 > Cooperate well  
+35. 손을 떼다 > Stop being involved  
+36. 숨이 트이다 > Feel relieved  
+37. 시치미를 떼다 > Play innocent  
+38. 심장이 철렁하다 > Have a heart drop  
+39. 앞뒤가 막히다 > Be narrow-minded  
+40. 애가 타다 > Be anxious  
+41. 어깨를 나란히 하다 > Stand shoulder to shoulder  
+42. 어깨를 으쓱하다 > Shrug one's shoulders  
+43. 얼굴이 두껍다 > Be shameless  
+44. 얼굴이 반쪽이 되다 > Look haggard  
+45. 오금이 저리다 > Feel terrified  
+46. 입에 붙다 > Speak habitually  
+47. 입이 가볍다 > Be talkative  
+48. 입이 무겁다 > Keep secrets well  
+49. 입이 짧다 > Be a picky eater  
+50. 자리를 잡다 > Be settled  
+51. 정신을 차리다 > Pull oneself together  
+52. 제 눈에 안경 > Beauty is subjective  
+53. 진땀을 빼다 > Sweat nervously  
+54. 찬물을 끼얹다 > Discourage abruptly  
+55. 코가 납작해지다 > Lose confidence  
+56. 코 묻은 돈 > Children's small money  
+57. 콧대가 높다 > Be proud and arrogant  
+58. 피땀 흘리다 > Work extremely hard  
+59. 한눈을 팔다 > Be distracted  
+60. 한솥밥을 먹다 > Live together  
+61. 한술 더 뜨다 > Make it worse  
+62. 허리가 휠 정도로 고생하다 > Suffer greatly  
+63. 형편이 어렵다 > Be in a difficult situation  
+64. 호랑이도 제 말하면 온다 > Speak of the devil  
+65. 화가 머리끝까지 나다 > Be furious  
+66. 활개를 치다 > Act boldly  
+67. 가닥을 잡다 > Find a direction  
+68. 거품을 물다 > Be furious  
+69. 골머리를 썩이다 > Struggle with something  
+70. 귀가 솔깃하다 > Be tempted  
+71. 기가 죽다 > Lose confidence  
+72. 날을 세우다 > Be aggressive  
+73. 내 코가 석 자 > Have one's own problems  
+74. 논란의 불씨를 지피다 > Spark controversy  
+75. 등을 떠밀다 > Push someone to act  
+76. 마음을 졸이다 > Be anxious  
+77. 말꼬리를 잡다 > Nitpick words  
+78. 목을 축이다 > Quench one's thirst  
+79. 무릎을 치다 > Be impressed  
+80. 바가지를 긁다 > Nag constantly  
+81. 바람맞다 > Be stood up  
+82. 발을 동동 구르다 > Be impatient  
+83. 배보다 배꼽이 크다 > Cost exceeds the main item  
+84. 색안경을 끼고 보다 > Be prejudiced  
+85. 속이 타들어 가다 > Be extremely worried  
+86. 속에 없는 말을 하다 > Be insincere  
+87. 손을 벌리다 > Ask for help or money  
+88. 손을 잡다 > Cooperate  
+89. 숨돌릴 틈도 없다 > Have no time to rest  
+90. 시선을 끌다 > Attract attention  
+91. 심사가 뒤틀리다 > Be in a bad mood  
+92. 열을 올리다 > Get excited or angry  
+93. 오리발을 내밀다 > Deny responsibility  
+94. 이를 악물다 > Clench one's teeth  
+95. 좌우지간 > Anyway  
+96. 찬밥 신세가 되다 > Be neglected  
+97. 침이 마르다 > Praise repeatedly  
+98. 콩밥을 먹다 > Be imprisoned  
+99. 티를 내다 > Show off  
+100. 한 배를 타다 > Be in the same boat  
+
+이 표현들은 한국어 관용어의 의미에 맞춰 간결하게 번역한 것이야. 😊

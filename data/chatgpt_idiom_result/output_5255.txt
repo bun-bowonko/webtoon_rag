@@ -1,0 +1,100 @@
+1. 간이 크다 > To be bold  
+2. 간이 작다 > To be timid  
+3. 귀가 얇다 > To be gullible  
+4. 귀가 어둡다 > To be hard of hearing  
+5. 눈코 뜰 새 없다 > To be extremely busy  
+6. 눈이 높다 > To have high standards  
+7. 눈이 삐다 > To have poor judgment  
+8. 눈 깜짝할 사이 > In the blink of an eye  
+9. 입이 무겁다 > To be good at keeping secrets  
+10. 입이 가볍다 > To be talkative (can't keep secrets)  
+11. 입에 달고 살다 > To say something repeatedly  
+12. 입에 거미줄 치다 > To be extremely poor  
+13. 코가 높다 > To be snobbish  
+14. 코가 납작해지다 > To be humiliated  
+15. 코를 납작하게 하다 > To put someone in their place  
+16. 허리를 펴다 > To relax after hardship  
+17. 손을 씻다 > To quit (a bad habit or crime)  
+18. 손에 땀을 쥐다 > To be on the edge of one's seat  
+19. 손에 익다 > To become skilled at something  
+20. 손이 크다 > To be generous  
+21. 손이 모자라다 > To be short-handed  
+22. 발 벗고 나서다 > To actively help someone  
+23. 발등에 불이 떨어지다 > To be in urgent need  
+24. 발이 넓다 > To have many acquaintances  
+25. 머리가 좋다 > To be smart  
+26. 머리를 쓰다 > To think deeply  
+27. 머리를 식히다 > To take a break (relax mind)  
+28. 엉덩이가 무겁다 > To stay in one place (persistent in work)  
+29. 엉덩이가 가볍다 > To be restless (can’t stay in one place)  
+30. 가슴이 답답하다 > To feel frustrated  
+31. 가슴이 뛰다 > To be excited or nervous  
+32. 가슴을 쓸어내리다 > To be relieved  
+33. 가슴에 새기다 > To engrave in the heart  
+34. 가슴을 치다 > To feel deep regret  
+35. 피가 끓다 > To be passionate  
+36. 피도 눈물도 없다 > To be heartless  
+37. 피땀 흘리다 > To work extremely hard  
+38. 피가 마르다 > To be anxious  
+39. 골치 아프다 > To be troublesome  
+40. 배가 아프다 > To be jealous  
+41. 배를 잡다 > To laugh uncontrollably  
+42. 신경을 쓰다 > To be concerned  
+43. 팔짱 끼고 보다 > To stand by without helping  
+44. 등에 업다 > To take advantage of someone  
+45. 등에 식은땀이 흐르다 > To be terrified  
+46. 어깨를 나란히 하다 > To be on equal standing  
+47. 어깨를 으쓱하다 > To shrug (in pride or indifference)  
+48. 엎드려 절 받기 > To force someone to praise you  
+49. 더위를 먹다 > To get heatstroke  
+50. 골탕 먹다 > To suffer a setback  
+51. 앞뒤를 가리지 않다 > To be reckless  
+52. 앞뒤가 맞다 > To be logical  
+53. 뒤통수를 치다 > To betray someone  
+54. 등을 돌리다 > To turn one’s back on someone  
+55. 담을 쌓다 > To completely cut off interest  
+56. 기가 죽다 > To lose confidence  
+57. 기를 살리다 > To boost morale  
+58. 허리가 휘다 > To suffer financially  
+59. 바람을 맞다 > To be stood up  
+60. 바람을 넣다 > To encourage or provoke  
+61. 바가지를 쓰다 > To be overcharged  
+62. 바가지를 긁다 > To nag (especially a spouse)  
+63. 벼락치기하다 > To cram (study last minute)  
+64. 윗물이 맑아야 아랫물이 맑다 > Good leadership influences followers  
+65. 개미처럼 일하다 > To work diligently  
+66. 강 건너 불구경 > To watch indifferently (not help)  
+67. 배째라 > To be extremely stubborn  
+68. 사서 고생하다 > To bring trouble upon oneself  
+69. 하늘과 땅 차이 > A huge difference  
+70. 물불 가리지 않다 > To be reckless  
+71. 싼 게 비지떡 > Cheap things are low quality  
+72. 금강산도 식후경 > First, eat before anything else  
+73. 그림의 떡 > Something desirable but unattainable  
+74. 빛 좋은 개살구 > Looks good but is actually bad  
+75. 떡 줄 사람은 생각도 않는데 김칫국부터 마신다 > To get ahead of oneself  
+76. 갈수록 태산 > Things keep getting harder  
+77. 길고 짧은 것은 대봐야 안다 > You don’t know until you compare  
+78. 낮말은 새가 듣고 밤말은 쥐가 듣는다 > Walls have ears  
+79. 마른하늘에 날벼락 > A sudden unexpected disaster  
+80. 백지장도 맞들면 낫다 > Two heads are better than one  
+81. 시작이 반이다 > Starting is half the battle  
+82. 십 년이면 강산도 변한다 > Everything changes with time  
+83. 울며 겨자 먹기 > Doing something unwillingly  
+84. 원숭이도 나무에서 떨어진다 > Even experts make mistakes  
+85. 웃는 얼굴에 침 못 뱉는다 > Kindness disarms hostility  
+86. 밑 빠진 독에 물 붓기 > A futile effort  
+87. 제 눈에 안경 > Beauty is in the eye of the beholder  
+88. 티끌 모아 태산 > Small efforts make a big difference  
+89. 하룻강아지 범 무서운 줄 모른다 > The ignorant are fearless  
+90. 고생 끝에 낙이 온다 > Joy comes after hardship  
+91. 가재는 게 편 > Like-minded people stick together  
+92. 변덕이 죽 끓듯 하다 > To be extremely fickle  
+93. 도토리 키 재기 > A trivial difference  
+94. 말 한 마디에 천 냥 빚 갚는다 > Words have great power  
+95. 찬물도 위아래가 있다 > There is order in everything  
+96. 초록은 동색 > Similar things go together  
+97. 꿩 먹고 알 먹기 > To kill two birds with one stone  
+98. 등잔 밑이 어둡다 > The most obvious is unnoticed  
+99. 제 발 저리다 > To feel guilty  
+100. 호랑이도 제 말 하면 온다 > Speak of the devil

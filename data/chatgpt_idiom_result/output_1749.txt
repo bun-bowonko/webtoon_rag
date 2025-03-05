@@ -1,0 +1,102 @@
+1. 가닥을 잡다 > Get the hang of something  
+2. 가슴이 뜨끔하다 > Have a guilty conscience  
+3. 가슴을 치다 > Regret deeply  
+4. 간이 크다 > Be very bold  
+5. 간담이 서늘하다 > Be terrified  
+6. 골머리를 썩이다 > Worry a lot  
+7. 귀가 가렵다 > Feel like someone is talking about you  
+8. 귀를 기울이다 > Listen carefully  
+9. 귀에 못이 박히다 > Hear something repeatedly  
+10. 기가 막히다 > Be at a loss for words  
+11. 기를 펴다 > Feel at ease  
+12. 김이 새다 > Lose enthusiasm  
+13. 깨가 쏟아지다 > Be lovey-dovey  
+14. 난다 긴다 하다 > Be very talented  
+15. 낯이 두껍다 > Be shameless  
+16. 눈 깜짝할 사이 > In the blink of an eye  
+17. 눈에 불을 켜다 > Be very focused  
+18. 눈살을 찌푸리다 > Frown in disapproval  
+19. 눈에 익다 > Look familiar  
+20. 다리를 놓다 > Mediate between people  
+21. 달려들다 > Rush aggressively  
+22. 담을 쌓다 > Cut off from something  
+23. 도마 위에 오르다 > Be under criticism  
+24. 등을 돌리다 > Turn one's back on someone  
+25. 마음을 놓다 > Feel relieved  
+26. 말꼬리를 잡다 > Nitpick words  
+27. 머리를 맞대다 > Discuss together  
+28. 머리를 식히다 > Take a break  
+29. 물 샐 틈 없다 > Be very thorough  
+30. 바닥이 나다 > Run out of something  
+31. 발을 붙이다 > Settle down  
+32. 발을 빼다 > Withdraw from something  
+33. 배가 아프다 > Be jealous  
+34. 변덕이 죽 끓듯 하다 > Be very fickle  
+35. 불 보듯 뻔하다 > Be obvious  
+36. 비행기를 태우다 > Flatter someone  
+37. 속이 타다 > Be very anxious  
+38. 손에 익다 > Become familiar with  
+39. 손을 내밀다 > Offer help  
+40. 손을 떼다 > Stop doing something  
+41. 숨이 트이다 > Feel relieved  
+42. 앞뒤를 가리지 않다 > Not think things through  
+43. 애를 먹다 > Have a hard time  
+44. 얼굴이 두껍다 > Be shameless  
+45. 열을 올리다 > Get very worked up  
+46. 오금이 저리다 > Feel nervous  
+47. 입에 달고 살다 > Say something repeatedly  
+48. 입에 발린 말을 하다 > Sweet-talk  
+49. 입이 무겁다 > Be good at keeping secrets  
+50. 자리를 잡다 > Settle down  
+51. 줄행랑을 놓다 > Run away  
+52. 진땀을 빼다 > Struggle hard  
+53. 찬물을 끼얹다 > Ruin the mood  
+54. 침을 삼키다 > Crave something  
+55. 콧대가 높다 > Be arrogant  
+56. 토를 달다 > Make unnecessary remarks  
+57. 파김치가 되다 > Be completely exhausted  
+58. 하늘이 노랗다 > Feel dizzy or devastated  
+59. 한눈을 팔다 > Be distracted  
+60. 허리를 굽히다 > Show humility  
+61. 허리가 휘다 > Struggle under heavy burden  
+62. 허탕을 치다 > Come back empty-handed  
+63. 혀를 내두르다 > Be astonished  
+64. 혀를 차다 > Click one's tongue in disapproval  
+65. 호랑이도 제 말 하면 온다 > Speak of the devil  
+66. 화를 돋우다 > Provoke anger  
+67. 힘을 모으다 > Combine efforts  
+68. 바가지를 쓰다 > Be ripped off  
+69. 바람을 피우다 > Cheat in a relationship  
+70. 바람을 맞다 > Be stood up  
+71. 손에 땀을 쥐다 > Be on the edge of one's seat  
+72. 뛸 듯이 기뻐하다 > Jump for joy  
+73. 산 넘어 산 > One problem after another  
+74. 발등에 불이 떨어지다 > Be in an urgent situation  
+75. 식은 죽 먹기 > Piece of cake  
+76. 눈 가리고 아웅 > Pretend not to know  
+77. 떡 줄 사람은 생각도 안 한다 > Be overly eager for nothing  
+78. 싼 게 비지떡 > Cheap things are low quality  
+79. 고슴도치도 제 새끼는 예쁘다 > Every parent thinks their child is the best  
+80. 구슬이 서 말이라도 꿰어야 보배다 > Effort is needed to make something valuable  
+81. 남의 떡이 더 커 보인다 > The grass is always greener  
+82. 낮말은 새가 듣고 밤말은 쥐가 듣는다 > Walls have ears  
+83. 닭 쫓던 개 지붕 쳐다본다 > Feel helpless  
+84. 땅 짚고 헤엄치기 > Very easy task  
+85. 모르면 약이요 아는 게 병이다 > Ignorance is bliss  
+86. 소 잃고 외양간 고친다 > Fixing things after it's too late  
+87. 쇠귀에 경 읽기 > Fall on deaf ears  
+88. 싼 게 비지떡 > Cheap things are low quality  
+89. 우물 안 개구리 > Narrow-minded person  
+90. 원숭이도 나무에서 떨어진다 > Even experts make mistakes  
+91. 그림의 떡 > Something you can't have  
+92. 꿩 먹고 알 먹기 > Kill two birds with one stone  
+93. 도토리 키 재기 > Comparing similar things  
+94. 밑 빠진 독에 물 붓기 > A futile effort  
+95. 갈수록 태산 > Things keep getting harder  
+96. 천리 길도 한 걸음부터 > Every journey starts with a single step  
+97. 팔은 안으로 굽는다 > Favor one's own people  
+98. 바늘 도둑이 소 도둑 된다 > Little crimes lead to bigger crimes  
+99. 친구 따라 강남 간다 > Follow others blindly  
+100. 하룻강아지 범 무서운 줄 모른다 > Ignorant people are fearless  
+
+이렇게 100개의 한국어 관용표현과 영어 번역을 정리했어. 도움이 되길 바란다! 😊

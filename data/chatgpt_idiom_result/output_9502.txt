@@ -1,0 +1,100 @@
+1. 가슴이 찡하다 > Heartfelt  
+2. 가슴이 털다 > Relieved  
+3. 가슴이 뛰다 > Excited  
+4. 간이 크다 > Brave  
+5. 간이 작다 > Timid  
+6. 골치가 아프다 > Troublesome  
+7. 국수를 먹다 > Get married  
+8. 귀가 얇다 > Gullible  
+9. 귀를 기울이다 > Listen carefully  
+10. 기가 막히다 > Speechless  
+11. 깨가 쏟아지다 > Lovey-dovey  
+12. 까마귀 고기를 먹다 > Forgetful  
+13. 날개 돋친 듯 > Selling fast  
+14. 넋이 나가다 > Spaced out  
+15. 눈독을 들이다 > Eye on something  
+16. 눈살을 찌푸리다 > Frown  
+17. 눈에 넣어도 아프지 않다 > Adorable  
+18. 눈에 불을 켜다 > Very eager  
+19. 눈이 뒤집히다 > Enraged  
+20. 눈코 뜰 새 없다 > Extremely busy  
+21. 다리를 놓다 > Mediate  
+22. 담을 쌓다 > Avoid  
+23. 도끼눈을 뜨다 > Fierce glare  
+24. 뒤통수를 맞다 > Betrayed  
+25. 떡 줄 사람은 생각도 않는데 김칫국부터 마신다 > Jump to conclusions  
+26. 땅을 치다 > Regret deeply  
+27. 뜸을 들이다 > Hesitate  
+28. 마음이 굴뚝 같다 > Eager  
+29. 마음을 졸이다 > Nervous  
+30. 모골이 송연하다 > Terrified  
+31. 물불을 가리지 않다 > Reckless  
+32. 바가지를 긁다 > Nagging  
+33. 바늘에 실 가듯 > Inseparable  
+34. 발 벗고 나서다 > Proactively help  
+35. 발등에 불이 떨어지다 > Urgent  
+36. 발뺌하다 > Make excuses  
+37. 배가 아프다 > Jealous  
+38. 배를 잡고 웃다 > Laugh hard  
+39. 벼락치기 > Cramming  
+40. 불꽃 튀다 > Fierce competition  
+41. 비행기 태우다 > Flatter  
+42. 뿌리를 뽑다 > Eradicate  
+43. 사랑에 빠지다 > Fall in love  
+44. 살이 빠지다 > Lose weight  
+45. 새 발의 피 > Insignificant  
+46. 색안경을 끼고 보다 > Prejudiced  
+47. 손에 땀을 쥐다 > On edge  
+48. 손에 익다 > Get used to  
+49. 손발이 맞다 > Work in sync  
+50. 숨이 트이다 > Relieved  
+51. 시치미를 떼다 > Feign ignorance  
+52. 식은 죽 먹기 > Piece of cake  
+53. 신경을 쓰다 > Care about  
+54. 싹이 보이다 > Show potential  
+55. 애를 먹다 > Struggle  
+56. 어깨가 무겁다 > Burdened  
+57. 어깨를 으쓱하다 > Shrug confidently  
+58. 얼굴이 두껍다 > Shameless  
+59. 얼굴이 피다 > Look refreshed  
+60. 열을 올리다 > Get enthusiastic  
+61. 오리발 내밀다 > Deny responsibility  
+62. 입이 가볍다 > Talkative  
+63. 입이 무겁다 > Tight-lipped  
+64. 입이 짧다 > Picky eater  
+65. 자리를 잡다 > Settle down  
+66. 진땀을 빼다 > Struggle  
+67. 찬물을 끼얹다 > Spoil the mood  
+68. 첫발을 떼다 > Take first step  
+69. 피땀 흘리다 > Work very hard  
+70. 하늘이 노랗다 > Devastated  
+71. 허리를 펴다 > Relax  
+72. 허리가 휘다 > Financially burdened  
+73. 허풍을 떨다 > Exaggerate  
+74. 허탈감에 빠지다 > Feel empty  
+75. 헛다리를 짚다 > Wrong guess  
+76. 호랑이 굴에 들어가다 > Take a big risk  
+77. 혼쭐이 나다 > Severely scolded  
+78. 화끈거리다 > Feel embarrassed  
+79. 후회를 하다 > Regret  
+80. 힘을 내다 > Cheer up  
+81. 힘을 빼다 > Relax  
+82. 기를 죽이다 > Discourage  
+83. 바람을 피우다 > Cheat in a relationship  
+84. 바람을 넣다 > Encourage  
+85. 입에 침이 마르다 > Talk highly of  
+86. 눈에서 불이 나다 > Extremely angry  
+87. 기가 죽다 > Lose confidence  
+88. 머리를 쓰다 > Think hard  
+89. 무릎을 치다 > Realize suddenly  
+90. 속을 태우다 > Worry deeply  
+91. 등을 돌리다 > Turn one’s back  
+92. 잔을 올리다 > Propose a toast  
+93. 이를 악물다 > Clench one's teeth (determined)  
+94. 머리를 맞대다 > Brainstorm together  
+95. 손을 떼다 > Stop being involved  
+96. 날을 잡다 > Set a date  
+97. 물을 먹다 > Fail  
+98. 숨 돌릴 틈이 없다 > No time to rest  
+99. 세상을 뜨다 > Pass away  
+100. 쥐구멍에도 볕 들 날 있다 > Everyone has their day  

@@ -1,0 +1,100 @@
+1. 간이 크다 > Be brave  
+2. 간이 작다 > Be timid  
+3. 가슴이 답답하다 > Feel frustrated  
+4. 가슴을 쓸어내리다 > Feel relieved  
+5. 귀가 얇다 > Be easily influenced  
+6. 귀에 못이 박히다 > Hear something repeatedly  
+7. 눈 하나 깜짝하지 않다 > Stay calm under pressure  
+8. 눈에 불을 켜다 > Be highly focused  
+9. 눈앞이 캄캄하다 > Feel hopeless  
+10. 마음을 먹다 > Make up one’s mind  
+11. 마음이 통하다 > Understand each other well  
+12. 머리를 쓰다 > Use one’s brain  
+13. 머리가 잘 돌아가다 > Be quick-witted  
+14. 바가지를 쓰다 > Be ripped off  
+15. 바람을 피우다 > Cheat on someone  
+16. 발 벗고 나서다 > Step up actively  
+17. 발을 담그다 > Get involved in something  
+18. 빛을 보다 > Be successful  
+19. 뼈를 깎다 > Make tremendous effort  
+20. 속을 태우다 > Be deeply concerned  
+21. 손을 쓰다 > Take action  
+22. 손을 놓다 > Give up  
+23. 손이 크다 > Be generous  
+24. 손을 벌리다 > Ask for help/money  
+25. 신경을 쓰다 > Pay attention  
+26. 쌀쌀맞다 > Be cold-hearted  
+27. 얼굴이 두껍다 > Be shameless  
+28. 입이 무겁다 > Keep secrets well  
+29. 입이 가볍다 > Be talkative about secrets  
+30. 코가 높다 > Be arrogant  
+31. 코가 납작해지다 > Be humiliated  
+32. 콧대를 꺾다 > Humble someone  
+33. 큰 코 다치다 > Face serious trouble  
+34. 한눈을 팔다 > Get distracted  
+35. 허리가 휘다 > Be overworked financially  
+36. 허리가 부러지다 > Go through extreme hardship  
+37. 허탕 치다 > Fail despite effort  
+38. 손을 대다 > Start working on something  
+39. 문턱이 높다 > Be difficult to access  
+40. 낯을 가리다 > Be shy with strangers  
+41. 눈 깜짝할 사이 > In the blink of an eye  
+42. 눈 딱 감다 > Make a tough decision  
+43. 눈에 넣어도 아프지 않다 > Be extremely precious  
+44. 눈에서 불이 나다 > Be extremely angry  
+45. 다리를 놓다 > Mediate between people  
+46. 입을 모으다 > Speak in unison  
+47. 한 술 더 뜨다 > Make things worse  
+48. 시간을 잡아먹다 > Waste time  
+49. 아는 길도 물어가라 > Be cautious always  
+50. 어깨를 으쓱하다 > Shrug shoulders (pride or indifference)  
+51. 엉덩이가 무겁다 > Stay in one place for a long time  
+52. 화를 풀다 > Let go of anger  
+53. 한 우물을 파다 > Focus on one thing  
+54. 손을 씻다 > Quit wrongdoing  
+55. 바늘구멍으로 하늘 보기 > Have a narrow perspective  
+56. 물 쓰듯 하다 > Spend recklessly  
+57. 그림의 떡 > Unattainable dream  
+58. 게 눈 감추듯 > Eat in a rush  
+59. 강 건너 불 구경 > Be indifferent  
+60. 사서 고생하다 > Suffer unnecessarily  
+61. 꿩 대신 닭 > Use a substitute  
+62. 늦게 배운 도둑질이 날 새는 줄 모른다 > Get obsessed with a new skill  
+63. 벼락치기 > Cram last minute  
+64. 되로 주고 말로 받다 > Get back much worse than what’s given  
+65. 쥐구멍에도 볕 들 날 있다 > Everyone’s luck turns around  
+66. 제 눈에 안경 > Beauty is in the eye of the beholder  
+67. 도토리 키 재기 > A negligible difference  
+68. 가재는 게 편 > Like supports like  
+69. 물과 기름 > Things that do not mix  
+70. 백지장도 맞들면 낫다 > Teamwork makes things easier  
+71. 새 발의 피 > A trivial amount  
+72. 쇠귀에 경 읽기 > Fall on deaf ears  
+73. 빛 좋은 개살구 > Looks good but isn’t  
+74. 싼 게 비지떡 > You get what you pay for  
+75. 울며 겨자 먹기 > Do something reluctantly  
+76. 떡 줄 사람은 생각도 않는데 김칫국부터 마신다 > Assume too much  
+77. 원숭이도 나무에서 떨어진다 > Even experts make mistakes  
+78. 낫 놓고 기역 자도 모른다 > Be extremely ignorant  
+79. 빼도 박도 못하다 > Be stuck in a situation  
+80. 사공이 많으면 배가 산으로 간다 > Too many leaders cause failure  
+81. 십 년이면 강산도 변한다 > Time changes everything  
+82. 엎지른 물 > Irreversible mistake  
+83. 오르지 못할 나무는 쳐다보지도 마라 > Don’t crave the impossible  
+84. 우물 안 개구리 > A narrow-minded person  
+85. 웃는 낯에 침 못 뱉는다 > It’s hard to be mean to a smiling face  
+86. 작은 고추가 더 맵다 > Small but strong  
+87. 종로에서 뺨 맞고 한강에서 화풀이하다 > Take out anger on someone else  
+88. 찬물도 위아래가 있다 > Respect hierarchy  
+89. 쥐도 새도 모르게 > Secretly  
+90. 친구 따라 강남 간다 > Follow trends blindly  
+91. 팔은 안으로 굽는다 > Favor one’s own people  
+92. 한 귀로 듣고 한 귀로 흘린다 > Ignore what’s heard  
+93. 호랑이도 제 말 하면 온다 > Speak of the devil  
+94. 하늘의 별 따기 > Nearly impossible  
+95. 도둑이 제 발 저리다 > A guilty conscience needs no accuser  
+96. 떼로 몰려다니다 > Move in groups  
+97. 등에 업다 > Rely on someone’s power  
+98. 배보다 배꼽이 더 크다 > The minor issue becomes bigger  
+99. 강 건너 불 보듯 하다 > Be indifferent  
+100. 몸을 사리다 > Avoid risks  

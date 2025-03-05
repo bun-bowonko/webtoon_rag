@@ -1,0 +1,100 @@
+1. 가슴이 찡하다 > Feel deeply touched  
+2. 가슴을 치다 > Regret deeply  
+3. 가슴이 벅차다 > Feel overwhelmed with emotion  
+4. 가슴을 태우다 > Worry anxiously  
+5. 간이 콩알만 해지다 > Be scared stiff  
+6. 간에 기별도 안 가다 > Not enough to satisfy hunger  
+7. 골머리를 썩이다 > Struggle with a problem  
+8. 귀가 가렵다 > Feel like someone is talking about you  
+9. 귀가 번쩍 뜨이다 > Be suddenly interested  
+10. 귀에 못이 박히다 > Hear something repeatedly  
+11. 입에 침이 마르다 > Praise excessively  
+12. 입이 무겁다 > Be good at keeping secrets  
+13. 입이 가볍다 > Be unable to keep secrets  
+14. 손을 잡다 > Cooperate  
+15. 손을 떼다 > Stop being involved  
+16. 손이 크다 > Be generous  
+17. 손을 내밀다 > Offer help  
+18. 손을 벌리다 > Ask for help  
+19. 손을 씻다 > Cut ties with wrongdoing  
+20. 발 벗고 나서다 > Actively step in  
+21. 발을 끊다 > Stop visiting  
+22. 발이 넓다 > Have a wide social network  
+23. 발을 동동 구르다 > Be anxious and restless  
+24. 눈을 붙이다 > Take a short nap  
+25. 눈살을 찌푸리다 > Frown in disapproval  
+26. 눈이 높다 > Have high standards  
+27. 눈에 불을 켜다 > Be focused intensely  
+28. 눈 하나 깜짝하지 않다 > Remain unfazed  
+29. 머리를 식히다 > Take a break to relax  
+30. 머리를 쓰다 > Use one's brain  
+31. 머리를 짜내다 > Think hard  
+32. 얼굴이 두껍다 > Be shameless  
+33. 얼굴을 붉히다 > Blush in embarrassment or anger  
+34. 귀를 기울이다 > Listen attentively  
+35. 귀에 들어가다 > Come to someone's knowledge  
+36. 코가 납작해지다 > Be humiliated  
+37. 코가 높다 > Be arrogant  
+38. 코를 찡긋하다 > Show dissatisfaction  
+39. 어깨를 으쓱하다 > Shrug (in indifference or pride)  
+40. 어깨가 무겁다 > Feel burdened with responsibility  
+41. 허리를 굽히다 > Bow in humility  
+42. 허리가 휘다 > Struggle under financial burden  
+43. 한숨을 쉬다 > Sigh in relief or frustration  
+44. 한눈을 팔다 > Be distracted  
+45. 낯이 익다 > Seem familiar  
+46. 낯을 가리다 > Be shy around strangers  
+47. 등을 돌리다 > Turn one's back on someone  
+48. 등을 떠밀다 > Push someone to take action  
+49. 눈코 뜰 새 없다 > Be extremely busy  
+50. 제 눈에 안경 > Beauty is in the eye of the beholder  
+51. 미운 털이 박히다 > Be disliked permanently  
+52. 혀를 내두르다 > Be astonished  
+53. 이를 악물다 > Clench one's teeth in determination  
+54. 발등에 불이 떨어지다 > Be in an urgent situation  
+55. 말을 돌리다 > Change the subject  
+56. 말꼬리를 잡다 > Nitpick on words  
+57. 목이 빠지다 > Wait eagerly  
+58. 목이 마르다 > Be thirsty for something desperately  
+59. 벽을 허물다 > Break down barriers  
+60. 뿌리를 뽑다 > Eradicate completely  
+61. 가려운 곳을 긁어 주다 > Help in exactly the right way  
+62. 번갯불에 콩 볶아 먹듯 > Do something too quickly  
+63. 미끌미끌 빠져나가다 > Escape cleverly  
+64. 그림의 떡 > An unreachable desire  
+65. 낙담하다 > Feel discouraged  
+66. 발목을 잡다 > Hold someone back  
+67. 불꽃이 튀다 > A fierce competition  
+68. 가슴에 못 박다 > Hurt someone deeply  
+69. 콧대가 높다 > Be stuck-up  
+70. 손발이 맞다 > Work well together  
+71. 웃음이 피다 > Burst into laughter  
+72. 벼락치기하다 > Cram before a deadline  
+73. 찬물을 끼얹다 > Bring down the excitement  
+74. 바람을 맞다 > Be stood up  
+75. 싼 게 비지떡 > Cheap things are usually low quality  
+76. 바가지를 쓰다 > Be overcharged  
+77. 둘이 먹다 하나가 죽어도 모른다 > Taste incredibly good  
+78. 무릎을 치다 > Realize suddenly  
+79. 날개가 돋치다 > Sell out very quickly  
+80. 가는 날이 장날 > Bad timing  
+81. 길눈이 어둡다 > Have a bad sense of direction  
+82. 등을 내밀다 > Turn away coldly  
+83. 가닥을 잡다 > Find a solution  
+84. 갈 길이 멀다 > Still have a long way to go  
+85. 찬밥 신세 > Be neglected  
+86. 다람쥐 쳇바퀴 돌듯 > Repeat without progress  
+87. 두 손 두 발 다 들다 > Completely surrender  
+88. 한 치 앞을 못 보다 > Be unable to foresee  
+89. 도토리 키 재기 > Differences are insignificant  
+90. 떡 줄 사람은 생각도 안 한다 > Wishful thinking  
+91. 사서 고생하다 > Make trouble for oneself  
+92. 빛 좋은 개살구 > Appear good but actually bad  
+93. 박 터지게 싸우다 > Fight fiercely  
+94. 쥐도 새도 모르게 > Secretly without a trace  
+95. 금이 가다 > Relationship is damaged  
+96. 겉 다르고 속 다르다 > Two-faced  
+97. 갈수록 태산 > Things keep getting harder  
+98. 빈 수레가 요란하다 > Empty vessels make the most noise  
+99. 싼 맛에 사다 > Buy for the cheap price despite quality  
+100. 눈을 의심하다 > Can't believe one's eyes

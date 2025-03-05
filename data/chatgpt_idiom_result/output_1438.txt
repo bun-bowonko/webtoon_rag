@@ -1,0 +1,100 @@
+1. 가슴을 쓸어내리다 > Feel relieved  
+2. 가슴을 치다 > Feel regret  
+3. 가슴이 뛰다 > Feel excited  
+4. 가슴이 찢어지다 > Be heartbroken  
+5. 간이 크다 > Be bold  
+6. 간이 작다 > Be timid  
+7. 간이 붓다 > Be reckless  
+8. 개천에서 용 난다 > A genius rises from humble beginnings  
+9. 고개를 갸웃하다 > Tilt one's head in doubt  
+10. 고개를 끄덕이다 > Nod in agreement  
+11. 귀가 가렵다 > Feel like someone is talking about you  
+12. 귀에 못이 박히다 > Hear something repeatedly  
+13. 귀가 얇다 > Be easily swayed  
+14. 기가 죽다 > Lose confidence  
+15. 기가 살다 > Gain confidence  
+16. 꼬리를 내리다 > Surrender or back down  
+17. 꼬리를 치다 > Flirt  
+18. 다리에 힘이 풀리다 > Feel weak in the legs  
+19. 달랑거리다 > Be careless  
+20. 도끼눈을 뜨다 > Stare angrily  
+21. 된서리를 맞다 > Suffer a big setback  
+22. 두 손 두 발 다 들다 > Completely surrender  
+23. 등을 돌리다 > Turn one's back on someone  
+24. 마음을 놓다 > Feel relieved  
+25. 마음을 먹다 > Make up one's mind  
+26. 마음을 열다 > Open one's heart  
+27. 말꼬리를 잡다 > Nitpick what someone says  
+28. 머리를 식히다 > Relax or refresh one's mind  
+29. 머리를 쓰다 > Use one's brain  
+30. 머리가 크다 > Become mature or independent  
+31. 못을 박다 > Say something hurtful or definite  
+32. 물불을 가리지 않다 > Take any risk  
+33. 바가지를 쓰다 > Be ripped off  
+34. 바가지를 긁다 > Nag  
+35. 발 벗고 나서다 > Actively step forward  
+36. 발목을 잡다 > Hold someone back  
+37. 발을 구르다 > Be impatient or anxious  
+38. 발이 넓다 > Have a wide network of connections  
+39. 벽에 부딪히다 > Encounter an obstacle  
+40. 불을 보듯 뻔하다 > Be obvious  
+41. 비행기를 태우다 > Flatter someone excessively  
+42. 뿌리를 뽑다 > Eradicate completely  
+43. 속이 타다 > Be deeply worried  
+44. 속을 태우다 > Make someone anxious  
+45. 시치미를 떼다 > Pretend not to know  
+46. 쌍꺼풀이 지다 > Have double folds on the eyelids  
+47. 어깨가 무겁다 > Feel burdened  
+48. 얼굴이 두껍다 > Be shameless  
+49. 입에 침이 마르다 > Praise repeatedly  
+50. 입이 가볍다 > Be talkative or indiscreet  
+51. 입이 무겁다 > Be tight-lipped  
+52. 입을 모으다 > Speak in unison  
+53. 칼을 갈다 > Prepare for revenge  
+54. 코가 납작해지다 > Be humiliated  
+55. 코가 높다 > Be snobbish  
+56. 코가 비뚤어지게 마시다 > Drink heavily  
+57. 큰 코 다치다 > Suffer a big failure  
+58. 털끝만큼도 없다 > Not even a tiny bit  
+59. 피땀을 흘리다 > Make extreme efforts  
+60. 허리를 굽히다 > Show humility  
+61. 허리가 휘다 > Struggle under burdens  
+62. 혀를 내두르다 > Be astounded  
+63. 손에 땀을 쥐다 > Be on edge with suspense  
+64. 손사래를 치다 > Gesture refusal  
+65. 손을 씻다 > Cut ties with wrongdoing  
+66. 손에 잡히다 > Focus well on something  
+67. 손이 크다 > Be generous  
+68. 손을 놓다 > Give up on something  
+69. 손을 벌리다 > Ask for help or money  
+70. 손을 잡다 > Cooperate  
+71. 손이 작다 > Be frugal  
+72. 등에 업다 > Gain support  
+73. 눈살을 찌푸리다 > Frown in displeasure  
+74. 눈 감아 주다 > Turn a blind eye  
+75. 눈에 불을 켜다 > Be very eager  
+76. 눈에 띄다 > Stand out  
+77. 눈을 감다 > Pass away  
+78. 눈을 피하다 > Avoid someone's gaze  
+79. 한눈을 팔다 > Get distracted  
+80. 잔머리를 굴리다 > Think cunningly  
+81. 목이 빠지다 > Wait eagerly  
+82. 목숨을 걸다 > Risk one’s life  
+83. 심장이 철렁하다 > Have a heart-stopping moment  
+84. 이가 갈리다 > Be furious  
+85. 풀이 죽다 > Feel discouraged  
+86. 엉덩이가 무겁다 > Stay seated for long  
+87. 손끝도 대지 않다 > Not touch at all  
+88. 고개를 돌리다 > Look away  
+89. 먹칠을 하다 > Tarnish one's reputation  
+90. 물거품이 되다 > Come to nothing  
+91. 가슴이 벅차다 > Be overwhelmed with emotion  
+92. 주머니가 가볍다 > Be short on money  
+93. 물불을 가리지 않다 > Be reckless  
+94. 벽에 부딪히다 > Hit a dead end  
+95. 바닥을 기다 > Hit rock bottom  
+96. 기가 막히다 > Be at a loss for words  
+97. 하나를 보면 열을 안다 > Judge the whole by a small part  
+98. 찬물을 끼얹다 > Discourage others  
+99. 불난 집에 부채질하다 > Make things worse  
+100. 열을 올리다 > Be passionate

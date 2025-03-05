@@ -1,0 +1,100 @@
+1. 간이 크다 > Be bold  
+2. 간이 작다 > Be timid  
+3. 귀가 얇다 > Be gullible  
+4. 입이 가볍다 > Be talkative (can't keep secrets)  
+5. 입이 무겁다 > Be tight-lipped (keep secrets well)  
+6. 발이 넓다 > Have a wide social network  
+7. 손을 씻다 > Cut ties with bad deeds  
+8. 손이 크다 > Be generous  
+9. 발을 빼다 > Withdraw from a situation  
+10. 눈이 높다 > Have high standards  
+11. 코가 높다 > Be arrogant  
+12. 눈감아 주다 > Turn a blind eye  
+13. 머리를 쓰다 > Use one's brain  
+14. 귀에 못이 박히다 > Hear something repeatedly  
+15. 골치를 앓다 > Have a headache (due to stress)  
+16. 한눈을 팔다 > Be distracted  
+17. 손을 놓다 > Stop working on something  
+18. 배가 아프다 > Feel jealous  
+19. 허리띠를 졸라매다 > Tighten one's belt (live frugally)  
+20. 기가 죽다 > Lose confidence  
+21. 눈을 붙이다 > Take a nap  
+22. 애를 먹다 > Have a hard time  
+23. 입에 달고 살다 > Say something repeatedly  
+24. 눈코 뜰 새 없다 > Be extremely busy  
+25. 발등에 불이 떨어지다 > Be in urgent need  
+26. 발목을 잡다 > Hold someone back  
+27. 어깨가 무겁다 > Feel burdened  
+28. 머리를 식히다 > Take a break to refresh  
+29. 양다리를 걸치다 > Play both sides  
+30. 한술 더 뜨다 > Make things worse  
+31. 눈 깜짝할 사이 > In the blink of an eye  
+32. 불을 보듯 뻔하다 > Be as clear as day  
+33. 가슴을 쓸어내리다 > Feel relieved  
+34. 입에 거미줄 치다 > Be extremely poor  
+35. 바람을 피우다 > Cheat (in a relationship)  
+36. 피땀 흘리다 > Work extremely hard  
+37. 가재는 게 편 > Birds of a feather flock together  
+38. 도마 위에 오르다 > Be under criticism  
+39. 식은 죽 먹기 > Piece of cake (very easy)  
+40. 변덕이 죽 끓듯 하다 > Be very fickle  
+41. 제 눈에 안경 > Beauty is in the eye of the beholder  
+42. 세월이 약이다 > Time heals all wounds  
+43. 물불을 가리지 않다 > Go to any lengths  
+44. 빛을 보다 > See the light (gain recognition)  
+45. 싼 게 비지떡 > You get what you pay for  
+46. 땅을 치다 > Regret deeply  
+47. 찬물을 끼얹다 > Put a damper on things  
+48. 눈이 뒤집히다 > Lose control due to anger  
+49. 목에 힘을 주다 > Act arrogantly  
+50. 눈 밖에 나다 > Fall out of favor  
+51. 허리를 굽히다 > Be humble  
+52. 등을 돌리다 > Turn one’s back on someone  
+53. 몸을 사리다 > Avoid risk  
+54. 미운 털이 박히다 > Be out of favor  
+55. 입이 떡 벌어지다 > Be amazed  
+56. 바가지를 쓰다 > Get ripped off  
+57. 바가지를 긁다 > Nag continuously  
+58. 죽을 쑤다 > Mess up badly  
+59. 비행기를 태우다 > Flatter excessively  
+60. 감투를 쓰다 > Take on a high position  
+61. 가닥을 잡다 > Find the right direction  
+62. 내 코가 석 자 > Have one's own problems to deal with  
+63. 작은 고추가 더 맵다 > Small but powerful  
+64. 그림의 떡 > A pie in the sky (unattainable)  
+65. 도토리 키 재기 > A trivial comparison  
+66. 떡 본 김에 제사 지낸다 > Make the most of a situation  
+67. 십 년이면 강산도 변한다 > Time changes everything  
+68. 원숭이도 나무에서 떨어진다 > Even experts make mistakes  
+69. 닭 쫓던 개 지붕 쳐다본다 > Feel helpless after failure  
+70. 쇠뿔도 단김에 빼라 > Strike while the iron is hot  
+71. 우물 안 개구리 > A frog in a well (narrow-minded)  
+72. 다람쥐 쳇바퀴 돌듯 > Go around in circles  
+73. 번갯불에 콩 볶아 먹는다 > Do things in an instant  
+74. 벼룩의 간을 내먹는다 > Be extremely greedy  
+75. 지렁이도 밟으면 꿈틀한다 > Even the weakest will resist when pushed  
+76. 꿩 먹고 알 먹기 > Kill two birds with one stone  
+77. 고양이 목에 방울 달기 > A plan that's hard to execute  
+78. 달면 삼키고 쓰면 뱉는다 > Be opportunistic  
+79. 엎친 데 덮친 격 > When it rains, it pours  
+80. 호랑이도 제 말 하면 온다 > Speak of the devil  
+81. 같은 값이면 다홍치마 > Choose the better option when costs are equal  
+82. 배보다 배꼽이 더 크다 > The extra cost is bigger than the main cost  
+83. 하늘의 별 따기 > Nearly impossible task  
+84. 꼬리가 길면 밟힌다 > Continuous wrongdoing will be caught  
+85. 등잔 밑이 어둡다 > Missing something that is right under your nose  
+86. 뛰는 놈 위에 나는 놈 있다 > There is always someone better  
+87. 달걀로 바위 치기 > A hopeless cause  
+88. 누워서 침 뱉기 > An action that harms oneself  
+89. 바늘 도둑이 소 도둑 된다 > Small bad habits grow into big crimes  
+90. 엎어지면 코 닿을 거리 > Very close distance  
+91. 물거품이 되다 > Go to waste  
+92. 개천에서 용 난다 > A genius from humble beginnings  
+93. 똥 묻은 개가 겨 묻은 개 나무란다 > Pot calling the kettle black  
+94. 빛 좋은 개살구 > Looks good but disappointing  
+95. 좋은 약은 입에 쓰다 > Bitter medicine benefits in the long run  
+96. 도랑 치고 가재 잡는다 > Hitting two birds with one stone  
+97. 시작이 반이다 > Well begun is half done  
+98. 입만 살아 있다 > All talk, no action  
+99. 원님 덕에 나팔 분다 > Benefit by association  
+100. 가는 말이 고와야 오는 말이 곱다 > Treat others as you wish to be treated

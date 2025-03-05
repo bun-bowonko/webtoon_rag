@@ -1,0 +1,100 @@
+1. 간에 기별도 안 가다 > Not enough to satisfy  
+2. 간이 크다 > To be fearless  
+3. 간이 작다 > To be timid  
+4. 개천에서 용 난다 > A great person comes from humble beginnings  
+5. 고생 끝에 낙이 온다 > Joy comes after hardship  
+6. 귀가 얇다 > To be gullible  
+7. 귀에 못이 박히다 > To hear something repeatedly  
+8. 꿀 먹은 벙어리 > A person who stays silent  
+9. 눈 감아 주다 > To turn a blind eye  
+10. 눈에 불을 켜다 > To be very eager  
+11. 눈에서 멀어지면 마음에서도 멀어진다 > Out of sight, out of mind  
+12. 눈치가 빠르다 > To be quick-witted  
+13. 닭 잡아먹고 오리발 내밀다 > To feign innocence after wrongdoing  
+14. 도마 위에 오르다 > To be criticized  
+15. 땅 짚고 헤엄치기 > Something very easy  
+16. 뜸을 들이다 > To hesitate before acting  
+17. 마른하늘에 날벼락 > A bolt from the blue  
+18. 말 한마디로 천 냥 빚 갚는다 > Words have great power  
+19. 목이 빠지게 기다리다 > To wait anxiously  
+20. 밑 빠진 독에 물 붓기 > A futile effort  
+21. 바가지 쓰다 > To be overcharged  
+22. 발 벗고 나서다 > To step up actively  
+23. 발이 넓다 > To have many connections  
+24. 배가 아프다 > To be jealous  
+25. 배째라 > A defiant attitude  
+26. 뼈 빠지게 일하다 > To work extremely hard  
+27. 사서 고생하다 > To take on unnecessary hardship  
+28. 새 발의 피 > A trivial amount  
+29. 세 살 버릇 여든까지 간다 > Old habits die hard  
+30. 손에 땀을 쥐다 > To be on the edge of one's seat  
+31. 손을 씻다 > To quit wrongdoing  
+32. 손이 크다 > To be generous  
+33. 숨이 트이다 > To feel relieved  
+34. 식은 죽 먹기 > Easy as pie  
+35. 싼 게 비지떡 > Cheap things are often low quality  
+36. 아는 길도 물어 가라 > Be cautious even when you're familiar  
+37. 아니 땐 굴뚝에 연기 날까 > No smoke without fire  
+38. 앞뒤가 맞지 않다 > To be inconsistent  
+39. 애를 먹다 > To struggle with something  
+40. 엎질러진 물 > No use crying over spilled milk  
+41. 오리발 내밀다 > To feign ignorance  
+42. 입에 거미줄 치다 > To be extremely poor  
+43. 입이 무겁다 > To be good at keeping secrets  
+44. 입이 짧다 > To be a picky eater  
+45. 자취를 감추다 > To disappear without a trace  
+46. 잘난 체하다 > To act arrogant  
+47. 죽이 맞다 > To get along well  
+48. 쥐도 새도 모르게 > Without a trace  
+49. 찬물을 끼얹다 > To put a damper on  
+50. 코가 납작해지다 > To be humiliated  
+51. 코 묻은 돈 > Small change from children  
+52. 코를 납작하게 만들다 > To put someone in their place  
+53. 팔짱 끼고 구경하다 > To stand by without helping  
+54. 하나를 보면 열을 안다 > You can tell a lot from a small clue  
+55. 한눈을 팔다 > To be distracted  
+56. 허리띠를 졸라매다 > To tighten one’s belt  
+57. 호랑이에게 물려가도 정신만 차리면 산다 > Stay calm in crises  
+58. 호랑이도 제 말 하면 온다 > Speak of the devil  
+59. 화를 내면 지는 것이다 > Anger leads to losing  
+60. 힘을 빼다 > To relax  
+61. 가뭄에 콩 나듯 > Very rare  
+62. 가슴이 찢어지다 > To be heartbroken  
+63. 개미 쳇바퀴 돌듯 > Repeating the same routine  
+64. 고양이에게 생선을 맡기다 > To set a fox to guard the henhouse  
+65. 구관이 명관이다 > An experienced person is better  
+66. 국물도 없다 > No benefit or gain  
+67. 그림의 떡 > An unattainable thing  
+68. 나무를 보고 숲을 보지 못한다 > Can't see the forest for the trees  
+69. 낮말은 새가 듣고 밤말은 쥐가 듣는다 > Walls have ears  
+70. 내 코가 석 자 > Too busy with one’s own problems  
+71. 누워서 떡 먹기 > Piece of cake  
+72. 달면 삼키고 쓰면 뱉는다 > To be opportunistic  
+73. 도토리 키 재기 > A trivial comparison  
+74. 똥 묻은 개가 겨 묻은 개 나무란다 > Pot calling the kettle black  
+75. 말 속에 뼈가 있다 > A hidden meaning in words  
+76. 미운 놈 떡 하나 더 준다 > Be kind to your enemies  
+77. 발등에 불이 떨어지다 > To be pressed for time  
+78. 벼는 익을수록 고개를 숙인다 > Humility comes with success  
+79. 산 넘어 산 > One trouble after another  
+80. 소 닭 보듯 > To show indifference  
+81. 쇠귀에 경 읽기 > Preaching to the deaf  
+82. 식구 같다 > To be like family  
+83. 쓴물도 단물처럼 마신다 > Enduring hardship  
+84. 신발이 닳도록 찾다 > To search desperately  
+85. 아흔아홉 가지 잘해도 하나 못하면 안 된다 > One mistake ruins everything  
+86. 어물쩍 넘어가다 > To evade an issue  
+87. 엉덩이가 무겁다 > To be diligent in sitting for long tasks  
+88. 오금이 저리다 > To feel extremely nervous  
+89. 우물 안 개구리 > A narrow-minded person  
+90. 울며 겨자 먹기 > Forced to do something unpleasant  
+91. 입이 귀에 걸리다 > To be very happy  
+92. 잔뼈가 굵다 > To be experienced  
+93. 제 눈에 안경이다 > Beauty is in the eye of the beholder  
+94. 종잡을 수 없다 > To be unpredictable  
+95. 찬밥 신세 > To be treated coldly  
+96. 침이 마르도록 칭찬하다 > To praise endlessly  
+97. 코웃음을 치다 > To sneer at  
+98. 티끌 모아 태산 > Many drops make an ocean  
+99. 핑계 없는 무덤 없다 > There’s always an excuse  
+100. 하늘의 별 따기 > Near impossible to achieve

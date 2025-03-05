@@ -1,0 +1,100 @@
+1. 가슴이 찡하다 > Feel touched  
+2. 가슴이 답답하다 > Feel frustrated  
+3. 간이 크다 > Be brave  
+4. 간이 작다 > Be timid  
+5. 골치 아프다 > Be troublesome  
+6. 귀가 얇다 > Be gullible  
+7. 귀를 기울이다 > Listen carefully  
+8. 기가 죽다 > Lose confidence  
+9. 기를 펴다 > Stand tall  
+10. 날을 잡다 > Set a date  
+11. 눈 깜짝할 사이 > In the blink of an eye  
+12. 눈에 띄다 > Stand out  
+13. 눈을 붙이다 > Get some sleep  
+14. 눈이 높다 > Have high standards  
+15. 눈이 빠지게 기다리다 > Wait eagerly  
+16. 다리를 놓다 > Mediate  
+17. 달콤한 말 > Sweet talk  
+18. 도마 위에 오르다 > Be under scrutiny  
+19. 도토리 키 재기 > A close contest  
+20. 뒤통수치다 > Betray  
+21. 등을 돌리다 > Turn one's back on  
+22. 마음을 먹다 > Make up one's mind  
+23. 마음을 졸이다 > Be anxious  
+24. 머리를 식히다 > Take a break  
+25. 머리를 쓰다 > Use one's brain  
+26. 바람을 피우다 > Cheat (in a relationship)  
+27. 발이 넓다 > Have many connections  
+28. 발을 맞추다 > Keep in sync  
+29. 배가 아프다 > Be envious  
+30. 배보다 배꼽이 크다 > The cost outweighs the benefit  
+31. 뼈를 깎다 > Make a tremendous effort  
+32. 손꼽아 기다리다 > Look forward to  
+33. 손발이 맞다 > Work well together  
+34. 손을 내밀다 > Offer help  
+35. 손을 씻다 > Cut ties (from wrongdoing)  
+36. 숨이 트이다 > Feel relieved  
+37. 시치미를 떼다 > Play innocent  
+38. 싼 게 비지떡 > Cheap things are low quality  
+39. 앞뒤가 맞다 > Make sense  
+40. 애를 먹다 > Have a hard time  
+41. 어깨가 무겁다 > Feel a sense of responsibility  
+42. 어깨를 나란히 하다 > Be on equal footing  
+43. 얼굴이 두껍다 > Be shameless  
+44. 열을 올리다 > Get enthusiastic  
+45. 입이 무겁다 > Keep secrets well  
+46. 입이 가볍다 > Talk too much  
+47. 입이 떡 벌어지다 > Be astonished  
+48. 자리를 잡다 > Settle down  
+49. 정신을 차리다 > Regain composure  
+50. 쥐도 새도 모르게 > Without anyone noticing  
+51. 쥐 죽은 듯이 > Dead silent  
+52. 찬물을 끼얹다 > Pour cold water (on a mood)  
+53. 참을성이 많다 > Be patient  
+54. 첫 단추를 잘 끼우다 > Start off right  
+55. 콧대가 높다 > Be arrogant  
+56. 티가 나다 > Be obvious  
+57. 팔짱 끼고 보다 > Stand idly by  
+58. 피땀 흘리다 > Work extremely hard  
+59. 한눈을 팔다 > Be distracted  
+60. 허리가 휘다 > Struggle financially  
+61. 허를 찌르다 > Catch off guard  
+62. 허풍을 떨다 > Bluff  
+63. 헛다리를 짚다 > Miss the mark  
+64. 혀를 내두르다 > Be amazed  
+65. 호흡이 맞다 > Work in harmony  
+66. 화를 풀다 > Calm down  
+67. 흥이 나다 > Feel excited  
+68. 입을 모으다 > Agree unanimously  
+69. 등을 떠밀다 > Push someone (to do something)  
+70. 얼굴을 붉히다 > Get embarrassed or angry  
+71. 말꼬리를 잡다 > Nitpick words  
+72. 몸을 사리다 > Avoid risk  
+73. 가슴에 못을 박다 > Deeply hurt someone's feelings  
+74. 다리를 절다 > Limp  
+75. 물불 가리지 않다 > Be reckless  
+76. 불 난 집에 부채질하다 > Make things worse  
+77. 산 넘어 산 > One problem after another  
+78. 솜방망이 처벌 > A slap on the wrist  
+79. 아 다르고 어 다르다 > Wording makes a difference  
+80. 엎친 데 덮친 격 > Adding insult to injury  
+81. 오리발 내밀다 > Feign ignorance  
+82. 울며 겨자 먹기 > Forced to do something reluctantly  
+83. 이를 갈다 > Bear a grudge  
+84. 제 버릇 개 못 준다 > Old habits die hard  
+85. 쥐구멍에도 볕 들 날 있다 > Everyone has a lucky day  
+86. 지붕 쳐다보다가 벌레 떨어진다 > Expect too much and get nothing  
+87. 천리 길도 한 걸음부터 > Every journey begins with a step  
+88. 칼을 갈다 > Plan revenge  
+89. 펄펄 날다 > Be in great shape  
+90. 하늘 높은 줄 모른다 > Be arrogant  
+91. 호랑이도 제 말 하면 온다 > Speak of the devil  
+92. 바가지를 쓰다 > Be ripped off  
+93. 바람을 맞다 > Get stood up  
+94. 뱁새가 황새 따라가다 가랑이 찢어진다 > Know your limits  
+95. 번지수를 잘못 찾다 > Bark up the wrong tree  
+96. 병 주고 약 준다 > Act two-faced  
+97. 소 잃고 외양간 고친다 > Fix things too late  
+98. 뛰는 놈 위에 나는 놈 있다 > There's always someone better  
+99. 가는 말이 고와야 오는 말이 곱다 > Treat others as you want to be treated  
+100. 고생 끝에 낙이 온다 > No pain, no gain  

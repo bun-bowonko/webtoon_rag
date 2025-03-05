@@ -1,0 +1,100 @@
+1. 가슴이 뜨겁다 > To be passionate  
+2. 가슴을 치다 > To regret deeply  
+3. 간이 크다 > To be bold  
+4. 간이 작다 > To be timid  
+5. 입이 무겁다 > To be tight-lipped  
+6. 입이 가볍다 > To be talkative  
+7. 눈이 높다 > To have high standards  
+8. 눈이 낮다 > To have low standards  
+9. 손이 크다 > To be generous  
+10. 손이 작다 > To be frugal  
+11. 머리가 좋다 > To be smart  
+12. 머리가 나쁘다 > To be dull-minded  
+13. 발이 넓다 > To have many connections  
+14. 발을 끊다 > To cut ties  
+15. 귀가 얇다 > To be easily influenced  
+16. 귀가 밝다 > To have sharp hearing  
+17. 코가 납작해지다 > To be humiliated  
+18. 코가 높다 > To be arrogant  
+19. 코를 찌르다 > To have a strong odor  
+20. 등을 돌리다 > To turn one's back on  
+21. 등을 밀다 > To push someone forward  
+22. 등에 업히다 > To depend on others  
+23. 엉덩이가 무겁다 > To sit still for a long time  
+24. 엉덩이가 가볍다 > To be restless  
+25. 어깨를 나란히 하다 > To be equal to  
+26. 어깨를 들썩이다 > To cry or laugh dramatically  
+27. 배가 아프다 > To be jealous  
+28. 배를 잡다 > To laugh uncontrollably  
+29. 입맛을 다시다 > To crave something  
+30. 입에 달고 살다 > To frequently say something  
+31. 손을 쓰다 > To take action  
+32. 손을 놓다 > To give up  
+33. 손을 빌리다 > To ask for help  
+34. 손을 덜다 > To ease one’s burden  
+35. 손을 잡다 > To cooperate  
+36. 손때가 묻다 > To be well-used  
+37. 발을 빼다 > To withdraw from something  
+38. 발에 익다 > To get used to  
+39. 눈에 넣어도 아프지 않다 > To be very precious  
+40. 눈에서 불이 나다 > To be very angry  
+41. 발등에 불이 떨어지다 > To be in urgent trouble  
+42. 발목을 잡다 > To hold someone back  
+43. 머리를 쓰다 > To think hard  
+44. 머리를 식히다 > To take a break from thinking  
+45. 얼굴이 두껍다 > To be shameless  
+46. 얼굴이 반쪽이 되다 > To look very tired  
+47. 귀에 못이 박히다 > To hear something repeatedly  
+48. 귀를 기울이다 > To listen carefully  
+49. 어질머리가 나다 > To feel dizzy  
+50. 눈코 뜰 새 없다 > To be extremely busy  
+51. 이를 악물다 > To grit one's teeth  
+52. 혀를 내두르다 > To be astonished  
+53. 오금을 못 쓰다 > To be paralyzed with fear  
+54. 등이 휘다 > To carry a heavy burden  
+55. 무릎을 꿇다 > To surrender  
+56. 손에 물 한 방울 묻히지 않다 > To do no hard work  
+57. 손을 떼다 > To quit something  
+58. 숨을 죽이다 > To hold one’s breath  
+59. 애를 태우다 > To worry a lot  
+60. 속이 상하다 > To be heartbroken  
+61. 속을 태우다 > To be very anxious  
+62. 속을 썩이다 > To trouble someone  
+63. 속이 시원하다 > To feel relieved  
+64. 속이 뻥 뚫리다 > To feel refreshed  
+65. 심장이 철렁하다 > To be startled  
+66. 가슴을 쓸어내리다 > To feel relieved  
+67. 벽을 허물다 > To break down barriers  
+68. 뒷북을 치다 > To react too late  
+69. 바가지를 긁다 > To nag  
+70. 바람을 쐬다 > To get fresh air  
+71. 하늘을 찌르다 > To be extremely arrogant  
+72. 뜸을 들이다 > To hesitate  
+73. 등이 따갑다 > To feel watched  
+74. 몸을 던지다 > To devote oneself  
+75. 깨가 쏟아지다 > To be lovey-dovey  
+76. 콧대가 세다 > To be proud  
+77. 한눈을 팔다 > To be distracted  
+78. 죽어라 하다 > To work extremely hard  
+79. 마른하늘에 날벼락 > An unexpected disaster  
+80. 번갯불에 콩 볶아 먹기 > To do something quickly  
+81. 불 보듯 뻔하다 > To be obvious  
+82. 피도 눈물도 없다 > To be cruel  
+83. 낯이 익다 > To look familiar  
+84. 숨이 트이다 > To feel liberated  
+85. 피가 끓다 > To be passionate  
+86. 달걀로 바위 치기 > A futile attempt  
+87. 헛다리 짚다 > To misunderstand  
+88. 도토리 키 재기 > A trivial comparison  
+89. 강 건너 불구경 > To be indifferent  
+90. 빛 좋은 개살구 > Looks good but isn't  
+91. 닭 쫓던 개 > A failed attempt  
+92. 땅 짚고 헤엄치기 > Something very easy  
+93. 구슬이 서 말이라도 꿰어야 보배 > Effort completes value  
+94. 개밥에 도토리 > An outsider  
+95. 금강산도 식후경 > Hunger comes first  
+96. 떡 줄 사람은 생각도 않는데 김칫국부터 마신다 > To assume too much  
+97. 열 길 물속은 알아도 한 길 사람 속은 모른다 > People are unpredictable  
+98. 하늘의 별 따기 > Almost impossible  
+99. 가는 날이 장날 > Bad timing  
+100. 장님 코끼리 만지기 > A narrow perspective  

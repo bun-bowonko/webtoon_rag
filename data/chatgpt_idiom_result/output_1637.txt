@@ -1,0 +1,102 @@
+1. 간이 크다 > To be bold  
+2. 간이 작다 > To be timid  
+3. 가슴이 찢어지다 > To be heartbroken  
+4. 가시방석에 앉다 > To be in a very uncomfortable situation  
+5. 바가지를 쓰다 > To be ripped off  
+6. 바람을 맞다 > To be stood up  
+7. 바람을 피우다 > To cheat (on a partner)  
+8. 발이 넓다 > To have a wide network  
+9. 배가 아프다 > To be jealous  
+10. 병 주고 약 준다 > To hurt someone and then comfort them  
+11. 손을 잡다 > To cooperate  
+12. 손을 떼다 > To quit doing something  
+13. 손이 크다 > To be generous with spending  
+14. 손이 작다 > To be frugal  
+15. 귀가 얇다 > To be easily swayed by others  
+16. 귀에 못이 박히다 > To hear the same thing repeatedly  
+17. 눈을 붙이다 > To take a nap  
+18. 눈코 뜰 새 없다 > To be extremely busy  
+19. 눈이 높다 > To have high standards  
+20. 눈이 빠지도록 기다리다 > To wait anxiously  
+21. 등을 돌리다 > To turn one’s back (on someone)  
+22. 등을 떠밀다 > To push someone into doing something  
+23. 목을 길게 빼다 > To wait eagerly  
+24. 목이 빠지게 기다리다 > To wait impatiently  
+25. 귀가 가렵다 > To feel like someone is talking about you  
+26. 머리를 식히다 > To take a mental break  
+27. 머리를 쓰다 > To think hard  
+28. 오지랖이 넓다 > To be nosy  
+29. 허리띠를 졸라매다 > To tighten one’s belt (live frugally)  
+30. 허리가 휘다 > To suffer under financial burden  
+31. 애를 먹다 > To struggle with something  
+32. 애가 타다 > To be anxious  
+33. 엉덩이가 무겁다 > To be sedentary  
+34. 엉덩이가 가볍다 > To be restless, always moving  
+35. 입이 무겁다 > To be good at keeping secrets  
+36. 입이 가볍다 > To be talkative, can’t keep secrets  
+37. 입이 떡 벌어지다 > To be amazed  
+38. 입을 모으다 > To agree unanimously  
+39. 입을 다물다 > To stay silent  
+40. 발을 담그다 > To get involved in something  
+41. 발 벗고 나서다 > To take the initiative  
+42. 발목을 잡다 > To hold someone back  
+43. 등에 업다 > To take advantage of someone’s power  
+44. 쥐 죽은 듯 조용하다 > To be as quiet as a mouse  
+45. 한눈을 팔다 > To be distracted  
+46. 두 눈을 감아 주다 > To turn a blind eye  
+47. 가슴을 쓸어내리다 > To be relieved  
+48. 찬물을 끼얹다 > To spoil the mood  
+49. 금이 가다 > To have a falling-out  
+50. 뜸을 들이다 > To delay unnecessarily  
+51. 도깨비 방망이 같다 > To have unexpected good results  
+52. 물불을 가리지 않다 > To go through anything recklessly  
+53. 바닥을 긁다 > To be dirt poor  
+54. 불꽃이 튀다 > To have intense competition  
+55. 사서 고생하다 > To bring trouble upon oneself  
+56. 시치미를 떼다 > To pretend not to know  
+57. 엎질러진 물이다 > To be irreversible  
+58. 하늘의 별 따기 > To be nearly impossible  
+59. 가는 말이 고와야 오는 말이 곱다 > Kind words bring kind words  
+60. 꿩 대신 닭 > A substitute is good enough  
+61. 닭 잡아먹고 오리발 내민다 > To feign innocence after doing wrong  
+62. 도둑이 제 발 저린다 > A guilty conscience needs no accuser  
+63. 싼 게 비지떡 > You get what you pay for  
+64. 호랑이도 제 말하면 온다 > Speak of the devil  
+65. 열 길 물속은 알아도 한 길 사람 속은 모른다 > You can’t read people’s minds  
+66. 우물 안 개구리 > A narrow-minded person  
+67. 다람쥐 쳇바퀴 돌 듯 > Going in circles  
+68. 같은 값이면 다홍치마 > If same price, choose the better option  
+69. 식은 죽 먹기 > A piece of cake  
+70. 떡 줄 사람은 생각도 안 한다 > Wishing for something pointless  
+71. 티끌 모아 태산 > Small efforts accumulate over time  
+72. 배보다 배꼽이 더 크다 > When side costs exceed the main cost  
+73. 하룻강아지 범 무서운 줄 모른다 > Ignorance is fearless  
+74. 벼는 익을수록 고개를 숙인다 > True knowledge is humble  
+75. 세 살 버릇 여든까지 간다 > Old habits die hard  
+76. 말 한 마디로 천 냥 빚 갚는다 > Good words solve problems  
+77. 낫 놓고 기역 자도 모른다 > To be completely ignorant  
+78. 미운 놈 떡 하나 더 준다 > Kill them with kindness  
+79. 쇠귀에 경 읽기 > Talking to a brick wall  
+80. 제 눈에 안경 > Beauty is in the eye of the beholder  
+81. 고양이에게 생선을 맡기다 > To give responsibility to an untrustworthy person  
+82. 낮말은 새가 듣고 밤말은 쥐가 듣는다 > Walls have ears  
+83. 사공이 많으면 배가 산으로 간다 > Too many cooks spoil the broth  
+84. 벌레도 밟으면 꿈틀한다 > Even the weakest will fight back  
+85. 백지장도 맞들면 낫다 > Many hands make light work  
+86. 갈수록 태산 > Out of the frying pan into the fire  
+87. 물에 빠진 놈 건져 놓으니 보따리 내놔라 한다 > Being ungrateful even after help  
+88. 과부 사정은 홀아비가 안다 > Only those in similar situations understand  
+89. 고생 끝에 낙이 온다 > No pain, no gain  
+90. 불난 집에 부채질한다 > To make matters worse  
+91. 번갯불에 콩 볶아 먹는다 > To do something very quickly  
+92. 사촌이 땅을 사면 배가 아프다 > To be jealous of others’ success  
+93. 소문난 잔치에 먹을 것 없다 > High expectations often lead to disappointment  
+94. 시작이 반이다 > Well begun is half done  
+95. 가는 날이 장날 > Bad timing  
+96. 방귀 뀐 놈이 성낸다 > A guilty party acts angrily  
+97. 강 건너 불 보듯 한다 > To be indifferent  
+98. 돌다리도 두들겨 보고 건너라 > Look before you leap  
+99. 개천에서 용 난다 > A rags-to-riches story  
+100. 낙숫물이 바위를 뚫는다 > Persistence prevails  
+
+이제부터라도 한국어 관용 표현을 익히면 훨씬 자연스럽게 말할 수 있을 거야! 😊

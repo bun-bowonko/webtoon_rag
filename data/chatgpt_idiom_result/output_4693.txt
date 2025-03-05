@@ -1,0 +1,102 @@
+1. 가슴이 찡하다 > Feel touched  
+2. 가슴이 답답하다 > Feel frustrated  
+3. 가슴을 치다 > Regret deeply  
+4. 가시방석에 앉다 > Be in a difficult situation  
+5. 간이 크다 > Be very bold  
+6. 간이 작다 > Be timid  
+7. 간담이 서늘하다 > Feel terrified  
+8. 귀가 얇다 > Be gullible  
+9. 귀에 못이 박히다 > Hear something repeatedly  
+10. 눈 깜짝할 사이 > In the blink of an eye  
+11. 눈길을 주다 > Pay attention  
+12. 눈에서 멀어지면 마음에서도 멀어진다 > Out of sight, out of mind  
+13. 눈코 뜰 새 없다 > Be extremely busy  
+14. 눈이 높다 > Have high standards  
+15. 눈 밖에 나다 > Fall out of favor  
+16. 눈썹이 휘날리다 > Rush hurriedly  
+17. 등을 돌리다 > Turn one’s back on  
+18. 마음을 잡다 > Focus on something  
+19. 마음이 굴뚝같다 > Eagerly wish  
+20. 발 벗고 나서다 > Actively step in  
+21. 발등에 불이 떨어지다 > Be in urgent need  
+22. 발목을 잡다 > Hold someone back  
+23. 배가 아프다 > Be jealous  
+24. 배를 잡다 > Laugh uncontrollably  
+25. 뼈를 깎다 > Make extreme efforts  
+26. 속을 태우다 > Be extremely worried  
+27. 속이 타다 > Be anxious  
+28. 손을 내밀다 > Offer help  
+29. 손을 씻다 > Cut ties with  
+30. 손이 모자라다 > Be short-handed  
+31. 손이 크다 > Be generous  
+32. 시치미를 떼다 > Play innocent  
+33. 쌀쌀맞다 > Be cold-hearted  
+34. 애를 먹다 > Have a hard time  
+35. 엉덩이가 무겁다 > Stay in one place for long  
+36. 입을 다물다 > Keep silent  
+37. 입을 맞추다 > Match stories  
+38. 입이 무겁다 > Keep secrets well  
+39. 입이 가볍다 > Be talkative  
+40. 입이 짧다 > Be a picky eater  
+41. 코가 납작해지다 > Lose confidence  
+42. 코앞에 닥치다 > Be imminent  
+43. 코가 높다 > Be arrogant  
+44. 콧대가 세다 > Be stubborn  
+45. 피땀 흘리다 > Work extremely hard  
+46. 피를 나누다 > Be blood-related  
+47. 한눈을 팔다 > Get distracted  
+48. 허리를 굽히다 > Be humble  
+49. 허리가 휘다 > Struggle financially  
+50. 혀를 내두르다 > Be astonished  
+51. 머리를 맞대다 > Discuss together  
+52. 머리를 식히다 > Take a break  
+53. 머리를 쓰다 > Use one’s brain  
+54. 몸을 사리다 > Avoid difficulties  
+55. 목이 빠지게 기다리다 > Wait eagerly  
+56. 낯이 익다 > Look familiar  
+57. 등을 떠밀다 > Push someone to act  
+58. 바가지를 쓰다 > Be ripped off  
+59. 바가지를 긁다 > Nag continuously  
+60. 바람을 쐬다 > Get some fresh air  
+61. 바람을 피우다 > Cheat on someone  
+62. 발이 넓다 > Have many connections  
+63. 빛을 보다 > Gain recognition  
+64. 산 넘어 산 > One problem after another  
+65. 싸늘한 시선 > A cold stare  
+66. 시름을 놓다 > Feel relieved  
+67. 얼굴이 두껍다 > Be shameless  
+68. 얼굴이 반쪽이 되다 > Look very thin  
+69. 열을 올리다 > Get enthusiastic  
+70. 오리발을 내밀다 > Deny responsibility  
+71. 울며 겨자 먹기 > Do something unwillingly  
+72. 이를 악물다 > Grit one’s teeth  
+73. 자리를 잡다 > Settle down  
+74. 찬물을 끼얹다 > Ruin the mood  
+75. 찬바람이 불다 > Have a cold atmosphere  
+76. 천근만근이다 > Feel extremely heavy  
+77. 코웃음을 치다 > Scoff  
+78. 한 술 더 뜨다 > Make things worse  
+79. 함흥차사 > No news from someone  
+80. 허탕을 치다 > Fail to achieve something  
+81. 허리띠를 졸라매다 > Tighten one’s belt  
+82. 헛다리를 짚다 > Make a wrong guess  
+83. 헛소문이 돌다 > Spread false rumors  
+84. 호랑이도 제 말 하면 온다 > Speak of the devil  
+85. 힘을 빼다 > Relax efforts  
+86. 꽃길만 걷다 > Have an easy life  
+87. 개천에서 용 난다 > Rise from humble beginnings  
+88. 달밤에 체조 > Do something useless  
+89. 도토리 키 재기 > A meaningless comparison  
+90. 물 만난 고기 > Be in one’s element  
+91. 바늘구멍에 낙타가 들어간다 > Something nearly impossible  
+92. 백지장도 맞들면 낫다 > Cooperation makes things easier  
+93. 사공이 많으면 배가 산으로 간다 > Too many leaders cause failure  
+94. 세상에 공짜는 없다 > Nothing comes for free  
+95. 시간은 금이다 > Time is money  
+96. 원숭이도 나무에서 떨어진다 > Even experts make mistakes  
+97. 웃는 얼굴에 침 못 뱉는다 > Kindness prevents hostility  
+98. 제 눈에 안경 > Beauty is in the eye of the beholder  
+99. 죽이 맞다 > Get along well  
+100. 티끌 모아 태산 > Small efforts add up  
+
+이 리스트는 대표적인 한국어 관용어 100개와 그것을 영어로 간략하게 번역한 표현이야! 😊

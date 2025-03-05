@@ -1,0 +1,102 @@
+1. 귀가 얇다 > Easily swayed  
+2. 귀가 가렵다 > Feel like someone is talking about you  
+3. 얼굴이 두껍다 > Shameless  
+4. 간이 크다 > Brave, fearless  
+5. 간이 작다 > Timid, cowardly  
+6. 입이 무겁다 > Good at keeping secrets  
+7. 입이 가볍다 > Bad at keeping secrets  
+8. 발을 빼다 > Pull out of a situation  
+9. 발이 넓다 > Have a wide network  
+10. 손을 떼다 > Stop being involved  
+11. 손을 씻다 > Quit bad habits  
+12. 손을 잡다 > Cooperate, work together  
+13. 발 벗고 나서다 > Actively step in  
+14. 눈에 불을 켜다 > Focus intensely  
+15. 눈이 높다 > Have high standards  
+16. 눈을 감아주다 > Overlook a fault  
+17. 기가 막히다 > Be speechless (amazed or shocked)  
+18. 코가 납작해지다 > Be humbled  
+19. 코 앞에 닥치다 > Be imminent  
+20. 다리를 놓다 > Mediate, connect people  
+21. 어깨를 으쓱거리다 > Brag, show off  
+22. 어깨를 나란히 하다 > Stand on equal footing  
+23. 머리를 쓰다 > Use one's head, think smart  
+24. 머리를 맞대다 > Discuss together  
+25. 머리를 식히다 > Take a mental break  
+26. 마음을 먹다 > Make up one's mind  
+27. 마음이 가볍다 > Feel relieved  
+28. 마음이 무겁다 > Feel burdened  
+29. 가슴을 쓸어내리다 > Feel relieved  
+30. 가슴에 멍이 들다 > Be emotionally hurt  
+31. 가슴이 찢어지다 > Be heartbroken  
+32. 속이 시원하다 > Feel refreshed, relieved  
+33. 속이 타다 > Be anxious or worried  
+34. 속을 태우다 > Worry intensely  
+35. 등에 업다 > Rely on someone’s power  
+36. 등에 칼을 꽂다 > Betray someone  
+37. 배가 아프다 > Be jealous  
+38. 간담이 서늘하다 > Be terrified  
+39. 손에 익다 > Become skillful  
+40. 입에 달고 살다 > Say something frequently  
+41. 입에 침이 마르다 > Praise repeatedly  
+42. 입에 거미줄 치다 > Be in extreme poverty  
+43. 허리를 굽히다 > Show humility  
+44. 허리를 펴다 > Regain confidence  
+45. 목을 축이다 > Quench one's thirst  
+46. 발목을 잡다 > Hold someone back  
+47. 무릎을 꿇다 > Surrender, give in  
+48. 무릎을 치다 > Suddenly realize something  
+49. 손을 뻗다 > Reach out for help  
+50. 골머리를 썩다 > Worry deeply over something  
+51. 머리가 복잡하다 > Be overwhelmed with thoughts  
+52. 얼굴이 피다 > Look healthy and happy  
+53. 얼굴이 반쪽이 되다 > Look haggard  
+54. 날개를 달다 > Gain momentum, progress quickly  
+55. 땅을 치다 > Regret deeply  
+56. 하늘이 노랗다 > Feel faint, shocked  
+57. 입에 쓰다 > Hard to accept (truth or criticism)  
+58. 피도 눈물도 없다 > Be heartless  
+59. 눈이 돌아가다 > Lose control from obsession or anger  
+60. 눈 깜짝할 사이 > In the blink of an eye  
+61. 귀를 기울이다 > Listen carefully  
+62. 입에 발린 소리 > Sweet but insincere words  
+63. 입을 맞추다 > Agree on a story  
+64. 말을 돌리다 > Change the topic  
+65. 말을 가로채다 > Interrupt someone speaking  
+66. 혀를 내두르다 > Be amazed/shocked  
+67. 목이 빠지다 > Wait eagerly for something  
+68. 목이 메다 > Choke up with emotion  
+69. 낯이 뜨겁다 > Feel embarrassed  
+70. 낯이 익다 > Look familiar  
+71. 바람을 맞다 > Be stood up  
+72. 바람을 피우다 > Cheat in a relationship  
+73. 미운 털이 박히다 > Be disliked  
+74. 산 넘어 산 > One problem after another  
+75. 그림의 떡 > Something unattainable  
+76. 누워서 떡 먹기 > Very easy task  
+77. 떡 줄 사람은 생각도 않는다 > Expect something in vain  
+78. 빛을 발하다 > Shine, become recognized  
+79. 찬물을 끼얹다 > Ruin the mood  
+80. 사서 고생하다 > Go through unnecessary hardships  
+81. 뒷북 치다 > React too late  
+82. 죽이 맞다 > Get along perfectly  
+83. 한눈을 팔다 > Be distracted  
+84. 오지랖이 넓다 > Interfere in others' business  
+85. 밥 먹듯 하다 > Do something very often  
+86. 불 보듯 뻔하다 > Predictable outcome  
+87. 찬바람이 불다 > Have a cold atmosphere  
+88. 숨이 트이다 > Feel relieved  
+89. 찬밥 신세 > Be treated coldly  
+90. 싼 게 비지떡 > Cheap things have low quality  
+91. 싹이 보이다 > Show potential  
+92. 애를 먹다 > Struggle with something  
+93. 피땀 흘리다 > Work extremely hard  
+94. 피는 물보다 진하다 > Blood is thicker than water  
+95. 등을 돌리다 > Turn one’s back on someone  
+96. 목숨을 걸다 > Risk one’s life  
+97. 바닥을 치다 > Hit rock bottom  
+98. 한술 더 뜨다 > Make things worse  
+99. 일취월장하다 > Make great progress  
+100. 토를 달다 > Nitpick or make excuses  
+
+These are 100 essential Korean idioms with their English equivalents. Let me know if you need further explanations! 😊

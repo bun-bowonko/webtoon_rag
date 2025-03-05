@@ -1,0 +1,102 @@
+1. 가슴이 찡하다 > Heartwarming  
+2. 가슴을 쓸어내리다 > Feel relieved  
+3. 가슴이 뜨끔하다 > Feel guilty  
+4. 간이 크다 > Be courageous  
+5. 간이 작다 > Be timid  
+6. 고개를 끄덕이다 > Nod in agreement  
+7. 고개를 숙이다 > Feel ashamed  
+8. 골머리를 썩이다 > Worry deeply  
+9. 귀가 얇다 > Be easily influenced  
+10. 귀를 기울이다 > Listen carefully  
+11. 기가 막히다 > Be dumbfounded  
+12. 기가 죽다 > Lose confidence  
+13. 날개를 달다 > Gain momentum  
+14. 눈 깜짝할 사이에 > In the blink of an eye  
+15. 눈살을 찌푸리다 > Frown  
+16. 눈에 불을 켜다 > Be eager  
+17. 눈에 띄다 > Stand out  
+18. 눈을 감아주다 > Overlook  
+19. 눈을 맞추다 > Make eye contact  
+20. 눈을 맞추다 > Be in sync  
+21. 다리를 뻗고 자다 > Sleep peacefully  
+22. 닭살이 돋다 > Get goosebumps  
+23. 등을 돌리다 > Turn one's back on  
+24. 등을 밀다 > Give a push (to help)  
+25. 마음을 놓다 > Feel at ease  
+26. 마음을 비우다 > Let go of greed  
+27. 마음을 졸이다 > Be nervous  
+28. 말꼬리를 잡다 > Nitpick  
+29. 머리를 식히다 > Refresh one's mind  
+30. 머리를 쓰다 > Use one's brain  
+31. 머리를 맞대다 > Discuss together  
+32. 몸을 사리다 > Avoid risk  
+33. 발등에 불이 떨어지다 > Be in a rush  
+34. 발을 끊다 > Cut off contact  
+35. 발이 넓다 > Have many connections  
+36. 배가 아프다 > Be jealous  
+37. 배를 잡다 > Laugh uncontrollably  
+38. 변덕이 죽 끓듯 하다 > Be very fickle  
+39. 뼈를 깎는 노력 > Painstaking effort  
+40. 뼈만 남다 > Be extremely thin  
+41. 뼈에 사무치다 > Be deeply touched  
+42. 손에 땀을 쥐다 > Be on the edge of one's seat  
+43. 손에 익다 > Become skillful  
+44. 손을 떼다 > Stop being involved  
+45. 손을 잡다 > Cooperate  
+46. 손이 크다 > Be generous  
+47. 숨이 트이다 > Feel relieved  
+48. 시치미를 떼다 > Pretend not to know  
+49. 신경을 쓰다 > Pay attention  
+50. 안성맞춤이다 > Be a perfect fit  
+51. 애를 먹다 > Have a hard time  
+52. 어깨가 무겁다 > Feel burdened  
+53. 어깨를 으쓱하다 > Shrug shoulders (proudly)  
+54. 얼굴이 두껍다 > Be shameless  
+55. 입이 무겁다 > Keep secrets well  
+56. 입이 가볍다 > Be talkative  
+57. 입이 달다 > Taste sweet (figuratively)  
+58. 입이 귀에 걸리다 > Be extremely happy  
+59. 입을 모으다 > Agree unanimously  
+60. 자리를 잡다 > Settle down  
+61. 진땀을 빼다 > Struggle with difficulty  
+62. 코가 납작해지다 > Be humiliated  
+63. 코를 찌르다 > Smell strongly  
+64. 콧대가 높다 > Be proud or arrogant  
+65. 토를 달다 > Complain or object  
+66. 파김치가 되다 > Be exhausted  
+67. 피땀 흘리다 > Work very hard  
+68. 하늘이 무너진 듯 > Feel devastated  
+69. 한눈을 팔다 > Be distracted  
+70. 한 치 앞을 못 보다 > Be short-sighted  
+71. 허리가 휘다 > Be overburdened  
+72. 허를 찌르다 > Catch off guard  
+73. 허탕을 치다 > Make an empty attempt  
+74. 혀를 차다 > Click one's tongue in disappointment  
+75. 호랑이에게 물려가도 정신만 차리면 산다 > Stay calm in danger  
+76. 화끈거리다 > Feel embarrassed  
+77. 가면을 쓰다 > Put on a mask (hide true self)  
+78. 간담이 서늘하다 > Feel terrified  
+79. 갈팡질팡하다 > Be indecisive  
+80. 개천에서 용 난다 > Rise from humble beginnings  
+81. 국수를 먹다 > Attend a wedding  
+82. 나무를 타다 > Be good at climbing  
+83. 날을 세우다 > Be sharp or hostile  
+84. 늦바람이 더 무섭다 > Late desires are stronger  
+85. 도마 위에 오르다 > Be under scrutiny  
+86. 등잔 밑이 어둡다 > Miss what’s closest  
+87. 말 한마디에 천 냥 빚 갚는다 > A word can resolve big troubles  
+88. 목을 걸다 > Risk everything  
+89. 바람을 맞다 > Be stood up  
+90. 발목을 잡다 > Hold someone back  
+91. 사랑에 빠지다 > Fall in love  
+92. 앞뒤가 맞다 > Be logical  
+93. 오리발을 내밀다 > Feign ignorance  
+94. 죽을 맛이다 > Be extremely tough  
+95. 찬물을 끼얹다 > Discourage suddenly  
+96. 칼을 갈다 > Be determined for revenge  
+97. 톡 까놓고 말하다 > Speak frankly  
+98. 팔짱을 끼고 보다 > Be indifferent  
+99. 피가 거꾸로 솟다 > Be furious  
+100. 한 술 더 뜨다 > Make things worse  
+
+이제 다양한 관용어와 그 뜻을 영어로 쉽게 이해할 수 있도록 정리했어! 😊

@@ -1,0 +1,100 @@
+1. 가슴이 답답하다 > Feel frustrated  
+2. 가슴을 쓸어내리다 > Feel relieved  
+3. 가슴이 뛰다 > Be excited  
+4. 가슴이 아프다 > Feel heartbroken  
+5. 간이 크다 > Be brave  
+6. 간담이 서늘하다 > Be horrified  
+7. 고개를 숙이다 > Show humility  
+8. 귀가 얇다 > Be gullible  
+9. 귀에 못이 박히다 > Hear repeatedly  
+10. 눈에 넣어도 아프지 않다 > Love dearly  
+11. 눈길을 주다 > Give attention  
+12. 눈을 돌리다 > Turn one's attention  
+13. 눈살을 찌푸리다 > Frown  
+14. 눈에 불을 켜다 > Be eager  
+15. 눈을 감아주다 > Overlook a fault  
+16. 닭살이 돋다 > Get goosebumps  
+17. 등을 돌리다 > Turn one's back  
+18. 마음이 가볍다 > Feel relieved  
+19. 마음이 통하다 > Understand each other  
+20. 머리를 굴리다 > Think hard  
+21. 머리를 쓰다 > Use one's brain  
+22. 물과 기름 같다 > Be incompatible  
+23. 바람을 피우다 > Be unfaithful  
+24. 발을 빼다 > Withdraw from  
+25. 발목을 잡다 > Hold someone back  
+26. 발등에 불이 떨어지다 > Be in urgent situation  
+27. 발을 맞추다 > Keep in sync  
+28. 배가 아프다 > Feel jealous  
+29. 속을 썩이다 > Worry someone  
+30. 속이 시원하다 > Feel relieved  
+31. 손을 내밀다 > Offer help  
+32. 손에 땀을 쥐다 > Be on edge  
+33. 손을 씻다 > Quit wrongdoing  
+34. 손이 크다 > Be generous  
+35. 손발이 맞다 > Work well together  
+36. 시치미를 떼다 > Pretend ignorance  
+37. 어깨를 나란히 하다 > Be equal to  
+38. 어깨를 으쓱하다 > Shrug shoulders  
+39. 얼굴이 두껍다 > Be shameless  
+40. 엉덩이를 붙이다 > Stay seated  
+41. 입을 닫다 > Keep quiet  
+42. 입에 달고 살다 > Say repeatedly  
+43. 입이 짧다 > Be picky with food  
+44. 입이 무겁다 > Keep secrets well  
+45. 입이 가볍다 > Spill secrets  
+46. 코가 납작해지다 > Feel humiliated  
+47. 코를 찡그리다 > Frown in disgust  
+48. 콧대가 높다 > Be arrogant  
+49. 큰 코 다치다 > Suffer humiliation  
+50. 귀를 기울이다 > Listen carefully  
+51. 눈코 뜰 새 없다 > Be extremely busy  
+52. 바가지를 쓰다 > Be overcharged  
+53. 바가지를 긁다 > Nag  
+54. 발이 넓다 > Have many connections  
+55. 사족을 못 쓰다 > Love something too much  
+56. 산 넘어 산이다 > One problem after another  
+57. 속이 타다 > Feel anxious  
+58. 앞뒤를 재다 > Weigh pros and cons  
+59. 얼굴이 반쪽이 되다 > Look exhausted  
+60. 팔다리를 놀리다 > Work lazily  
+61. 등을 긁어 주다 > Do a favor  
+62. 고배를 마시다 > Suffer defeat  
+63. 나사가 빠지다 > Be careless  
+64. 가닥을 잡다 > Grasp the point  
+65. 귓가에 맴돌다 > Echo in one's ears  
+66. 그림의 떡 > Unattainable dream  
+67. 떡 줄 사람은 생각도 안 한다 > Expect in vain  
+68. 금이 가다 > Be on bad terms  
+69. 기대를 걸다 > Have high hopes  
+70. 낮을 가리다 > Be shy with strangers  
+71. 낯이 익다 > Look familiar  
+72. 내 코가 석 자 > Too busy with own matters  
+73. 눈 깜짝할 사이 > In the blink of an eye  
+74. 눈독을 들이다 > Covet  
+75. 등을 떠밀다 > Push someone to act  
+76. 마음을 졸이다 > Be anxious  
+77. 맥이 풀리다 > Feel weak  
+78. 머리를 맞대다 > Brainstorm together  
+79. 목을 축이다 > Quench thirst  
+80. 물불을 가리지 않다 > Be reckless  
+81. 발걸음을 맞추다 > Keep pace  
+82. 변덕이 죽 끓듯 하다 > Be fickle  
+83. 불 보듯 뻔하다 > Be obvious  
+84. 비 오듯 땀을 흘리다 > Sweat profusely  
+85. 살 맛이 나다 > Enjoy life  
+86. 손 놓고 있다 > Do nothing  
+87. 손발이 오그라들다 > Feel embarrassed  
+88. 시끌벅적하다 > Be noisy  
+89. 엎질러진 물 > No way to undo  
+90. 오리발 내밀다 > Feign innocence  
+91. 찬물을 끼얹다 > Discourage enthusiasm  
+92. 첫 단추를 잘못 끼우다 > Start off wrong  
+93. 침이 마르다 > Talk highly of  
+94. 한눈을 팔다 > Be distracted  
+95. 한솥밥을 먹다 > Be in the same group  
+96. 허리를 굽히다 > Show humility  
+97. 허를 찌르다 > Catch off guard  
+98. 허탕을 치다 > Come back empty-handed  
+99. 혼쭐이 나다 > Get scolded  
+100. 힘을 빼다 > Relax and ease up

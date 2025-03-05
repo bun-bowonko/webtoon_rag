@@ -1,0 +1,102 @@
+1. 가닥을 잡다 > Grasp the gist  
+2. 가슴을 치다 > Regret deeply  
+3. 가슴이 뜨끔하다 > Feel guilty  
+4. 가슴이 저리다 > Feel heartbroken  
+5. 간이 크다 > Be bold  
+6. 간이 콩알만 해지다 > Be terrified  
+7. 입이 무겁다 > Keep secrets well  
+8. 입이 가볍다 > Be talkative  
+9. 눈이 높다 > Have high standards  
+10. 눈이 뒤집히다 > Lose control  
+11. 눈에 밟히다 > Miss someone/something  
+12. 귀가 솔깃하다 > Be intrigued  
+13. 귀에 못이 박히다 > Hear something repeatedly  
+14. 손을 놓다 > Stop doing something  
+15. 손을 잡다 > Cooperate  
+16. 손이 크다 > Be generous  
+17. 손에 땀을 쥐다 > Be on edge  
+18. 손발이 맞다 > Work well together  
+19. 발을 구르다 > Feel frustrated  
+20. 발을 빼다 > Withdraw from something  
+21. 발목을 잡히다 > Be caught up in something  
+22. 발등에 불이 떨어지다 > Have an urgent task  
+23. 마음이 놓이다 > Feel relieved  
+24. 마음을 비우다 > Let go of greed  
+25. 마음을 졸이다 > Be anxious  
+26. 가슴이 벅차다 > Feel overwhelmed with joy  
+27. 바가지를 긁다 > Nag persistently  
+28. 바가지를 씌우다 > Overcharge someone  
+29. 벽을 느끼다 > Feel a barrier  
+30. 머리를 맞대다 > Brainstorm together  
+31. 머리를 식히다 > Take a mental break  
+32. 골머리를 앓다 > Be deeply worried  
+33. 배가 아프다 > Be jealous  
+34. 애를 먹다 > Have a hard time  
+35. 기가 죽다 > Lose confidence  
+36. 기가 막히다 > Be speechless  
+37. 뒷북을 치다 > React late to something  
+38. 찬물을 끼얹다 > Put a damper on  
+39. 한눈을 팔다 > Be distracted  
+40. 물불을 가리지 않다 > Be reckless  
+41. 못을 박다 > Say something definite  
+42. 다리를 놓다 > Mediate between people  
+43. 말꼬리를 잡다 > Nitpick words  
+44. 말이 씨가 된다 > Words become reality  
+45. 입에 거미줄 치다 > Starve  
+46. 입에 침이 마르다 > Praise continuously  
+47. 목이 빠지다 > Wait anxiously  
+48. 목에 힘을 주다 > Act arrogantly  
+49. 등을 돌리다 > Turn one's back  
+50. 속을 끓이다 > Be deeply worried  
+51. 속을 태우다 > Be anxious  
+52. 속이 거북하다 > Feel uncomfortable  
+53. 속이 후련하다 > Feel relieved  
+54. 시치미를 떼다 > Play innocent  
+55. 배가 등에 붙다 > Be extremely hungry  
+56. 머리에 피도 안 마르다 > Be immature  
+57. 쥐 죽은 듯이 조용하다 > Be dead silent  
+58. 코를 찌르다 > Have a strong odor  
+59. 코가 납작해지다 > Be humiliated  
+60. 코가 꿰이다 > Have a weakness exposed  
+61. 넋이 나가다 > Be in shock  
+62. 기가 차다 > Be dumbfounded  
+63. 죽을 쑤다 > Fail badly  
+64. 다리를 뻗고 자다 > Sleep in comfort  
+65. 등을 밀다 > Push someone to act  
+66. 얼굴이 두껍다 > Be shameless  
+67. 쇠귀에 경 읽기 > Talk in vain  
+68. 귀가 얇다 > Be easily influenced  
+69. 찬밥 신세 > Be neglected  
+70. 벼락치기 하다 > Cram at the last minute  
+71. 바람 맞다 > Be stood up  
+72. 바람을 피우다 > Have an affair  
+73. 딴청을 피우다 > Pretend not to notice  
+74. 기를 쓰다 > Try desperately  
+75. 번갯불에 콩 볶아 먹는다 > Do things hastily  
+76. 하늘이 무너져도 솟아날 구멍이 있다 > There's always a way  
+77. 도끼눈을 뜨다 > Glare fiercely  
+78. 싼 게 비지떡 > Cheap things are low quality  
+79. 울며 겨자 먹기 > Do something unwillingly  
+80. 앓는 소리를 하다 > Complain about difficulty  
+81. 불 보듯 뻔하다 > Be obvious  
+82. 엎질러진 물이다 > It's irreversible  
+83. 울고 싶을 때 뺨 맞았다 > Adding insult to injury  
+84. 일석이조 > Kill two birds with one stone  
+85. 새 발의 피 > A drop in the ocean  
+86. 자다가 봉창 두드린다 > Say something irrelevant  
+87. 고개를 갸웃하다 > Tilt one’s head in doubt  
+88. 십년감수하다 > Be extremely shocked  
+89. 담을 쌓다 > Cut off contact  
+90. 뒤통수를 맞다 > Be backstabbed  
+91. 불 난 데 부채질하다 > Add fuel to the fire  
+92. 꿈도 못 꾸다 > Can't even dream of it  
+93. 엉덩이가 가볍다 > Be always on the move  
+94. 내 코가 석 자다 > Be in too much trouble to help others  
+95. 감쪽같다 > Be seamless  
+96. 빛 좋은 개살구 > Nice but useless  
+97. 국수를 먹다 > Get married  
+98. 사족을 못 쓰다 > Be obsessed with  
+99. 눈감아 주다 > Turn a blind eye  
+100. 땅을 치다 > Lament deeply  
+
+이 목록은 한국어 관용어와 그 의미를 영어로 간단히 표현한 것이야. 도움이 되길 바라! 😊

@@ -1,0 +1,100 @@
+1. 식은 죽 먹기 > A piece of cake  
+2. 나는 새도 떨어뜨리다 > To be very powerful  
+3. 간이 크다 > To be very brave  
+4. 간이 작다 > To be timid  
+5. 눈코 뜰 새 없다 > To be extremely busy  
+6. 눈 감아 주다 > To turn a blind eye  
+7. 눈에 불을 켜다 > To be very enthusiastic  
+8. 눈치가 빠르다 > To be quick-witted  
+9. 눈치가 없다 > To be tactless  
+10. 바가지를 쓰다 > To be overcharged  
+11. 바가지를 긁다 > To nag  
+12. 귀를 기울이다 > To listen carefully  
+13. 귓등으로 듣다 > To ignore  
+14. 입이 무겁다 > To be tight-lipped  
+15. 입이 가볍다 > To be talkative  
+16. 입에 침이 마르다 > To praise constantly  
+17. 혀를 내두르다 > To be astonished  
+18. 머리를 쓰다 > To think hard  
+19. 머리를 모으다 > To gather for discussion  
+20. 머리를 식히다 > To take a break  
+21. 등을 돌리다 > To turn one’s back on  
+22. 어깨를 나란히 하다 > To be on equal footing  
+23. 손에 땀을 쥐다 > To be on the edge of one’s seat  
+24. 손을 씻다 > To quit a bad habit  
+25. 손발이 맞다 > To be in sync  
+26. 손이 크다 > To be very generous  
+27. 손이 작다 > To be frugal  
+28. 허리가 휘다 > To struggle financially  
+29. 발 벗고 나서다 > To actively participate  
+30. 발등을 찍히다 > To be betrayed  
+31. 발이 넓다 > To have many connections  
+32. 발이 묶이다 > To be stuck  
+33. 한 술 더 뜨다 > To make matters worse  
+34. 쥐도 새도 모르게 > Without anyone knowing  
+35. 가슴이 찢어지다 > To be heartbroken  
+36. 가슴에 못을 박다 > To deeply hurt someone  
+37. 간에 기별도 안 가다 > To not be satisfying  
+38. 배가 아프다 > To be jealous  
+39. 배짱이 두둑하다 > To be very bold  
+40. 피땀 흘리다 > To work extremely hard  
+41. 애를 먹다 > To have a hard time  
+42. 날개가 돋치다 > To sell like hotcakes  
+43. 바늘 도둑이 소 도둑 된다 > Small misdeeds grow into big ones  
+44. 고양이 목에 방울 달기 > A plan that is hard to execute  
+45. 꿩 먹고 알 먹기 > Killing two birds with one stone  
+46. 그림의 떡 > A pie in the sky  
+47. 누워서 떡 먹기 > As easy as pie  
+48. 티끌 모아 태산 > Many a little makes a mickle  
+49. 호랑이도 제 말 하면 온다 > Speak of the devil  
+50. 떡 줄 사람은 생각도 않는데 김칫국부터 마신다 > Jumping to conclusions  
+51. 가는 말이 고와야 오는 말이 곱다 > Treat others as you want to be treated  
+52. 싼 게 비지떡 > You get what you pay for  
+53. 보기 좋은 떡이 먹기도 좋다 > Quality matters  
+54. 금강산도 식후경 > Eating comes first  
+55. 닭 잡아먹고 오리발 내밀다 > To feign innocence  
+56. 도둑이 제 발 저리다 > A guilty conscience needs no accuser  
+57. 빛 좋은 개살구 > All that glitters is not gold  
+58. 말 한마디에 천 냥 빚도 갚는다 > Words have power  
+59. 세 살 버릇 여든까지 간다 > Old habits die hard  
+60. 꿀 먹은 벙어리 > As silent as the grave  
+61. 고래 싸움에 새우 등 터진다 > The weak suffer in big conflicts  
+62. 뚝배기보다 장맛 > Substance over appearance  
+63. 서당 개 삼 년이면 풍월을 읊는다 > Practice makes perfect  
+64. 시간이 약이다 > Time heals all wounds  
+65. 우물 안 개구리 > A frog in a well  
+66. 하늘의 별 따기 > Nearly impossible  
+67. 엎질러진 물 > No use crying over spilt milk  
+68. 죽이 잘 맞다 > To get along well  
+69. 싼 것이 비지떡 > Cheap things have low quality  
+70. 열 번 찍어 안 넘어가는 나무 없다 > Persistence pays off  
+71. 등잔 밑이 어둡다 > Closer things are harder to notice  
+72. 뛰는 놈 위에 나는 놈 있다 > There is always someone better  
+73. 찬물도 위아래가 있다 > Respecting hierarchy  
+74. 제 눈에 안경 > Beauty is in the eye of the beholder  
+75. 누이 좋고 매부 좋다 > A win-win situation  
+76. 하나를 보면 열을 안다 > A small clue can reveal much  
+77. 벼는 익을수록 고개를 숙인다 > The more knowledgeable, the humbler  
+78. 길고 짧은 것은 대봐야 안다 > You never know until you try  
+79. 사공이 많으면 배가 산으로 간다 > Too many cooks spoil the broth  
+80. 배보다 배꼽이 더 크다 > The side issue is bigger than the main one  
+81. 소문난 잔치에 먹을 것 없다 > Much ado about nothing  
+82. 두 손을 들다 > To surrender  
+83. 떼를 쓰다 > To throw a tantrum  
+84. 뒷북 치다 > To state the obvious too late  
+85. 금이 가다 > To have a rift in a relationship  
+86. 시치미를 떼다 > To pretend not to know  
+87. 눈물을 머금다 > To endure with sadness  
+88. 울며 겨자 먹기 > To do something reluctantly  
+89. 산 넘어 산 > One problem after another  
+90. 김이 새다 > To lose enthusiasm  
+91. 발을 빼다 > To withdraw  
+92. 내 코가 석 자 > To have enough of one's own problems  
+93. 갈 길이 멀다 > There is still a long way to go  
+94. 곡소리가 나다 > To be in financial trouble  
+95. 기가 죽다 > To lose confidence  
+96. 허풍을 떨다 > To bluff  
+97. 미운 오리 새끼 > The ugly duckling  
+98. 꼬리를 내리다 > To back down  
+99. 풀 죽다 > To feel down  
+100. 시작이 반이다 > Well begun is half done  

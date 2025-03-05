@@ -1,0 +1,100 @@
+1. 가닥을 잡다 > Grasp the gist  
+2. 가슴을 치다 > Regret deeply  
+3. 가슴이 뜨끔하다 > Feel shocked  
+4. 간담이 서늘하다 > Be terrified  
+5. 골머리를 앓다 > Struggle mentally  
+6. 귀를 기울이다 > Listen attentively  
+7. 기가 막히다 > Be dumbfounded  
+8. 기를 죽이다 > Discourage someone  
+9. 날개를 달다 > Gain momentum  
+10. 낯이 뜨겁다 > Feel embarrassed  
+11. 눈감아 주다 > Overlook mistakes  
+12. 눈길을 주다 > Pay attention  
+13. 눈코 뜰 새 없다 > Be extremely busy  
+14. 뒷짐 지다 > Stay uninvolved  
+15. 마음이 놓이다 > Feel relieved  
+16. 머리를 맞대다 > Brainstorm together  
+17. 몸을 사리다 > Be cautious  
+18. 바람을 일으키다 > Create a sensation  
+19. 발 벗고 나서다 > Actively engage  
+20. 발목을 잡히다 > Be held back  
+21. 배가 아프다 > Be jealous  
+22. 벽에 부딪히다 > Face a challenge  
+23. 불 보듯 뻔하다 > Be obvious  
+24. 비위를 맞추다 > Please someone  
+25. 손꼽아 기다리다 > Eagerly wait  
+26. 손에 땀을 쥐다 > Be nervous  
+27. 손을 대다 > Start doing something  
+28. 손을 들다 > Surrender  
+29. 손을 떼다 > Stop involvement  
+30. 숨이 트이다 > Feel relieved  
+31. 시치미를 떼다 > Pretend ignorance  
+32. 싹이 트다 > Begin developing  
+33. 어깨를 으쓱하다 > Shrug shoulders  
+34. 얼굴을 붉히다 > Get angry  
+35. 입에 맞다 > Suit one’s taste  
+36. 입을 모으다 > All agree  
+37. 자리를 잡다 > Settle down  
+38. 좌우하다 > Influence something  
+39. 찬물을 끼얹다 > Discourage enthusiasm  
+40. 초를 치다 > Spoil the mood  
+41. 칼을 갈다 > Prepare vengeance  
+42. 콧대가 높다 > Be prideful  
+43. 티를 내다 > Show off  
+44. 파김치가 되다 > Be exhausted  
+45. 풀이 죽다 > Feel discouraged  
+46. 한눈을 팔다 > Be distracted  
+47. 한술 더 뜨다 > Make it worse  
+48. 혀를 내두르다 > Be astonished  
+49. 호감을 사다 > Gain favor  
+50. 흥분을 가라앉히다 > Calm down  
+51. 손이 크다 > Be generous  
+52. 기가 죽다 > Lose confidence  
+53. 눈이 높다 > Have high standards  
+54. 발등에 불이 떨어지다 > Face urgency  
+55. 간이 크다 > Be bold  
+56. 미운 털이 박히다 > Be disliked  
+57. 심장이 철렁하다 > Be startled  
+58. 바람을 맞다 > Be stood up  
+59. 팔짱을 끼고 보다 > Be indifferent  
+60. 목이 빠지다 > Wait impatiently  
+61. 눈코 뜰 새 없이 바쁘다 > Be extremely swamped  
+62. 그림의 떡 > Unattainable desire  
+63. 가뭄에 콩 나듯 > Rare occurrence  
+64. 떡 줄 사람은 꿈도 안 꾸는데 김칫국부터 마신다 > Count chickens before they hatch  
+65. 구슬이 서 말이라도 꿰어야 보배 > Effort completes value  
+66. 꿩 대신 닭 > Make do with what's available  
+67. 빛 좋은 개살구 > Looks good but disappointing  
+68. 뚝배기보다 장맛 > Substance over appearance  
+69. 하늘의 별 따기 > Nearly impossible  
+70. 울며 겨자 먹기 > Forced acceptance  
+71. 티끌 모아 태산 > Small efforts accumulate  
+72. 식은 죽 먹기 > Easy as pie  
+73. 누워서 떡 먹기 > Piece of cake  
+74. 벼는 익을수록 고개를 숙인다 > Quality comes with humility  
+75. 도토리 키 재기 > Meaningless comparison  
+76. 떼려야 뗄 수 없는 사이 > Inseparable relationship  
+77. 고양이에게 생선을 맡기다 > Trusting the untrustworthy  
+78. 닭 잡아먹고 오리발 내밀다 > Cover up wrongdoing  
+79. 사공이 많으면 배가 산으로 간다 > Too many cooks spoil the broth  
+80. 등잔 밑이 어둡다 > Overlook what's close  
+81. 우물 안 개구리 > Narrow perspective  
+82. 제 눈에 안경 > Beauty is subjective  
+83. 아니 땐 굴뚝에 연기 날까 > No smoke without fire  
+84. 호랑이도 제 말 하면 온다 > Speak of the devil  
+85. 금강산도 식후경 > Eating comes first  
+86. 다 된 밥에 재 뿌리기 > Ruin everything at the end  
+87. 땅 짚고 헤엄치기 > Very easy task  
+88. 돌다리도 두들겨 보고 건너라 > Act with caution  
+89. 가는 말이 고와야 오는 말이 곱다 > Treat others well for kindness  
+90. 싸울 때는 개도 안 끼어든다 > Don't meddle in fights  
+91. 개천에서 용 난다 > Success despite hardship  
+92. 한강에 돌 던지기 > Futile efforts  
+93. 달걀로 바위 치기 > Fighting a losing battle  
+94. 가뭄에 단비 > Welcome relief  
+95. 갈수록 태산 > Things get harder  
+96. 계란 한 바구니에 담지 마라 > Don't put all eggs in one basket  
+97. 남의 떡이 더 커 보인다 > Grass is greener on the other side  
+98. 도둑이 제 발 저리다 > Guilty conscience  
+99. 물에 빠진 놈 건져 놓으니 보따리 달라고 한다 > Ingrate behavior  
+100. 죽 쒀서 개 준다 > Labor lost to others

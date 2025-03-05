@@ -1,0 +1,102 @@
+1. 가닥을 잡다 > Grasp the gist  
+2. 가슴이 뜨겁다 > Be passionate  
+3. 가슴을 치다 > Regret deeply  
+4. 간이 크다 > Be bold  
+5. 간이 작다 > Be timid  
+6. 거미줄을 치다 > Be abandoned  
+7. 걸음을 재다 > Hurry up  
+8. 귀가 가렵다 > Be talked about  
+9. 귀가 번쩍 뜨이다 > Be startled by news  
+10. 귀를 기울이다 > Listen carefully  
+11. 그림의 떡 > Unattainable desire  
+12. 길을 터주다 > Pave the way  
+13. 기가 막히다 > Be dumbfounded  
+14. 기를 살리다 > Boost confidence  
+15. 김이 빠지다 > Lose enthusiasm  
+16. 날개가 돋치다 > Sell out quickly  
+17. 날을 세우다 > Be sharp or aggressive  
+18. 낯이 두껍다 > Be shameless  
+19. 눈도 깜짝 안 하다 > Stay unfazed  
+20. 눈에 익다 > Be familiar  
+21. 눈엣가시 > Thorn in one's side  
+22. 다리를 놓다 > Bridge a connection  
+23. 달밤에 체조하다 > Do useless effort  
+24. 담을 쌓다 > Cut off contact  
+25. 뜸 들이다 > Delay intentionally  
+26. 마각을 드러내다 > Show true colors  
+27. 말꼬리를 잡다 > Nitpick words  
+28. 말문을 열다 > Start speaking  
+29. 맥이 빠지다 > Lose energy  
+30. 머리를 맞대다 > Discuss together  
+31. 머리를 식히다 > Take a break  
+32. 몸을 사리다 > Avoid responsibility  
+33. 물 샐 틈 없이 > Perfectly tight  
+34. 바람을 넣다 > Instigate or tempt  
+35. 발 벗고 나서다 > Step up voluntarily  
+36. 발등에 불이 떨어지다 > Be in urgent situation  
+37. 발목을 잡다 > Hinder progress  
+38. 배가 아프다 > Feel jealous  
+39. 벽을 허물다 > Break barriers  
+40. 불 보듯 뻔하다 > Be obvious  
+41. 사서 고생하다 > Make trouble for oneself  
+42. 산 넘어 산 > One problem after another  
+43. 살을 붙이다 > Add details  
+44. 생각이 짧다 > Be thoughtless  
+45. 색안경을 끼다 > Be biased  
+46. 손을 떼다 > Withdraw from something  
+47. 손에 잡힐 듯하다 > Feel within reach  
+48. 속을 끓이다 > Worry deeply  
+49. 속이 타다 > Be anxious  
+50. 시치미를 떼다 > Pretend innocence  
+51. 심장이 철렁하다 > Feel heart drop  
+52. 씨가 마르다 > Be completely exhausted  
+53. 아는 길도 물어가라 > Double-check always  
+54. 앞뒤가 맞다 > Make logical sense  
+55. 어깨를 나란히 하다 > Stand equal  
+56. 얼굴이 두껍다 > Be shameless  
+57. 엎친 데 덮치다 > Bad luck upon bad luck  
+58. 열을 올리다 > Get passionate  
+59. 오지랖이 넓다 > Be nosy  
+60. 입에 침이 마르다 > Praise repeatedly  
+61. 입을 모으다 > Speak in unison  
+62. 입이 무겁다 > Keep secrets well  
+63. 자리를 뜨다 > Leave the place  
+64. 종 잡을 수 없다 > Be unpredictable  
+65. 죽이 맞다 > Get along well  
+66. 쥐 죽은 듯 > Completely silent  
+67. 진땀을 흘리다 > Sweat nervously  
+68. 찬물을 끼얹다 > Spoil the mood  
+69. 창피를 당하다 > Be humiliated  
+70. 첫 단추를 잘 끼우다 > Start well  
+71. 코가 납작해지다 > Lose face  
+72. 콧대가 높다 > Be arrogant  
+73. 택도 없다 > Be impossible  
+74. 팔짱 끼고 보다 > Watch idly  
+75. 피땀 흘리다 > Sweat blood and tears  
+76. 하늘을 찌르다 > Be sky-high  
+77. 하늘이 노래지다 > Feel extreme despair  
+78. 한눈을 팔다 > Be distracted  
+79. 허리가 휘다 > Struggle financially  
+80. 허를 찌르다 > Catch off guard  
+81. 혀를 차다 > Click tongue in disapproval  
+82. 호랑이도 제 말 하면 온다 > Speak of the devil  
+83. 혼을 쏙 빼놓다 > Be dumbfounded  
+84. 화끈화끈 달아오르다 > Feel hot with embarrassment  
+85. 황당무계하다 > Be absurd  
+86. 흥건히 젖다 > Be soaked through  
+87. 입이 귀에 걸리다 > Be extremely happy  
+88. 귀에 쏙쏙 들어오다 > Be easy to understand  
+89. 눈 깜짝할 사이 > In the blink of an eye  
+90. 벼락치기하다 > Cram last minute  
+91. 뛸 듯이 기뻐하다 > Jump for joy  
+92. 한 술 더 뜨다 > Make things worse  
+93. 신경을 곤두세우다 > Be on edge  
+94. 발을 뻗고 자다 > Sleep in peace  
+95. 밤낮을 가리지 않다 > Work tirelessly  
+96. 시작이 반이다 > Well begun is half done  
+97. 꼬리를 내리다 > Show submission  
+98. 코웃음을 치다 > Scoff in disbelief  
+99. 싼 게 비지떡 > Cheap things are low quality  
+100. 손에 땀을 쥐다 > Be on the edge of seat  
+
+이렇게 100개의 한국어 관용 표현과 영어 번역을 제공했어! 도움이 되었길 바라. 😊

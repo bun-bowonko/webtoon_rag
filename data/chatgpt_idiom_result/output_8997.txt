@@ -1,0 +1,102 @@
+1. 가슴을 쓸어내리다 > Feel relieved  
+2. 가슴이 찢어지다 > Heartbroken  
+3. 간이 크다 > Fearless  
+4. 간이 작다 > Cowardly  
+5. 고개를 숙이다 > Show humility  
+6. 귀가 얇다 > Easily influenced  
+7. 귀에 못이 박히다 > Hear something repeatedly  
+8. 눈 하나 깜짝하지 않다 > Stay calm under pressure  
+9. 눈코 뜰 새 없다 > Extremely busy  
+10. 머리를 식히다 > Take a break  
+11. 마음을 놓다 > Feel at ease  
+12. 손바닥 뒤집듯 하다 > Change mind easily  
+13. 바람을 피우다 > Cheat (in a relationship)  
+14. 손을 맞잡다 > Cooperate  
+15. 손이 크다 > Be generous  
+16. 발 벗고 나서다 > Actively participate  
+17. 발등에 불이 떨어지다 > In urgent situation  
+18. 배가 아프다 > Jealous  
+19. 등을 돌리다 > Turn one’s back on  
+20. 무릎을 꿇다 > Surrender  
+21. 입에 달고 살다 > Say something frequently  
+22. 입이 짧다 > Have a small appetite  
+23. 입이 무겁다 > Good at keeping secrets  
+24. 입이 가볍다 > Talk too much  
+25. 코가 납작해지다 > Feel humiliated  
+26. 코 앞에 닥치다 > Be imminent  
+27. 귀를 기울이다 > Listen attentively  
+28. 기가 막히다 > Be dumbfounded  
+29. 한 우물을 파다 > Stay dedicated to one thing  
+30. 하늘에 별 따기 > Almost impossible  
+31. 허리를 숙이다 > Show humility  
+32. 허리를 굽히다 > Bow in respect  
+33. 혀를 차다 > Express disapproval  
+34. 도마 위에 오르다 > Be criticized  
+35. 입 밖에 내다 > Speak out  
+36. 첫발을 떼다 > Take the first step  
+37. 찬물을 끼얹다 > Discourage  
+38. 한눈을 팔다 > Distracted  
+39. 배보다 배꼽이 크다 > The extra is greater than the main  
+40. 싼 게 비지떡 > Cheap things are low quality  
+41. 고생 끝에 낙이 온다 > Joy comes after hardship  
+42. 가는 말이 고와야 오는 말이 곱다 > Treat others well to be treated well  
+43. 발을 빼다 > Get out of responsibility  
+44. 발이 넓다 > Have many connections  
+45. 담을 쌓다 > Cut off relationships  
+46. 가슴이 벅차다 > Overwhelmed with emotion  
+47. 가슴이 철렁하다 > Feel one's heart sink  
+48. 손을 잡다 > Work together  
+49. 숨이 트이다 > Feel relieved  
+50. 바가지를 쓰다 > Be ripped off  
+51. 바가지를 긁다 > Nag  
+52. 낯이 두껍다 > Be shameless  
+53. 눈이 높다 > Have high standards  
+54. 눈을 붙이다 > Take a nap  
+55. 입을 다물다 > Keep silent  
+56. 입을 맞추다 > Agree in advance  
+57. 머리를 맞대다 > Discuss together  
+58. 눈살을 찌푸리다 > Frown  
+59. 한 술 더 뜨다 > Make something worse  
+60. 얼굴에 철판을 깔다 > Be shameless  
+61. 손에 땀을 쥐다 > Be thrilled  
+62. 열을 올리다 > Get excited and involved  
+63. 발에 땀이 나다 > Work hard  
+64. 담을 쌓고 지내다 > Avoid relationships  
+65. 떡 줄 사람은 생각도 안 한다 > Someone has no intention of helping  
+66. 수박 겉 핥기 > Superficial understanding  
+67. 도토리 키 재기 > Almost no difference  
+68. 우물 안 개구리 > Narrow-minded person  
+69. 꼬리를 감추다 > Disappear  
+70. 꼬리를 내리다 > Surrender  
+71. 가시방석에 앉다 > Feel uncomfortable  
+72. 심장이 철렁하다 > Feel heart drop  
+73. 산 넘어 산 > One problem after another  
+74. 나이를 먹다 > Get older  
+75. 사서 고생하다 > Make unnecessary trouble  
+76. 티끌 모아 태산 > Small efforts add up  
+77. 계란으로 바위 치기 > A hopeless effort  
+78. 그림의 떡 > Unattainable desire  
+79. 다리를 놓다 > Mediate between people  
+80. 머리를 식히다 > Cool off  
+81. 생각이 짧다 > Be thoughtless  
+82. 속이 타다 > Worry a lot  
+83. 엎친 데 덮친 격 > One problem on top of another  
+84. 입이 귀에 걸리다 > Be very happy  
+85. 쏜살같다 > Extremely fast  
+86. 해가 서쪽에서 뜨다 > Impossible situation  
+87. 과일이 익다 > Be at the best moment  
+88. 낯을 가리다 > Be shy with strangers  
+89. 등에 업다 > Receive support  
+90. 깜짝 놀라다 > Be startled  
+91. 세상에 둘도 없다 > One of a kind  
+92. 쥐 죽은 듯이 조용하다 > Dead silent  
+93. 그림자가 지다 > Become dark  
+94. 이름을 날리다 > Become famous  
+95. 헛다리를 짚다 > Guess wrong  
+96. 길눈이 어둡다 > Bad sense of direction  
+97. 옷이 날개다 > Clothes make a person  
+98. 바람 앞의 등불 > In a very precarious situation  
+99. 찬물을 끼얹다 > Pour cold water on  
+100. 한눈을 팔다 > Not pay attention  
+
+이 목록은 한국어 관용 표현과 해당 의미를 영어로 번역한 짧은 문장들로 구성되어 있어. 도움이 되었으면 좋겠어! 😊

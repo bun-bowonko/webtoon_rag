@@ -1,0 +1,100 @@
+1. 가슴이 뜨끔하다 > Feel a pang of guilt  
+2. 가슴이 철렁하다 > Feel one’s heart sink  
+3. 간이 크다 > Be bold or fearless  
+4. 간이 작다 > Be timid or cowardly  
+5. 귀가 얇다 > Be easily influenced  
+6. 눈 감아 주다 > Turn a blind eye  
+7. 눈길을 주다 > Give a glance  
+8. 눈에 띄다 > Stand out  
+9. 눈에 불을 켜다 > Be very eager or intense  
+10. 눈코 뜰 새 없다 > Be extremely busy  
+11. 다리가 떨리다 > Feel nervous  
+12. 도마 위에 오르다 > Be under scrutiny  
+13. 머리를 맞대다 > Put heads together  
+14. 머리를 쓰다 > Use one’s brain  
+15. 몸을 사리다 > Avoid risks  
+16. 바람을 피우다 > Cheat on someone  
+17. 발을 끊다 > Cut off contact  
+18. 발이 넓다 > Have a wide network  
+19. 벽에 부딪히다 > Hit a wall  
+20. 뼈를 깎다 > Make extreme sacrifices  
+21. 속을 태우다 > Worry deeply  
+22. 손 놓고 있다 > Do nothing  
+23. 손을 씻다 > Wash one’s hands of something  
+24. 애를 먹다 > Have a hard time  
+25. 얼굴이 두껍다 > Be shameless  
+26. 입이 가볍다 > Be talkative or unable to keep secrets  
+27. 입이 무겁다 > Be discreet  
+28. 입이 짧다 > Be a picky eater  
+29. 찬물을 끼얹다 > Pour cold water on something  
+30. 콧대가 높다 > Be arrogant  
+31. 피땀 흘리다 > Work extremely hard  
+32. 허리가 휘다 > Be burdened with work or expenses  
+33. 허리를 굽히다 > Be humble or submissive  
+34. 손발이 맞다 > Work well together  
+35. 바가지를 쓰다 > Be ripped off  
+36. 발등에 불이 떨어지다 > Be in an urgent situation  
+37. 눈이 높다 > Have high standards  
+38. 도끼눈을 뜨다 > Glare angrily  
+39. 꿩 대신 닭 > Settle for less  
+40. 떡 줄 사람은 생각도 않는데 김칫국부터 마신다 > Count chickens before they hatch  
+41. 싼 게 비지떡 > You get what you pay for  
+42. 고생 끝에 낙이 온다 > No pain, no gain  
+43. 달면 삼키고 쓰면 뱉는다 > Only accept what's beneficial  
+44. 바늘 도둑이 소도둑 된다 > Small sins lead to bigger crimes  
+45. 길고 짧은 것은 대봐야 안다 > You won’t know until you try  
+46. 낮말은 새가 듣고 밤말은 쥐가 듣는다 > Walls have ears  
+47. 백지장도 맞들면 낫다 > Two heads are better than one  
+48. 식은 죽 먹기 > Piece of cake  
+49. 우물 안 개구리 > Frog in a well (Narrow-minded person)  
+50. 울며 겨자 먹기 > Bite the bullet  
+51. 천 리 길도 한 걸음부터 > A journey of a thousand miles begins with a single step  
+52. 티끌 모아 태산 > Many a little makes a mickle  
+53. 불 난 집에 부채질하다 > Add fuel to the fire  
+54. 가는 말이 고와야 오는 말이 곱다 > Treat others as you want to be treated  
+55. 보고도 못 본 척하다 > Pretend not to see  
+56. 꼬리를 밟히다 > Be caught in the act  
+57. 꿀 먹은 벙어리 > Be speechless or silent  
+58. 물불을 가리지 않다 > Take any risk  
+59. 밑 빠진 독에 물 붓기 > A futile effort  
+60. 산 넘어 산 > One problem after another  
+61. 십 년이면 강산도 변한다 > Time changes everything  
+62. 제 눈에 안경 > Beauty is in the eye of the beholder  
+63. 찬밥 더운밥 가릴 처지가 아니다 > Beggars can't be choosers  
+64. 하늘의 별 따기 > Nearly impossible  
+65. 그림의 떡 > Pie in the sky  
+66. 낯이 두껍다 > Be thick-skinned  
+67. 바가지를 긁다 > Nag endlessly  
+68. 바람을 맞다 > Be stood up  
+69. 처녀가 아이를 낳아도 할 말이 있다 > Even the impossible happens  
+70. 그림자도 밟지 않는다 > Treat with utmost respect  
+71. 송충이는 솔잎을 먹어야 한다 > Stick to what you know  
+72. 내 코가 석 자 > Have one's own problems to deal with  
+73. 눈살을 찌푸리다 > Frown in disapproval  
+74. 등잔 밑이 어둡다 > The answer is closer than you think  
+75. 개구리 올챙이 적 생각 못 한다 > Forget one’s humble beginnings  
+76. 꿀 먹은 벙어리 > Be unable to speak up  
+77. 낯이 익다 > Look familiar  
+78. 손을 떼다 > Pull out of something  
+79. 배보다 배꼽이 크다 > The cost outweighs the benefit  
+80. 서당 개 삼 년이면 풍월을 읊는다 > Practice makes perfect  
+81. 울고 싶은데 뺨 때린다 > Just needed an excuse to cry  
+82. 아는 길도 물어 가라 > Double-check even what you know  
+83. 세 살 버릇 여든까지 간다 > Old habits die hard  
+84. 호랑이도 제 말 하면 온다 > Speak of the devil  
+85. 개천에서 용 난다 > Rise from humble beginnings  
+86. 풀이 죽다 > Be discouraged  
+87. 화풀이하다 > Take out one’s anger  
+88. 발목 잡다 > Hold someone back  
+89. 파김치가 되다 > Be completely exhausted  
+90. 하늘 높은 줄 모른다 > Be arrogant or overconfident  
+91. 다 된 밥에 재 뿌리다 > Ruin something at the last moment  
+92. 늦게 배운 도둑질이 날 새는 줄 모른다 > Late-learned habits are hard to break  
+93. 불 보듯 뻔하다 > Be crystal clear  
+94. 발 벗고 나서다 > Take initiative enthusiastically  
+95. 마음이 가볍다 > Feel relieved  
+96. 속 편하게 살다 > Live without worries  
+97. 죽이 맞다 > Get along well  
+98. 콩깍지가 씌다 > Be blindly in love  
+99. 손이 크다 > Be generous  
+100. 도둑이 제 발 저리다 > A guilty conscience needs no accuser  

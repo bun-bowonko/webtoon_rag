@@ -1,0 +1,100 @@
+1. 가슴을 쓸어내리다 > To be relieved  
+2. 가슴이 찢어지다 > To be heartbroken  
+3. 간이 크다 > To be bold  
+4. 간담이 서늘하다 > To be terrified  
+5. 골머리를 앓다 > To be troubled  
+6. 국수를 먹다 > To get married  
+7. 귀가 번쩍 뜨이다 > To be startled by good news  
+8. 귀가 솔깃하다 > To be tempted  
+9. 귀에 못이 박히다 > To hear something repeatedly  
+10. 기가 막히다 > To be dumbfounded  
+11. 기가 죽다 > To lose confidence  
+12. 깨가 쏟아지다 > To be happily in love  
+13. 날개가 돋치다 > To sell like hotcakes  
+14. 눈 깜짝할 사이 > In the blink of an eye  
+15. 눈에 불을 켜다 > To be very eager  
+16. 눈코 뜰 새 없다 > To be extremely busy  
+17. 닳고 닳다 > To be very experienced  
+18. 도마 위에 오르다 > To be criticized  
+19. 등을 돌리다 > To turn one’s back on someone  
+20. 마음을 잡다 > To focus on something  
+21. 머리를 식히다 > To take a break  
+22. 물불을 가리지 않다 > To go all out  
+23. 바가지를 쓰다 > To be ripped off  
+24. 바람을 피우다 > To cheat on someone  
+25. 발 벗고 나서다 > To actively engage in something  
+26. 발을 맞추다 > To cooperate  
+27. 발이 넓다 > To have many connections  
+28. 벽을 허물다 > To break down barriers  
+29. 불 보듯 뻔하다 > To be obvious  
+30. 비행기를 태우다 > To flatter excessively  
+31. 사서 고생하다 > To bring trouble upon oneself  
+32. 손에 땀을 쥐다 > To be nervous  
+33. 손을 떼다 > To pull out of something  
+34. 손이 크다 > To be generous  
+35. 속을 태우다 > To be anxious  
+36. 시치미를 떼다 > To pretend not to know  
+37. 안성맞춤이다 > To be perfect for something  
+38. 어깨가 무겁다 > To feel burdened  
+39. 어깨를 으쓱이다 > To be proud  
+40. 얼굴이 두껍다 > To be shameless  
+41. 엉덩이가 무겁다 > To be sedentary  
+42. 오리발을 내밀다 > To feign ignorance  
+43. 입이 가볍다 > To be a blabbermouth  
+44. 입이 무겁다 > To be tight-lipped  
+45. 입에 풀칠하다 > To make a living  
+46. 작은 고추가 맵다 > Small but mighty  
+47. 잠을 설치다 > To have a restless night  
+48. 죽이 맞다 > To hit it off  
+49. 찬물을 끼얹다 > To dampen the mood  
+50. 찬바람이 불다 > To have a cold atmosphere  
+51. 코가 납작해지다 > To be humiliated  
+52. 코가 높다 > To be proud or haughty  
+53. 콧대가 세다 > To be stubborn  
+54. 티끌 모아 태산 > Many a little makes a mickle  
+55. 파김치가 되다 > To be exhausted  
+56. 피땀 흘리다 > To work extremely hard  
+57. 하늘이 무너지다 > To feel despair  
+58. 한눈을 팔다 > To be distracted  
+59. 한술 더 뜨다 > To make things worse  
+60. 허리를 굽히다 > To humble oneself  
+61. 허리를 펴다 > To relax  
+62. 허탕 치다 > To come up empty-handed  
+63. 혀를 내두르다 > To be astonished  
+64. 혀가 꼬부라지다 > To slur words (drunken)  
+65. 화를 돋우다 > To provoke anger  
+66. 가닥을 잡다 > To get the gist  
+67. 같은 배를 타다 > To be in the same boat  
+68. 걱정이 태산이다 > To be extremely worried  
+69. 고개를 숙이다 > To show humility  
+70. 국물이 좋다 > To have unexpected benefits  
+71. 그림의 떡 > A pie in the sky  
+72. 그림자가 어리다 > To be deeply affected  
+73. 금이 가다 > To have a crack in a relationship  
+74. 난다 긴다 하다 > To be outstanding  
+75. 날을 세우다 > To be aggressive  
+76. 내 코가 석 자 > To be in no position to help others  
+77. 눈치가 빠르다 > To be quick-witted  
+78. 다리를 놓다 > To mediate between people  
+79. 덜미를 잡히다 > To get caught  
+80. 도토리 키 재기 > A trivial difference  
+81. 뜬구름을 잡다 > To chase fantasies  
+82. 마음을 비우다 > To let go of greed  
+83. 머리가 굳다 > To be slow-witted  
+84. 무릎을 꿇다 > To surrender  
+85. 발등에 불이 떨어지다 > To be in urgent need  
+86. 배가 등에 붙다 > To be extremely hungry  
+87. 본때를 보이다 > To teach a lesson  
+88. 불꽃이 튀다 > To be fiercely competitive  
+89. 살을 빼다 > To lose weight  
+90. 선을 긋다 > To set clear boundaries  
+91. 속을 긁다 > To irritate someone  
+92. 앉아서 떡 먹기 > Piece of cake  
+93. 애를 먹다 > To struggle  
+94. 엎어지면 코 닿을 거리 > A short distance away  
+95. 우물 안 개구리 > A frog in a well  
+96. 윗물이 맑아야 아랫물이 맑다 > Good leadership ensures integrity  
+97. 입만 살다 > To be all talk  
+98. 죽도 밥도 안 되다 > Neither here nor there  
+99. 짚신도 짝이 있다 > There’s someone for everyone  
+100. 찬밥 신세 > To be neglected

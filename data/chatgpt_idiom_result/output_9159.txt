@@ -1,0 +1,100 @@
+1. 눈코 뜰 새 없다 > Be extremely busy  
+2. 손을 놓다 > Stop working on something  
+3. 귀가 얇다 > Be easily influenced  
+4. 입이 무겁다 > Be good at keeping secrets  
+5. 입이 가볍다 > Have a big mouth  
+6. 발이 넓다 > Have a wide network  
+7. 발목을 잡다 > Hold someone back  
+8. 간이 크다 > Be very bold  
+9. 간이 작다 > Be timid  
+10. 가슴이 찢어지다 > Be heartbroken  
+11. 눈이 높다 > Have high standards  
+12. 눈에 불을 켜다 > Focus intensely  
+13. 귀를 기울이다 > Listen carefully  
+14. 머리를 맞대다 > Brainstorm together  
+15. 머리를 식히다 > Take a mental break  
+16. 이가 갈리다 > Be seething with anger  
+17. 얼굴이 두껍다 > Be shameless  
+18. 손을 잡다 > Cooperate  
+19. 손을 씻다 > Quit wrongdoing  
+20. 엉덩이가 가볍다 > Be restless  
+21. 엉덩이가 무겁다 > Stay in one place for a long time  
+22. 등에 업다 > Take advantage of  
+23. 허리를 굽히다 > Be humble  
+24. 허리가 휘다 > Struggle financially  
+25. 피땀 흘리다 > Work hard  
+26. 배가 아프다 > Be jealous  
+27. 등을 돌리다 > Turn one’s back on  
+28. 살을 빼다 > Lose weight  
+29. 기가 죽다 > Feel discouraged  
+30. 물불 안 가리다 > Do anything recklessly  
+31. 바가지를 쓰다 > Get ripped off  
+32. 바가지를 긁다 > Nag excessively  
+33. 바람을 맞다 > Be stood up  
+34. 손이 크다 > Be very generous  
+35. 손이 작다 > Be frugal  
+36. 마음을 비우다 > Let go of greed  
+37. 기가 막히다 > Be dumbfounded  
+38. 고개를 끄덕이다 > Nod in agreement  
+39. 고개를 젓다 > Shake head in disagreement  
+40. 가슴이 뭉클하다 > Be emotionally touched  
+41. 가슴을 쓸어내리다 > Feel relieved  
+42. 가슴에 못을 박다 > Hurt someone deeply  
+43. 시치미를 떼다 > Pretend innocence  
+44. 코를 빠뜨리다 > Make a big mistake  
+45. 코가 납작해지다 > Be humiliated  
+46. 팔을 걷어붙이다 > Get ready to work  
+47. 어깨를 으쓱하다 > Shrug in indifference  
+48. 손을 떼다 > Withdraw from something  
+49. 입에 침이 마르다 > Praise excessively  
+50. 목을 축이다 > Quench one’s thirst  
+51. 몸을 사리다 > Avoid taking risks  
+52. 눈을 감다 > Overlook a mistake  
+53. 물 만난 고기 > Thrive in a good environment  
+54. 불 난 집에 부채질하다 > Make matters worse  
+55. 밥 먹듯 하다 > Do something frequently  
+56. 찬물을 끼얹다 > Discourage someone  
+57. 구슬이 서 말이라도 꿰어야 보배 > Effort is necessary to achieve value  
+58. 꿩 대신 닭 > Settle for something less  
+59. 금강산도 식후경 > Eating comes first  
+60. 티끌 모아 태산 > Small savings add up  
+61. 땅 짚고 헤엄치기 > Something very easy  
+62. 서당 개 삼 년이면 풍월을 읊는다 > Experience leads to knowledge  
+63. 제 버릇 개 못 준다 > Old habits die hard  
+64. 우물 안 개구리 > A narrow-minded person  
+65. 쥐구멍에도 볕 들 날 있다 > Everyone has good days  
+66. 열 길 물속은 알아도 한 길 사람 속은 모른다 > People's minds are unpredictable  
+67. 떡 줄 사람은 꿈도 안 꾸는데 김칫국부터 마신다 > Assume success too soon  
+68. 하늘이 무너져도 솟아날 구멍은 있다 > There’s always a way out  
+69. 호랑이도 제 말 하면 온다 > Speak of the devil  
+70. 남의 떡이 더 커 보인다 > Grass is always greener on the other side  
+71. 하룻강아지 범 무서운 줄 모른다 > Ignorance is fearless  
+72. 말 한마디에 천냥 빚도 갚는다 > Words have great value  
+73. 마른하늘에 날벼락 > An unexpected disaster  
+74. 가는 말이 고와야 오는 말이 곱다 > Treat others well to be treated well  
+75. 내 코가 석 자 > Too busy with one’s own problems  
+76. 빛 좋은 개살구 > Looks better than reality  
+77. 눈 가리고 아웅 > Pretend not to know  
+78. 뒷북 치다 > Talk about something too late  
+79. 싼 게 비지떡 > Cheap things lack quality  
+80. 누워서 침 뱉기 > Self-harming action  
+81. 김칫국부터 마시다 > Celebrate too early  
+82. 도토리 키 재기 > A meaningless comparison  
+83. 식은 죽 먹기 > A piece of cake  
+84. 하늘의 별 따기 > Almost impossible  
+85. 개천에서 용 난다 > A great person from a humble start  
+86. 꿀 먹은 벙어리 > To be mute intentionally  
+87. 달면 삼키고 쓰면 뱉는다 > Be opportunistic  
+88. 아닌 밤중에 홍두깨 > Something unexpected  
+89. 엎질러진 물 > No way to reverse the past  
+90. 울며 겨자 먹기 > Do something reluctantly  
+91. 물에 빠진 놈 건져 놓으니 보따리 내놓으라 한다 > Be ungrateful  
+92. 산 넘어 산 > One problem after another  
+93. 새 발의 피 > A very minor thing  
+94. 될성부른 나무는 떡잎부터 알아본다 > Future success shows early  
+95. 닭 잡아먹고 오리발 내민다 > Cover up a wrongdoing  
+96. 개미 구멍이 둑을 무너뜨린다 > Small mistakes lead to big consequences  
+97. 쇠귀에 경 읽기 > Waste efforts on someone indifferent  
+98. 가재는 게 편 > People stick with their kind  
+99. 과부 사정은 홀아비가 안다 > Only those in the same situation understand  
+100. 배보다 배꼽이 더 크다 > Extra costs exceed the main expense  

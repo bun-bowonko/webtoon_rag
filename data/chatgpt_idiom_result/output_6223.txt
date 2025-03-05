@@ -1,0 +1,100 @@
+1. 가슴이 찡하다 > Heartfelt  
+2. 가슴이 답답하다 > Feel suffocated  
+3. 가슴이 철렁하다 > Heart sinks  
+4. 가슴을 치다 > Regret deeply  
+5. 간이 크다 > Fearless  
+6. 간이 작다 > Cowardly  
+7. 골치 아프다 > Headache (troublesome)  
+8. 기가 막히다 > Unbelievable  
+9. 기를 펴다 > Gain confidence  
+10. 귀에 못이 박히다 > Hear repeatedly  
+11. 귀가 얇다 > Easily swayed  
+12. 귀가 솔깃하다 > Tempted  
+13. 꼬리를 밟히다 > Get caught  
+14. 다리에 힘이 풀리다 > Legs give out  
+15. 등을 돌리다 > Turn one's back  
+16. 말이 씨가 된다 > Words become reality  
+17. 모르는 게 약이다 > Ignorance is bliss  
+18. 물불을 가리지 않다 > Go all out  
+19. 바가지를 쓰다 > Be overcharged  
+20. 바가지를 긁다 > Nag persistently  
+21. 바람을 피우다 > Cheat (on partner)  
+22. 배가 아프다 > Envious  
+23. 변덕이 죽 끓듯 하다 > Very fickle  
+24. 뼈 빠지게 일하다 > Work to the bone  
+25. 살이 찌다 > Gain weight  
+26. 살이 빠지다 > Lose weight  
+27. 손을 떼다 > Withdraw from something  
+28. 손을 끊다 > Cut ties  
+29. 손발이 맞다 > Be in sync  
+30. 숨이 막히다 > Feel suffocated  
+31. 시치미를 떼다 > Pretend innocence  
+32. 어깨가 무겁다 > Feel burdened  
+33. 어깨가 으쓱하다 > Feel proud  
+34. 얼굴이 두껍다 > Shameless  
+35. 얼굴이 반쪽이 되다 > Look unhealthy  
+36. 엎친 데 덮치다 > Add insult to injury  
+37. 입이 무겁다 > Keep secrets well  
+38. 입이 가볍다 > Talk too much  
+39. 입을 모으다 > Agree together  
+40. 쥐도 새도 모르게 > Secretly  
+41. 코가 납작해지다 > Lose face  
+42. 코앞에 닥치다 > Right before one’s eyes  
+43. 큰소리를 치다 > Boast  
+44. 파김치가 되다 > Be exhausted  
+45. 한눈을 팔다 > Get distracted  
+46. 하늘이 무너져도 솟아날 구멍은 있다 > Every cloud has a silver lining  
+47. 허리가 휘다 > Financial burden  
+48. 허파에 바람이 들다 > Be overly excited  
+49. 혀를 차다 > Click one's tongue (disapproving)  
+50. 호랑이도 제 말 하면 온다 > Speak of the devil  
+51. 눈 감아 주다 > Overlook  
+52. 눈썹을 찌푸리다 > Frown  
+53. 눈앞이 캄캄하다 > Feel hopeless  
+54. 눈에 익다 > Look familiar  
+55. 눈을 붙이다 > Take a nap  
+56. 눈에서 멀어지면 마음에서도 멀어진다 > Out of sight, out of mind  
+57. 동문서답하다 > Give an irrelevant answer  
+58. 뜸을 들이다 > Hesitate before action  
+59. 물 만난 고기 > In one's element  
+60. 믿는 도끼에 발등 찍힌다 > Backstabbed by a trusted one  
+61. 바늘 도둑이 소 도둑 된다 > Small sins lead to bigger crimes  
+62. 벼는 익을수록 고개를 숙인다 > Humility grows with wisdom  
+63. 불 보듯 뻔하다 > Extremely obvious  
+64. 서당 개 삼 년이면 풍월을 읊는다 > Practice makes perfect  
+65. 세 살 버릇 여든까지 간다 > Habits last a lifetime  
+66. 싼 게 비지떡 > You get what you pay for  
+67. 아는 길도 물어 가라 > Double-check even what you know  
+68. 아쉬운 대로 > Make do with  
+69. 아닌 밤중에 홍두깨 > Completely unexpected  
+70. 언 발에 오줌 누기 > A temporary fix  
+71. 열 길 물속은 알아도 한 길 사람 속은 모른다 > People are unpredictable  
+72. 오리발 내밀다 > Feign innocence  
+73. 우물 안 개구리 > Narrow-minded person  
+74. 울며 겨자 먹기 > Forced to do something unpleasant  
+75. 젊어서 고생은 사서도 한다 > Hardships in youth are beneficial  
+76. 제 눈에 안경 > Beauty is in the eye of the beholder  
+77. 초록은 동색 > Birds of a feather flock together  
+78. 티끌 모아 태산 > Every little helps  
+79. 팔은 안으로 굽는다 > Favor one's own  
+80. 하룻강아지 범 무서운 줄 모른다 > Ignorance is fearless  
+81. 호랑이도 밤에는 제 말 하면 온다 > Talk of the devil at night  
+82. 같은 값이면 다홍치마 > Given a choice, pick the better option  
+83. 공든 탑이 무너지랴 > Hard work pays off  
+84. 똥 묻은 개가 겨 묻은 개 나무란다 > Hypocrite  
+85. 말 한마디에 천 냥 빚 갚는다 > Words have power  
+86. 밑 빠진 독에 물 붓기 > A futile effort  
+87. 벼룩의 간을 내먹는다 > Exploiting the weak  
+88. 보기 좋은 떡이 먹기도 좋다 > Attractive things are desirable  
+89. 하늘의 별 따기 > Nearly impossible  
+90. 닭 잡아먹고 오리발 내밀다 > Feign innocence after wrongdoing  
+91. 여우 같은 마누라 > Clever wife  
+92. 남의 떡이 더 커 보인다 > The grass is greener  
+93. 게 눈 감추듯 > Disappear quickly  
+94. 꿩 먹고 알 먹기 > Kill two birds with one stone  
+95. 첫 단추를 잘 끼워야 한다 > A good start is crucial  
+96. 감나무 아래서 입 벌리고 있다 > Waiting without effort  
+97. 길고 짧은 것은 대봐야 안다 > Can't judge until the end  
+98. 구슬이 서 말이라도 꿰어야 보배 > Effort is needed for value  
+99. 낮말은 새가 듣고 밤말은 쥐가 듣는다 > Be careful what you say  
+100. 병 주고 약 준다 > Cause harm and pretend to help

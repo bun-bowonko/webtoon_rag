@@ -1,0 +1,102 @@
+1. 가슴이 찡하다 > Feel deeply touched  
+2. 가슴이 답답하다 > Feel suffocated/frustrated  
+3. 가슴이 내려앉다 > Feel startled/shocked  
+4. 가슴을 치다 > Express deep regret  
+5. 가슴에 맺히다 > Hold deep resentment  
+6. 가슴을 울리다 > Touch the heart  
+7. 간이 크다 > Be daring/brave  
+8. 간이 작다 > Be timid  
+9. 간이 떨리다 > Be nervous  
+10. 간담이 서늘하다 > Be horrified  
+11. 간이 붓다 > Act recklessly without fear  
+12. 고개를 갸웃하다 > Tilt one’s head in doubt  
+13. 고개를 숙이다 > Bow in shame/respect  
+14. 골치 아프다 > Have a headache (troublesome)  
+15. 국수를 먹다 > Attend a wedding  
+16. 귀가 얇다 > Be gullible  
+17. 귀에 들어가다 > Be informed  
+18. 귀에 못이 박히다 > Hear something repeatedly  
+19. 귓등으로 듣다 > Ignore what is being said  
+20. 기가 막히다 > Be dumbfounded  
+21. 기가 죽다 > Feel intimidated  
+22. 기를 죽이다 > Discourage someone  
+23. 긴장을 늦추다 > Let one’s guard down  
+24. 낯을 가리다 > Be shy with strangers  
+25. 눈 깜짝할 사이에 > In the blink of an eye  
+26. 눈살을 찌푸리다 > Frown in displeasure  
+27. 눈 하나 깜짝하지 않다 > Stay unfazed  
+28. 눈에 넣어도 아프지 않다 > Love dearly  
+29. 눈에 불을 켜다 > Be eager about something  
+30. 눈에서 멀어지면 마음도 멀어진다 > Out of sight, out of mind  
+31. 눈을 의심하다 > Doubt one’s eyes  
+32. 눈코 뜰 새 없다 > Be extremely busy  
+33. 다리를 놓다 > Mediate a situation  
+34. 다리를 뻗고 자다 > Sleep with peace of mind  
+35. 돼지 꿈을 꾸다 > Dream of pigs (good luck)  
+36. 등을 돌리다 > Turn one’s back (betray)  
+37. 등이 따갑다 > Feel someone’s gaze intensely  
+38. 머리를 쓰다 > Use one’s brain  
+39. 머리를 흔들다 > Shake one’s head in disagreement  
+40. 몸을 사리다 > Avoid risks  
+41. 무릎을 치다 > Slap one’s knee (Eureka moment)  
+42. 바람을 피우다 > Cheat in a relationship  
+43. 발 벗고 나서다 > Act proactively  
+44. 발을 빼다 > Withdraw from something   
+45. 발이 묶이다 > Be stuck (unable to move)  
+46. 벽에 부딪히다 > Hit a wall (face obstacles)  
+47. 뼈를 깎다 > Make a great sacrifice  
+48. 뼈저리게 느끼다 > Feel deeply/regret deeply  
+49. 비행기를 태우다 > Flatter excessively  
+50. 사족을 못 쓰다 > Be obsessed with something  
+51. 사고를 치다 > Make trouble  
+52. 살이 빠지다 > Lose weight  
+53. 새 발의 피 > A drop in the bucket  
+54. 서슴지 않다 > Act without hesitation  
+55. 속을 태우다 > Worry excessively  
+56. 술이 깨다 > Sober up  
+57. 시치미를 떼다 > Feign ignorance  
+58. 심장이 철렁하다 > Feel sudden fear/anxiety  
+59. 아는 길도 물어가라 > Double-check even familiar paths  
+60. 애를 쓰다 > Make an effort  
+61. 어깨가 무겁다 > Feel responsibility/burden  
+62. 어깨를 으쓱하다 > Shrug one’s shoulders (proud)  
+63. 얼굴이 두껍다 > Be shameless  
+64. 엉덩이가 무겁다 > Stay in one place for a long time  
+65. 오금이 저리다 > Feel shaky/nervous  
+66. 입을 모으다 > Have a consensus  
+67. 입에 맞다 > Suit one’s taste  
+68. 입이 가볍다 > Be talkative (can’t keep secrets)  
+69. 입이 무겁다 > Keep secrets well  
+70. 잘난 척하다 > Act arrogant  
+71. 잠을 설치다 > Have a restless sleep  
+72. 쥐도 새도 모르게 > Without anyone noticing  
+73. 줄행랑을 치다 > Run away hastily  
+74. 진땀을 흘리다 > Sweat anxiously  
+75. 찬물을 끼얹다 > Pour cold water (discourage)  
+76. 책을 잡다 > Find fault in something  
+77. 첫발을 떼다 > Take the first step  
+78. 콧대가 높다 > Be arrogant  
+79. 콧방귀를 뀌다 > Snort in disbelief  
+80. 큰 코 다치다 > Get badly hurt (fail miserably)  
+81. 파김치가 되다 > Be exhausted  
+82. 풀이 죽다 > Be discouraged  
+83. 하늘이 노랗다 > Feel dizzy/shocked  
+84. 허리가 휘다 > Be financially burdened  
+85. 허리를 굽히다 > Bow in humility  
+86. 허리띠를 졸라매다 > Tighten one’s belt (save money)  
+87. 헛다리를 짚다 > Bark up the wrong tree  
+88. 혼을 내다 > Scold someone  
+89. 화를 돋우다 > Provoke anger  
+90. 회가 동하다 > Crave sashimi (figuratively crave something)  
+91. 힘을 빼다 > Lose strength/give up  
+92. 한 치 앞을 못 보다 > Be shortsighted  
+93. 작은 고추가 더 맵다 > Small but mighty  
+94. 입을 씻다 > Take everything without sharing  
+95. 목에 힘을 주다 > Act proud/arrogant  
+96. 이가 갈리다 > Bear a grudge  
+97. 삽질하다 > Waste effort  
+98. 바가지 쓰다 > Be overcharged  
+99. 사서 고생하다 > Go looking for trouble  
+100. 말꼬리를 잡다 > Nitpick over words  
+
+이렇게 100개의 한국어 관용표현과 그 의미를 영어로 번역한 표현을 정리해 봤어! 😊

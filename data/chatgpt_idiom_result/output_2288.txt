@@ -1,0 +1,102 @@
+1. 입이 무겁다 > Tight-lipped  
+2. 입이 가볍다 > Talkative  
+3. 귀가 얇다 > Gullible  
+4. 손이 크다 > Generous  
+5. 발이 넓다 > Well-connected  
+6. 눈이 높다 > Picky  
+7. 코가 납작해지다 > Be humiliated  
+8. 귀에 못이 박히다 > Hear something repeatedly  
+9. 가슴을 치다 > Regret deeply  
+10. 속을 태우다 > Worry a lot  
+11. 등을 돌리다 > Turn one’s back on  
+12. 쌀쌀맞다 > Cold-hearted  
+13. 시치미를 떼다 > Pretend innocence  
+14. 손을 씻다 > Quit wrongdoing  
+15. 발이 묶이다 > Be stuck  
+16. 한눈팔다 > Get distracted  
+17. 한술 더 뜨다 > Make things worse  
+18. 물불을 가리지 않다 > Be reckless  
+19. 바가지를 쓰다 > Be ripped off  
+20. 머리를 맞대다 > Work together  
+21. 가슴이 답답하다 > Feel frustrated  
+22. 발목을 잡히다 > Be held back  
+23. 등을 밀어주다 > Support someone  
+24. 눈코 뜰 새 없다 > Be extremely busy  
+25. 입에 침이 마르다 > Praise excessively  
+26. 목이 타다 > Feel thirsty  
+27. 도끼눈을 뜨다 > Stare angrily  
+28. 가슴이 철렁하다 > Feel a sudden shock  
+29. 골머리를 앓다 > Struggle with a problem  
+30. 담을 쌓다 > Cut off relations  
+31. 쥐죽은 듯 조용하다 > Be dead silent  
+32. 허리띠를 졸라매다 > Tighten one’s belt  
+33. 기가 죽다 > Lose confidence  
+34. 가닥을 잡다 > Find direction  
+35. 얼굴이 두껍다 > Be shameless  
+36. 눈 깜짝할 사이 > In the blink of an eye  
+37. 벽에 부딪히다 > Hit a dead end  
+38. 물 만난 물고기 > Be in one’s element  
+39. 찬물을 끼얹다 > Discourage someone  
+40. 신경을 쓰다 > Pay attention  
+41. 거품이 끼다 > Be overpriced  
+42. 발을 담그다 > Get involved  
+43. 불 난 집에 부채질하다 > Make things worse  
+44. 손바닥 뒤집듯 하다 > Change easily  
+45. 손발이 맞다 > Work in harmony  
+46. 싼 게 비지떡이다 > Cheap things are low quality  
+47. 눈엣가시 > Thorn in one’s eye  
+48. 낯이 익다 > Look familiar  
+49. 사서 고생하다 > Make unnecessary trouble  
+50. 하늘이 무너지다 > Feel devastated  
+51. 찬바람이 불다 > Be unwelcoming  
+52. 허리를 굽히다 > Show humility  
+53. 한눈에 반하다 > Fall in love at first sight  
+54. 바늘구멍 통과하기 > Nearly impossible  
+55. 무릎을 치다 > Have a sudden realization  
+56. 얼굴이 피다 > Look healthier  
+57. 눈물바다 > Sea of tears  
+58. 뚜껑을 열어보다 > See the results  
+59. 머리를 식히다 > Take a break  
+60. 입을 다물다 > Stay silent  
+61. 바람을 피우다 > Cheat on someone  
+62. 간이 크다 > Be fearless  
+63. 간이 작다 > Be timid  
+64. 배가 아프다 > Feel jealous  
+65. 배보다 배꼽이 크다 > The minor thing costs more  
+66. 엎질러진 물 > No use crying over spilt milk  
+67. 파리 날리다 > Have no customers  
+68. 얼굴이 반쪽이 되다 > Look exhausted  
+69. 손꼽아 기다리다 > Eagerly wait  
+70. 날개가 돋치다 > Sell out fast  
+71. 귀를 기울이다 > Listen attentively  
+72. 발을 끊다 > Cut off visits  
+73. 목을 빼고 기다리다 > Wait anxiously  
+74. 화끈거리다 > Feel embarrassed  
+75. 주머니가 가볍다 > Be broke  
+76. 티끌 모아 태산 > Small savings add up  
+77. 마음이 굴뚝같다 > Strongly desire  
+78. 벼락치기 > Cramming  
+79. 마음을 졸이다 > Be nervous  
+80. 가슴이 벅차다 > Feel overwhelmed  
+81. 손에 땀을 쥐다 > Be on edge  
+82. 눈앞이 캄캄하다 > Feel hopeless  
+83. 등을 떠밀다 > Pressure someone  
+84. 미운 털이 박히다 > Be disliked  
+85. 발등에 불이 떨어지다 > Be in urgent trouble  
+86. 진땀을 빼다 > Sweat nervously  
+87. 바닥을 기다 > Hit rock bottom  
+88. 밑도 끝도 없다 > Make no sense  
+89. 생각이 짧다 > Be thoughtless  
+90. 골탕을 먹다 > Get tricked  
+91. 뼈를 깎다 > Make a painful effort  
+92. 눈살을 찌푸리다 > Frown in disapproval  
+93. 각광을 받다 > Be in the spotlight  
+94. 손사래를 치다 > Refuse firmly  
+95. 함흥차사 > No reply at all  
+96. 첫발을 떼다 > Take the first step  
+97. 내 코가 석 자다 > Have own problems  
+98. 발 벗고 나서다 > Take initiative  
+99. 코웃음을 치다 > Laugh scornfully  
+100. 꾸중을 듣다 > Get scolded  
+
+이렇게 100개의 한국어 관용 표현과 짧은 영어 번역을 만들어 보았어. 도움이 되었길 바라! 😊

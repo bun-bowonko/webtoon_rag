@@ -1,0 +1,100 @@
+1. 간이 크다 > Be very bold  
+2. 간이 작다 > Be timid  
+3. 가슴이 찡하다 > Be deeply moved  
+4. 가슴을 치다 > Regret deeply  
+5. 고개를 들다 > Regain confidence  
+6. 고개를 숙이다 > Feel ashamed  
+7. 귀가 얇다 > Be gullible  
+8. 귀를 기울이다 > Listen attentively  
+9. 기가 죽다 > Lose confidence  
+10. 기를 펴다 > Be confident  
+11. 뒷북을 치다 > State the obvious  
+12. 눈 감아주다 > Overlook a mistake  
+13. 눈이 높다 > Have high standards  
+14. 눈이 빠지게 기다리다 > Wait anxiously  
+15. 눈코 뜰 새 없다 > Be extremely busy  
+16. 다리를 놓다 > Mediate between people  
+17. 머리를 맞대다 > Work together  
+18. 머리를 쓰다 > Use one’s brain  
+19. 목을 축이다 > Quench one’s thirst  
+20. 물 불 가리지 않다 > Do anything regardless of risk  
+21. 발 벗고 나서다 > Take initiative actively  
+22. 발등에 불이 떨어지다 > Be in urgent trouble  
+23. 발이 넓다 > Have a wide network  
+24. 벽을 허물다 > Break down barriers  
+25. 뼈 빠지게 일하다 > Work to the bone  
+26. 색안경을 끼고 보다 > See with prejudice  
+27. 속을 태우다 > Worry deeply  
+28. 속이 시원하다 > Feel relieved  
+29. 속이 터지다 > Be frustrated  
+30. 손에 땀을 쥐다 > Be on the edge of one's seat  
+31. 손을 내밀다 > Offer help  
+32. 손을 놓다 > Stop working on something  
+33. 손을 씻다 > Quit wrongdoing  
+34. 손을 잡다 > Cooperate  
+35. 숨이 트이다 > Feel relieved  
+36. 시치미를 떼다 > Pretend ignorance  
+37. 실마리를 찾다 > Find a clue  
+38. 앞뒤를 재다 > Weigh pros and cons  
+39. 알다가도 모를 일 > Something hard to understand  
+40. 애를 먹다 > Have a hard time  
+41. 어깨가 무겁다 > Feel responsibility  
+42. 어깨를 나란히 하다 > Stand shoulder to shoulder  
+43. 얼굴을 들다 > Gain confidence  
+44. 얼굴이 두껍다 > Be shameless  
+45. 입에 달고 살다 > Say something repeatedly  
+46. 입을 다물다 > Keep silent  
+47. 입을 모으다 > Agree unanimously  
+48. 입이 무겁다 > Be good at keeping secrets  
+49. 입이 가볍다 > Be talkative about secrets  
+50. 제 눈에 안경 > Beauty is in the eye of the beholder  
+51. 제 코가 석 자 > Have one's own problems  
+52. 쥐 죽은 듯이 조용하다 > Be extremely quiet  
+53. 찬물을 끼얹다 > Discourage suddenly  
+54. 첫 단추를 잘못 끼우다 > Start off on the wrong foot  
+55. 코가 납작해지다 > Be humiliated  
+56. 귀가 솔깃하다 > Be tempted by words  
+57. 티끌 모아 태산 > Every little bit adds up  
+58. 파김치가 되다 > Be exhausted  
+59. 팔짱을 끼고 보다 > Be indifferent  
+60. 하늘 높은 줄 모르다 > Be arrogant  
+61. 허리띠를 졸라매다 > Live frugally  
+62. 허를 찌르다 > Catch off guard  
+63. 혀를 내두르다 > Be astonished  
+64. 혼이 나가다 > Be mentally absent  
+65. 한눈을 팔다 > Be distracted  
+66. 등을 돌리다 > Turn one’s back on someone  
+67. 뒤가 구리다 > Have something to hide  
+68. 도마 위에 오르다 > Be under public criticism  
+69. 바람을 넣다 > Encourage excitedly  
+70. 바닥을 기다 > Hit rock bottom  
+71. 걸음을 맞추다 > Keep pace with someone  
+72. 무릎을 치다 > Realize suddenly  
+73. 머리를 식히다 > Cool down (mentally)  
+74. 난다 긴다 하다 > Be extremely talented  
+75. 말이 씨가 되다 > Words become reality  
+76. 죽이 맞다 > Get along well  
+77. 종잡을 수 없다 > Be unpredictable  
+78. 턱없이 부족하다 > Be ridiculously insufficient  
+79. 귀에 못이 박히다 > Hear something repeatedly  
+80. 얼굴을 붉히다 > Blush with anger  
+81. 살을 빼다 > Lose weight  
+82. 속이 깊다 > Be thoughtful  
+83. 앞뒤가 맞지 않다 > Be illogical  
+84. 오리발을 내밀다 > Play innocent  
+85. 입을 씻다 > Take credit sneakily  
+86. 피땀 흘리다 > Work extremely hard  
+87. 산 넘어 산 > One problem after another  
+88. 의지가 강하다 > Have strong will  
+89. 입이 마르게 칭찬하다 > Praise endlessly  
+90. 발목을 잡다 > Hold someone back  
+91. 엎친 데 덮친 격 > Misfortunes never come alone  
+92. 도끼눈을 뜨다 > Glare fiercely  
+93. 마음을 졸이다 > Be anxious  
+94. 눈앞이 캄캄하다 > Feel hopeless  
+95. 손을 데다 > Learn a painful lesson  
+96. 시선을 끌다 > Attract attention  
+97. 물거품이 되다 > Come to nothing  
+98. 심장이 철렁하다 > Feel one’s heart sink  
+99. 얼굴에 철판을 깔다 > Be shamelessly bold  
+100. 겁에 질리다 > Be scared stiff  

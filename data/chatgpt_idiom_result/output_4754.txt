@@ -1,0 +1,100 @@
+1. 가는 날이 장날 > Bad timing  
+2. 간이 크다 > Courageous  
+3. 간이 작다 > Timid  
+4. 귀가 얇다 > Gullible  
+5. 귀를 기울이다 > Listen carefully  
+6. 기가 막히다 > Unbelievable  
+7. 눈이 높다 > Picky  
+8. 눈이 빠지도록 기다리다 > Wait anxiously  
+9. 다리가 길다 > Lucky (in getting extra food/drinks)  
+10. 머리를 쓰다 > Think hard  
+11. 바가지를 긁다 > Nagging  
+12. 바가지를 쓰다 > Overcharged  
+13. 발 벗고 나서다 > Take initiative  
+14. 발이 넓다 > Well-connected  
+15. 배가 아프다 > Jealous  
+16. 배를 잡다 > Laugh hard  
+17. 속이 시원하다 > Feel relieved  
+18. 손을 씻다 > Quit doing something (usually bad)  
+19. 손을 내밀다 > Offer help  
+20. 손이 크다 > Generous  
+21. 입이 무겁다 > Keep secrets well  
+22. 입이 가볍다 > Talkative, can’t keep secrets  
+23. 입에 달고 살다 > Eat something very often  
+24. 입에 발린 말을 하다 > Flatter  
+25. 코를 찡긋하다 > Show slight annoyance  
+26. 코가 납작해지다 > Humiliated  
+27. 귀를 의심하다 > Can't believe what one hears  
+28. 진땀을 빼다 > Sweat from nervousness  
+29. 바늘 가는 데 실 간다 > Inseparable relationship  
+30. 빛 좋은 개살구 > Something looks good but isn’t  
+31. 호랑이도 제 말 하면 온다 > Speak of the devil  
+32. 식은 죽 먹기 > Piece of cake  
+33. 누워서 떡 먹기 > Very easy task  
+34. 가재는 게 편 > Like supports like  
+35. 울며 겨자 먹기 > Do something reluctantly  
+36. 떡 본 김에 제사 지낸다 > Take advantage of an opportunity  
+37. 도둑이 제 발 저리다 > Feeling guilty  
+38. 날개가 돋친 듯하다 > Selling like hotcakes  
+39. 눈 깜짝할 사이 > In the blink of an eye  
+40. 병 주고 약 준다 > Cause harm and pretend to help  
+41. 사서 고생하다 > Make life harder than necessary  
+42. 싼 게 비지떡 > You get what you pay for  
+43. 호랑이 담배 피우던 시절 > A long time ago  
+44. 그림의 떡 > Pie in the sky  
+45. 금강산도 식후경 > Eating comes first  
+46. 꿩 먹고 알 먹기 > Kill two birds with one stone  
+47. 가는 말이 고와야 오는 말이 곱다 > Treat others well for good response  
+48. 산 넘어 산 > One problem after another  
+49. 개천에서 용 난다 > A genius from a poor background  
+50. 김칫국부터 마신다 > Counting chickens before they hatch  
+51. 세 살 버릇 여든까지 간다 > Old habits die hard  
+52. 식구가 많으면 찬밥 신세 > The overlooked one in a large group  
+53. 윗물이 맑아야 아랫물이 맑다 > Leaders' behavior affects followers  
+54. 물 만난 고기 > Thriving in a good environment  
+55. 찬물도 위아래가 있다 > Respect hierarchy  
+56. 꼬리를 감추다 > Hide oneself  
+57. 꼬리를 밟히다 > Get caught  
+58. 똥 묻은 개가 겨 묻은 개 나무란다 > A hypocrite  
+59. 누워서 침 뱉기 > Self-defeating action  
+60. 가랑비에 옷 젖는 줄 모른다 > Small things accumulate  
+61. 돌다리도 두들겨 보고 건너라 > Be cautious  
+62. 오지랖이 넓다 > Nosy  
+63. 간에 기별도 안 간다 > Too little food to notice  
+64. 낯이 두껍다 > Shameless  
+65. 낯 익다 > Looks familiar  
+66. 사공이 많으면 배가 산으로 간다 > Too many cooks spoil the broth  
+67. 팔은 안으로 굽는다 > Favoring one's own group  
+68. 얼굴이 두껍다 > Brazen, shameless  
+69. 엎질러진 물 > No turning back  
+70. 우물 안 개구리 > Narrow-minded person  
+71. 원숭이도 나무에서 떨어진다 > Even experts make mistakes  
+72. 등잔 밑이 어둡다 > Overlooking what's nearby  
+73. 식은땀을 흘리다 > Sweating from nervousness  
+74. 바람을 피우다 > Cheat (on a partner)  
+75. 바람을 맞다 > Stood up (by someone)  
+76. 비 온 뒤에 땅이 굳어진다 > Hardships make you stronger  
+77. 내 코가 석 자 > Busy with one's own problems  
+78. 이 잡듯이 찾다 > Searching thoroughly  
+79. 강 건너 불구경 > Indifferent to others' problems  
+80. 까마귀 날자 배 떨어진다 > Coincidence  
+81. 꿀 먹은 벙어리 > Speechless  
+82. 부화뇌동하다 > Follow others blindly  
+83. 낙숫물이 댓돌 뚫는다 > Persistence pays off  
+84. 호박씨를 까다 > Talk behind one's back  
+85. 쥐구멍에도 볕 들 날 있다 > Everyone gets their chance  
+86. 굴러 들어온 돌이 박힌 돌 뺀다 > A newcomer replaces the old one  
+87. 뛰는 놈 위에 나는 놈 있다 > There's always someone better  
+88. 달도 차면 기운다 > Nothing lasts forever  
+89. 초지일관하다 > Stay consistent  
+90. 낮말은 새가 듣고 밤말은 쥐가 듣는다 > Walls have ears  
+91. 옷이 날개다 > Clothes make the man  
+92. 종로에서 뺨 맞고 한강에서 화풀이한다 > Misplaced anger  
+93. 갈수록 태산 > Things keep getting harder  
+94. 고양이 목에 방울 달기 > Easy to say, hard to do  
+95. 떡 줄 사람은 생각도 안 한다 > Wishing for the impossible  
+96. 백지장도 맞들면 낫다 > Teamwork makes it easier  
+97. 늦게 배운 도둑질이 날 새는 줄 모른다 > Excited about a new habit  
+98. 제 눈에 안경 > Beauty is in the eye of the beholder  
+99. 하늘의 별 따기 > Nearly impossible  
+100. 사촌이 땅을 사면 배가 아프다 > Jealous of others' success  
