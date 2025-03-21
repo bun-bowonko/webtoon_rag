@@ -1,0 +1,9 @@
+python all_gpt.py \
+ --start_chapter_num 10 \
+ --end_chapter_num 10 \
+ --save_path data/simple_testset
+
+python all_gpt_idiom.py \
+ --start_chapter_num 11 \
+ --end_chapter_num 57 \
+ --save_path data/simple_testset

@@ -1,0 +1,270 @@
+{
+  "components": {
+    "comp-preprocess-data": {
+      "executorLabel": "exec-preprocess-data",
+      "inputDefinitions": {
+        "parameters": {
+          "input_csv": {
+            "parameterType": "STRING"
+          }
+        }
+      },
+      "outputDefinitions": {
+        "artifacts": {
+          "output_dataset": {
+            "artifactType": {
+              "schemaTitle": "system.Dataset",
+              "schemaVersion": "0.0.1"
+            }
+          }
+        }
+      }
+    },
+    "comp-train-model": {
+      "executorLabel": "exec-train-model",
+      "inputDefinitions": {
+        "artifacts": {
+          "input_dataset": {
+            "artifactType": {
+              "schemaTitle": "system.Dataset",
+              "schemaVersion": "0.0.1"
+            }
+          }
+        },
+        "parameters": {
+          "base_output_directory": {
+            "defaultValue": "",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "display_name": {
+            "defaultValue": "train-model",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "enable_web_access": {
+            "defaultValue": false,
+            "isOptional": true,
+            "parameterType": "BOOLEAN"
+          },
+          "encryption_spec_key_name": {
+            "defaultValue": "",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "labels": {
+            "defaultValue": {},
+            "isOptional": true,
+            "parameterType": "STRUCT"
+          },
+          "location": {
+            "defaultValue": "{{$.pipeline_google_cloud_location}}",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "max_wait_duration": {
+            "defaultValue": "86400s",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "network": {
+            "defaultValue": "",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "persistent_resource_id": {
+            "defaultValue": "{{$.pipeline_persistent_resource_id}}",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "project": {
+            "defaultValue": "{{$.pipeline_google_cloud_project_id}}",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "reserved_ip_ranges": {
+            "defaultValue": [],
+            "isOptional": true,
+            "parameterType": "LIST"
+          },
+          "restart_job_on_worker_restart": {
+            "defaultValue": false,
+            "isOptional": true,
+            "parameterType": "BOOLEAN"
+          },
+          "service_account": {
+            "defaultValue": "",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "strategy": {
+            "defaultValue": "STANDARD",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "tensorboard": {
+            "defaultValue": "",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "timeout": {
+            "defaultValue": "604800s",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "worker_pool_specs": {
+            "defaultValue": [
+              {
+                "container_spec": {
+                  "args": [
+                    "--executor_input",
+                    "{{$.json_escape[1]}}",
+                    "--function_to_execute",
+                    "train_model"
+                  ],
+                  "command": [
+                    "sh",
+                    "-c",
+                    "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location 'kfp==2.10.1' '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&  python3 -m pip install --quiet --no-warn-script-location 'deepspeed' && \"$0\" \"$@\"\n",
+                    "sh",
+                    "-ec",
+                    "program_path=$(mktemp -d)\n\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\n_KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+                    "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import *\n\ndef train_model(input_dataset: Input[Dataset]):\n    import os\n    import torch\n\n    env = os.environ.copy()\n    env[\"CUDA_VISIBLE_DEVICES\"] = \"0,1\"  # GPU \uc124\uc815\n\n    import subprocess\n    gpu_nums = torch.cuda.device_count()\n    subprocess.run([\n        \"accelerate\", \"launch\",\n        \"--multi_gpu\", \"--mixed_precision\", \"fp16\", \"--num_processes\", str(gpu_nums),\n        \"/app/train_sub.py\",  # \ub7f0\ucc98 \uc2a4\ud06c\ub9bd\ud2b8\n        \"--input_dataset\", input_dataset.path,\n        \"--output_path\", \".bun-bucket-test1/outputs/llama3-8b/v12.2.1\",\n    ], check=True, env=env)\n\n"
+                  ],
+                  "env": [],
+                  "image_uri": "asia-northeast3-docker.pkg.dev/dev-ai-project-357507/bun-docker-repo/bun-gpu28:latest"
+                },
+                "disk_spec": {
+                  "boot_disk_size_gb": 100.0,
+                  "boot_disk_type": "pd-ssd"
+                },
+                "machine_spec": {
+                  "accelerator_count": 2.0,
+                  "accelerator_type": "NVIDIA_L4",
+                  "machine_type": "g2-standard-24"
+                },
+                "replica_count": 1.0
+              }
+            ],
+            "isOptional": true,
+            "parameterType": "LIST"
+          }
+        }
+      },
+      "outputDefinitions": {
+        "parameters": {
+          "gcp_resources": {
+            "parameterType": "STRING"
+          }
+        }
+      }
+    }
+  },
+  "deploymentSpec": {
+    "executors": {
+      "exec-preprocess-data": {
+        "container": {
+          "args": [
+            "--executor_input",
+            "{{$}}",
+            "--function_to_execute",
+            "preprocess_data"
+          ],
+          "command": [
+            "sh",
+            "-c",
+            "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location 'kfp==2.10.1' '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&  python3 -m pip install --quiet --no-warn-script-location 'gcsfs' && \"$0\" \"$@\"\n",
+            "sh",
+            "-ec",
+            "program_path=$(mktemp -d)\n\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\n_KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+            "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import *\n\ndef preprocess_data(input_csv: str, output_dataset: Output[Dataset]):\n    import torch\n    from datasets import load_dataset\n    from transformers import AutoTokenizer\n\n    BASE_MODEL = \"beomi/Llama-3-Open-Ko-8B\"\n    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)\n    tokenizer.padding_side = 'right'\n    tokenizer.pad_token = '<|reserved_special_token_0|>'\n\n    def generate_prompt(example):\n        dialog = example['dialog']\n        summarization = example['summarization']\n        prompt = \"<|begin_of_text|>\"\n        prompt += f\"<|start_header_id|>user<|end_header_id|>\\n\\n\uc544\ub798 \ubb38\uc7a5\uc744 \uc694\uc57d\ud574\uc8fc\uc138\uc694\\n\\n{dialog}<|eot_id|>\"\n        prompt += f\"<|start_header_id|>assistant<|end_header_id|>\\n\\n{summarization}<|end_of_text|>\"\n        example['prompt'] = prompt\n        return example\n\n    dataset = load_dataset(\"csv\", data_files=input_csv, split=\"train\")\n    transformed_dataset = dataset.map(generate_prompt)\n    tokenized_dataset = transformed_dataset.map(\n        lambda samples: tokenizer(\n            samples[\"prompt\"], add_special_tokens=False, max_length=1024,\n            padding=\"max_length\", truncation=True, return_tensors=\"pt\"\n        ),\n        batched=True\n    )\n\n    tokenized_dataset.to_json(output_dataset.path) #json\ud615\uc2dd\uc73c\ub85c \uc800\uc7a5\n    #tokenized_dataset.save_to_disk(output_dataset.path)\n\n"
+          ],
+          "image": "asia-northeast3-docker.pkg.dev/dev-ai-project-357507/bun-docker-repo/bun-docker:latest"
+        }
+      },
+      "exec-train-model": {
+        "container": {
+          "args": [
+            "--type",
+            "CustomJob",
+            "--payload",
+            "{\"display_name\": \"{{$.inputs.parameters['display_name']}}\", \"job_spec\": {\"worker_pool_specs\": {{$.inputs.parameters['worker_pool_specs']}}, \"scheduling\": {\"timeout\": \"{{$.inputs.parameters['timeout']}}\", \"restart_job_on_worker_restart\": {{$.inputs.parameters['restart_job_on_worker_restart']}}, \"strategy\": \"{{$.inputs.parameters['strategy']}}\", \"max_wait_duration\": \"{{$.inputs.parameters['max_wait_duration']}}\"}, \"service_account\": \"{{$.inputs.parameters['service_account']}}\", \"tensorboard\": \"{{$.inputs.parameters['tensorboard']}}\", \"enable_web_access\": {{$.inputs.parameters['enable_web_access']}}, \"network\": \"{{$.inputs.parameters['network']}}\", \"reserved_ip_ranges\": {{$.inputs.parameters['reserved_ip_ranges']}}, \"base_output_directory\": {\"output_uri_prefix\": \"{{$.inputs.parameters['base_output_directory']}}\"}, \"persistent_resource_id\": \"{{$.inputs.parameters['persistent_resource_id']}}\"}, \"labels\": {{$.inputs.parameters['labels']}}, \"encryption_spec\": {\"kms_key_name\": \"{{$.inputs.parameters['encryption_spec_key_name']}}\"}}",
+            "--project",
+            "{{$.inputs.parameters['project']}}",
+            "--location",
+            "{{$.inputs.parameters['location']}}",
+            "--gcp_resources",
+            "{{$.outputs.parameters['gcp_resources'].output_file}}"
+          ],
+          "command": [
+            "python3",
+            "-u",
+            "-m",
+            "google_cloud_pipeline_components.container.v1.custom_job.launcher"
+          ],
+          "image": "gcr.io/ml-pipeline/google-cloud-pipeline-components:2.19.0"
+        }
+      }
+    }
+  },
+  "pipelineInfo": {
+    "name": "llama3-training-pipeline"
+  },
+  "root": {
+    "dag": {
+      "tasks": {
+        "preprocess-data": {
+          "cachingOptions": {
+            "enableCache": true
+          },
+          "componentRef": {
+            "name": "comp-preprocess-data"
+          },
+          "inputs": {
+            "parameters": {
+              "input_csv": {
+                "componentInputParameter": "input_csv"
+              }
+            }
+          },
+          "taskInfo": {
+            "name": "preprocess-data"
+          }
+        },
+        "train-model": {
+          "cachingOptions": {
+            "enableCache": true
+          },
+          "componentRef": {
+            "name": "comp-train-model"
+          },
+          "dependentTasks": [
+            "preprocess-data"
+          ],
+          "inputs": {
+            "artifacts": {
+              "input_dataset": {
+                "taskOutputArtifact": {
+                  "outputArtifactKey": "output_dataset",
+                  "producerTask": "preprocess-data"
+                }
+              }
+            }
+          },
+          "taskInfo": {
+            "name": "train-model"
+          }
+        }
+      }
+    },
+    "inputDefinitions": {
+      "parameters": {
+        "input_csv": {
+          "parameterType": "STRING"
+        }
+      }
+    }
+  },
+  "schemaVersion": "2.1.0",
+  "sdkVersion": "kfp-2.10.1"
+}

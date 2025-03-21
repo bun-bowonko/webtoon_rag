@@ -1,4 +1,5 @@
 model/
+embed_vector/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
