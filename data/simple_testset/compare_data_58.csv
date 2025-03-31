@@ -1,0 +1,102 @@
+원문,첫 번 째 후보군,두 번 째 후보군,bleu 기준 라벨
+"『금일 오후,","“my lady,","""This afternoon,",1
+온실에서 있을 티 파티에 영애를 초대하고 싶습니다.』,I would like to invite you to a tea party in the greenhouse this afternoon.”,I would like to invite you to the tea party in the greenhouse.,1
+"『시간이 나신다면 꼭 참석해 주세요,","“please attend if you have time,",Please make sure to attend if you have time.,1
+헤더 아덴 자작 영애.』,lady eunice heather arden.”,Lady Heather Arden.,2
+"이 사람,",isn’t this...,This person.,2
+어제 시그렌이랑 일이 있었던 그 영애 아냐?,...the lady who caused trouble with siegren yesterday?,Isn't she the lady who was involved with Siegren yesterday?,1
+그런 사람이 여는 티파티에 내가 가도 되는 건가?,should I really go to a tea party hosted by someone like her?,Should I really attend a tea party hosted by someone like her?,1
+내가 괜히 신경 쓸 만한 이유는 없지.,"well, there’s no reason for me to be concerned.",There's no reason for me to be concerned.,2
+잘못한 건 그쪽이고.,she’s the one who did something wrong.,She's the one at fault.,1
+어쩌면 티파티에서 유니스를 만날 수 있을지도 모르니까.,and I might be able to see eunice at the tea party.,Maybe I'll be able to see Eunice at the tea party.,1
+기쁜 마음으로 응하겠다고 전해줘.,tell her I’ll be happy to attend.,Tell her I’ll be happy to attend.,3
+유니스 영애.,lady eunice.,Lady Eunice.,3
+피오나 영애…!,lady fiona!,Lady Fiona...!,1
+유니스 영애도 초대받은 건가요?,were you invited to the tea party too?,"Were you invited as well, Lady Eunice?",2
+네.,yes.,Yes.,3
+피오나 영애와는 같은 일행임에도 계속 얼굴을 볼 수가 없었네요.,"we’ve been traveling together, but I haven’t been able to see you.","Even though we were in the same group, I haven't had the chance to see you.",2
+전 말을 타고 있었거든요.,I’ve been riding a horse.,I was riding a horse.,2
+…그래도 마차에도 와 주세요.,please come to the carriage too.,"…Still, please come to the carriage as well.",2
+혼자서는 심심해서….,it’s boring by myself...,I'm lonely by myself...,1
+주변에 온통 기사랑 병사라서 쓸쓸했나 봐.,she must have felt lonely with all the knights and soldiers around her.,She must have felt lonely with all the knights and soldiers around.,2
+어서 오십시오.,welcome.,Welcome.,3
+이쪽이 온실입니다.,this way to the greenhouse.,This is the way to the greenhouse.,1
+아가씨께서는 안쪽에서 기다리고 계십니다.,my lady is waiting inside.,My lady is waiting further inside.,2
+"어머나,","oh my,","Oh my,",3
+"피오나 영애,","lady fiona,","Lady Fiona,",3
+유니스 영애…,lady eunice...,Lady Eunice...,3
+초대에 응해주셔서 감사해요.,thank you for accepting my invitation.,Thank you for accepting my invitation.,3
+기다리고 있었답니다.,I’ve been waiting for you.,I've been expecting you.,1
+"와, 역시 화려한 미인이야.","wow, she really is a stunning beauty.","Wow, she really is as stunning as expected.",1
+이런 사람이 시그렌에게 달려들었단 말이지.,she’s the one who threw herself at siegren.,"So, someone like her went after Siegren.",1
+"자, 어서 앉으세요.","please, have a seat.","Please, have a seat.",3
+"네, 고마워요.","yes, thank you.","Yes, thank you.",3
+이쪽은 근처 영지의 영애들이에요.,these are ladies from nearby territories.,These are young ladies from nearby territories.,1
+명성이 자자한 두 분을 만나서 영광이에요.,it’s an honor to meet you both.,"It's an honor to meet you both, who are so renowned.",2
+네…,yes...,Yes...,3
+잘 부탁해요.,pleased to meet you.,I look forward to getting along with you.,1
+뭐지?,what?,What is this?,2
+묘하게 시선이 불온한 것 같은 느낌이….,I feel like they’re giving me strange looks...,I feel like their gazes are oddly unsettling...,2
+헤일론 영애는 북부에 있었다면서요.,"I heard you were in the north, lady fiona.","Lady Heilron, I understand you were in the north.",1
+맞아요.,that’s right.,That's right.,2
+힘들지는 않았나요?,wasn’t it difficult?,Wasn't it difficult for you?,2
+거기에는 굉장히 야만적이고 잔혹한 마법사가 산다고 들었는데….,I heard a very savage and cruel mage lives there...,I heard that a very barbaric and cruel mage lives there...,1
+사람 사는 곳이라 다들 비슷하답니다.,it’s just like any other place where people live.,People are the same wherever you go.,1
+"아니, 이 소문 여기까지 돌았냐!","wait, this rumor has spread all the way here?!","Wait, this rumor has spread all the way here?!",3
+"소문 이야기가 나와서 말인데요,","speaking of rumors,","Speaking of rumors,",3
+듣자 하니…,I heard...,I've heard...,1
+영애의 핏줄은 조금 특별하다면서요?,...your bloodline is a bit special.,I've heard that your lineage is somewhat unique.,1
+본래는 헤일론 쪽이 아니라고 들었어요.,I heard you’re not originally from the house of baroness.,I heard you’re not originally from Heilron.,2
+"제가 알기로는,","as far as I know,","As far as I know,",3
+사생아라던데.,you’re an illegitimate child.,They say you're an illegitimate child.,1
+"네, 맞는 말이에요.","yes, that’s correct.","Yes, that's correct.",2
+전 사생아입니다.,I am an illegitimate child.,I am an illegitimate child.,3
+정확히 알고 계시네요.,you know exactly who I am.,You know exactly.,1
+웃어?,she’s smiling?,Are you laughing?,1
+게다가 그 본가는…,and your original family...,"And besides, your original family...",1
+네. 마약 사업 혐의로 재산을 몰수당했죠.,"yes, their assets were confiscated on charges of drug trafficking.",Yes. Their assets were confiscated on charges of drug business.,1
+제가 직접 고발한 일이고요.,I was the one who reported them.,I was the one who reported it myself.,1
+"세상에, 저라면 도저히 못할 거예요.","my goodness, I could never do that.","My goodness, I could never do that.",3
+무슨 이유에서든 가족을 자기 손으로 배신하는 건…,betraying your own family for any reason...,Betraying your own family for any reason...,3
+짐승이나 할 짓이죠.,...is something only a beast would do.,...is something only a beast would do.,3
+"자, 잠깐만요!",w-wait!,W-Wait a moment!,2
+피오나 영애…,lady fiona...,Lady Fiona...,3
+"그래서,","so,","So,",3
+하고 싶은 말이 뭔가요?,what are you trying to say?,What is it that you want to say?,1
+적당히 하라는 소리예요!,I’m telling you to know your place!,I'm telling you to stop.,1
+"운 좋게 양녀가 되었다고 해도,","even if you were lucky enough to be adopted,","Even if you were fortunate enough to be adopted,",1
+귀족 영애라면 정도를 지켜야죠.,you should know your place as a noble lady.,"As a noble lady, you should act with propriety.",1
+"…해서, …",so...,And so...,1
+영애도……,...you...,You too…,1
+시그렌.,siegren.,siegren.,3
+피오나 영애 왜 딴 곳을 보시죠.,"lady fiona, why are you looking elsewhere?","Lady Fiona, why are you looking away?",2
+지금 제가 말하고 있는 게 안 보이나요?,can’t you see I’m talking to you?,Can't you see that I'm speaking right now?,1
+아직 할 말이 더 있답니다.,I still have more to say.,I still have more to say.,3
+"영애,",you...,"Lady,",2
+남의 저택에서 신세를 지고 있는 와중에 전하께 꼬리를 치셨죠?,"...even had the audacity to seduce his highness while staying at someone else’s manor, didn’t you?","You even flirted with His Highness while staying at someone else's manor, didn't you?",1
+제 하녀가 말해주었단 말이에요. 어젯밤에-,my maid told me about what happened last night--,My maid told me. Last night—,1
+잠깐.,wait.,Wait.,3
+"아덴 영애, 말이 심하세요!","lady arden, you’re going too far!","lady arden, your words are too harsh!",2
+심하긴 뭐가 심해요.,"what do you mean, too far?",What's so harsh about it?,2
+저는 그저 사실을 말하는 것뿐…,I’m just stating the facts--,I'm just stating the facts.,2
+"꺄,","ah,","Ah,",3
+꺄아아악!,aaah!,Aaaah!,2
+영애의 말은 다 맞아요.,you’re right about everything.,"You're right about everything, my lady.",2
+"전 사생아고, 제가 태어난 가문도 직접 부수었죠.","I’m an illegitimate child, and I destroyed the family I was born into.","I'm an illegitimate child, and I destroyed the family I was born into.",3
+하지만 똑똑한 아덴 영애가 하나 파악하지 못한 게 있네요.,but there’s one thing a smart lady like you failed to realize.,"But there’s one thing a smart lady like you, Lady Arden, failed to realize.",2
+"저는 그 덕분에 권력과 힘,","thanks to that, I now have both power...","Thanks to that, I now have both power and strength.",1
+두 개 다 가지고 있답니다.,...and authority.,I have both power and strength.,2
+지금 이 자리에서 제가 영애의 머리카락을 불태워도,"that means even if I burn your hair right here,","Even if I burn your hair right here,",1
+아덴 자작님은 제 아버지께 항의서 몇 장 보내는 게 고작일 거란 뜻이죠.,the most your father could do is send a few letters of complaint to my father.,The most Viscount Aden could do is send a few letters of complaint to my father.,2
+망아지처럼 구는 것도 상대를 보면서 하세요.,you should know who you’re dealing with before you act recklessly.,Don't act recklessly without considering your opponent.,1
+그러다 목 잘려요.,you might get your head chopped off.,That could get you killed.,1
+"그리고,",and...,"And,",1
+"화,",your...,Your...,3
+황자 전하….,your highness...,Your Highness...,3
+티파티가 꽤나 즐거워 보이는군.,"it looks like you’re having a very enjoyable tea party,",It looks like you're having quite an enjoyable tea party.,1
+헤더 아덴 영애.,lady eunice heather arden.,Lady Heather Arden.,2
+"그, 그게…",I-I...,W-Well...,2
+어제 그런 일이 있었으니 고개를 못 들겠지.,"after what happened yesterday, she can’t even lift her head.","After what happened yesterday, she probably can't even lift her head.",2
+마지막으로 충고 하나 할게요.,let me give you one last piece of advice.,Let me give you one last piece of advice.,3
+남의 남자 탐내지 마세요.,don’t covet someone else’s man.,Don't covet someone else's man.,3
+이건 지금 내 거거든.,because he’s mine.,This is mine now.,1
