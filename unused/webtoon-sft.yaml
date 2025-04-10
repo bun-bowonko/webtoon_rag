@@ -1,0 +1,472 @@
+# PIPELINE DEFINITION
+# Name: train
+# Inputs:
+#    base_model_name_or_path: str [Default: 'meta-llama/Llama-4-Scout-17B-16E-Instruct']
+#    bf16: bool [Default: True]
+#    data_sql: str [Default: 'where data_split in ('train') and create_date = (select max(create_date) from webtoon_translation.sft_dataset)']
+#    eval_steps: int [Default: 1000000000000.0]
+#    gcs_sft_output_dir: str [Default: 'gs://us-central1-kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409']
+#    gradient_accumulation_steps: int [Default: 1.0]
+#    gradient_checkpointing: bool [Default: True]
+#    learning_rate: float [Default: 5e-05]
+#    logging_steps: int [Default: 100.0]
+#    lora_alpha: int [Default: 16.0]
+#    lora_dropout: float [Default: 0.0]
+#    lora_r: int [Default: 32.0]
+#    lr_scheduler_type: str [Default: 'cosine']
+#    max_seq_length: int [Default: 8192.0]
+#    max_steps: int [Default: -1.0]
+#    num_train_epochs: int [Default: 3.0]
+#    output_dir: str [Default: './sft']
+#    per_device_eval_batch_size: int [Default: 1.0]
+#    per_device_train_batch_size: int [Default: 1.0]
+#    project_id: str [Default: 'prod-ai-project']
+#    remove_unused_columns: bool [Default: True]
+#    report_to: str [Default: 'wandb']
+#    run_name: str [Default: 'sft_webtoon_250409_llama4_109b']
+#    save_steps: int [Default: 1000000000000.0]
+#    warmup_ratio: float [Default: 0.01]
+#    weight_decay: float [Default: 0.05]
+components:
+  comp-train:
+    executorLabel: exec-train
+    inputDefinitions:
+      parameters:
+        base_model_name_or_path:
+          defaultValue: meta-llama/Llama-4-Scout-17B-16E-Instruct
+          isOptional: true
+          parameterType: STRING
+        bf16:
+          defaultValue: true
+          isOptional: true
+          parameterType: BOOLEAN
+        data_sql:
+          defaultValue: where data_split in ('train') and create_date = (select max(create_date)
+            from webtoon_translation.sft_dataset)
+          isOptional: true
+          parameterType: STRING
+        eval_steps:
+          defaultValue: 1000000000000.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        gcs_sft_output_dir:
+          defaultValue: gs://us-central1-kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409
+          isOptional: true
+          parameterType: STRING
+        gradient_accumulation_steps:
+          defaultValue: 1.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        gradient_checkpointing:
+          defaultValue: true
+          isOptional: true
+          parameterType: BOOLEAN
+        learning_rate:
+          defaultValue: 5.0e-05
+          isOptional: true
+          parameterType: NUMBER_DOUBLE
+        logging_steps:
+          defaultValue: 100.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        lora_alpha:
+          defaultValue: 16.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        lora_dropout:
+          defaultValue: 0.0
+          isOptional: true
+          parameterType: NUMBER_DOUBLE
+        lora_r:
+          defaultValue: 32.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        lr_scheduler_type:
+          defaultValue: cosine
+          isOptional: true
+          parameterType: STRING
+        max_seq_length:
+          defaultValue: 8192.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        max_steps:
+          defaultValue: -1.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        num_train_epochs:
+          defaultValue: 3.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        output_dir:
+          defaultValue: ./sft
+          isOptional: true
+          parameterType: STRING
+        per_device_eval_batch_size:
+          defaultValue: 1.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        per_device_train_batch_size:
+          defaultValue: 1.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        project_id:
+          defaultValue: prod-ai-project
+          isOptional: true
+          parameterType: STRING
+        remove_unused_columns:
+          defaultValue: true
+          isOptional: true
+          parameterType: BOOLEAN
+        report_to:
+          defaultValue: wandb
+          isOptional: true
+          parameterType: STRING
+        run_name:
+          defaultValue: sft_webtoon_250409_llama4_109b
+          isOptional: true
+          parameterType: STRING
+        save_steps:
+          defaultValue: 1000000000000.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        warmup_ratio:
+          defaultValue: 0.01
+          isOptional: true
+          parameterType: NUMBER_DOUBLE
+        weight_decay:
+          defaultValue: 0.05
+          isOptional: true
+          parameterType: NUMBER_DOUBLE
+deploymentSpec:
+  executors:
+    exec-train:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - train
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.10.1'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&\
+          \  python3 -m pip install --quiet --no-warn-script-location 'transformers==4.51.1'\
+          \ && \"$0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef train(project_id: str = \"prod-ai-project\",\n        # base_model_name_or_path:\
+          \ str = \"meta-llama/Meta-Llama-3.1-405B-Instruct\",\n        # data_sql:\
+          \ str = \"where data_split in ('train')\",\n        base_model_name_or_path:\
+          \ str = \"meta-llama/Llama-4-Scout-17B-16E-Instruct\",\n        data_sql:\
+          \ str = \"where data_split in ('train') and create_date = (select max(create_date)\
+          \ from webtoon_translation.sft_dataset)\",\n        max_seq_length: int\
+          \ = 8192,\n        lora_alpha: int = 16,\n        lora_dropout: float =\
+          \ 0,\n        lora_r: int = 32,\n        output_dir: str = \"./sft\",\n\
+          \        max_steps: int = -1,\n        num_train_epochs: int = 3,\n    \
+          \    logging_steps: int = 100,\n        eval_steps: int = 1000000000000,\
+          \ # skip evaluation\n        save_steps: int = 1000000000000, # skip saving\n\
+          \        per_device_train_batch_size: int = 1,\n        per_device_eval_batch_size:\
+          \ int = 1,\n        gradient_accumulation_steps: int = 1,\n        gradient_checkpointing:\
+          \ bool = True,\n        learning_rate: float = 5e-5,\n        lr_scheduler_type:\
+          \ str = \"cosine\",\n        warmup_ratio: float = 0.01,\n        weight_decay:\
+          \ float = 0.05,\n        bf16: bool = True,\n        remove_unused_columns:\
+          \ bool = True,\n        run_name: str = \"sft_webtoon_250409_llama4_109b\"\
+          ,\n        report_to: str = \"wandb\",\n        gcs_sft_output_dir: str\
+          \ = \"gs://us-central1-kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409\"\
+          ,):\n\n\n    import os\n    import subprocess\n    import torch\n    from\
+          \ accelerate import Accelerator\n    from datasets import load_dataset,\
+          \ Dataset\n    from peft import AutoPeftModelForCausalLM, LoraConfig, PeftModel\n\
+          \    from tqdm import tqdm\n    tqdm.pandas()\n    import pandas as pd\n\
+          \    from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig,\
+          \ HfArgumentParser, \\\n        TrainingArguments\n    from trl import SFTConfig,\
+          \ SFTTrainer, DataCollatorForCompletionOnlyLM\n    from google.cloud import\
+          \ bigquery\n    import gcsfs\n    import shutil\n    import wandb\n    wandb.login(key='6f5b18e94c20bee59a84b92ca785d1a3acd0f06a')\n\
+          \    print(f'::: torch.cuda.device_count() {torch.cuda.device_count()}:::')\n\
+          \n    client = bigquery.Client(project=project_id)\n    fs = gcsfs.GCSFileSystem(project=project_id)\n\
+          \    auth_token = \"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\"\n    os.environ[\"\
+          PYTORCH_CUDA_ALLOC_CONF\"] = \"max_split_size_mb:512\"\n    os.environ[\"\
+          HUGGING_FACE_HUB_TOKEN\"] = auth_token\n\n\n    if os.path.exists('base-model'):\n\
+          \        shutil.rmtree('base-model')\n    os.mkdir('base-model')\n    #\
+          \ base model\uC774 GCS\uC5D0 \uC800\uC7A5\uB418\uC5B4 \uC788\uB294 \uACBD\
+          \uC6B0\n    if base_model_name_or_path.startswith('gs://'):\n        subprocess.run(f\"\
+          gsutil -m cp {base_model_name_or_path}/* ./base-model/\", shell=True)\n\
+          \    # base model\uC774 huggingface hub\uC5D0 \uC788\uB294 \uACBD\uC6B0\n\
+          \    else:\n        subprocess.run(\"huggingface-cli login --token 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\"\
+          , shell=True)\n        subprocess.run(\n            f'huggingface-cli download\
+          \ {base_model_name_or_path} --local-dir-use-symlinks=False --local-dir=base-model\
+          \ --include \"*.safetensors\" \"*.json\" $$',\n            shell=True)\n\
+          \    print('** Finsihed Downloading Model Checkpoint ** ')\n\n    peft_config\
+          \ = LoraConfig(\n        r=lora_r,\n        lora_alpha=lora_alpha,\n   \
+          \     lora_dropout=lora_dropout,\n        # target_modules=[\"q_proj\",\
+          \ \"v_proj\"],\n        target_modules=[\"q_proj\", \"v_proj\", \"o_proj\"\
+          , \"k_proj\",\"up_proj\", \"down_proj\", \"gate_proj\"],\n        bias=\"\
+          none\",\n        task_type=\"CAUSAL_LM\",\n    )\n\n    bnb_config = BitsAndBytesConfig(\n\
+          \        load_in_4bit=True,\n        bnb_4bit_quant_type=\"nf4\",\n    \
+          \    bnb_4bit_compute_dtype=torch.bfloat16,\n        bnb_4bit_use_double_quant=True,\n\
+          \        bnb_4bit_quant_storage=torch.float32,#torch.bfloat16,\n    )\n\n\
+          \    model = AutoModelForCausalLM.from_pretrained(\n        'base-model',\n\
+          \        torch_dtype=torch.bfloat16,\n        device_map=\"auto\",\n   \
+          \     #attn_implementation=\"flash_attention_2\",\n        quantization_config=bnb_config,\n\
+          \        trust_remote_code=True,\n    )\n    #moe bug \uD68C\uD53C\uC6A9\
+          \ (monkey patch)\n    orig_scatter_add = torch.Tensor.scatter_add_\n   \
+          \ def safe_scatter_add_(self, dim, index, src):\n        if self.dtype !=\
+          \ src.dtype:\n            src = src.to(self.dtype)\n        return orig_scatter_add(self,\
+          \ dim, index, src)\n\n    torch.Tensor.scatter_add_ = safe_scatter_add_\n\
+          \n\n    # prevent ```RuntimeError: element 0 of tensors does not require\
+          \ grad and does not have a grad_fn```\n    model.enable_input_require_grads()\n\
+          \n\n    # \uAE30\uC874 tokenizer\uB97C \uB798\uD551\n    class MaxLengthTokenizerWrapper:\n\
+          \        def __init__(self, tokenizer, max_length):\n            self._tokenizer\
+          \ = tokenizer\n            self.max_length = max_length\n\n        def pad(self,\
+          \ *args, **kwargs):\n            kwargs[\"padding\"] = \"max_length\"\n\
+          \            kwargs[\"max_length\"] = self.max_length\n            return\
+          \ self._tokenizer.pad(*args, **kwargs)\n\n        def __getattr__(self,\
+          \ name):\n            return getattr(self._tokenizer, name)\n\n        def\
+          \ __call__(self, *args, **kwargs):\n            return self._tokenizer(*args,\
+          \ **kwargs)\n\n    tokenizer = AutoTokenizer.from_pretrained(\"meta-llama/Llama-4-Scout-17B-16E-Instruct\"\
+          , trust_remote_code=True)\n    tokenizer.pad_token = tokenizer.eos_token\n\
+          \    tokenizer.padding_side = \"right\"  # Fix weird overflow issue with\
+          \ fp16 training\n    tokenizer = MaxLengthTokenizerWrapper(tokenizer, max_length=8192)\n\
+          \n\n    def instruct_structure(prompt, system_prompt=\"\"\"You're an expert\
+          \ translator who translates Korean webtoon in English. Make sure the number\
+          \ of target sentences matches the number of source sentences. The result\
+          \ should be TSV formatted. \n    \u2022 Find a balance between staying true\
+          \ to the Korean meaning and keeping a natural flow. Don't be afraid to add\
+          \ to the text. Embellish it. \n    \u2022 Avoid translating word-for-word.\
+          \ Keep the general feeling and translate the text accordingly. \n    \u2022\
+          \ Translate with an American audience in mind. This means easy-to-read,\
+          \ conversational English.\"\"\"):\n        input_text, output_text = prompt.split('###\
+          \ target')\n        input_text = input_text.replace('### glossaries', '###\
+          \ glossary').replace('\\n* ', '\\n\u2022 ')\n        return f\"\"\"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\
+          {system_prompt}<|eot_id|><|start_header_id|>user<|end_header_id|>\n{input_text.strip()}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\
+          {output_text.strip()}<|eot_id|>\"\"\"\n\n    train_sql = f\"\"\"       \
+          \   \n              select prompt\n              from webtoon_translation.sft_dataset\n\
+          \              {data_sql}\n              \"\"\"\n    train_df = client.query(train_sql).result().to_dataframe()\n\
+          \    train_df['text'] = train_df.prompt.progress_apply(lambda x: instruct_structure(x))\n\
+          \n    train_dataset = Dataset.from_pandas(train_df[['text']])\n\n    print(':::\
+          \ Dataset Example :::')\n    print(train_dataset[0])\n\n    '''\n    eval_sql\
+          \ = \"\"\"          \n              select prompt\n              from webtoon_translation.sft_dataset\n\
+          \              where data_split in ('valid')\n              \"\"\"\n   \
+          \ eval_df = client.query(eval_sql).result().to_dataframe()\n    eval_df['text']\
+          \ = eval_df.prompt.progress_apply(lambda x: instruct_structure(x))\n   \
+          \ eval_dataset = Dataset.from_pandas(eval_df[['text']])\n    '''\n\n   \
+          \ def formatting_prompts_func(example):\n        output_texts = []\n   \
+          \     for i in range(len(example['text'])):\n            output_texts.append(example['text'][i])\n\
+          \        return output_texts\n\n    response_template_with_context = '<|start_header_id|>assistant<|end_header_id|>'\n\
+          \    response_template_ids = tokenizer.encode(response_template_with_context,\
+          \ add_special_tokens=False)\n    collator = DataCollatorForCompletionOnlyLM(response_template_ids,\
+          \ \n                                               tokenizer=tokenizer,)\n\
+          \n\n    training_args = SFTConfig(\n        output_dir=output_dir,\n   \
+          \     max_steps=max_steps,\n        max_seq_length=max_seq_length,\n   \
+          \     num_train_epochs=num_train_epochs,\n        logging_steps=logging_steps,\n\
+          \        # eval_steps=eval_steps,\n        save_steps=save_steps,\n    \
+          \    # evaluation_strategy='steps',\n        per_device_train_batch_size=per_device_train_batch_size,\n\
+          \        # per_device_eval_batch_size=per_device_eval_batch_size,\n    \
+          \    gradient_accumulation_steps=gradient_accumulation_steps,\n        #\
+          \ eval_accumulation_steps=gradient_accumulation_steps,\n        gradient_checkpointing=gradient_checkpointing,\n\
+          \        learning_rate=learning_rate,\n        lr_scheduler_type=lr_scheduler_type,\n\
+          \        warmup_ratio=warmup_ratio,\n        weight_decay=weight_decay,\n\
+          \        bf16=bf16,\n        remove_unused_columns=remove_unused_columns,\n\
+          \        run_name=run_name,\n        report_to=report_to,\n        ddp_find_unused_parameters=False,\
+          \ # RuntimeError: Expected to mark a variable ready only once.\n    )\n\n\
+          \    #optimizer.train() \uD638\uCD9C \uBB34\uC2DC\uD558\uAE30 (Monkey Patch\
+          \ \uBC29\uC2DD)\n    # \uAE30\uC874 optimizer\uC778 AdamW\uC5D0 train \uBA54\
+          \uC11C\uB4DC\uAC00 \uC5C6\uC73C\uBA74 \uB9CC\uB4E4\uC5B4\uC90C\n    if not\
+          \ hasattr(torch.optim.AdamW, \"train\"):\n        def train_stub(self):\n\
+          \            # \uADF8\uB0E5 \uC544\uBB34 \uAC83\uB3C4 \uC548 \uD568\n  \
+          \          pass\n    torch.optim.AdamW.train = train_stub\n\n    trainer\
+          \ = SFTTrainer(\n        model=model,\n        train_dataset=train_dataset,\n\
+          \        # eval_dataset=eval_dataset,\n        formatting_func=formatting_prompts_func,\n\
+          \        data_collator=collator,\n        peft_config=peft_config,\n   \
+          \     tokenizer=tokenizer,\n        packing=False,\n        args=training_args,\n\
+          \    )\n\n    trainer.train()\n    trainer.save_model(output_dir)\n    output_dir\
+          \ = os.path.join(output_dir, \"final_checkpoint\")\n    trainer.model.save_pretrained(output_dir)\n\
+          \n    # save finetuned model to GCS\n    fs.put(f'{output_dir}/*', gcs_sft_output_dir)\n\
+          \n"
+        image: asia-northeast3-docker.pkg.dev/prod-ai-project/tmp-h100/llama3.1-base@sha256:8125b2d27a8382d644041b37610ca65f4fa7bf61d5461f5665b34e6f190ab966
+pipelineInfo:
+  name: train
+root:
+  dag:
+    tasks:
+      train:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-train
+        inputs:
+          parameters:
+            base_model_name_or_path:
+              componentInputParameter: base_model_name_or_path
+            bf16:
+              componentInputParameter: bf16
+            data_sql:
+              componentInputParameter: data_sql
+            eval_steps:
+              componentInputParameter: eval_steps
+            gcs_sft_output_dir:
+              componentInputParameter: gcs_sft_output_dir
+            gradient_accumulation_steps:
+              componentInputParameter: gradient_accumulation_steps
+            gradient_checkpointing:
+              componentInputParameter: gradient_checkpointing
+            learning_rate:
+              componentInputParameter: learning_rate
+            logging_steps:
+              componentInputParameter: logging_steps
+            lora_alpha:
+              componentInputParameter: lora_alpha
+            lora_dropout:
+              componentInputParameter: lora_dropout
+            lora_r:
+              componentInputParameter: lora_r
+            lr_scheduler_type:
+              componentInputParameter: lr_scheduler_type
+            max_seq_length:
+              componentInputParameter: max_seq_length
+            max_steps:
+              componentInputParameter: max_steps
+            num_train_epochs:
+              componentInputParameter: num_train_epochs
+            output_dir:
+              componentInputParameter: output_dir
+            per_device_eval_batch_size:
+              componentInputParameter: per_device_eval_batch_size
+            per_device_train_batch_size:
+              componentInputParameter: per_device_train_batch_size
+            project_id:
+              componentInputParameter: project_id
+            remove_unused_columns:
+              componentInputParameter: remove_unused_columns
+            report_to:
+              componentInputParameter: report_to
+            run_name:
+              componentInputParameter: run_name
+            save_steps:
+              componentInputParameter: save_steps
+            warmup_ratio:
+              componentInputParameter: warmup_ratio
+            weight_decay:
+              componentInputParameter: weight_decay
+        taskInfo:
+          name: train
+  inputDefinitions:
+    parameters:
+      base_model_name_or_path:
+        defaultValue: meta-llama/Llama-4-Scout-17B-16E-Instruct
+        isOptional: true
+        parameterType: STRING
+      bf16:
+        defaultValue: true
+        isOptional: true
+        parameterType: BOOLEAN
+      data_sql:
+        defaultValue: where data_split in ('train') and create_date = (select max(create_date)
+          from webtoon_translation.sft_dataset)
+        isOptional: true
+        parameterType: STRING
+      eval_steps:
+        defaultValue: 1000000000000.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      gcs_sft_output_dir:
+        defaultValue: gs://us-central1-kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409
+        isOptional: true
+        parameterType: STRING
+      gradient_accumulation_steps:
+        defaultValue: 1.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      gradient_checkpointing:
+        defaultValue: true
+        isOptional: true
+        parameterType: BOOLEAN
+      learning_rate:
+        defaultValue: 5.0e-05
+        isOptional: true
+        parameterType: NUMBER_DOUBLE
+      logging_steps:
+        defaultValue: 100.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      lora_alpha:
+        defaultValue: 16.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      lora_dropout:
+        defaultValue: 0.0
+        isOptional: true
+        parameterType: NUMBER_DOUBLE
+      lora_r:
+        defaultValue: 32.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      lr_scheduler_type:
+        defaultValue: cosine
+        isOptional: true
+        parameterType: STRING
+      max_seq_length:
+        defaultValue: 8192.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      max_steps:
+        defaultValue: -1.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      num_train_epochs:
+        defaultValue: 3.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      output_dir:
+        defaultValue: ./sft
+        isOptional: true
+        parameterType: STRING
+      per_device_eval_batch_size:
+        defaultValue: 1.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      per_device_train_batch_size:
+        defaultValue: 1.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      project_id:
+        defaultValue: prod-ai-project
+        isOptional: true
+        parameterType: STRING
+      remove_unused_columns:
+        defaultValue: true
+        isOptional: true
+        parameterType: BOOLEAN
+      report_to:
+        defaultValue: wandb
+        isOptional: true
+        parameterType: STRING
+      run_name:
+        defaultValue: sft_webtoon_250409_llama4_109b
+        isOptional: true
+        parameterType: STRING
+      save_steps:
+        defaultValue: 1000000000000.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      warmup_ratio:
+        defaultValue: 0.01
+        isOptional: true
+        parameterType: NUMBER_DOUBLE
+      weight_decay:
+        defaultValue: 0.05
+        isOptional: true
+        parameterType: NUMBER_DOUBLE
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.10.1
