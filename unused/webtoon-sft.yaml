@@ -194,10 +194,10 @@ deploymentSpec:
           \ \\\n        TrainingArguments\n    from trl import SFTConfig, SFTTrainer,\
           \ DataCollatorForCompletionOnlyLM\n    from google.cloud import bigquery\n\
           \    import gcsfs\n    import shutil\n    import wandb\n    import glob\n\
-          \    wandb.login(key='6f5b18e94c20bee59a84b92ca785d1a3acd0f06a')\n    import\
-          \ logging\n    logging.getLogger().setLevel(logging.INFO)\n\n    print(f':::\
-          \ torch.cuda.device_count() {torch.cuda.device_count()}:::')\n\n    client\
-          \ = bigquery.Client(project=project_id)\n    fs = gcsfs.GCSFileSystem(project=project_id)\n\
+          \    wandb.login(key='6f5b18e94c20bee59a84b92ca785d1a3acd0f06a')\n    #\
+          \ import logging\n    # logging.getLogger().setLevel(logging.INFO)\n\n \
+          \   print(f'::: torch.cuda.device_count() {torch.cuda.device_count()}:::')\n\
+          \n    client = bigquery.Client(project=project_id)\n    fs = gcsfs.GCSFileSystem(project=project_id)\n\
           \    auth_token = \"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\"\n    #pytorch\
           \ memory segmentation \uBC29\uC9C0\n    os.environ[\"PYTORCH_CUDA_ALLOC_CONF\"\
           ] = \"expandable_segments:False,max_split_size_mb:1024\"\n    os.environ[\"\
@@ -299,14 +299,14 @@ deploymentSpec:
           \n\n    training_args = SFTConfig(\n        output_dir=output_dir,\n   \
           \     max_steps=max_steps,\n        max_seq_length=max_seq_length,\n   \
           \     num_train_epochs=num_train_epochs,\n        logging_steps=logging_steps,\n\
-          \        # eval_steps=eval_steps,\n        save_steps=save_steps,\n    \
-          \    # evaluation_strategy='steps',\n        per_device_train_batch_size=per_device_train_batch_size,\n\
-          \        # per_device_eval_batch_size=per_device_eval_batch_size,\n    \
-          \    gradient_accumulation_steps=gradient_accumulation_steps,\n        #\
-          \ eval_accumulation_steps=gradient_accumulation_steps,\n        gradient_checkpointing=gradient_checkpointing,\n\
-          \        learning_rate=learning_rate,\n        lr_scheduler_type=lr_scheduler_type,\n\
-          \        warmup_ratio=warmup_ratio,\n        weight_decay=weight_decay,\n\
-          \        bf16=bf16,\n        remove_unused_columns=remove_unused_columns,\n\
+          \        #log_level=\"info\",\n        # eval_steps=eval_steps,\n      \
+          \  save_steps=save_steps,\n        # evaluation_strategy='steps',\n    \
+          \    per_device_train_batch_size=per_device_train_batch_size,\n        #\
+          \ per_device_eval_batch_size=per_device_eval_batch_size,\n        gradient_accumulation_steps=gradient_accumulation_steps,\n\
+          \        # eval_accumulation_steps=gradient_accumulation_steps,\n      \
+          \  gradient_checkpointing=gradient_checkpointing,\n        learning_rate=learning_rate,\n\
+          \        lr_scheduler_type=lr_scheduler_type,\n        warmup_ratio=warmup_ratio,\n\
+          \        weight_decay=weight_decay,\n        bf16=bf16,\n        remove_unused_columns=remove_unused_columns,\n\
           \        run_name=run_name,\n        report_to=report_to,\n        ddp_find_unused_parameters=False,\
           \ # RuntimeError: Expected to mark a variable ready only once.\n    )\n\n\
           \    #optimizer.train() \uD638\uCD9C \uBB34\uC2DC\uD558\uAE30 (Monkey Patch\

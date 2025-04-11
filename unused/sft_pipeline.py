@@ -55,8 +55,6 @@ def train(project_id: str = "prod-ai-project",
     import wandb
     import glob
     wandb.login(key='6f5b18e94c20bee59a84b92ca785d1a3acd0f06a')
-    import logging
-    logging.getLogger().setLevel(logging.INFO)
 
     print(f'::: torch.cuda.device_count() {torch.cuda.device_count()}:::')
 
@@ -358,7 +356,7 @@ if __name__ == '__main__':
         output_dir: str = "./sft",
         max_steps: int = -1,
         num_train_epochs: int = 3,
-        logging_steps: int = 100,
+        logging_steps: int = 1,
         eval_steps: int = 1000000000000, # skip evaluation
         save_steps: int = 1000000000000, # skip saving
         per_device_train_batch_size: int = 1,
