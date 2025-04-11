@@ -34,7 +34,7 @@ def train(project_id: str = "prod-ai-project",
         remove_unused_columns: bool = True,
         run_name: str = "sft_webtoon_250409_llama4_109b",
         report_to: str = "wandb",
-        gcs_sft_output_dir: str = "gs://us-central1-kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409",):
+        gcs_sft_output_dir: str = "gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409",):
 
 
     import os
@@ -42,7 +42,7 @@ def train(project_id: str = "prod-ai-project",
     import torch
     from accelerate import Accelerator
     from datasets import load_dataset, Dataset
-    from peft import AutoPeftModelForCausalLM, LoraConfig, PeftModel
+    from peft import AutoPeftModelForCausalLM, LoraConfig, PeftModel, prepare_model_for_kbit_training, get_peft_model
     from tqdm import tqdm
     tqdm.pandas()
     import pandas as pd
@@ -53,13 +53,18 @@ def train(project_id: str = "prod-ai-project",
     import gcsfs
     import shutil
     import wandb
+    import glob
     wandb.login(key='6f5b18e94c20bee59a84b92ca785d1a3acd0f06a')
+    import logging
+    logging.getLogger().setLevel(logging.INFO)
+
     print(f'::: torch.cuda.device_count() {torch.cuda.device_count()}:::')
 
     client = bigquery.Client(project=project_id)
     fs = gcsfs.GCSFileSystem(project=project_id)
     auth_token = "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"
-    os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512"
+    #pytorch memory segmentation 방지
+    os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:False,max_split_size_mb:1024"
     os.environ["HUGGING_FACE_HUB_TOKEN"] = auth_token
 
 
@@ -92,17 +97,70 @@ def train(project_id: str = "prod-ai-project",
         bnb_4bit_quant_type="nf4",
         bnb_4bit_compute_dtype=torch.bfloat16,
         bnb_4bit_use_double_quant=True,
-        bnb_4bit_quant_storage=torch.float32,#torch.bfloat16,
+        bnb_4bit_quant_storage=torch.bfloat16,#torch.float32
     )
 
+    # torch.cuda.empty_cache()
+    # from accelerate import infer_auto_device_map, init_empty_weights
+    # # 1. 빈 모델 먼저 로드
+    # with init_empty_weights():
+    #     model = AutoModelForCausalLM.from_pretrained(
+    #         'base-model',
+    #         attn_implementation="flash_attention_2",
+    #         torch_dtype=torch.bfloat16,
+    #         device_map=None,
+    #         trust_remote_code=True,
+    #     )
+    # torch.cuda.empty_cache()
+    # # 2. device_map 추론
+    # device_map = infer_auto_device_map(
+    #     model,
+    #     max_memory={
+    #         i: "80GiB" for i in range(8)  # H100 80GB 기준
+    #     },
+    #     no_split_module_classes=["Llama4TextDecoderLayer", "Llama4VisionAttention"],  # 중요!
+    # )
+    
+    device_map = {}
+    num_layers = 48
+    layers_per_gpu = num_layers // 8
+    
+    for i in range(8):
+        start = i * layers_per_gpu
+        end = (i + 1) * layers_per_gpu
+        for j in range(start, end):
+            device_map[f"model.layers.{j}"] = i
+    
+    device_map.update({
+        "model.embed_tokens": 0,
+        "model.norm": 7,
+        "model.rotary_emb": 7,
+        "lm_head": 7,
+    })
+    
+    print(device_map)
     model = AutoModelForCausalLM.from_pretrained(
         'base-model',
         torch_dtype=torch.bfloat16,
-        device_map="auto",
-        #attn_implementation="flash_attention_2",
+        device_map=device_map,#"auto",
+        attn_implementation="flash_attention_2",
         quantization_config=bnb_config,
         trust_remote_code=True,
     )
+
+    model = prepare_model_for_kbit_training(model)
+    model = get_peft_model(model, peft_config)  # LoRA 레이어 생성됨!
+    model.print_trainable_parameters()
+
+    def print_gpu_memory():
+        for i in range(torch.cuda.device_count()):
+            allocated = torch.cuda.memory_allocated(i) / (1024 ** 3)
+            reserved = torch.cuda.memory_reserved(i) / (1024 ** 3)
+            print(f"GPU {i}: Allocated = {allocated:.2f} GB, Reserved = {reserved:.2f} GB")
+
+    # 모델 로딩 직후 호출
+    print_gpu_memory()
+    
     #moe bug 회피용 (monkey patch)
     orig_scatter_add = torch.Tensor.scatter_add_
     def safe_scatter_add_(self, dim, index, src):
@@ -135,9 +193,9 @@ def train(project_id: str = "prod-ai-project",
             return self._tokenizer(*args, **kwargs)
 
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-4-Scout-17B-16E-Instruct", trust_remote_code=True)
-    tokenizer.pad_token = tokenizer.eos_token
+    #tokenizer.pad_token = tokenizer.eos_token 빼야됨, llama4는 pad토큰 가지고 있음
     tokenizer.padding_side = "right"  # Fix weird overflow issue with fp16 training
-    tokenizer = MaxLengthTokenizerWrapper(tokenizer, max_length=8192)
+    tokenizer = MaxLengthTokenizerWrapper(tokenizer, max_length=max_seq_length)
     
     
     def instruct_structure(prompt, system_prompt="""You're an expert translator who translates Korean webtoon in English. Make sure the number of target sentences matches the number of source sentences. The result should be TSV formatted. 
@@ -146,11 +204,11 @@ def train(project_id: str = "prod-ai-project",
     • Translate with an American audience in mind. This means easy-to-read, conversational English."""):
         input_text, output_text = prompt.split('### target')
         input_text = input_text.replace('### glossaries', '### glossary').replace('\n* ', '\n• ')
-        return f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-{system_prompt}<|eot_id|><|start_header_id|>user<|end_header_id|>
-{input_text.strip()}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-{output_text.strip()}<|eot_id|>"""
-
+        return f"""<|begin_of_text|><|header_start|>system<|header_end|>
+{system_prompt}<|eot_id|><|header_start|>user<|header_end|>
+{input_text.strip()}<|eot|><|header_start|>assistant<|header_end|>
+{output_text.strip()}<|eot|>"""
+    
     train_sql = f"""          
               select prompt
               from webtoon_translation.sft_dataset
@@ -161,8 +219,8 @@ def train(project_id: str = "prod-ai-project",
 
     train_dataset = Dataset.from_pandas(train_df[['text']])
 
-    print('::: Dataset Example :::')
-    print(train_dataset[0])
+    #print('::: Dataset Example :::')
+    #print(train_dataset[0])
 
     '''
     eval_sql = """          
@@ -181,7 +239,7 @@ def train(project_id: str = "prod-ai-project",
             output_texts.append(example['text'][i])
         return output_texts
 
-    response_template_with_context = '<|start_header_id|>assistant<|end_header_id|>'
+    response_template_with_context = '<|header_start|>assistant<|header_end|>'
     response_template_ids = tokenizer.encode(response_template_with_context, add_special_tokens=False)
     collator = DataCollatorForCompletionOnlyLM(response_template_ids, 
                                                tokenizer=tokenizer,)
@@ -219,14 +277,40 @@ def train(project_id: str = "prod-ai-project",
             # 그냥 아무 것도 안 함
             pass
     torch.optim.AdamW.train = train_stub
+
+
+    class SafeSFTTrainer(SFTTrainer):
+        def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
+            device = model.device
+            num_items_in_batch = kwargs.get("num_items_in_batch", None)
     
-    trainer = SFTTrainer(
+            # inputs 내 tensor들을 올바른 디바이스로 이동
+            inputs = {
+                k: v.to(device) if isinstance(v, torch.Tensor) else v
+                for k, v in inputs.items()
+            }
+    
+            outputs = model(**inputs)
+    
+            if isinstance(outputs, tuple):
+                loss = outputs[0]
+            else:
+                loss = outputs.loss if hasattr(outputs, "loss") else outputs["loss"]
+    
+            if num_items_in_batch is not None:
+                if isinstance(num_items_in_batch, torch.Tensor):
+                    num_items_in_batch = num_items_in_batch.to(loss.device)
+                loss = loss / num_items_in_batch
+    
+            return (loss, outputs) if return_outputs else loss
+            
+    trainer = SafeSFTTrainer(
         model=model,
         train_dataset=train_dataset,
         # eval_dataset=eval_dataset,
         formatting_func=formatting_prompts_func,
         data_collator=collator,
-        peft_config=peft_config,
+        #peft_config=peft_config,
         tokenizer=tokenizer,
         packing=False,
         args=training_args,
@@ -238,8 +322,14 @@ def train(project_id: str = "prod-ai-project",
     trainer.model.save_pretrained(output_dir)
 
     # save finetuned model to GCS
-    fs.put(f'{output_dir}/*', gcs_sft_output_dir)
-
+    # 로컬 디렉토리의 모든 파일 가져오기
+    local_files = glob.glob(os.path.join(output_dir, '*'))
+    # 파일 하나씩 업로드
+    for local_file in local_files:
+        filename = os.path.basename(local_file)
+        gcs_path = f"{gcs_sft_output_dir}/{filename}"
+        fs.put(local_file, gcs_path)
+        print(f"Uploaded {local_file} to {gcs_path}")
 
 if __name__ == '__main__':
     from kfp.kubernetes import add_pod_annotation
@@ -261,10 +351,10 @@ if __name__ == '__main__':
         # data_sql: str = "where data_split in ('train')",
         base_model_name_or_path: str = "meta-llama/Llama-4-Scout-17B-16E-Instruct",
         data_sql: str = "where data_split in ('train') and create_date = (select max(create_date) from webtoon_translation.sft_dataset)",
-        max_seq_length: int = 8192,
+        max_seq_length: int = 4096,
         lora_alpha: int = 16,
         lora_dropout: float = 0,
-        lora_r: int = 32,
+        lora_r: int = 64,
         output_dir: str = "./sft",
         max_steps: int = -1,
         num_train_epochs: int = 3,
@@ -273,7 +363,7 @@ if __name__ == '__main__':
         save_steps: int = 1000000000000, # skip saving
         per_device_train_batch_size: int = 1,
         per_device_eval_batch_size: int = 1,
-        gradient_accumulation_steps: int = 1,
+        gradient_accumulation_steps: int = 16,
         gradient_checkpointing: bool = True,
         learning_rate: float = 5e-5,
         lr_scheduler_type: str = "cosine",
@@ -283,7 +373,7 @@ if __name__ == '__main__':
         remove_unused_columns: bool = True,
         run_name: str = "sft_webtoon_250409_llama4_109b",
         report_to: str = "wandb",
-        gcs_sft_output_dir: str = "gs://us-central1-kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409",
+        gcs_sft_output_dir: str = "gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250409",
     ):
 
         task = train(
