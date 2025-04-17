@@ -110,7 +110,12 @@ def train(project_id: str = "prod-ai-project",
                     down_tensor[i].T.contiguous()
                 )
 
-                
+                gate_up_tensor[i] = gate_up_tensor[i].cpu()
+                down_tensor[i] = down_tensor[i].cpu()
+            # 리스트 항목을 역순으로 삭제하여 인덱스 오류 방지
+            for i in range(self.num_experts - 1, -1, -1):
+                del gate_up_tensor[i]
+                del down_tensor[i]
             del gate_up_tensor
             del down_tensor
             gc.collect()
@@ -230,11 +235,67 @@ def train(project_id: str = "prod-ai-project",
     # )
 
     # print(device_map)
-    
+
+    manual_device_map = {
+        "model.embed_tokens": 0,
+        "model.layers.0": 0,
+        "model.layers.1": 0,
+        "model.layers.2": 0,
+        "model.layers.3": 0,
+        "model.layers.4": 0,
+        "model.layers.5": 0,
+        "model.layers.6": 1,
+        "model.layers.7": 1,
+        "model.layers.8": 1,
+        "model.layers.9": 1,
+        "model.layers.10": 1,
+        "model.layers.11": 1,
+        "model.layers.12": 2,
+        "model.layers.13": 2,
+        "model.layers.14": 2,
+        "model.layers.15": 2,
+        "model.layers.16": 2,
+        "model.layers.17": 2,
+        "model.layers.18": 3,
+        "model.layers.19": 3,
+        "model.layers.20": 3,
+        "model.layers.21": 3,
+        "model.layers.22": 3,
+        "model.layers.23": 3,
+        "model.layers.24": 4,
+        "model.layers.25": 4,
+        "model.layers.26": 4,
+        "model.layers.27": 4,
+        "model.layers.28": 4,
+        "model.layers.29": 4,
+        "model.layers.30": 5,
+        "model.layers.31": 5,
+        "model.layers.32": 5,
+        "model.layers.33": 5,
+        "model.layers.34": 5,
+        "model.layers.35": 5,
+        "model.layers.36": 6,
+        "model.layers.37": 6,
+        "model.layers.38": 6,
+        "model.layers.39": 6,
+        "model.layers.40": 6,
+        "model.layers.41": 6,
+        "model.layers.42": 6,
+        "model.layers.43": 7,
+        "model.layers.44": 7,
+        "model.layers.45": 7,
+        "model.layers.46": 7,
+        "model.layers.47": 7,
+        "model.norm": 7,
+        "model.rotary_emb": 7,
+        "lm_head": 7
+    }
+
+
     model = AutoModelForCausalLM.from_pretrained(
         'base-model2',
         torch_dtype=torch.bfloat16,
-        device_map="auto",#device_map,
+        device_map=manual_device_map,#"auto",#device_map,
         attn_implementation="flash_attention_2",
         quantization_config=bnb_config,
         trust_remote_code=True,
@@ -299,9 +360,17 @@ def train(project_id: str = "prod-ai-project",
     print_gpu_memory()
     
     #moe bug 회피용 (monkey patch)
+    # 기존 monkey patch 개선 버전
     orig_scatter_add = torch.Tensor.scatter_add_
+    
     def safe_scatter_add_(self, dim, index, src):
-        if self.dtype != src.dtype:
+        # device 먼저 통일
+        if src.device != self.device:
+            src = src.to(self.device)
+        if index.device != self.device:
+            index = index.to(self.device)
+        # dtype 통일도 함께
+        if src.dtype != self.dtype:
             src = src.to(self.dtype)
         return orig_scatter_add(self, dim, index, src)
     

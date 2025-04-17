@@ -233,10 +233,15 @@ deploymentSpec:
           \      self.gate_up_proj[i].weight.data.copy_(\n                    gate_up_tensor[i].T.contiguous()\n\
           \                )\n                self.down_proj[i].weight.data.copy_(\n\
           \                    down_tensor[i].T.contiguous()\n                )\n\n\
-          \n            del gate_up_tensor\n            del down_tensor\n        \
-          \    gc.collect()\n            torch.cuda.empty_cache()\n\n            print(f\"\
-          [After cleanup Allocated]: {torch.cuda.memory_allocated() / 1024**2:.4f}\
-          \ MB\")\n            print(f\"[After cleanup Reserved]: {torch.cuda.memory_reserved()\
+          \                gate_up_tensor[i] = gate_up_tensor[i].cpu()\n         \
+          \       down_tensor[i] = down_tensor[i].cpu()\n            # \uB9AC\uC2A4\
+          \uD2B8 \uD56D\uBAA9\uC744 \uC5ED\uC21C\uC73C\uB85C \uC0AD\uC81C\uD558\uC5EC\
+          \ \uC778\uB371\uC2A4 \uC624\uB958 \uBC29\uC9C0\n            for i in range(self.num_experts\
+          \ - 1, -1, -1):\n                del gate_up_tensor[i]\n               \
+          \ del down_tensor[i]\n            del gate_up_tensor\n            del down_tensor\n\
+          \            gc.collect()\n            torch.cuda.empty_cache()\n\n    \
+          \        print(f\"[After cleanup Allocated]: {torch.cuda.memory_allocated()\
+          \ / 1024**2:.4f} MB\")\n            print(f\"[After cleanup Reserved]: {torch.cuda.memory_reserved()\
           \ / 1024**2:.4f} MB\")\n\n\n\n        def forward(self, hidden_states: torch.Tensor)\
           \ -> torch.Tensor:\n            hidden_states = hidden_states.view(self.num_experts,\
           \ -1, self.hidden_size)\n            outputs = []\n            for i in\
@@ -295,19 +300,42 @@ deploymentSpec:
           \n\n    # device_map = infer_auto_device_map(\n    #     model,\n    # \
           \    max_memory=max_memory,\n    #     no_split_module_classes=[\"LlamaDecoderLayer\"\
           ],\n    #     dtype=torch.bfloat16,\n    # )\n\n    # print(device_map)\n\
-          \n    model = AutoModelForCausalLM.from_pretrained(\n        'base-model2',\n\
-          \        torch_dtype=torch.bfloat16,\n        device_map=\"auto\",#device_map,\n\
-          \        attn_implementation=\"flash_attention_2\",\n        quantization_config=bnb_config,\n\
-          \        trust_remote_code=True,\n    )\n\n    print(f\"\uD30C\uB77C\uBBF8\
-          \uD130 \u2705\uCCB4\uD06C\u2705 : \",model.hf_device_map)    \n\n    for\
-          \ layer in model.model.layers:\n        if not isinstance(layer.feed_forward,\
-          \ Llama4TextMoe):\n            continue  # MoE\uAC00 \uC544\uB2CC \uACBD\
-          \uC6B0 skip\n\n        old_expert = layer.feed_forward.experts\n\n     \
-          \   # \uC0C8\uB85C\uC6B4 Linear \uAE30\uBC18 Expert \uBAA8\uB4C8 \uC0DD\uC131\
-          \n        new_expert = Llama4TextExpertsWithLinear(model.config)\n\n   \
-          \     # nn.Linear\uC758 weight\uB9CC \uCD94\uCD9C\uD574\uC11C \uB118\uACA8\
-          \uC90C\n        #device = next(layer.feed_forward.parameters()).device \
-          \ # \uB204\uB77D\uB41C `.device`\n        gate_up_weights = [proj.clone().detach().to(proj.device)\
+          \n    manual_device_map = {\n        \"model.embed_tokens\": 0,\n      \
+          \  \"model.layers.0\": 0,\n        \"model.layers.1\": 0,\n        \"model.layers.2\"\
+          : 0,\n        \"model.layers.3\": 0,\n        \"model.layers.4\": 0,\n \
+          \       \"model.layers.5\": 0,\n        \"model.layers.6\": 1,\n       \
+          \ \"model.layers.7\": 1,\n        \"model.layers.8\": 1,\n        \"model.layers.9\"\
+          : 1,\n        \"model.layers.10\": 1,\n        \"model.layers.11\": 1,\n\
+          \        \"model.layers.12\": 2,\n        \"model.layers.13\": 2,\n    \
+          \    \"model.layers.14\": 2,\n        \"model.layers.15\": 2,\n        \"\
+          model.layers.16\": 2,\n        \"model.layers.17\": 2,\n        \"model.layers.18\"\
+          : 3,\n        \"model.layers.19\": 3,\n        \"model.layers.20\": 3,\n\
+          \        \"model.layers.21\": 3,\n        \"model.layers.22\": 3,\n    \
+          \    \"model.layers.23\": 3,\n        \"model.layers.24\": 4,\n        \"\
+          model.layers.25\": 4,\n        \"model.layers.26\": 4,\n        \"model.layers.27\"\
+          : 4,\n        \"model.layers.28\": 4,\n        \"model.layers.29\": 4,\n\
+          \        \"model.layers.30\": 5,\n        \"model.layers.31\": 5,\n    \
+          \    \"model.layers.32\": 5,\n        \"model.layers.33\": 5,\n        \"\
+          model.layers.34\": 5,\n        \"model.layers.35\": 5,\n        \"model.layers.36\"\
+          : 6,\n        \"model.layers.37\": 6,\n        \"model.layers.38\": 6,\n\
+          \        \"model.layers.39\": 6,\n        \"model.layers.40\": 6,\n    \
+          \    \"model.layers.41\": 6,\n        \"model.layers.42\": 6,\n        \"\
+          model.layers.43\": 7,\n        \"model.layers.44\": 7,\n        \"model.layers.45\"\
+          : 7,\n        \"model.layers.46\": 7,\n        \"model.layers.47\": 7,\n\
+          \        \"model.norm\": 7,\n        \"model.rotary_emb\": 7,\n        \"\
+          lm_head\": 7\n    }\n\n\n    model = AutoModelForCausalLM.from_pretrained(\n\
+          \        'base-model2',\n        torch_dtype=torch.bfloat16,\n        device_map=manual_device_map,#\"\
+          auto\",#device_map,\n        attn_implementation=\"flash_attention_2\",\n\
+          \        quantization_config=bnb_config,\n        trust_remote_code=True,\n\
+          \    )\n\n    print(f\"\uD30C\uB77C\uBBF8\uD130 \u2705\uCCB4\uD06C\u2705\
+          \ : \",model.hf_device_map)    \n\n    for layer in model.model.layers:\n\
+          \        if not isinstance(layer.feed_forward, Llama4TextMoe):\n       \
+          \     continue  # MoE\uAC00 \uC544\uB2CC \uACBD\uC6B0 skip\n\n        old_expert\
+          \ = layer.feed_forward.experts\n\n        # \uC0C8\uB85C\uC6B4 Linear \uAE30\
+          \uBC18 Expert \uBAA8\uB4C8 \uC0DD\uC131\n        new_expert = Llama4TextExpertsWithLinear(model.config)\n\
+          \n        # nn.Linear\uC758 weight\uB9CC \uCD94\uCD9C\uD574\uC11C \uB118\
+          \uACA8\uC90C\n        #device = next(layer.feed_forward.parameters()).device\
+          \  # \uB204\uB77D\uB41C `.device`\n        gate_up_weights = [proj.clone().detach().to(proj.device)\
           \ for proj in old_expert.gate_up_proj]\n        down_weights = [proj.clone().detach().to(proj.device)\
           \ for proj in old_expert.down_proj]\n        #\uC704 \uCF54\uB4DC\uB791\
           \ \uAC19\uC740 \uCF54\uB4DC\n        # gate_up_weights = [proj.clone().detach()\
@@ -332,13 +360,17 @@ deploymentSpec:
           \          print(f\"GPU {i}: Allocated = {allocated:.2f} GB, Reserved =\
           \ {reserved:.2f} GB\")\n\n    # \uBAA8\uB378 \uB85C\uB529 \uC9C1\uD6C4 \uD638\
           \uCD9C\n    print_gpu_memory()\n\n    #moe bug \uD68C\uD53C\uC6A9 (monkey\
-          \ patch)\n    orig_scatter_add = torch.Tensor.scatter_add_\n    def safe_scatter_add_(self,\
-          \ dim, index, src):\n        if self.dtype != src.dtype:\n            src\
-          \ = src.to(self.dtype)\n        return orig_scatter_add(self, dim, index,\
-          \ src)\n\n    torch.Tensor.scatter_add_ = safe_scatter_add_\n\n\n    # prevent\
-          \ ```RuntimeError: element 0 of tensors does not require grad and does not\
-          \ have a grad_fn```\n    model.enable_input_require_grads()\n\n\n    # \uAE30\
-          \uC874 tokenizer\uB97C \uB798\uD551\n    class MaxLengthTokenizerWrapper:\n\
+          \ patch)\n    # \uAE30\uC874 monkey patch \uAC1C\uC120 \uBC84\uC804\n  \
+          \  orig_scatter_add = torch.Tensor.scatter_add_\n\n    def safe_scatter_add_(self,\
+          \ dim, index, src):\n        # device \uBA3C\uC800 \uD1B5\uC77C\n      \
+          \  if src.device != self.device:\n            src = src.to(self.device)\n\
+          \        if index.device != self.device:\n            index = index.to(self.device)\n\
+          \        # dtype \uD1B5\uC77C\uB3C4 \uD568\uAED8\n        if src.dtype !=\
+          \ self.dtype:\n            src = src.to(self.dtype)\n        return orig_scatter_add(self,\
+          \ dim, index, src)\n\n    torch.Tensor.scatter_add_ = safe_scatter_add_\n\
+          \n\n    # prevent ```RuntimeError: element 0 of tensors does not require\
+          \ grad and does not have a grad_fn```\n    model.enable_input_require_grads()\n\
+          \n\n    # \uAE30\uC874 tokenizer\uB97C \uB798\uD551\n    class MaxLengthTokenizerWrapper:\n\
           \        def __init__(self, tokenizer, max_length):\n            self._tokenizer\
           \ = tokenizer\n            self.max_length = max_length\n\n        def pad(self,\
           \ *args, **kwargs):\n            kwargs[\"padding\"] = \"max_length\"\n\
