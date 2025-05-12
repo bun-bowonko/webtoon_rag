@@ -1,0 +1,212 @@
+origin_hangle,changed_hangle,first_translate,second_translate,reason,label
+들었어? 공작이 왕자를 죽이고 도망쳤다지 뭐야!,들었어? 공작이 왕자를 죽이고 도망쳤다지 뭐야!,did you hear? the duke killed the prince and ran away!,did you hear? the duke killed the prince and ran away!,"원문의 주어는 '공작'이고, 1차 영어 번역문에서도 'the duke'로 명확히 표현되어 있어 주어는 일치한다. 또한 '왕자를 죽이고 도망쳤다'는 내용이 'killed the prince and ran away'로 능동태로 잘 번역되어 있고, 정보의 양도 동일하다. 문장의 의미도 정확히 일치하므로 1차 영어 번역문을 그대로 사용할 수 있다.",did you hear? duchess winter killed the prince and ran away!
+술렁술렁,술렁술렁,chatter,chatter,,clamor
+"저택까지 다 태워버렸다던데, 감출 게 얼마나 많았으면","저택까지 다 태워버렸다던데, 감출 게 얼마나 많았으면.",i heard she even set her estate on fire. what was she trying to hide?,I heard she even burned down her entire estate. She must have had so much to hide.,"[1차 한글 번역문]은 ""그녀가 저택을 불태웠다고 들었다. 그녀는 무엇을 숨기려 했던 걸까?""로 해석되며, 이는 [한글 대화] ""저택까지 다 태워버렸다던데, 감출 게 얼마나 많았으면.""과 의미는 유사하지만 정보의 양이 다릅니다. 원문은 ""감출 게 얼마나 많았으면""이라고 하여 감춘 것의 양이 많음을 강조하고 있지만, 1차 번역은 단순히 ""무엇을 숨기려 했던 걸까?""라고만 하여 강조가 빠졌습니다. 따라서 정보의 양이 다르므로 새로 번역해야 합니다. 주어는 문맥상 '그녀(she)'이며, 능동태로 번역합니다.",i heard she even burned down her estate. she must've had a lot to hide.
+"악독한 년, 결국 본색을 드러냈군!","악독한 년, 결국 본색을 드러냈군!",that vicious woman finally showed her true colors!,That vicious woman has finally revealed her true nature!,,that vicious woman finally showed her true colors!
+감히 왕실까지 넘보려고 했던 거지!,감히 왕실까지 넘보려고 했던 거지!,she was probably trying to take over the palace!,She dared to set her sights on the royal family!,"[한글 대화]는 ""감히 왕실까지 넘보려고 했던 거지!""로, '감히'라는 단어에서 도전적이고 무례한 뉘앙스가 있으며, '왕실'은 'palace'보다는 'royal family' 또는 'throne'에 가까운 개념이다. 또한 '넘보다'는 단순히 'take over'보다는 'aspire to' 또는 'set sights on' 같은 표현이 더 적절하다. 따라서 의미가 완전히 일치하지 않으므로 새로 번역해야 한다.",she was trying to take over the royal family!
+수군수군,수군수군,murmur,murmur,,murmur
+"가여운 조슈아 왕자님, 그 독사에게 속아 넘어갔던 거야.","가여운 조슈아 왕자님, 그 독사에게 속아 넘어갔던 거야.",poor prince joshua. he must have been fooled by that snake.,That snake fooled poor Prince Joshua.,"[1차 한글 번역문]은 수동태 표현인 ""속아 넘어갔던 거야""를 ""he must have been fooled""로 번역했기 때문에 수동태이며, 지침에 따라 능동태로 다시 번역해야 한다. 주어는 ""그 독사""이고, 조슈아 왕자가 속은 대상이므로 능동태로는 ""That snake fooled Prince Joshua""가 적절하다.",poor prince joshua. he must have been fooled by that snake.
+그년은 절대 용서받아선 안 돼! 왕국 전체가 들고일어나 잡아야 한다고!,그년은 절대 용서받아선 안 돼! 왕국 전체가 들고일어나 잡아야 한다고!,she must never be forgiven! the entire kingdom must rise up and capture her!,We must never forgive that woman! The entire kingdom must rise up and capture her!,"원문 ""그년은 절대 용서받아선 안 돼!""는 수동태 표현이므로 능동태로 바꿔야 하며, ""왕국 전체가 들고일어나 잡아야 한다고!""는 주어가 '왕국 전체'로 명확히 존재하므로 이를 반영해 능동태로 번역해야 한다. 따라서 전체 문장을 능동태로 다시 번역해야 한다.",that woman must never be forgiven! the enteire kingdom should rise against her and seize her!
+웅성,웅성,clamor,clamor,,clamor
+웅성,웅성,clamor,clamor,,clamor
+"공명정대하신 대공 전하, 부디 그 마녀를 잡아 불태워 주십시오!","공명정대하신 대공 전하, 부디 그 마녀를 잡아 불태워 주십시오!","your grace, please capture that witch and burn her to death!","Your Grace, in your fairness and justice, I humbly ask that you capture that witch and have her burned.","[한글 대화]는 ""공명정대하신 대공 전하""라는 존칭 표현이 포함되어 있어 매우 공손한 어조를 사용하고 있다. 그러나 [1차 영어 번역문]은 ""your grace""라는 호칭 외에는 공손함이 부족하고, ""burn her to death""는 지나치게 직설적이고 무례한 표현이다. 따라서 공손함을 반영하여 다시 번역해야 한다.","your grace, please capture that witch and burn her to death!"
+웅성,웅성,clamor,clamor,,clamor
+조슈아 왕자님의 억울함을 반드시 풀어주셔야 합니다!,조슈아 왕자님의 억울함을 반드시 풀어주셔야 합니다!,you must avenge prince joshua's wrongful death!,You must clear Prince Joshua's name and bring him justice!,"[1차 한글 번역문]은 '조슈아 왕자님의 억울함을 반드시 풀어주셔야 합니다!'를 '조슈아 왕자의 억울한 죽음을 복수해야 한다'로 번역했는데, 이는 원문의 의미와 다릅니다. 원문은 억울한 죽음을 '복수'하라는 것이 아니라 '진실을 밝혀 억울함을 풀어달라'는 의미입니다. 따라서 의미가 일치하지 않으므로 새로 번역해야 합니다. 주어는 청자이므로 ""You""를 사용하고, '억울함을 풀다'는 표현은 'clear someone's name' 또는 'bring justice'로 표현할 수 있습니다.",prince joshua's suffering must be avenged!
+"..그래서, 정확히 무슨 일이 있었나?","..그래서, 정확히 무슨 일이 있었나?","so, what exactly happened?","So, what exactly happened?",,"so, what exactly happened?"
+팔락,팔락,flip,flip,,fwip
+"한 사람도 빠짐없이 해고되었다고 하던데, 이유가 있을 테지?","한 사람도 빠짐없이 해고되었다고 하던데, 이유가 있을 테지?",i heard every single one of you was fired. there must have been a reason.,"I heard someone fired every single one of you. There must be a reason for that, right?","원문의 ""한 사람도 빠짐없이 해고되었다고 하던데""는 수동태 표현이지만, 이를 능동태로 바꾸면 ""누군가가 모든 사람을 해고했다""고 해석할 수 있다. 따라서 수동태를 능동태로 바꾸어 새롭게 번역해야 한다. 또한 ""이유가 있을 테지?""는 추측을 담은 의문문으로, 이를 영어로 자연스럽게 표현해야 한다.",i heard every single one of you was fired. there must have been a reason.
+"정말 저희도 모릅니다, 대공 전하!","정말 저희도 모릅니다, 대공 전하!","we really don't know, your grace!","We really don't know, Your Grace!",,"we really don't know eveything, your highness!"
+"몇 년을 그곳에서 일했는데, 아무 말도 없이 갑자기 쫓겨났어요.","몇 년을 그곳에서 일했는데, 아무 말도 없이 갑자기 쫓겨났어요.","we worked there for many years, but we were suddenly kicked out without any explanation.","We worked there for many years, but they suddenly kicked us out without saying a word.",,"we worked there for many years, only to be cast out without warning or explanation."
+해가 뜨는 대로 나가라고만…,해가 뜨는 대로 나가라고만…,all we were told was to leave by sunrise...,all we were told was to leave by sunrise...,,we were merely told to leave at the break of dawn...
+흐음...,흐음...,hmm...,hmm...,,hmm...
+믿음이 안 가는군.,믿음이 안 가는군.,i'm not convinced.,I can't believe it.,"원문 ""믿음이 안 가는군.""은 화자가 어떤 말이나 상황에 대해 신뢰하지 못한다는 의미로, 감정이 실린 평서문이다. ""i'm not convinced.""는 직역하면 ""납득이 안 된다""는 의미로, 비슷한 맥락이지만 다소 논리적인 판단에 가까운 표현이다. 원문의 뉘앙스를 더 잘 살리기 위해 ""I don't trust it."" 또는 ""I can't believe it."" 같은 표현이 더 적절하다. 주어는 문맥상 앞 대화를 듣고 있는 인물(대공)이므로 ""I""로 설정한다.",i'm not convinced.
+너무 갑작스럽지 않나?,너무 갑작스럽지 않나?,isn't that a bit too sudden?,Isn't it a bit too sudden?,,isn't it too sudden?
+혹시 역모를 꾸미다 들통나서 꼬리 자르기라도 하려는 게 아닌가?,혹시 역모를 꾸미다 들통나서 꼬리 자르기라도 하려는 게 아닌가?,could it be that she's trying to cover her tracks after getting caught plotting treason?,could it be that she's trying to cover her tracks after getting caught plotting treason?,"[한글 대화]는 ""혹시 역모를 꾸미다 들통나서 꼬리 자르기라도 하려는 게 아닌가?""로, 주어는 명확하지 않지만 문맥상 공작(이블린)을 지칭하며, 그녀가 역모를 꾸미다 들통나서 관련자들을 해고하며 책임을 회피하려는 것(꼬리 자르기)을 의심하는 내용이다. [1차 영어 번역문]은 ""could it be that she's trying to cover her tracks after getting caught plotting treason?""으로, ""cover her tracks""는 ""꼬리 자르기""와 유사한 의미를 가진 표현이며, 전체적으로 의미와 정보량이 일치하고 능동태로 되어 있다. 따라서 그대로 사용 가능하다.",could it be that she was caught plotting treason and is trying to cover it up by dismissing the servants?
+아닙니다! 정말 억울합니다!,아닙니다! 정말 억울합니다!,no! we really don't know anything!,No! We're truly innocent!,"[한글 대화]는 ""아닙니다! 정말 억울합니다!""로, 이는 자신들이 결백하다는 강한 부정과 억울함을 호소하는 표현이다. 반면 [1차 영어 번역문]은 ""no! we really don't know anything!""으로, '아무것도 모른다'는 정보가 추가되어 있어 정보의 양이 다르다. 따라서 [1차 영어 번역문]은 사용할 수 없으며, [한글 대화]의 의미에 맞게 능동태로 다시 번역해야 한다.","no, your highness, we're innocent!"
+저희가 어찌 그럴 수 있겠습니까! 그 집에서 벌어지는 일들은 저희와 아무 상관도 없었어요!,저희가 어찌 그럴 수 있겠습니까! 그 집에서 벌어지는 일들은 저희와 아무 상관도 없었어요!,how could we possibly do that?! we had nothing to do with what happened in that house!,How could we possibly do such a thing?! We had nothing to do with what happened in that house!,,how could we possibly do that?! we had nothing to do with what happened in that house!
+"맞습니다, 대공 전하!","맞습니다, 대공 전하!","that's right, your grace!","That's correct, Your Grace!",,"that's right, your highness!"
+"저희는 그저 급여 때문에 일했을 뿐, 공작가에 충성심을 바친 적은 없어요.","저희는 그저 급여 때문에 일했을 뿐, 공작가에 충성심을 바친 적은 없어요.",we only worked there for the pay. we never pledged any loyalty to house winter.,We only worked there for the pay. We never pledged any loyalty to the duke's family.,,we only worked there for the pay. we never pledged any loyalty to house winter.
+누가 그녀를 마녀라 부르건 저희 상관이 아니라구요!,누가 그녀를 마녀라 부르건 저희 상관이 아니라구요!,it doesn't matter to us if people call her a witch or not!,We don't care who calls her a witch. That's none of our business!,"[1차 한글 번역문]은 ""사람들이 그녀를 마녀라 부르든 말든 우리에겐 중요하지 않다""는 의미로, [한글 대화]의 ""누가 그녀를 마녀라 부르건 저희 상관이 아니라구요!""와 의미는 유사하지만, 어조와 표현 방식에서 차이가 있다. 특히 ""상관이 아니다""는 표현은 ""we don't care"" 또는 ""it's none of our business""처럼 번역하는 것이 더 자연스럽고 원문의 뉘앙스를 잘 살린다. 따라서 [1차 영어 번역문]은 어조가 약간 다르므로 새로운 번역이 필요하다. 주어는 ""we""로 명확히 해야 한다.",we don't care if people call her a witch or not!
+"제발 믿어주십시오, 전하!","제발 믿어주십시오, 전하!","please believe us, your grace!","Please believe us, Your Grace!",,please believe us!
+"만약 공작,","만약 공작,",if you are trying to capture the duke...,if you are trying to capture the duke...,,if you wish to capture the duchess-
+"아니 그 마녀를 잡으시려 한다면,","아니 그 마녀를 잡으시려 한다면,","...i mean, the witch...","...i mean, the witch...",,"i mean, the witch..."
+저희는 기꺼이 협조할 겁니다.,저희는 기꺼이 협조할 겁니다.,...we would be more than happy to help...,...we would be more than happy to help...,,we would be more than happy to help.
+아는 걸 모두 말씀드리겠습니다!,아는 걸 모두 말씀드리겠습니다!,...we will tell you everything we know!,...we will tell you everything we know!,,we will tell you eveything we know!
+하하,하하.,"haha,",Haha.,,haha
+"그래, 듣자 하니 꽤 의욕이 넘치는군.","그래, 듣자 하니 꽤 의욕이 넘치는군.","all right, then. you seem quite eager to help.",All right. I heard you're quite enthusiastic.,"원문 ""그래, 듣자 하니 꽤 의욕이 넘치는군.""은 화자가 상대방의 태도나 말에서 의욕이 느껴진다고 판단하는 진술이다. 1차 번역문은 ""you seem quite eager to help""로, ""도와주고 싶어하는 것 같다""는 구체적인 행동을 덧붙여 원문보다 정보가 많아졌다. 따라서 정보의 양이 다르므로 새로 번역해야 한다. 주어는 화자가 상대방에게 말하고 있으므로 ""you""가 적절하다.","all right then, you two seem quite motivated."
+혹시 도망치려는 낌새라도 본 적이 있나?,혹시 도망치려는 낌새라도 본 적이 있나?,have you noticed any signs of her trying to run away?,Have you seen any signs that she was planning to run away?,,have you noticed any signs of her trying to run away?
+"작은 단서라도 좋다, 전부 말해라.","작은 단서라도 좋다, 전부 말해라.","even the smallest detail will help, so tell me everything.",Even the smallest clue—tell me everything you know.,"[한글 대화]는 명령문이며, ""작은 단서라도 좋다""와 ""전부 말해라""라는 두 개의 명령이 포함되어 있다. [1차 영어 번역문]은 ""even the smallest detail will help, so tell me everything.""으로 번역되어 있는데, 이는 첫 번째 문장을 진술문(will help)으로 바꾸었고, 두 번째는 명령문으로 유지했다. 하지만 원문은 둘 다 명령문이며, ""작은 단서라도 좋다""는 말은 ""작은 단서라도 말해라""라는 의미로 해석할 수 있다. 따라서 두 문장 모두 명령문으로 능동적으로 번역하는 것이 더 적절하다.","even the smallest detail will help, so tell me everything."
+"맞다, 기차표요!","맞다, 기차표요!","oh, the train tickets!","Oh, right! I remember something about the train tickets!","해당 한글 대화는 ""맞다, 기차표요!""로, 특정 정보를 갑자기 떠올리며 말하는 감탄의 표현이다. 1차 영어 번역문 ""oh, the train tickets!""은 의미는 유사하지만, 원문의 감탄과 회상의 뉘앙스를 충분히 살리지 못하고 있다. 또한 주어가 생략되어 있어 문장으로서 완전하지 않다. 따라서 주어를 포함한 능동태 문장으로 재작성해야 한다.","that's right, the train tickets!"
+"얼마 전, 집사에게 기차표를 예매해 달라 부탁하는 걸 얼핏 들은 적이 있어요.","얼마 전, 집사에게 기차표를 예매해 달라 부탁하는 걸 얼핏 들은 적이 있어요.",i remember overhearing her asking the butler to book some train tickets a while ago.,I remember overhearing her asking the butler to book some train tickets a while ago.,"[1차 한글 번역문]은 ""기차표를 예매해 달라 부탁하는 걸 얼핏 들은 적이 있어요""를 ""그녀가 집사에게 기차표를 예매해 달라고 부탁하는 것을 들었다""로 번역했으며, 이는 [한글 대화]와 의미가 일치하고 정보의 양도 동일하며 능동태로 표현되어 있음.","i remember overearing her asking the the bulter to book train tickets some time ago.
+
+(the가 2번 들어감)"
+꽤 오래전부터 도망칠 궁리를 하고 있었던 게 분명합니다!,꽤 오래전부터 도망칠 궁리를 하고 있었던 게 분명합니다!,she must have been planning to run away for a long time!,she must have been planning to run away for a long time!,"원문의 주어는 '그녀'이고, 1차 영어 번역문도 'she'로 일치합니다. '도망칠 궁리를 하고 있었다'는 'planning to run away'로 잘 번역되었고, '꽤 오래전부터'는 'for a long time'으로 적절히 표현되었습니다. 또한, '분명합니다'는 'must have been'으로 추론을 포함한 확신의 표현으로 자연스럽게 번역되었습니다. 수동태도 아니고 정보의 양도 동일합니다.",she must have been planning her escape for quite a while!
+끼익,끼익,creak,creak,,creak
+"좋다, 너희들의 공훈은 잊지 않겠다.","좋다, 너희들의 공훈은 잊지 않겠다.",good. i will not forget your contribution.,Good. I will not forget your contributions.,,good. i will not forget your help.
+이제 정말로 이 마녀의 날개를 꺾어줄 때가 왔군.,이제 정말로 이 마녀의 날개를 꺾어줄 때가 왔군.,it is finally time to cut the wings off this witch.,It's finally time to break this witch's wings for good.,,it's finally time to put an end to that witch's flight.
+제임스 경! 계엄령을 선포해라.,제임스 경! 계엄령을 선포해라.,sir james! declare martial law.,Sir James! Declare martial law!,,sir james! declare the matial law.
+예.,예.,"yes, your grace.","yes, your grace.","해당 [한글 대화] ""예.""는 존칭을 포함한 공손한 동의 표현이며, 대화 상대가 ""대공 전하""이므로 높임말이 필요하다. 1차 영어 번역문 ""yes, your grace.""는 공손한 표현을 잘 반영하고 있고, 의미와 정보의 양도 일치한다.","yes, your highness."
+이 나라를 어지럽힌 반역자를 반드시 잡아들이도록!,이 나라를 어지럽힌 반역자를 반드시 잡아들이도록!,we must capture the traitor who has disturbed this land!,Make sure to capture the traitor who has thrown this nation into chaos!,"[한글 대화]는 명령문이고, 주어는 생략되어 있지만 명령의 대상은 부하나 병사일 가능성이 높다. 반면 [1차 한글 번역문]은 평서문이며, 주어가 '우리'로 되어 있어 어투가 다르고, 명령의 뉘앙스가 약해졌다. 따라서 의미가 일치하지 않고, 능동태이긴 하나 문장의 태도와 목적이 달라 새로 번역해야 한다.",we must capture the traitor who has thrown this kingdom into turmoil!
+"마녀를 불태우고,","마녀를 불태우고,",we will burn the witch to death...,we will burn the witch to death...,,the witch shall burn...
+척,척,point!,step!,,point
+역모의 뿌리를 송두리째 뽑아내야 한다!,역모의 뿌리를 송두리째 뽑아내야 한다!,...and eradicate the roots of treason!,...and eradicate the roots of treason!,,...and the roots of treason will be torn out!
+68,68,68,68,,nan
+휘이이,휘이이,whoosh,whoosh,,whoosh
+웅성,웅성,murmur,murmur,,clamor
+웅성,웅성,clamor,clamor,,clamor
+힐끔,힐끔,glance,glance,,glance
+약속한 시간이 다 되어가는데…,약속한 시간이 다 되어가는데…,"it's almost time, but...","it's almost time, but...",,"it's almost time, but..."
+휘이이,휘이이,whoosh,whoosh,,whoosh
+왜 이렇게 늦는 거야.,왜 이렇게 늦는 거야.,why is she so late?,why is she so late?,"[한글 대화]의 주어는 명시되어 있지 않지만, 문맥상 '이블린'을 기다리는 상황이므로 'she'로 번역한 것은 적절하다. [1차 한글 번역문]은 '왜 그녀는 이렇게 늦는가?'로 해석되며, 이는 [한글 대화]와 의미가 일치하고 정보의 양도 동일하며 능동태이다. 따라서 1차 영어 번역문을 그대로 사용할 수 있다.",...but where is she?
+지금부터 드레이번행 기차에 탑승할 승객분들께서는 승무원에게 표를 확인해 주시기 바랍니다.,지금부터 드레이번행 기차에 탑승할 승객분들께서는 승무원에게 표를 확인해 주시기 바랍니다.,"all passengers boarding the train to draven, please present your tickets to the train crew.","All passengers boarding the train to Draven, please present your tickets to the train crew.",,"all passengers boarding the train to drayven, please have your tickets ready for the train crew."
+기차는 곧 출발합니다.,기차는 곧 출발합니다.,the train will be departing shortly.,The train will be departing shortly.,,the train will be departing shortly.
+손님? 짐칸으로 짐을 옮겨드릴까요?,손님? 짐칸으로 짐을 옮겨드릴까요?,"sir, would you like me to place your bags in the baggage car?","Excuse me, would you like me to move your luggage to the baggage car?","원문의 ""손님?""은 성별이 특정되지 않은 일반적인 호칭이며, 1차 번역문의 ""sir""은 남성 손님을 특정하므로 의미가 일치하지 않는다. 또한 원문은 공손한 제안의 표현이므로 이를 반영해 성별 중립적이고 공손한 표현으로 수정해야 한다.","sir, would you like me to stow your bags in the baggage car?"
+"아, 예...","아, 예...","oh, yes...","oh, yes...",,"oh, yes..."
+부탁드립니다.,부탁드립니다.,please do.,"Yes, please.","[한글 대화] ""부탁드립니다.""는 누군가에게 정중하게 어떤 행동을 요청하는 표현이다. [1차 영어 번역문] ""please do.""는 문법적으로는 맞지만, 맥락상 ""짐칸으로 짐을 옮겨드릴까요?""라는 질문에 대한 대답으로는 다소 부자연스럽다. ""Please do.""는 다소 건조하거나 명령조로 들릴 수 있고, 자연스러운 응답은 ""Yes, please."" 또는 ""I'd appreciate that."" 같은 표현이다. 따라서 정중한 요청의 의미를 살려 자연스럽게 다시 번역해야 한다.",please do.
+"젠장, 이블린...","젠장, 이블린...","damn it, evelyn...","damn it, evelyn...",,"damn it, evelyn..."
+대체 무슨 일이 생긴 거야..?,대체 무슨 일이 생긴 거야..?,what happened...?,what happened...?,,what happened...?
+술렁술렁,술렁술렁,clamor,clamor,,chatter chatter
+검표와 신원 확인이 있겠습니다.,검표와 신원 확인이 있겠습니다.,we will now check your tickets and identification.,We will now conduct ticket and identity checks.,,we will now check your tickets and identification.
+"현재 도주 중인 인물이 있다는 신고가 접수되어 신원 확인을 철저히 하고 있으니,","현재 도주 중인 인물이 있다는 신고가 접수되어 신원 확인을 철저히 하고 있으니,","we have received a report that someone is on the run, so we will be conducting a thorough check.","We have received a report that someone is currently on the run, so we are conducting thorough identity checks.","[한글 대화]는 ""신원 확인을 철저히 하고 있으니""라고 현재 진행형으로 말하고 있지만, [1차 한글 번역문]은 ""철저한 확인을 실시할 예정입니다""라고 미래 시제로 번역되어 시제 불일치가 발생했고, 이는 의미가 일치하지 않는 것으로 판단된다. 따라서 [1차 영어 번역문]을 무시하고 다시 번역해야 한다. 주어는 생략되어 있지만 문맥상 철도 직원이나 보안 요원으로 추정되므로 ""we""로 번역한다.","a report has been receive about a fugitive on the run, so we are conducing a thorough identity check."
+스윽,스윽,lift,lift,,lift
+양해 부탁드립니다.,양해 부탁드립니다.,we ask for your understanding.,We ask for your understanding.,,we apologize for the inconvenience.
+예.,예.,"yes, of course.",Yes.,"""예.""는 단순히 ""Yes.""로 번역하는 것이 자연스럽고, ""yes, of course.""는 ""물론입니다""에 더 가까운 의미로 정보가 추가되어 있음. 따라서 정보의 양이 다르므로 새로 번역해야 함.","yes, of course."
+"흠,","흠,","hmm,","hmm,",,hmm...
+힐끔,힐끔,glance,glance,,glance
+올렌 스미스' 맞으십니까?,올렌 스미스' 맞으십니까?,are you mr. ollen smith?,Are you Mr. Ollen Smith?,,are you mr. ollen smith?
+그리고 일행은 따님이신 '리사 스미스'...,그리고 일행은 따님이신 '리사 스미스'...,"and this must be your daughter, lisa smith...","and this must be your daughter, lisa smith...",,"and this must be your daughter, lisa smith..."
+방긋,방긋,*smiles brightly*,*smiles brightly*,,smile
+씨익,씨익,*grins*,*grins*,,grin
+"예, 맞습니다!","예, 맞습니다!","yes, that's right!","Yes, that's right!",,"yes, that's right!"
+객실 인원은 3명으로 예약하셨군요. 가족여행이라도 가시는 건가요?,객실 인원은 3명으로 예약하셨군요. 가족여행이라도 가시는 건가요?,i see you have booked three seats. are you going on a family trip?,It looks like your cabin was reserved for three people. Are you going on a family trip?,"[1차 한글 번역문]은 ""세 좌석을 예약하셨군요. 가족여행 가시나요?""로, [한글 대화]의 ""객실 인원은 3명으로 예약하셨군요. 가족여행이라도 가시는 건가요?""와 비교했을 때 정보의 양이 다릅니다. '객실 인원'이라는 표현은 단순히 좌석 수가 아니라 객실 단위로 예약된 인원을 의미하며, 이는 열차의 객실 예약 시스템을 반영한 표현입니다. 따라서 단순히 'three seats'로 번역하는 것은 정보가 누락된 것으로 간주되어 새로 번역해야 합니다.",i see you have booked three seats. are you going on a family trip?
+하하,하하,"haha,",Haha.,,haha
+"네, 그렇습니다. 휴가 삼아 한 번 떠나볼까 해서...","네, 그렇습니다. 휴가 삼아 한 번 떠나볼까 해서...","yes, we are. we thought we should go on a trip for our vacation...","yes, we are. we thought we should go on a trip for our vacation...",,"yes, that's right. we thought we'd go on a vacation..."
+기차는 5분 후 출발합니다. 탑승을 서둘러 주시기 바랍니다.,기차는 5분 후 출발합니다. 탑승을 서둘러 주시기 바랍니다.,the train will be departing in five minutes. please hurry and board the train.,The train will depart in five minutes. Please hurry and board.,,the train will be departing in five minites. please proceed to board promoptly.
+저... 그런데 말입니다.,저... 그런데 말입니다.,um... the thing is...,um... the thing is...,,um... but...
+일행이 아직 오지 않아서요. 조금만 더 기다려줄 수 있을까요?,일행이 아직 오지 않아서요. 조금만 더 기다려줄 수 있을까요?,my wife hasn't arrived yet. could you give us a bit more time?,Our party hasn't arrived yet. Could you wait just a little longer?,"원문의 ""일행이 아직 오지 않아서요""는 '일행'이라는 단어를 사용해 특정인을 지칭하지 않고 복수일 수도 있는 표현이지만, 1차 번역문은 ""my wife""로 특정 인물로 한정하고 있어 정보의 양이 다릅니다. 따라서 원문에 맞게 '일행'이라는 표현을 살려 다시 번역해야 합니다. 주어는 ""we"" 또는 ""our party""로 표현할 수 있습니다.",my wife hasn't arrived yet. could you give us a bit more time?
+"아, 아직 도착하지 않으셨나요? 기차 출발까지 시간이 얼마 남지 않았는데..","아, 아직 도착하지 않으셨나요? 기차 출발까지 시간이 얼마 남지 않았는데.","oh, is she not here yet? there isn't much time left until the train departs...","oh, is she not here yet? there isn't much time left until the train departs...",,"oh, she's not here yet? the train will be departing shortly though..."
+"예, 저, 사실 부인이 거동이 좀 불편해서..","예, 저, 사실 부인이 거동이 좀 불편해서..","yes, uh, actually, my wife has some difficulty walking...","yes, uh, actually, my wife has some difficulty walking...",,"yes, um... actually, my wife has trouble walking..."
+시간을 조금 더 주시면 감사하겠습니다.,시간을 조금 더 주시면 감사하겠습니다.,i would appreciate it if you could give us a bit more time.,I would appreciate it if you could give me a bit more time.,"원문의 주어는 '저'이고, 1차 영어 번역문은 'we/us'를 주어로 사용하여 주어가 다르며 정보의 양이 다릅니다. 따라서 다시 번역해야 합니다.",i would appreciate it if you could give us a bit more time.
+스윽,스윽,lean,lean,,lean
+흐음...,흐음...,hmm...,hmm...,,hmm...
+...,...,......,......,,...
+"스미스씨,","스미스씨,","mr. smith,","Mr. Smith,",,mr. smith...
+정말 부인을 기다리시는 게 맞습니까?,정말 부인을 기다리시는 게 맞습니까?,are you really waiting for your wife?,"Are you truly waiting for your wife, sir?","원문의 ""정말 부인을 기다리시는 게 맞습니까?""는 정중한 의문문이며, 주어는 '당신'이고, '정말로 부인을 기다리고 있는 것이 맞는가'라는 의미다. 1차 영어 번역문은 소문자로 시작했고, 주어가 생략되어 있으며, 정중한 표현도 빠져 있다. 따라서 문법적, 정보적, 어조 측면에서 모두 부족하므로 새로 번역해야 한다.",are you really waiting for your wife?
+뿌우우우,뿌우우우,"choo, choo...","choo, choo...",,vwooo
+뿌우우우,뿌우우우,"choo, choo...","choo, choo...",,vwooo
+휘이이,휘이이,whoosh,whoosh,,whoosh
+꿀꺽,꿀꺽,gulp,gulp,,gulp
+...무슨 말씀이시죠?,...무슨 말씀이시죠?,what do you mean...?,what do you mean...?,,what do you mean...?
+팔락,팔락,flip,flip,,flip
+"예약된 객실 인원은 세 분이시고,","예약된 객실 인원은 세 분이시고,","there are three of you in total,",The reserved room is for three people.,"""예약된 객실 인원은 세 분이시고""는 객실 예약 인원이 세 명이라는 의미로, 주어는 '객실 인원'이며 예약과 관련된 정보가 포함되어 있다. 반면 ""there are three of you in total""은 단순히 현재 탑승자 수가 세 명이라는 의미로, '예약'이라는 정보가 누락되어 있어 정보의 양이 다르다. 따라서 다시 번역해야 한다.","you booked three seats,"
+탑승자 명단에는...,탑승자 명단에는...,and the passengers on the list are...,and the passengers on the list are...,,and the name i have here is...
+노아 스미스'라는 이름이 보이네요.,노아 스미스'라는 이름이 보이네요.,"...ollen smith, lisa smith, and noah smith.","...ollen smith, lisa smith, and noah smith.",,...noa smith.
+아드님의 성함이 아니십니까?,아드님의 성함이 아니십니까?,isn't that your son's name?,"Is that not your son's name, sir?","원문의 ""아드님의 성함이 아니십니까?""는 존댓말이며, ""성함""이라는 단어를 통해 공손한 표현임을 알 수 있다. 1차 영어 번역문 ""isn't that your son's name?""은 평어체로 번역되어 공손함이 반영되지 않았다. 따라서 공손한 표현을 사용하여 다시 번역해야 한다.",isn't that your son's name?
+...예?,...예?,what...?,what...?,,what...?
+그 이름으로 이미 짐칸에 짐을 맡겨놓은 걸로 기록이 있습니다만...,그 이름으로 이미 짐칸에 짐을 맡겨놓은 걸로 기록이 있습니다만...,"according to our records, he has already placed his bags in the baggage car...","according to our records, he has already placed his bags in the baggage car...",,there is a record of luggage already checked in under that name...
+혹시 짐칸에 계신 게 아닐까요?,혹시 짐칸에 계신 게 아닐까요?,could he be waiting there?,Could he be in the luggage compartment?,"[한글 대화]는 ""혹시 짐칸에 계신 게 아닐까요?""로, 이는 누군가가 짐칸에 있을 가능성을 조심스럽게 제안하는 의문문이다. 주어는 '그'이며, '짐칸에 있다'는 상태를 말하고 있다. 반면 [1차 영어 번역문] ""could he be waiting there?""는 '그가 거기서 기다리고 있을 수도 있다'는 의미로, '기다리다'라는 동작이 추가되어 원문의 의미와 다르다. 이는 정보의 양이 다르고 의미도 불일치하므로, [한글 대화]를 기반으로 능동태로 다시 번역해야 한다.",could he be waiting there?
+꾸벅,꾸벅,bow,bow,,bow
+시끌시끌,시끌시끌,clamor,clamor,,clamor
+여기요!,여기요!,over here!,Over here!,,over here!
+예! 곧 갑니다!,예! 곧 갑니다!,yes! i'll be right there!,Yes! I'll be right there!,,yes! i'll be right there!
+"그럼, 즐거운 여행 되십시오, 스미스 씨.","그럼, 즐거운 여행 되십시오, 스미스 씨.","then have a pleasant trip, mr. smith.","Then, have a pleasant trip, Mr. Smith.",,"i hope you have a pleasant trip, mr. smith."
+뚜벅뚜벅,뚜벅뚜벅,step,step,,step step
+...뭐지?,...뭐지?,what...?,what...?,,what...?
+대체 무슨 일이…,대체 무슨 일이…,what is going on...?,what is going on...?,,what is going on...?
+덜컹,덜컹,rattle,rattle,,rattle
+쉐—!,쉐—!,kya!,kya!,,she--!
+"아니, 리사!","아니, 리사!",lisa!,"No, Lisa!","[한글 대화]는 ""아니, 리사!""로, 놀람이나 당황스러움을 표현하는 감탄문이다. 단순히 이름만 부르는 것이 아니라, 감정이 실린 외침이므로 단순히 ""Lisa!""라고만 번역하면 감정의 뉘앙스가 누락되어 정보의 양이 줄어든다. 따라서 감탄사 ""아니""에 해당하는 영어 표현을 추가해 감정을 살려야 한다. 주어는 생략 가능한 감탄문이므로 포함하지 않아도 된다.","i mean, lisa!"
+타닥,타닥,tap,tap,,tap
+어디 가는 거야!,어디 가는 거야!,where are you going?!,Where are you going?!,,where are you going?!
+"쉐리,","쉐리,","sherry,","Sherry,",,"sherry,"
+타다다다,타다다다,tap,tatatatata,,tp tp tp
+사랑하는 내 딸,사랑하는 내 딸,"my dear daughter,","My beloved daughter,",,"my dear daughter,"
+타다다다,타다다다,tap,tatatatata,,tp tp tp
+부디 너만큼은 이 모든 고통에서 멀어질 수 있기를..,부디 너만큼은 이 모든 고통에서 멀어질 수 있기를.,i hope you can escape from all this suffering...,i hope you can escape from all this suffering...,,i hope that you can escape from all this pain.
+밝은 미래에 도착하기를 간절히 기도하마.,밝은 미래에 도착하기를 간절히 기도하마.,i pray that you arrive at a bright future.,I sincerely pray that you will reach a bright future.,,i pray that a brighter future awaits you at the end of this journey.
+그러기 위해 나는,그러기 위해 나는.,"and in order to make that happen,",I will do it to make that happen.,"[한글 대화]는 ""그러기 위해 나는.""으로 주어 '나'가 명확히 존재하며, 어떤 목적을 이루기 위해 '내가' 무엇을 하겠다는 의지를 나타내는 문장이다. 반면 [1차 영어 번역문]은 ""and in order to make that happen,""으로 끝나는 종속절 형태로, 주어와 동사가 모두 생략되어 있어 문장이 완성되지 않았고, '내가' 한다는 능동적인 표현이 빠져 있다. 따라서 정보의 양이 다르고, 능동태도 아니므로 새로 번역해야 한다.","to make that happen,"
+휘이이,휘이이,whoosh,whoosh,,whoosh
+홀로 남아 끝까지 싸우겠다.,홀로 남아 끝까지 싸우겠다.,i will stay behind and fight till the end.,I will stay behind and fight until the end.,,i will stay behind and fight until the very end.
+부디 용서해주길...,부디 용서해주길...,i hope you can forgive me...,i hope you can forgive me...,,please forgive me...
+덜컹,덜컹,rattle,rattle,,clunk
+사랑한다.,사랑한다.,i love you.,I love you.,,i love you.
+끼익,끼익,creak,creak,,creak
+하아,하아,haa,haa,,haa
+하아,하아,haa,haa,,haa
+휘이이,휘이이,whoosh,whoosh,,fwoosh
+흠칫,흠칫,flinch,flinch,,flinch
+뿌우우,뿌우우,"choo, choo","choo, choo",,vwooo
+뿌우우우,뿌우우우,"choo, choo","choo, choo",,vwoooo
+휘이이,휘이이,whoosh,whoosh,,whoosh
+툭,툭,tap,tap,,tk
+"대령님,","대령님,","colonel,","Colonel,",,"colonel,"
+슬슬 돌입해야 합니다.,슬슬 돌입해야 합니다.,we should begin now.,We should start moving in soon.,"‘슬슬 돌입해야 합니다’는 ‘이제 곧 어떤 행동을 시작해야 한다’는 의미로, ‘we should begin now’는 의미는 비슷하지만 ‘지금 바로 시작해야 한다’는 뉘앙스로 약간 더 급박하다. 또한 원문에는 주어가 없지만 문맥상 ‘we’가 적절하며, ‘돌입하다’는 단순히 ‘begin’보다는 ‘enter’나 ‘move in’처럼 더 구체적인 행동 개시를 의미하는 동사가 적절하다. 따라서 원문의 뉘앙스를 더 잘 살리기 위해 다시 번역해야 한다.",we should begin now.
+처억,처억,point,point,,chk
+이러다 기차가 떠나기라도 한다면 각하께서..,이러다 기차가 떠나기라도 한다면 각하께서.,"if the train leaves, his grace will--","If the train leaves like this, His Grace will be furious.","[한글 대화]는 ""이러다 기차가 떠나기라도 한다면 각하께서.""로, 주어는 생략되어 있지만 문맥상 '우리가 이렇게 하다가는'이라는 의미로 해석되며, '각하께서 (화내실 것이다/문제가 생길 것이다)'라는 암시적인 결과를 내포하고 있다. 반면 [1차 영어 번역문]은 ""if the train leaves, his grace will--""로 끝맺지 않은 문장으로, 결과를 생략한 채 번역되었다. 이는 정보의 양이 부족하며, 완전한 문장이 아니다. 따라서 [한글 대화]의 의미를 능동태로 명확히 전달하는 새로운 번역이 필요하다.","if the train leaves, his highness will --"
+기다려.,기다려.,wait.,We need to wait.,"[한글 대화]는 평서문이며 명령문이 아니다. 따라서 주어가 필요하다. '기다려.'는 명령이 아니라 누군가에게 '기다리라'고 말하는 평서문으로 해석된다. 문맥상 상급자가 부하에게 말하는 상황이므로, 주어를 포함한 정중한 평서문으로 번역해야 한다.",wait.
+치직,치직,static,static,,tsss
+예?,예?,pardon?,What?,"[한글 대화] ""예?""는 놀람이나 당황, 혹은 되묻는 반응으로, ""pardon?""은 정중하게 다시 말해달라는 의미로 쓰이지만, 문맥상 ""예?""는 놀람에 가까운 감탄사로 보인다. 따라서 ""pardon?""보다는 놀람을 표현하는 감탄사로 번역하는 것이 더 적절하다.",pardon?
+기다리라고.,기다리라고.,i said wait.,Wait.,"원문 ""기다리라고.""는 명령문이며, 주어가 생략된 형태입니다. 1차 영어 번역문 ""i said wait.""는 말한 사실을 전달하는 문장으로, 명령의 뉘앙스를 약화시키고 있습니다. 또한 원문의 핵심은 '기다려라'는 명령이지, '내가 그렇게 말했다'는 사실 전달이 아닙니다. 따라서 원문과 의미가 일치하지 않으며, 능동적인 명령문으로 다시 번역해야 합니다.",i said wait.
+후우,후우,haa,haa,,huuu...
+힐끔,힐끔,glance,glance,,glance
+치지직,치지직,static,static,,tsss
+휘이이,휘이이,whoosh,whoosh,,whoosh
+치직,치직,static,static,,tsss
+조슈아...! 이게 대체 어떻게 된 겁니까!,조슈아! 이게 대체 어떻게 된 겁니까!,joshua...! what is going on here?!,joshua...! what is going on here?!,,joshua...! what is going on?!
+"..아, 오스카 씨","..아, 오스카 씨","oh, oscar...","oh, oscar...",,"oh, oscar..."
+..여기가 어디죠? 부인께서는..?,..여기가 어디죠? 부인께서는?,where are we? where is my wife...?,where are we? where is my wife...?,,where are we? where is madam winter...?
+후우,후우,haa,haa,,huuu...
+"하이윈드 역입니다, 왕자 전하.","하이윈드 역입니다, 왕자 전하.","this is highwind station, your highness.","This is Highwind Station, Your Highness.",,"we're at highwind station, your highness."
+뿌우우우,뿌우우우,"choo, choo...","choo, choo...",,vwoooo
+이블린은 어디에 있는 겁니까?,이블린은 어디에 있는 겁니까?,where is evelyn?,Where is Lady Evelyn?,"원문의 [한글 대화]는 ""이블린은 어디에 있는 겁니까?""로, 이는 존칭을 사용한 정중한 질문이다. 하지만 [1차 영어 번역문] ""where is evelyn?""은 주어가 생략되어 있고, 정중함이 부족하다. 문맥상 질문자는 왕자이며, 이블린은 중요한 인물로 보이므로 정중한 표현이 필요하다. 따라서 주어를 명시하고 정중한 표현으로 다시 번역해야 한다.",where is evelyn?
+.....,.....,......,......,,...
+"..저로서는 그분을 막을 수 없었어요,","..저로서는 그분을 막을 수 없었어요,",i couldn't stop her...,i couldn't stop her...,,...i couldn't stop her.
+"미안해, 쉐리.","미안해, 쉐리.","i'm sorry, sherry.","I'm sorry, Sherry.",,"i'm sorry, sherry."
+도저히 그분의 고집을 꺾을 수가 없어서..,도저히 그분의 고집을 꺾을 수가 없어서.,i couldn't break her resolve...,i couldn't break her resolve...,,there was absolutely no way i could change her mind.
+"... 혼자 남겠다 했어요,","... 혼자 남겠다 했어요,",she said she would stay behind...,she said she would stay behind...,,she said she would stay behind...
+오로지 혼자..,오로지 혼자.,all alone...,all alone...,,...all by herself.
+벌떡,벌떡,spring,spring,,shft
+타다다다,타다다다,dash,tatatatata,,tp tp tp
+쿵,쿵,thud,thud,,thud
+스윅,스윅,glance,glance,,glance
+오스카,오스카,"oscar,","Oscar,",,"oscar,"
+쾅,쾅,bang,bang,,bang
+쾅,쾅,bam,bam,,bang
+쾅,쾅,bang,bang,,bang
+미안해,미안해.,i'm sorry.,I'm sorry.,,i'm sorry.
+언제나 네겐 짐만 떠 맡기는군,언제나 네겐 짐만 떠 맡기는군.,i'm always leaving you to carry my burdens.,I'm always making you shoulder my burdens.,,i always leave you with a burden.
+덜컹,덜컹,rattle,rattle,,clunk
+덜컹,덜컹,clunk,clunk,,clunk
+..미안하다,..미안하다,i'm sorry.,I'm sorry.,,i'm sorry.
+철컹,철컹,clunk,clunk,,clunk
+철컹,철컹,clunk,clunk,,clunk
+뒷일을 부탁할게.,뒷일을 부탁할게.,i'll leave the rest to you.,I'll ask you to take care of what comes next.,,i'll leave the rest to you.
+뿌우우우,뿌우우우,"choo, choo","choo, choo",,vwoooo
+척,척,point,step,,thwud
+척,척,point,point,"해당 [한글 대화] '척'은 효과음을 나타내는 의성어 또는 의태어로, 인물이 무언가를 겨누거나 조준하는 동작을 묘사하는 표현이다. 따라서 효과음으로 판단되며, 1차 영어 번역문 'point'는 이 의미를 잘 전달하고 있다.",thwud
+척,척,point,point,"해당 [한글 대화] '척'은 효과음을 나타내는 의성어 또는 의태어로, 인물이 어떤 행동을 하는 소리를 묘사하는 표현이다. 따라서 번역 검토 기준에 따라 [1차 영어 번역문]을 그대로 사용한다.",thwud
+휘이이,휘이이,whoosh,whoosh,,whoosh
+척,척,point,point,"해당 [한글 대화] '척'은 효과음을 나타내는 의성어/의태어로, 인물이 어떤 행동을 취하는 순간의 소리를 표현한 것이다. 따라서 번역 검토 기준에 따라 [1차 영어 번역문] 'point'를 그대로 사용해도 된다.",thwud
+척,척,point,step,,thwud
+휘이이,휘이이,whoosh,whoosh,,whoosh
+척,척,point,point,,thwud
+윈터 공작.,윈터 공작.,"duke winter,",Duke Winter.,,"duke winter,"
+철컥,철컥,click,click,,click
+"아니, 이블린 윈터","아니, 이블린 윈터.","no, evelyn winter.","No, Evelyn Winter.",,"no, evelyn winter."
+대공각하께서 명을 내리셨다.,대공각하께서 명을 내리셨다.,his grace has given us orders.,His Grace has issued an order.,,by order of his highness...
+휘이이,휘이이,whoosh,whoosh,,whoosh
+왕손을 시해하고 도주하려던 죄를 물어,왕손을 시해하고 도주하려던 죄를 물어,we will arrest you immediately for the crime of killing a member of the royal family...,we will arrest you immediately for the crime of killing a member of the royal family...,,...you are under arrest.
+이 자리에서 즉시 체포하겠다.,이 자리에서 즉시 체포하겠다.,...and trying to flee the scene.,...and trying to flee the scene.,,you stand accused of murdering a member of the royal family and attempting to flee.
+움직이지 마!,움직이지 마!,don't move!,Don't move!,,don't move!
+또각,또각,step,step,,step
+철컥,철컥,click,click,,click
+허튼짓을 하면 쏘겠다!,허튼짓을 하면 쏘겠다!,we will shoot if you try anything!,We will shoot if you try anything!,,we will shoot if you try anything!
+무기를 버리고 투항해라.,무기를 버리고 투항해라.,drop your weapon and surrender.,Drop your weapon and surrender.,,drop your weapon and surrender.
+술렁술렁,술렁술렁,clamor,clamor,,clamor
+세상에 저 여자가..!,세상에 저 여자가!,"my goodness, it's her...!","my goodness, it's her...!",,"oh my, it's her...!"
+술렁술렁,술렁술렁,murmur,murmur,,murmur
+왕자님을 살려내! 이 악마!,왕자님을 살려내! 이 악마!,"bring the prince back to life, you devil!","bring the prince back to life, you devil!","[1차 한글 번역문]은 '왕자님을 살려내!'를 'bring the prince back to life'로 번역했는데, 이는 수동태가 아니라 명령문이므로 능동태로 간주할 수 있다. 의미도 일치하고 정보의 양도 같다. '이 악마!'는 'you devil!'로 번역되어 의미와 정보량이 동일하다. 따라서 1차 영어 번역문을 그대로 사용해도 된다.","bring the prince back to life, you devil!"
+죽여! 죽여버려!,죽여! 죽여버려!,kill! kill them of!,Kill her! Kill her now!,"원문 ""죽여! 죽여버려!""는 명령형 감탄문으로, 대상이 단수이며 감정이 격앙된 상태에서 외치는 말이다. 1차 영어 번역문 ""kill! kill them of!""는 문법적으로 틀렸고, ""them""이라는 복수 대상이 등장해 원문의 단수 대상과 불일치하며, ""kill them of""는 영어에서 자연스럽지 않은 표현이다. 따라서 원문에 맞게 단수 대상으로 감정이 실린 명령문을 능동태로 새롭게 번역해야 한다.",kill her! kill her!
+또각,또각,step,step,,step
+선화/채색도움: 스타래빗,선화/채색도움: 스타래빗,to be continued...,to be continued...,,nan
+kim_da_kim,kim_da_kim,to be continued...,to be continued...,,nan

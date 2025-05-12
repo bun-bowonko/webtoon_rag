@@ -2,9 +2,9 @@
 # Name: webtoon-evaluation
 # Description: webtoon-evaluation
 # Inputs:
-#    base_model_name_or_path: str [Default: 'meta-llama/Llama-4-Scout-17B-16E-Instruct']
-#    lora_adapter_path: str [Default: 'gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414']
-#    output_table_name: str [Default: 'llama4_109b_sft_250414_evaluation_parsed']
+#    base_model_name_or_path: str [Default: 'gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged']
+#    batch_size: int [Default: 1.0]
+#    output_table_name: str [Default: 'llama_sft_250417_evaluation_parsed']
 #    project_id: str [Default: 'prod-ai-project']
 components:
   comp-inference:
@@ -12,15 +12,15 @@ components:
     inputDefinitions:
       parameters:
         base_model_name_or_path:
-          defaultValue: meta-llama/Llama-4-Scout-17B-16E-Instruct
+          defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged
           isOptional: true
           parameterType: STRING
-        lora_adapter_path:
-          defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414
+        batch_size:
+          defaultValue: 1.0
           isOptional: true
-          parameterType: STRING
+          parameterType: NUMBER_INTEGER
         output_table_name:
-          defaultValue: llama4_109b_sft_250414_evaluation_parsed
+          defaultValue: llama_sft_250417_evaluation_parsed
           isOptional: true
           parameterType: STRING
         project_id:
@@ -58,16 +58,15 @@ deploymentSpec:
           '
         - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
           \ *\n\ndef inference(\n        project_id: str = \"prod-ai-project\",\n\
-          \        base_model_name_or_path: str = \"meta-llama/Llama-4-Scout-17B-16E-Instruct\"\
-          ,\n        lora_adapter_path : str = \"gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414\"\
-          ,\n        output_table_name: str = \"llama4_109b_sft_250414_evaluation_parsed\"\
+          \        base_model_name_or_path: str = \"gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged\"\
+          ,\n        batch_size: int = 1,\n        output_table_name: str = \"llama_sft_250417_evaluation_parsed\"\
           ,\n    ):\n\n    from transformers import pipeline\n    from transformers\
           \ import BitsAndBytesConfig\n    from datasets import load_dataset, Dataset\n\
           \    from transformers.pipelines.pt_utils import KeyDataset\n    from transformers\
-          \ import AutoTokenizer, AutoModelForCausalLM\n    from peft import PeftModel\n\
-          \    import torch\n    import subprocess\n    from google.cloud import bigquery\n\
-          \    import os\n    import shutil\n    import re\n    from tqdm import tqdm\n\
-          \    tqdm.pandas()\n    import logging\n    client = bigquery.Client(project=project_id)\n\
+          \ import AutoTokenizer, AutoModelForCausalLM\n    import torch\n    import\
+          \ subprocess\n    from google.cloud import bigquery\n    import os\n   \
+          \ import shutil\n    import re\n    from tqdm import tqdm\n    tqdm.pandas()\n\
+          \    import logging\n    client = bigquery.Client(project=project_id)\n\
           \    os.environ[\"HUGGING_FACE_HUB_TOKEN\"] = \"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\"\
           \n    logging.basicConfig(format='%(asctime)s, %(levelname)-8s [%(pathname)s:%(lineno)d]\
           \ %(message)s',\n                        datefmt='%Y-%m-%d:%H:%M:%S',\n\
@@ -81,14 +80,12 @@ deploymentSpec:
           , shell=True)\n        subprocess.run(\n            f'huggingface-cli download\
           \ {base_model_name_or_path} --local-dir-use-symlinks=False --local-dir=base-model\
           \ --include \"*.safetensors\" \"*.json\" $$',\n            shell=True)\n\
-          \    subprocess.run(f\"gsutil -m cp {lora_adapter_path}/* ./base-model/\"\
-          , shell=True)\n    print('** Finsihed Downloading Model Checkpoint ** ')\n\
-          \n    def parse_prediction(prompt, prediction):\n        prompt_nums = []\n\
-          \        for line in prompt.split('\\n'):\n            line = line.strip()\n\
-          \            if not re.findall('^[0-9]{3}', line):\n                continue\n\
-          \            prompt_nums.append(int(re.findall('^[0-9]{3}', line)[0]))\n\
-          \n        prompt_max_num = max(prompt_nums)\n\n        eng_dict = {i: ''\
-          \ for i in range(prompt_max_num + 1)}\n\n        for line in prediction.split('\\\
+          \    print('** Finsihed Downloading Model Checkpoint ** ')\n\n    def parse_prediction(prompt,\
+          \ prediction):\n        prompt_nums = []\n        for line in prompt.split('\\\
+          n'):\n            line = line.strip()\n            if not re.findall('^[0-9]{3}',\
+          \ line):\n                continue\n            prompt_nums.append(int(re.findall('^[0-9]{3}',\
+          \ line)[0]))\n\n        prompt_max_num = max(prompt_nums)\n\n        eng_dict\
+          \ = {i: '' for i in range(prompt_max_num + 1)}\n\n        for line in prediction.split('\\\
           n'):\n            line = line.strip()\n            if not re.findall('^[0-9]{3}',\
           \ line):\n                continue\n            key = int(re.findall('^[0-9]{3}',\
           \ line)[0])\n            value = re.sub('^[0-9]{3}', '', line).strip()\n\
@@ -101,64 +98,43 @@ deploymentSpec:
           \    )\n\n    model = AutoModelForCausalLM.from_pretrained(\n        'base-model',\n\
           \        torch_dtype=torch.bfloat16,\n        device_map=\"auto\",\n   \
           \     quantization_config=bnb_config,\n        attn_implementation=\"flash_attention_2\"\
-          ,\n    )\n    #lora \uBAA8\uB4C8 \uC801\uC6A9\n    model = PeftModel.from_pretrained(model,\
-          \ 'base-model')\n    model.eval()\n\n    def print_gpu_memory():\n     \
-          \   for i in range(torch.cuda.device_count()):\n            allocated =\
-          \ torch.cuda.memory_allocated(i) / (1024 ** 3)\n            reserved = torch.cuda.memory_reserved(i)\
-          \ / (1024 ** 3)\n            print(f\"GPU {i}: Allocated = {allocated:.2f}\
-          \ GB, Reserved = {reserved:.2f} GB\")\n\n    # \uBAA8\uB378 \uB85C\uB529\
-          \ \uC9C1\uD6C4 \uD638\uCD9C\n    print_gpu_memory()\n\n    # \uAE30\uC874\
-          \ tokenizer\uB97C \uB798\uD551\n    class MaxLengthTokenizerWrapper:\n \
-          \       def __init__(self, tokenizer, max_length):\n            self._tokenizer\
-          \ = tokenizer\n            self.max_length = max_length\n\n        def pad(self,\
-          \ *args, **kwargs):\n            kwargs[\"padding\"] = \"max_length\"\n\
-          \            kwargs[\"max_length\"] = self.max_length\n            return\
-          \ self._tokenizer.pad(*args, **kwargs)\n\n        def __getattr__(self,\
-          \ name):\n            return getattr(self._tokenizer, name)\n\n        def\
-          \ __call__(self, *args, **kwargs):\n            return self._tokenizer(*args,\
-          \ **kwargs)\n\n    tokenizer = AutoTokenizer.from_pretrained(\"meta-llama/Llama-4-Scout-17B-16E-Instruct\"\
-          , trust_remote_code=True)\n    # A decoder-only architecture is being used,\
-          \ but right-padding was detected! For correct generation results, please\
-          \ set `padding_side='left'` when initializing the tokenizer.\n    tokenizer.padding_side\
-          \ = \"left\"\n    #tokenizer = MaxLengthTokenizerWrapper(tokenizer, max_length=4096)\n\
-          \n    def instruct_structure(prompt, system_prompt=\"\"\"You're an expert\
-          \ translator who translates Korean webtoon in English. Make sure the number\
-          \ of target sentences matches the number of source sentences. The result\
-          \ should be TSV formatted. \n    \u2022 Find a balance between staying true\
-          \ to the Korean meaning and keeping a natural flow. Don't be afraid to add\
-          \ to the text. Embellish it. \n    \u2022 Avoid translating word-for-word.\
-          \ Keep the general feeling and translate the text accordingly. \n    \u2022\
-          \ Translate with an American audience in mind. This means easy-to-read,\
-          \ conversational English.\"\"\"):\n        input_text, output_text = prompt.split('###\
-          \ target')\n        input_text = input_text.replace('### glossaries', '###\
-          \ glossary').replace('\\n* ', '\\n\u2022 ')\n        input_text = re.sub(r\"\
-          \\[[^\\]]+\\] \", \"none \", input_text)\n        return f\"\"\"<|begin_of_text|><|header_start|>system<|header_end|>\n\
+          ,\n    )\n    model.eval()\n\n    tokenizer = AutoTokenizer.from_pretrained(\"\
+          meta-llama/Llama-4-Scout-17B-16E-Instruct\", trust_remote_code=True)\n \
+          \   tokenizer.pad_token = tokenizer.eos_token\n    # A decoder-only architecture\
+          \ is being used, but right-padding was detected! For correct generation\
+          \ results, please set `padding_side='left'` when initializing the tokenizer.\n\
+          \    tokenizer.padding_side = \"left\"\n\n    def instruct_structure(prompt,\
+          \ system_prompt=\"\"\"You're an expert translator who translates Korean\
+          \ webtoon in English. Make sure the number of target sentences matches the\
+          \ number of source sentences. The result should be TSV formatted. \n   \
+          \ \u2022 Find a balance between staying true to the Korean meaning and keeping\
+          \ a natural flow. Don't be afraid to add to the text. Embellish it. \n \
+          \   \u2022 Avoid translating word-for-word. Keep the general feeling and\
+          \ translate the text accordingly. \n    \u2022 Translate with an American\
+          \ audience in mind. This means easy-to-read, conversational English.\"\"\
+          \"):\n        input_text, output_text = prompt.split('### target')\n   \
+          \     input_text = input_text.replace('### glossaries', '### glossary').replace('\\\
+          n* ', '\\n\u2022 ')\n        input_text = re.sub(r\"\\[[^\\]]+\\] \", \"\
+          none \", input_text)\n        return f\"\"\"<|begin_of_text|><|header_start|>system<|header_end|>\n\
           \n{system_prompt}<|eot|><|header_start|>user<|header_end|>\n\n{input_text.strip()}<|eot|><|header_start|>assistant<|header_end|>\"\
           \"\"\n\n    sql = \"\"\"\n          select series_id, episode_id, org_input_text,\
           \ org_output_text, prompt \n          from webtoon_translation.structured_240820_ep_line\n\
           \          where data_split = 'romance_valid'\n          \"\"\"\n    df\
           \ = client.query(sql).result().to_dataframe()\n    df['prompt'] = df.prompt.progress_apply(lambda\
           \ x: instruct_structure(x))\n    infer_dataset = Dataset.from_pandas(df[['prompt']],\
-          \ split=\"test\")\n\n    # \uC0DD\uC131 \uD30C\uB77C\uBBF8\uD130\n    generation_args\
-          \ = {\n        \"max_new_tokens\": 4097,\n        \"do_sample\": True,\n\
-          \        \"temperature\": 0.1,\n        \"top_p\": 0.9,\n        \"top_k\"\
-          : 30,\n        \"repetition_penalty\": 1.2,\n    }\n\n    predictions =\
-          \ []\n    cnt = 0\n    for item in tqdm(infer_dataset):\n        prompt\
-          \ = item[\"prompt\"]\n\n        # \uC778\uCF54\uB529\n        inputs = tokenizer(\n\
-          \            prompt,\n            return_tensors=\"pt\",\n            padding=\"\
-          max_length\",\n            truncation=True,\n            max_length=4096,\n\
-          \        ).to(model.device)\n\n\n        # \uC0DD\uC131\n        with torch.no_grad():\n\
-          \            outputs = model.generate(\n                **inputs,\n    \
-          \            **generation_args,\n                eos_token_id=tokenizer.convert_tokens_to_ids(\"\
-          <|eot|>\")\n            )\n\n        # \uCCAB \uBC88\uC9F8 \uCD9C\uB825\uB9CC\
-          \ \uCD94\uCD9C\uD558\uACE0 \uB514\uCF54\uB529\n        generated_text =\
-          \ tokenizer.decode(outputs[0][inputs[\"input_ids\"].shape[-1]:], skip_special_tokens=False)\n\
-          \        predictions.append(generated_text.lower())\n\n        logging.info(cnt)\n\
-          \        if cnt == 0:\n            logging.info(generated_text)\n      \
-          \  cnt += 1\n\n    df['prediction'] = predictions\n    df['model_path']\
-          \ = base_model_name_or_path\n\n    df['parsed_prediction'] = df.progress_apply(lambda\
-          \ x: parse_prediction(x['prompt'].split('### target')[0], x['prediction']),\
-          \ axis=1)\n\n    table_id = f'{project_id}.webtoon_translation.{output_table_name}'\n\
+          \ split=\"test\")\n\n    # p00 parameter\uC640 \uB3D9\uC77C\uD568\n    pipe00\
+          \ = pipeline(\n        \"text-generation\",\n        model=model,\n    \
+          \    tokenizer=tokenizer,\n        max_new_tokens=4096,\n        do_sample=True,\n\
+          \        temperature=0.1,\n        top_p=0.9,\n        torch_dtype=torch.bfloat16,\n\
+          \        device_map=\"auto\",\n        top_k=30,\n        repetition_penalty=1.2,\n\
+          \    )\n\n    predictions = []\n    cnt = 0\n    for result in tqdm(pipe00(KeyDataset(infer_dataset,\
+          \ \"prompt\"), batch_size=batch_size, return_full_text=False)):\n      \
+          \  logging.info(cnt)\n        pred = result[0]['generated_text'].lower()\n\
+          \        predictions.append(pred)\n        if cnt == 0:\n            logging.info(pred)\n\
+          \        cnt += 1\n\n    df['prediction'] = predictions\n    df['source']\
+          \ = 'llama_p00'\n    df['model_path'] = base_model_name_or_path\n\n    df['parsed_prediction']\
+          \ = df.progress_apply(lambda x: parse_prediction(x['prompt'].split('###\
+          \ target')[0], x['prediction']), axis=1)\n\n    table_id = f'{project_id}.webtoon_translation.{output_table_name}'\n\
           \    job_config = bigquery.LoadJobConfig(write_disposition='WRITE_TRUNCATE')\n\
           \    job = client.load_table_from_dataframe(\n        df, table_id, job_config=job_config\n\
           \    )\n    job.result()\n\n"
@@ -183,8 +159,8 @@ root:
           parameters:
             base_model_name_or_path:
               componentInputParameter: base_model_name_or_path
-            lora_adapter_path:
-              componentInputParameter: lora_adapter_path
+            batch_size:
+              componentInputParameter: batch_size
             output_table_name:
               componentInputParameter: output_table_name
             project_id:
@@ -194,15 +170,15 @@ root:
   inputDefinitions:
     parameters:
       base_model_name_or_path:
-        defaultValue: meta-llama/Llama-4-Scout-17B-16E-Instruct
+        defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged
         isOptional: true
         parameterType: STRING
-      lora_adapter_path:
-        defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414
+      batch_size:
+        defaultValue: 1.0
         isOptional: true
-        parameterType: STRING
+        parameterType: NUMBER_INTEGER
       output_table_name:
-        defaultValue: llama4_109b_sft_250414_evaluation_parsed
+        defaultValue: llama_sft_250417_evaluation_parsed
         isOptional: true
         parameterType: STRING
       project_id:

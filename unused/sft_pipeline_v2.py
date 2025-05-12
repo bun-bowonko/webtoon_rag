@@ -8,8 +8,6 @@ from typing import NamedTuple
     output_component_file='webtoon-sft.yaml'
 )
 def train(project_id: str = "prod-ai-project",
-        # base_model_name_or_path: str = "meta-llama/Meta-Llama-3.1-405B-Instruct",
-        # data_sql: str = "where data_split in ('train')",
         base_model_name_or_path: str = "meta-llama/Llama-4-Scout-17B-16E-Instruct",
         data_sql: str = "where data_split in ('train') and create_date = (select max(create_date) from webtoon_translation.sft_dataset)",
         max_seq_length: int = 8192,
@@ -42,6 +40,8 @@ def train(project_id: str = "prod-ai-project",
     import torch
     import torch.nn as nn
     from transformers.activations import ACT2FN
+    from transformers import logging
+    logging.set_verbosity_info()  # 또는 logging.set_verbosity_debug()
     from accelerate import Accelerator, init_empty_weights, infer_auto_device_map
     from datasets import load_dataset, Dataset
     from peft import AutoPeftModelForCausalLM, LoraConfig, PeftModel, prepare_model_for_kbit_training, get_peft_model
@@ -148,6 +148,7 @@ def train(project_id: str = "prod-ai-project",
     #pytorch memory segmentation 방지
     os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:False,max_split_size_mb:1024"
     os.environ["HUGGING_FACE_HUB_TOKEN"] = auth_token
+    os.environ["CUDA_LAUNCH_BLOCKING"] = "1" #디버깅용으로만 설정하고, 실제 학습엔 꺼두는 게 좋음 -> 느려짐, 모든 cuda 연산이 순차적으로 실행돼서 에러 어디서 터지는지 보기 좋음
 
 
     if os.path.exists('base-model2'):
@@ -208,34 +209,6 @@ def train(project_id: str = "prod-ai-project",
     from accelerate import infer_auto_device_map
     from accelerate.utils import get_balanced_memory
 
-
-    # 2. 빈 모델 로딩 (메모리 낭비 없이 구조만 로드됨)
-    # with init_empty_weights():
-    #     model = AutoModelForCausalLM.from_pretrained(
-    #     'base-model2',
-    #     torch_dtype=torch.bfloat16,
-    #     attn_implementation="flash_attention_2",
-    #     trust_remote_code=True,
-    # )
-    # # 3. device_map 추론
-    # max_memory=get_balanced_memory(
-    #             model,
-    #             no_split_module_classes=["LlamaDecoderLayer"],
-    #             dtype=torch.bfloat16,
-    #         )
-    # # ✅ 95%만 쓰도록 비율 조정
-    # max_memory = {gpu_id: int(mem * 0.95) for gpu_id, mem in max_memory.items()}
-
-
-    # device_map = infer_auto_device_map(
-    #     model,
-    #     max_memory=max_memory,
-    #     no_split_module_classes=["LlamaDecoderLayer"],
-    #     dtype=torch.bfloat16,
-    # )
-
-    # print(device_map)
-
     manual_device_map = {
         "model.embed_tokens": 0,
         "model.layers.0": 0,
@@ -274,7 +247,7 @@ def train(project_id: str = "prod-ai-project",
         "model.layers.33": 5,
         "model.layers.34": 5,
         "model.layers.35": 5,
-        "model.layers.36": 6,
+        "model.layers.36": 5,
         "model.layers.37": 6,
         "model.layers.38": 6,
         "model.layers.39": 6,
@@ -301,6 +274,8 @@ def train(project_id: str = "prod-ai-project",
         trust_remote_code=True,
     )
 
+    model.config.use_cache = False
+    
     print(f"파라미터 ✅체크✅ : ",model.hf_device_map)    
 
     for layer in model.model.layers:
@@ -335,19 +310,9 @@ def train(project_id: str = "prod-ai-project",
             print(f"{name}: {param.shape}, device={param.device}, dtype={param.dtype}")
             
     print("✅✅✅ Llama4TextExperts 계층이 Llama4TextExpertsWithLinear으로 성공적으로 교체되었습니다!")
-        
-    # tmp = []
-    # expert_num = 16
-    # for i in range(expert_num):
-    #     tmp.append(f"experts.gate_up_proj.{i}")
-    #     tmp.append(f"experts.down_proj.{i}")
-    # peft_config.target_modules.update(tmp)
-    
 
     model = prepare_model_for_kbit_training(model)
     model = get_peft_model(model, peft_config)  # LoRA 레이어 생성됨!
-
-    
     model.print_trainable_parameters()
 
     def print_gpu_memory():
@@ -380,30 +345,10 @@ def train(project_id: str = "prod-ai-project",
     # prevent ```RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn```
     model.enable_input_require_grads()
 
-
-    # 기존 tokenizer를 래핑
-    class MaxLengthTokenizerWrapper:
-        def __init__(self, tokenizer, max_length):
-            self._tokenizer = tokenizer
-            self.max_length = max_length
-    
-        def pad(self, *args, **kwargs):
-            kwargs["padding"] = "max_length"
-            kwargs["max_length"] = self.max_length
-            return self._tokenizer.pad(*args, **kwargs)
-    
-        def __getattr__(self, name):
-            return getattr(self._tokenizer, name)
-    
-        def __call__(self, *args, **kwargs):
-            return self._tokenizer(*args, **kwargs)
-
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-4-Scout-17B-16E-Instruct", trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token #빼야됨, llama4는 pad토큰 가지고 있음 -> 그래도 상관없음
     tokenizer.padding_side = "right"  # Fix weird overflow issue with fp16 training
-    #tokenizer = MaxLengthTokenizerWrapper(tokenizer, max_length=max_seq_length)
-    
-    
+   
     def instruct_structure(prompt, system_prompt="""You're an expert translator who translates Korean webtoon in English. Make sure the number of target sentences matches the number of source sentences. The result should be TSV formatted. 
     • Find a balance between staying true to the Korean meaning and keeping a natural flow. Don't be afraid to add to the text. Embellish it. 
     • Avoid translating word-for-word. Keep the general feeling and translate the text accordingly. 
@@ -460,13 +405,12 @@ def train(project_id: str = "prod-ai-project",
         max_seq_length=max_seq_length,
         num_train_epochs=num_train_epochs,
         logging_steps=logging_steps,
-        # eval_steps=eval_steps,
+        log_level="info",
+        logging_strategy="steps",
+        log_on_each_node=True,
         save_steps=save_steps,
-        # evaluation_strategy='steps',
         per_device_train_batch_size=per_device_train_batch_size,
-        # per_device_eval_batch_size=per_device_eval_batch_size,
         gradient_accumulation_steps=gradient_accumulation_steps,
-        # eval_accumulation_steps=gradient_accumulation_steps,
         gradient_checkpointing=gradient_checkpointing,
         learning_rate=learning_rate,
         lr_scheduler_type=lr_scheduler_type,
@@ -516,7 +460,6 @@ def train(project_id: str = "prod-ai-project",
     trainer = SafeSFTTrainer(
         model=model,
         train_dataset=train_dataset,
-        # eval_dataset=eval_dataset,
         formatting_func=formatting_prompts_func,
         data_collator=collator,
         #peft_config=peft_config,
@@ -567,12 +510,12 @@ if __name__ == '__main__':
         output_dir: str = "./sft",
         max_steps: int = -1,
         num_train_epochs: int = 3,
-        logging_steps: int = 1,
+        logging_steps: int = 10,
         eval_steps: int = 1000000000000, # skip evaluation
         save_steps: int = 1000000000000, # skip saving
         per_device_train_batch_size: int = 1,
         per_device_eval_batch_size: int = 1,
-        gradient_accumulation_steps: int = 16,
+        gradient_accumulation_steps: int = 1,
         gradient_checkpointing: bool = True,
         learning_rate: float = 5e-5,
         lr_scheduler_type: str = "cosine",

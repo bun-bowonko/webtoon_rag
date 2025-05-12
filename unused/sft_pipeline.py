@@ -123,28 +123,28 @@ def train(project_id: str = "prod-ai-project",
     #     no_split_module_classes=["Llama4TextDecoderLayer", "Llama4VisionAttention"],  # 중요!
     # )
     
-    device_map = {}
-    num_layers = 48
-    layers_per_gpu = num_layers // 8
+    # device_map = {}
+    # num_layers = 48
+    # layers_per_gpu = num_layers // 8
     
-    for i in range(8):
-        start = i * layers_per_gpu
-        end = (i + 1) * layers_per_gpu
-        for j in range(start, end):
-            device_map[f"model.layers.{j}"] = i
+    # for i in range(8):
+    #     start = i * layers_per_gpu
+    #     end = (i + 1) * layers_per_gpu
+    #     for j in range(start, end):
+    #         device_map[f"model.layers.{j}"] = i
     
-    device_map.update({
-        "model.embed_tokens": 0,
-        "model.norm": 7,
-        "model.rotary_emb": 7,
-        "lm_head": 7,
-    })
+    # device_map.update({
+    #     "model.embed_tokens": 0,
+    #     "model.norm": 7,
+    #     "model.rotary_emb": 7,
+    #     "lm_head": 7,
+    # })
     
-    print(device_map)
+    #print(device_map)
     model = AutoModelForCausalLM.from_pretrained(
         'base-model',
         torch_dtype=torch.bfloat16,
-        device_map=device_map,#"auto",
+        device_map="auto",
         attn_implementation="flash_attention_2",
         quantization_config=bnb_config,
         trust_remote_code=True,

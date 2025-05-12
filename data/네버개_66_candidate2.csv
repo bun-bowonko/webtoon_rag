@@ -1,0 +1,267 @@
+origin_hangle,changed_hangle,first_translate,second_translate,reason,label
+휘이이,휘이이  ,whoosh,whoosh,,whoosh
+덜컹,덜컹  ,clunk,clunk,,clunk
+덜컹,덜컹  ,clunk,clunk,,clunk
+키스해 줘.,키스해 줘.  ,kiss me.,Kiss me.,,kiss me.
+덜컹,덜컹  ,rattle,rattle,,rattle
+덜컹,덜컹  ,rattle,rattle,,rattle
+아..,아.  ,ah...,ah...,,ah.
+흠칫,흠칫  ,startled,startled,,flinch
+스윽,스윽  ,lift,lift,"‘스윽’은 조용하고 부드럽게 움직이는 소리를 나타내는 의성어/의태어로, 효과음에 해당한다. 따라서 1차 영어 번역문을 그대로 사용한다.",lean
+!,!  ,!,!,,!
+츕,츕  ,smooch,smooch,,chu
+....,....  ,......,......,,...
+츄읍,츄읍  ,smooch,smooch,,chu
+덜컹,덜컹  ,clunk,clunk,,clunk
+헉,헉  ,hah...,hah...,,hah...
+하아,하아  ,haa...,haa...,,hah
+덜컹,덜컹  ,clunk,clunk,,clunk
+하아,하아  ,haa...,haa...,,hah
+덜컹,덜컹  ,clunk,clunk,,clunk
+헉,헉  ,hah...,hah...,,hah...
+..나도,..나도  ,i also...,i also...,,i also...
+꽈악,꽈악  ,...want to...,...want to...,,squeeze
+널 만지고 싶어,널 만지고 싶어.  ,...touch you.,...touch you.,,...want to touch you.
+나도,나도.  ,i also...,i also...,,i also...
+널 끌어안고 싶어..,널 끌어안고 싶어.  ,...want to hold you...,...want to hold you...,,...want to hold you.
+제발..,제발.  ,please...,please...,,please...
+끼익,끼익  ,creak,creak,,creak
+....,....  ,......,......,,...
+꾸욱,꾸욱  ,grip,Grip,,press
+스륵,스륵  ,lean,Srrk,,shrrk
+"이블린,","이블린,  ",evelyn...,evelyn...,,"evelyn,"
+사랑해요..,사랑해요.  ,...i love you...,...i love you...,,i love you...
+당신도 저와 같은 마음이라고 말해줘요.,당신도 저와 같은 마음이라고 말해줘요.  ,tell me you feel the same way about me.,Tell me that you feel the same way.,"원문의 ""당신도 저와 같은 마음이라고 말해줘요""는 ""당신이 나와 같은 감정을 느낀다고 말해줘""라는 의미로, 주어는 '당신'이고, 요청의 대상은 '같은 감정을 느낀다고 말해달라'는 것이다. 1차 영어 번역문은 ""tell me you feel the same way about me""로, 의미는 유사하지만 ""about me""라는 표현이 추가되어 있어 원문에 없는 정보가 포함되었다. 따라서 정보의 양이 다르므로 새로 번역해야 한다.",tell me you feel the same way.
+덜컹,덜컹  ,clunk,clunk,,clunk
+응..,응.  ,yes...,yes...,,yes...
+덜컹,덜컹  ,rattle,rattle,,rattle
+나도 마찬가지야..,나도 마찬가지야.  ,i feel the same way...,i feel the same way...,,i feel the same way...
+더듬,더듬  ,reach,Someone fumbles with their hand.,"[한글 대화] ""더듬""은 누군가가 손으로 더듬는 동작을 묘사하는 의태어로, 'reach'는 단순히 손을 뻗는 동작을 의미하지만 '더듬다'는 의미의 섬세한 촉각적 탐색이 빠져 있다. 따라서 의미가 일치하지 않으며 정보의 양도 다르다. 이에 따라 능동태로 다시 번역해야 한다.",fumble
+쑥,쑥  ,reach,Someone suddenly reached out.,"‘쑥’은 어떤 동작이 빠르게 또는 갑자기 튀어나오거나 들어가는 모습을 묘사하는 의태어로, 단순히 ‘reach’라고 번역하면 동작의 속도나 갑작스러움을 전달하지 못해 정보의 양이 부족하다. 따라서 맥락상 어떤 인물이 갑자기 손을 뻗는 장면일 가능성이 높으므로, 이를 반영해 능동태로 다시 번역해야 한다.",reach
+철컥,철컥  ,click,click,,click
+스윽,스윽  ,raise,raise,,raise
+타앙,타앙  ,pow,pow,,bang
+크악!,크악!  ,argh!,Argh!,,argh!
+픽,픽  ,drop,drop,"[한글 대화] '픽'은 캐릭터가 총에 맞거나 충격을 받아 쓰러지는 소리를 표현하는 의성어로, 효과음에 해당한다. 따라서 1차 영어 번역문 'drop'은 이 효과음을 간결하게 전달하고 있으며, 그대로 사용해도 무방하다.",fshk
+끼긱,끼긱  ,creak,creak,,creak
+덜커덩,덜커덩  ,rattle,rattle,,rattle
+콰장창,콰장창  ,crash,crash,,creak
+끼릭,끼릭  ,clop,clop,,krrk
+끼릭,끼릭  ,clop,clop,,krrk
+끼릭,끼릭  ,clop,clop,,krrk
+끼릭,끼릭  ,clop,clop,,krrk
+턱,턱  ,grab,grab,"‘턱’은 어떤 것이 갑자기 멈추거나 걸리는 소리를 나타내는 효과음이므로, 의성어/의태어에 해당한다. 따라서 1차 영어 번역문을 그대로 사용한다.",grab
+끼익,끼익  ,neigh,creak,"‘끼익’은 문맥상 문이 열리거나 닫히는 소리 또는 마찰음일 가능성이 높으며, ‘neigh’는 말(horse)의 울음소리로 전혀 다른 의미이므로 의미가 일치하지 않는다. 따라서 새로 번역해야 한다.",creak
+비틀,비틀  ,stagger,stagger,,stagger
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+"나, 난 더 이상 못하겠어!","나, 난 더 이상 못하겠어!  ",i-i can't do this anymore!,I can't do this anymore!,,i-i can't do this anymore!
+그냥 선금만 받을 테니 난 빼줘!,그냥 선금만 받을 테니 난 빼줘!  ,"i'll just take the deposit, so leave me out of this!","I'll just take the advance payment, so count me out!",,"i'll just take the deposit, so leave me out of this!"
+타닥,타닥  ,dash,dash,"[한글 대화] ""타닥""은 불꽃이 타오르거나 무언가 타는 소리를 나타내는 의성어로, 효과음에 해당한다. 따라서 [1차 영어 번역문] ""dash""는 의미가 맞지 않지만, 어쨌든 효과음이므로 원문 그대로 유지한다.",dash
+"으, 으아아..!","으, 으아아..!  ",a-aaah...!,a-aaah...!,,argh... aaaah!
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+지독한 인간.,지독한 인간.  ,you vile man.,You cruel man.,,you vile woman.
+기어코 끝을 볼 셈이군.,기어코 끝을 볼 셈이군.  ,you're determined to see this through to the end.,You're determined to see this through to the end.,,you're determined to see this through to the end.
+"그래, 멍청하긴.","그래, 멍청하긴.  ","that's right, you fool.","Yeah, how foolish.","[한글 대화]는 ""그래, 멍청하긴.""으로, 이는 상대방이 멍청하다는 사실을 인정하면서도 약간 비꼬는 듯한 어조를 담고 있다.  
+[1차 영어 번역문] ""that's right, you fool.""은 의미는 유사하지만, ""you fool""이라는 표현이 직접적인 모욕으로 들릴 수 있어 원문의 뉘앙스보다 더 공격적으로 느껴진다.  
+원문의 어조는 비꼬는 듯하면서도 감정을 억누른 냉소적인 느낌이므로, 이를 반영해 더 자연스럽고 원문에 가까운 영어 표현으로 수정해야 한다.","that's right, you fool."
+대체 언제까지 속기만 할 텐가?,대체 언제까지 속기만 할 텐가?  ,how long will you keep falling for it?,How long will you keep falling for it?,"[한글 대화]는 ""대체 언제까지 속기만 할 텐가?""로, 주어는 상대방이며, 계속 속는 것에 대한 비판적 질문이다. [1차 영어 번역문] ""how long will you keep falling for it?""은 의미는 유사하지만, ""keep falling for it""은 반복적으로 속는다는 의미를 담고 있어 적절하다. 다만, 주어가 생략되어 있어 문법적으로 완전하지 않다. 평서문이나 의문문에서는 주어가 반드시 필요하므로, 주어를 추가해 능동태로 수정해야 한다.",how long will you keep falling for it?
+그렇게도 죽고 싶습니까?,그렇게도 죽고 싶습니까?  ,do you really want to die that badly?,Do you really want to die that badly?,,do you really wish to die that badly?
+스윽,스윽  ,lift,Swoosh,,srrk
+제가 죽여드릴까요?,제가 죽여드릴까요?  ,would you like me to kill you?,"Shall I kill you, sir?","원문 ""제가 죽여드릴까요?""는 존댓말이며, 주어는 '저'이고 상대방에게 죽여줄까 정중하게 묻는 표현이다. 1차 영어 번역문 ""would you like me to kill you?""는 의미는 유사하지만, 원문의 존중의 뉘앙스가 충분히 반영되지 않았고, 다소 캐주얼하게 들릴 수 있다. 따라서 원문의 정중한 태도를 반영해 능동태로 다시 번역해야 한다.",would you like me to kill you?
+"뜻대로 해보시죠, 대령님.","뜻대로 해보시죠, 대령님.  ","try it, colonel.","Go ahead and do as you wish, Colonel.","원문 ""뜻대로 해보시죠, 대령님.""은 정중하면서도 도전적인 어조로, ""당신이 원하는 대로 해보라""는 의미를 담고 있다. 1차 영어 번역문 ""try it, colonel.""은 명령형으로 번역되어 원문의 정중한 어조와 도전적인 뉘앙스를 충분히 반영하지 못하고 있다. 또한 주어가 생략되어 있어 평서문으로 보기 어려우므로, 적절한 주어를 포함한 능동태 문장으로 재번역해야 한다.","try it, colonel."
+하나 지금은 안돼.,하나 지금은 안돼.  ,but not right now.,"Hana, you can't do that right now.","원문 ""하나 지금은 안돼.""는 '하나'라는 사람에게 말하는 문장으로, '지금은 안돼'라는 의미를 담고 있다. 1차 영어 번역문 ""but not right now.""는 주어가 없고, '하나'라는 청자에 대한 언급도 없다. 또한 문장이 명확한 평서문이 아닌 단편적인 표현이므로 정보의 양이 부족하다. 따라서 주어와 청자를 포함한 능동태 문장으로 다시 번역해야 한다.",but not right now.
+스윽,스윽  ,raise,raise,,turn
+....,....  ,......,......,,...
+비틀,비틀  ,stagger,stagger,,stagger
+당신을 이해할 수가 없어.,당신을 이해할 수가 없어.  ,i just don't understand you.,I can't understand you.,,i don't understand you.
+너 따위가 이해할 수 있을 리가.,너 따위가 이해할 수 있을 리가.  ,there's no way you can understand me.,There's no way someone like you could ever understand me.,"[1차 한글 번역문]은 ""네가 나를 이해할 수 있을 리가 없다""는 의미로, [한글 대화] ""너 따위가 이해할 수 있을 리가""와 의미는 유사하지만, ""너 따위가""라는 경멸적인 표현이 빠져 있어 정보의 양이 다릅니다. 따라서 원문에 담긴 경멸의 뉘앙스를 살려 다시 번역해야 합니다.",as if someone like you could ever understand me.
+푸르륵,푸르륵  ,neigh,neigh,,neigh
+방금 전 했던 말은 전부 거짓이었습니까?,방금 전 했던 말은 전부 거짓이었습니까?  ,was everything you just said a lie?,Was everything you just said a lie?,,was everything you just said a lie?
+물론이지.,물론이지.  ,of course.,Of course I did.,,of course.
+다그닥,다그닥  ,gallop,gallop,,gallop
+하하하..,하하하.  ,hahaha...,hahaha...,,hahaha...
+다그닥,다그닥  ,gallop,gallop,,gallop
+그래..,그래.  ,well...,well...,,fine...
+가세요.,가세요.  ,go ahead.,Please go.,"‘가세요’는 존댓말이며, 누군가에게 정중하게 떠나라고 말하는 표현이다. ‘go ahead’는 ‘먼저 하세요’ 또는 ‘계속 하세요’라는 의미로, ‘떠나세요’라는 의미와는 다르다. 따라서 의미가 일치하지 않으며, ‘가세요’는 ‘You may leave’ 또는 ‘Please go’ 등으로 번역하는 것이 적절하다. 문맥상 상대방에게 떠나라고 말하는 상황이므로, 정중하지만 단호한 표현이 필요하다.",go.
+다그닥,다그닥  ,gallop,gallop,,gallop
+"지금 이 자리에 함께 있다가는,","지금 이 자리에 함께 있다가는,  ","if we stay together any longer,","If we stay here together any longer,","[한글 대화]는 ""지금 이 자리에 함께 있다가는,""으로, 이는 ""만약 우리가 지금 이 자리에 함께 있다면"" 또는 ""계속 함께 있다면""이라는 조건절이다. [1차 영어 번역문] ""if we stay together any longer,""는 시간적 조건을 강조하고 있지만, ""이 자리에""라는 공간적 정보가 누락되어 정보의 양이 다르다. 따라서 다시 번역해야 한다. 주어는 문맥상 화자와 청자를 포함하는 ""we""가 적절하다.",if you stay here any longer...
+피식,피식  ,smirk,smirk,,smirk
+내가 당신을 죽여버릴 것 같으니까.,내가 당신을 죽여버릴 것 같으니까.  ,i think i'll end up killing you.,Because I feel like I might end up killing you.,"[1차 한글 번역문]은 ""내가 당신을 죽여버릴 것 같으니까.""를 ""내가 결국 당신을 죽일 것 같아.""로 번역한 것으로, 의미는 대체로 유사하지만 ""죽여버릴 것 같으니까""는 이유를 나타내는 표현이며, ""i think i'll end up killing you""는 단순한 예측으로 번역되어 원문의 이유 표현이 누락되었음. 따라서 정보의 양이 다르므로 새로 번역해야 함.",... i just might kill you.
+다그닥,다그닥  ,gallop,gallop,,gallop
+다그닥,다그닥  ,gallop,gallop,,gallop
+다그닥,다그닥  ,gallop,gallop,,gallop
+다그닥,다그닥  ,gallop,gallop,,gallop
+...그래도,...그래도  ,...still...,...still...,,still...
+꾸욱,꾸욱  ,...i believed...,...i believed...,,clench
+나는 당신이 아직 인간이라고 믿었어.,나는 당신이 아직 인간이라고 믿었어.  ,...that there was still some humanity left in you.,...that there was still some humanity left in you.,,...i beleived some part of you was still human.
+"가끔 보이는 표정에서,","가끔 보이는 표정에서,  ",because the expressions you showed sometimes...,because the expressions you showed sometimes...,,"because at time,"
+괴로움이 묻어났으니까..,괴로움이 묻어났으니까.  ,...revealed your agony...,...revealed your agony...,,i could see the pain in your eyes.
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+그거야말로 착각이야.,그거야말로 착각이야.  ,that was your biggest misconception.,That is exactly your misunderstanding.,"[한글 대화]는 ""그거야말로 착각이야.""로, 특정한 생각이나 감정이 완전히 잘못된 것임을 강조하는 표현이다.  
+[1차 영어 번역문] ""that was your biggest misconception.""은 '가장 큰 착각'이라고 표현하여 '그거야말로'라는 강조를 반영하려 했지만, 'biggest'라는 표현은 원문에 없는 정보이므로 정보의 양이 다르다. 따라서 원문에 충실하게 '그거야말로'를 강조하는 방식으로 다시 번역해야 한다.",that was your mistake.
+감히 당신을 구하고 싶다고 생각했어.,감히 당신을 구하고 싶다고 생각했어.  ,i even dared to think that i could save you.,I even dared to want to save you.,"[1차 한글 번역문]은 '내가 당신을 구할 수 있다고 생각했다'는 의미로, '감히 당신을 구하고 싶다고 생각했어'와는 의미가 다릅니다. 원문은 '구하고 싶다'는 욕망(want)을 표현한 것이고, 1차 번역은 '구할 수 있다'는 가능성(can)을 표현하고 있어 의미가 일치하지 않습니다. 따라서 원문에 맞게 능동태로 다시 번역해야 합니다. 주어는 '나(I)'입니다.",i even dared to think that i could save you.
+적어도 그 눈빛에는 거짓 한 점 없었으니까.,적어도 그 눈빛에는 거짓 한 점 없었으니까.  ,"at least, there was no hint of deceit in your eyes.","At least, your eyes showed not a single trace of deceit.",,"there wasn't even a hint of deceit in your eyes, at least."
+역시 넌 군인보다는 작가가 적성에 맞아.,역시 넌 군인보다는 작가가 적성에 맞아.  ,you really are more suited to be a writer than a soldier.,You really are more suited to be a writer than a soldier.,,you would have made a far better writer than a soldier.
+당신을 행복하게 해주고 싶다고 생각했어!!,당신을 행복하게 해주고 싶다고 생각했어!!  ,i wanted to make you happy!!,I thought that I wanted to make you happy!!,"[한글 대화]는 ""당신을 행복하게 해주고 싶다고 생각했어!!""로, 주어가 '나'이고, '당신을 행복하게 해주고 싶다는 생각을 했다'는 의미다. [1차 영어 번역문] ""i wanted to make you happy!!""는 의미는 유사하지만, '생각했다'는 표현이 빠져 있어 정보의 양이 다르다. 따라서 다시 번역해야 하며, 능동태로 ""I thought that I wanted to make you happy""와 같은 형태로 번역해야 한다.",i wanted to make you happy!!
+버럭,버럭  ,shout,shout,"[한글 대화] ""버럭""은 갑작스럽게 화를 내며 소리를 지르는 행동을 묘사하는 의성어/의태어이므로 효과음에 해당한다. 따라서 [1차 영어 번역문] ""shout""은 적절하며 그대로 사용해도 된다.",shout
+나는 도망 다니며 연명하는 삶을,나는 도망 다니며 연명하는 삶을  ,i don't call a life of running away and barely surviving...,i don't call a life of running away and barely surviving...,,"living on the run, barely serviving..."
+행복이라고 부르지 않아.,행복이라고 부르지 않아.  ,...happiness.,...happiness.,,i wouldn't call that happiness.
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+털썩,털썩  ,thud,thud,,thud
+끔찍한 인간.,끔찍한 인간.  ,you wretched man.,You terrible human being.,"‘끔찍한’은 ‘wretched’로 번역 가능하나, ‘wretched’는 ‘비참한’이나 ‘불쌍한’의 뉘앙스가 강해 ‘끔찍한’의 ‘섬뜩하고 혐오스러운’ 의미를 충분히 전달하지 못함. 따라서 ‘terrible’이나 ‘horrible’ 같은 단어가 더 적절함. 주어는 문맥상 상대방을 지칭하므로 ‘You’를 명시해야 함.",you truly are a vile person.
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+"호오,","호오,  ","hoh,",Hoh.,,"ha,"
+나를 아직도 인간으로 여기는가..,나를 아직도 인간으로 여기는가.  ,you still think of me as human...,you still think of me as human...,,you still think i'm human.
+끼익,끼익  ,neigh,neigh,,creak
+"잔인하고, 오만불손하고,","잔인하고, 오만불손하고,  ","you're a cruel, arrogant, and impudent man.",You are cruel and arrogant.,"[한글 대화]는 ""잔인하고, 오만불손하고,""로, 형용사 나열로 구성된 문장이다. [1차 영어 번역문]은 ""you're a cruel, arrogant, and impudent man.""으로, 주어와 동사를 포함한 완전한 문장이다. [한글 대화]에는 'man'이라는 단어가 없으므로 정보가 추가되어 정보의 양이 다르다. 따라서 [1차 영어 번역문]은 사용할 수 없으며, [한글 대화]만을 기반으로 능동태 문장으로 다시 번역해야 한다. 주어가 없는 형용사 나열이므로, 문맥상 상대를 지칭하는 ""You are""를 주어로 보완해 번역한다.",you're cruel and arrogant.
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+도덕을 모르고 타락하여..,도덕을 모르고 타락하여.  ,"you're ignorant of morals, corrupted...","you're ignorant of morals, corrupted...",,you're immoral and crrupt.
+"푸흡,","푸흡,  ","pfft,","pfft,",,pfft
+피식,피식  ,smirk,smirk,,smirk
+"거짓만을 입에 담고,","거짓만을 입에 담고,  ","you speak only lies,",You speak nothing but lies.,,you speak nothing but lies...
+중얼,중얼  ,mutter,mutter,,mutter
+뱀보다도 사악한 혀를 가진 인간.,뱀보다도 사악한 혀를 가진 인간.  ,and have a tongue more wicked than a serpent.,You have a tongue more wicked than a serpent's.,"[1차 한글 번역문]은 수동태이며, 원문인 [한글 대화]는 능동적인 표현이다. 또한 ""and have""로 시작되어 앞 문장이 필요해 보이지만, [한글 대화]는 독립적인 문장이다. 따라서 [1차 영어 번역문]은 문법적으로도 부적절하며, 능동태로 다시 번역해야 한다. 주어는 문맥상 상대방을 지칭하므로 ""You""로 설정한다.",...and your tongue is more venomous than a snake's.
+"하하하,","하하하,  ","hahaha,","hahaha,",,hahaha!
+아하하하..,아하하하.  ,ahahaha...,ahahaha...,,ahahaha!
+"사랑을 비웃고,","사랑을 비웃고,  ","you scoff at love,",You mock love.,,you scoff at love...
+울컥,울컥  ,grit,Choked up,"‘울컥’은 감정이 북받쳐 올라오는 상태를 묘사하는 의태어로, ‘grit’(이를 악물다)는 감정 억제나 결의에 가까운 의미로 감정이 북받치는 상황과는 다릅니다. 따라서 의미가 일치하지 않아 새로 번역해야 합니다. 주어는 생략 가능한 감탄 표현이므로 생략해도 무방합니다.",yell
+순정을 짓밟으며 만족을 느끼는 더러운 악마!!,순정을 짓밟으며 만족을 느끼는 더러운 악마!!  ,"and you feel satisfaction in trampling on pure hearts, you filthy devil!!",You filthy devil who takes pleasure in trampling on pure love!,"원문의 ""순정을 짓밟으며 만족을 느끼는 더러운 악마!!""는 주어가 '너'이고, '너는 순정을 짓밟으며 만족을 느낀다'는 능동적인 행위이다. 1차 영어 번역문은 의미는 대체로 일치하지만, ""you feel satisfaction in trampling on pure hearts""는 다소 설명적인 표현이고, ""더러운 악마""라는 표현이 문장 끝에 덧붙여져 있다. 원문의 감정적 강도와 직접적인 비난을 더 잘 살리기 위해 능동적이고 직설적인 표현으로 재번역이 필요하다.","...and you're a wretched demon, taking pleasure in trampling on pure hearts."
+쿨럭,쿨럭  ,kegh,kegh,,kugh
+부들부들,부들부들  ,tremble,tremble,,tremble tremble
+"그래, 사라져!","그래, 사라져!  ","that's right, disappear!",Disappear!,"원문 ""그래, 사라져!""는 명령문이며, 주어가 생략된 형태입니다. 1차 영어 번역문 ""that's right, disappear!""는 원문의 의미와 유사하지만, ""that's right""이라는 표현이 추가되어 있어 정보의 양이 다릅니다. 원문에는 ""그래""가 있지만 이는 감탄사로서 강조의 의미이며, ""that's right""처럼 해석될 수 있지만, 감정의 뉘앙스를 고려할 때 생략하거나 간결하게 처리하는 것이 더 적절합니다. 따라서 ""disappear!""만으로도 충분하며, 이는 명령문이므로 주어 생략이 허용됩니다.","fine, go away."
+내 앞에서 썩 꺼져버려!,내 앞에서 썩 꺼져버려!  ,get out of my sight!,Get the hell out of my sight!,"""내 앞에서 썩 꺼져버려!""는 강한 분노와 혐오를 담은 표현으로, 단순히 ""get out of my sight!""보다는 더 강한 어조와 모욕적인 뉘앙스를 포함한다. ""썩 꺼져버려""는 ""get the hell out of my sight!"" 또는 ""get lost!""처럼 더 격한 표현으로 번역해야 원문의 감정을 제대로 전달할 수 있다.",get out of my sight!
+버럭,버럭  ,shout,He yelled in a burst of anger.,"[한글 대화] '버럭'은 감정이 폭발하며 소리를 지르는 행동을 묘사하는 의성어로, 단순히 'shout'라고 번역하는 것은 의미 전달이 부족하다. 감정의 폭발, 분노의 느낌을 살려서 능동적인 표현으로 재번역해야 한다.",shout
+"다시는, 다시는 당신을 찾지 않겠어!","다시는, 다시는 당신을 찾지 않겠어!  ","i'll never, never look for you again!","I will never, ever come looking for you again!",,i will never look for you again!
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+두 번 다시 당신을 구하려 들지 않겠어!,두 번 다시 당신을 구하려 들지 않겠어!  ,i will never try to save you again!,I will never try to save you ever again!,,i will never try to save you again!
+...,...  ,...,...,,...
+"스스로 지옥으로 걸어들어가는 자를,","스스로 지옥으로 걸어들어가는 자를,  ",...i can't stop someone...,...i can't stop someone...,,"i can't stop someone who walking willingly into hell,"
+고향으로 돌아가려는 악마를 내 손으로 어떻게 막겠어?,고향으로 돌아가려는 악마를 내 손으로 어떻게 막겠어?  ,...who walks into hell on their own.,...who walks into hell on their own.,,nor a demon yearning to return to its home.
+"그래, 떠나!","그래, 떠나!  ","yes, leave!","Fine, leave!","원문 ""그래, 떠나!""는 명령문이며, ""그래""는 동의나 수긍의 의미로 해석된다. 1차 영어 번역문 ""yes, leave!""는 의미는 유사하지만, ""yes""는 평서문 느낌이 강하고 감정이 덜 실려 있다. 원문의 감정과 어조를 살리기 위해 ""Fine, leave!""처럼 감정이 실린 표현이 더 적절하다.","fine, leave!"
+가버려!,가버려!  ,go!,go!,"원문 ""가버려!""는 명령문이며, ""go!""는 그에 대응하는 간단한 명령형 번역이다. 의미와 정보의 양이 동일하고, 효과음이나 의성어도 아니므로 그대로 사용해도 무방하다.",go!
+꾸욱,꾸욱  ,grip,grip,,grip
+스스로 구원을 져버리는 자를 내가 감히 무슨 수로..!,스스로 구원을 져버리는 자를 내가 감히 무슨 수로..!  ,there's no way i can save someone who's abandoned their own salvation...!,there's no way i can save someone who's abandoned their own salvation...!,,how can i dare to save someone who has abandoned their own salvation?
+이제 한계야..,이제 한계야.  ,i can't take this anymore...,i can't take this anymore...,,i can't take it anymore...
+당신을 사랑한 걸 죽도록 후회해.,당신을 사랑한 걸 죽도록 후회해.  ,i regret loving you to the point of death.,I deeply regret ever loving you.,"[1차 한글 번역문]은 ""나는 당신을 사랑한 걸 죽도록 후회해.""를 ""나는 죽을 만큼 당신을 사랑한 것을 후회한다.""로 번역했는데, 이는 원문의 감정 강도는 비슷하지만 어순과 강조점이 다르고, 특히 ""죽도록 후회해""는 ""죽을 만큼 후회한다""는 의미로 능동적인 감정 표현이다. 따라서 원문의 감정과 어조를 더 자연스럽게 살리기 위해 능동태로 다시 번역해야 한다.",i regret to my very soul that i ever loved you.
+화륵,화륵  ,flare,flare,,fwoom
+내 지난 모든 날이 후회스러워.,내 지난 모든 날이 후회스러워.  ,i regret every day of my past.,I regret all the days I've lived.,,i regret every single day of my past.
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+"돌려줘,","돌려줘,  ",give them back...,give them back...,,give it back.
+내가 버린 시간을 전부 돌려놔..!!,내가 버린 시간을 전부 돌려놔!!  ,...give me back all the time i wasted...!!,...give me back all the time i wasted...!!,,give me back all the time i wasted on you!
+"그래,","그래,  ","yes,",Yes.,"[한글 대화] ""그래,""는 상황에 따라 다양한 의미로 해석될 수 있지만, 일반적으로는 상대방의 말에 동의하거나 수긍하는 의미로 사용된다. [1차 영어 번역문] ""yes,""는 의미는 일치하지만, 문맥상 단독으로 쓰일 경우 어색할 수 있다. 그러나 이 대사는 감정적으로 격앙된 상황에서 짧게 동의하는 표현으로 사용되었으므로 ""Yes.""로 번역해도 무방하다.","now you see,"
+사랑은 사람을 이토록 추하게 만드는 거야..,사랑은 사람을 이토록 추하게 만드는 거야.  ,this is how love makes a person so ugly...,this is how love makes a person so ugly...,,this is what love makes a person-ugly and miserable.
+너무..,너무.  ,it's so...,it's so...,,it's so...
+부르르,부르르  ,shake,shake,,tremble
+고통스러워..,고통스러워.  ,...agonizing...,...agonizing...,,...painful...
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+..고통스럽다라,..고통스럽다라  ,"agonizing, you say...","agonizing, you say...",,"painful, you say...?"
+"그래,","그래,  ","that's right,","Yes, that's right.",,of course.
+온몸이 불에 타고 있는데 어찌 괴롭지 않을까,온몸이 불에 타고 있는데 어찌 괴롭지 않을까.  ,"your entire body is burning, so how could it not be agonizing?",Your whole body is burning—how could it not be painful?,"[1차 한글 번역문]은 수동태이며, [한글 대화]는 능동태 표현이다. 또한 원문의 주어는 '온몸이 불에 타고 있다'로 '불이 몸을 태우고 있다'는 능동적 상황인데, 1차 번역은 이를 수동적으로 표현하여 의미가 다소 달라졌다. 따라서 능동태로 다시 번역해야 한다.","how could it not be, when your whole body is aflame?"
+"하지만, 길.","하지만, 길.  ","but, gil.",But I mean the path.,"‘길’은 사람 이름이 아니라 ‘the path’ 또는 ‘the way’처럼 해석되어야 하며, 문맥상 주어가 생략된 평서문이다. 따라서 주어를 보완해 능동태 문장으로 번역해야 한다.","however, gil..."
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+그것이 사랑의 본질이다.,그것이 사랑의 본질이다.  ,that is the essence of love.,That is the essence of love.,,...that is the very essence of love.
+결국 모든 걸 태우고 재만 남기지.,결국 모든 걸 태우고 재만 남기지.  ,it burns everything to ashes in the end.,Love burns everything and leaves behind nothing but ashes in the end.,"[한글 대화]는 ""결국 모든 걸 태우고 재만 남기지.""로, 주어가 생략되어 있지만 문맥상 '사랑'이 주어로 추정된다. [1차 영어 번역문] ""it burns everything to ashes in the end.""는 이를 반영하고 있으나, ""재만 남기지""는 ""only ashes remain""이라는 의미로, 단순히 ""burns everything to ashes""보다 더 명확하게 '남는 것은 재뿐이다'라는 결과를 강조하고 있다. 따라서 정보의 양이 다르므로 새로 번역해야 한다.",it burns everything to ashes in the end.
+이제라도 네가 알아서 다행이야,이제라도 네가 알아서 다행이야.  ,"i'm glad you finally understand,","I'm glad you realized it, even if it's only now.",,i'm glad you finally understand.
+더는 흔들리지 않을 수 있겠지.,더는 흔들리지 않을 수 있겠지.  ,now you won't waver anymore.,Now you might be able to stay strong.,"[1차 한글 번역문]은 ""이제 너는 더 이상 흔들리지 않을 것이다""로 해석되며 수동태 표현이다. 반면 [한글 대화]는 ""더는 흔들리지 않을 수 있겠지""로 능동적인 가능성을 말하고 있다. 따라서 수동태를 능동태로 바꾸고, 원문의 어조와 의미를 반영해 다시 번역해야 한다.",now you won't waver anymore.
+"부디 너를 태우는 불은 꺼뜨리고,","부디 너를 태우는 불은 꺼뜨리고,  ","please extinguish the fire that consumes you,",I hope you can extinguish the fire that is consuming you.,"원문 ""부디 너를 태우는 불은 꺼뜨리고""는 명령문이 아니라 간절한 바람을 담은 평서문이다. 하지만 1차 영어 번역문은 ""please extinguish...""로 명령문 형태이며, 주어도 생략되어 있다. 또한 원문은 수동태 표현이지만, 능동태로 바꾸어 번역해야 하므로 재번역이 필요하다.","i hope you extinguish the fire consuming you,"
+길을 밝히는 빛을 따라가.,길을 밝히는 빛을 따라가.  ,and follow the light that brightens your path.,Follow the light that illuminates the path.,"1차 한글 번역문은 ""네가 가는 길을 밝히는 빛을 따라가라""는 의미로, 원문인 ""길을 밝히는 빛을 따라가""와 의미는 유사하지만 ""네가 가는""이라는 추가 정보가 포함되어 있어 정보의 양이 다릅니다. 따라서 원문에 충실하게 다시 번역해야 합니다.",and that you follow the light that guides your path.
+더는 방황하지 말고..,더는 방황하지 말고.  ,don't wander anymore...,don't wander anymore...,,don't wander anymore.
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+가주님!!,가주님!!  ,your grace!!,My lord!!,,master!!
+스윽,스윽  ,turn,Swoosh,,tkk
+타닥,타닥  ,tap,tap,,tat tat
+"마리아,","마리아,  ","maria,","Maria,",,"maria,"
+오스카와 쉐리는?,오스카와 쉐리는?  ,where are oscar and sherry?,Where are Oscar and Sherry?,"원문의 [한글 대화]는 ""오스카와 쉐리는?""으로, 이는 의문문이며 주어가 생략된 형태입니다. 1차 영어 번역문 ""where are oscar and sherry?""는 문법적으로 맞고, 주어도 포함되어 있으며, 원문의 의미와 정보량도 일치합니다. 따라서 그대로 사용해도 됩니다.",where are oscar and sherry?
+오전에 베스티라로 떠나셨습니다.,오전에 베스티라로 떠나셨습니다.  ,they left for vestirra this morning.,They left for Vestirra this morning.,,they left for vestira this morning.
+학회 일정이 끝나고 난 후 돌아오실 거예요.,학회 일정이 끝나고 난 후 돌아오실 거예요.  ,they will return after the academic conference ends.,They will come back after the academic conference ends.,,they will return after the symposium is over.
+"그래, 그렇군..","그래, 그렇군.  ",i see...,i see...,,i see...
+그럼 그때에 맞춰서 드레이번으로 향하는 기차표를 예매해 줘.,그럼 그때에 맞춰서 드레이번으로 향하는 기차표를 예매해 줘.  ,then book a train ticket to drayvan that coincides with their return.,Then book a train ticket to Drayvan for that time.,"[한글 대화]에는 '그때에 맞춰서'라는 시간 표현이 있지만, [1차 한글 번역문]은 '그들의 귀환에 맞춰서'라고 해석되어 정보의 양이 다릅니다. '그때'는 앞서 언급된 '학회 일정이 끝난 후 돌아오는 시점'을 의미하므로, '그들의 귀환'과 의미가 유사하지만 정확히 일치하지 않으며, 원문에는 '그들의'라는 표현도 없습니다. 따라서 정보의 양이 다르므로 새로 번역해야 합니다.","then book them a train ticket to drayvan, maching the time of their return..."
+비틀,비틀  ,stagger,stagger,,stagger
+기차역에서 바로 환승할 수 있도록..,기차역에서 바로 환승할 수 있도록.  ,make sure they can transfer right at the station...,make sure they can transfer right at the station...,,...so they could transfer right away at the station.
+오스카에게 전달해 주겠나?,오스카에게 전달해 주겠나?  ,could you let oscar know?,Would you please let Oscar know?,"원문의 ""오스카에게 전달해 주겠나?""는 존댓말이며, 명령이 아닌 정중한 부탁의 형태다. 1차 영어 번역문 ""could you let oscar know?""는 문법적으로는 맞지만, 문맥상 상하 관계가 존재하는 상황(가주가 하인에게 말하는 장면)에서 좀 더 공손한 표현이 필요하다. 따라서 ""Would you please let Oscar know?""가 더 적절하다.",could you let oscar know?
+예..,예.  ,yes...,yes...,,yes...
+"그런데 가주님,","그런데 가주님,  ","but your grace,","By the way, Your Grace,","[한글 대화]는 ""그런데 가주님,""으로, 이는 청자에게 공손하게 말을 걸기 위한 서두 표현이다. [1차 영어 번역문] ""but your grace,""는 문법적으로 불완전한 문장으로, 뒤에 이어지는 내용이 없이 단독으로 쓰이기에는 부적절하다. 따라서 문맥상 자연스럽고 공손한 영어 표현으로 재구성해야 한다.",but master...
+괜찮으신 겁니까?,괜찮으신 겁니까?  ,are you alright?,"Are you all right, sir?","원문의 ""괜찮으신 겁니까?""는 존댓말로, 상대방에 대한 공손한 표현이다. 하지만 1차 영어 번역문 ""are you alright?""은 평어체로 번역되어 공손함이 반영되지 않았다. 등장인물 간의 관계에서 상대방이 '가주님'으로 불리는 권위자임을 고려하면, 더 공손한 표현이 필요하다.",are you alright?
+절뚝,절뚝  ,limp,limp,,limp
+..마리아,..마리아  ,maria...,maria...,,maria...
+예?,예?  ,yes?,Pardon?,"[한글 대화] ""예?""는 놀람이나 되묻는 의미의 감탄사로, 영어로는 ""Pardon?"" 또는 ""Sorry?""와 같이 번역하는 것이 자연스럽다. ""Yes?""는 단순한 긍정 응답으로 의미가 다르므로, 의미가 일치하지 않는다. 따라서 새로 번역해야 한다.",yes?
+때가 됐어.,때가 됐어.  ,it's time.,It's time.,,it's time.
+멈칫,멈칫  ,halt,halt,"[한글 대화] ""멈칫""은 누군가가 갑작스럽게 멈칫하거나 움찔하는 동작을 묘사하는 의태어로, 효과음에 해당한다. 따라서 1차 영어 번역문 ""halt""는 효과음을 그대로 번역한 것으로 간주할 수 있으며, 별도의 수정 없이 그대로 사용 가능하다.",flinch
+준비해야 한다.,준비해야 한다.  ,we must prepare.,I must prepare.,"원문 ""준비해야 한다.""는 주어가 없지만 평서문이므로 영어 번역에서는 주어를 명시해야 한다. 문맥상 이 말을 한 사람은 자신과 상대방 모두를 포함하는 것이 아니라, 혼잣말처럼 자기 자신에게 하는 말로 보인다. 따라서 ""I must prepare.""가 더 적절하다.",we must get ready.
+절뚝,절뚝  ,limp,limp,,limp
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+"으휴, 이번엔 또 뭐야?","으휴, 이번엔 또 뭐야?  ","ugh, what is it this time?","Ugh, what is it this time?",,"ugh, what is it this time?"
+그 마녀가 새벽에 또 어딜 쏘아 다녔나 보지,그 마녀가 새벽에 또 어딜 쏘아 다녔나 보지.  ,looks like that witch was out wandering again in the middle of the night.,Looks like that witch was darting around again at dawn.,"[한글 대화]는 ""쏘아 다녔다""라는 표현을 사용해 단순히 ""돌아다녔다""보다 더 적극적이고 목적 있는 움직임을 묘사하고 있음. ""쏘아 다니다""는 빠르게 여기저기 돌아다니는 뉘앙스를 가지므로, 단순히 ""was out wandering""으로 번역하면 원문의 뉘앙스를 충분히 살리지 못함. 따라서 더 적극적인 움직임을 반영해 다시 번역해야 함.",that witch must have gone somewhere again in the middle of the night.
+술렁술렁,술렁술렁  ,murmur,murmur,,murmur murmur
+"나 참, 그 다리로 뭘 어떻게 돌아다니는지..","나 참, 그 다리로 뭘 어떻게 돌아다니는지.  ","goodness, how can she go around like that with her bad leg...?","goodness, how can she go around like that with her bad leg...?",,"goodness, how does she menage to get around with that leg?"
+"쉿! 조용히 해, 들리겠다!","쉿! 조용히 해, 들리겠다!  ","shh! be quiet, she might hear you!","Shh! Be quiet, she might hear us!",,"shh! be quiet, she might hear you!"
+뭐 어때?,뭐 어때?  ,so what?,What does it matter?,"해당 대사는 의문문이며, 주어가 생략되어 있습니다. 영어 번역에서는 주어를 명시해야 하므로 ""so what?""은 주어가 없어 부적절합니다. 문맥상 이 대사는 상대방의 반응에 대해 무시하거나 개의치 않는 태도를 나타내며, 주어는 화자 자신입니다. 따라서 ""What does it matter?"" 또는 ""Why should I care?""와 같은 표현이 적절합니다. 하지만 원문의 뉘앙스를 고려했을 때, ""So what?""보다는 ""What does it matter?""가 더 자연스럽고 원문의 의미를 잘 전달합니다.",who cares?
+어차피 이곳 사용인 중에 불만 없는 사람은 아무도 없을걸?,어차피 이곳 사용인 중에 불만 없는 사람은 아무도 없을걸?  ,there isn't a single servant here who isn't dissatisfied with her.,There probably isn't a single servant here who's satisfied.,"[1차 한글 번역문]은 ""그녀에게 불만이 없는 하인은 없다""는 의미로, [한글 대화]의 ""이곳 사용인 중에 불만 없는 사람은 아무도 없을걸?""과 의미는 유사하지만, '그녀'라는 대상이 추가되어 정보의 양이 더 많아졌다. 원문에는 불만의 대상이 명시되어 있지 않기 때문에, [1차 영어 번역문]은 정보의 양이 더 많아 번역 기준에 부합하지 않는다. 따라서 [한글 대화]를 기준으로 다시 번역해야 한다.",every servant here has a complaint about her.
+수군수군,수군수군  ,whisper,whisper,,whisper whisper
+"시도 때도 없이 불러내는 대다, 봉급은 줄었고..","시도 때도 없이 불러내는 대다, 봉급은 줄었고.  ","she calls us at all hours, our pay has decreased...","she calls us at all hours, our pay has decreased...",,"she calls on us at all hours. our pay has been cut,"
+"재정이 어려워지는 게 뻔히 보이는데도 여전히 사치를 부리니,","재정이 어려워지는 게 뻔히 보이는데도 여전히 사치를 부리니,  ","the family's finances are clearly in trouble, yet she still lives in luxury.",She keeps indulging in luxury even though it's obvious the family's finances are in trouble.,"[1차 한글 번역문]은 ""가문의 재정이 어려워지는 게 뻔히 보이는데도 그녀는 여전히 사치스럽게 산다""로 해석되며, 이는 수동태 표현 ""are in trouble""과 ""lives in luxury""를 포함하고 있음. 하지만 [한글 대화]는 능동적으로 ""사치를 부리니""라고 표현되어 있고, 주어가 명확하지 않지만 문맥상 '그녀'로 추정됨. 또한 ""사치를 부리니""는 단순히 '살다'가 아니라 '행동'을 강조하는 표현이므로, 능동태로 재작성해야 함.","yet she still lives in luxury, despite the obvious financial troubles."
+이제 윈터가도 끝이야!,이제 윈터가도 끝이야!  ,the winter house is finished now!,The Winter family ends here.,"[1차 영어 번역문]을 한글로 번역하면 ""윈터가가 이제 끝났어!"" 또는 ""윈터가가 끝났어!"" 정도로 해석되며, 이는 [한글 대화] ""이제 윈터가도 끝이야!""와 의미는 유사하지만, 어조와 정보의 양에서 차이가 있다.  
+""이제""는 시점의 강조이며, ""끝이야""는 현재 시점에서의 종결을 의미한다. 또한 ""is finished""는 수동태이므로 능동태로 바꿔야 한다.",house winter is done for!
+타닥,타닥  ,crackle,crackle,,crackle
+타닥,타닥  ,pop,pop,,crackle
+부들부들,부들부들  ,tremble,tremble,,tremble tremble
+이제 곧인가..,이제 곧인가.  ,it's almost time...,it's almost time...,,i guess it's almost time.
+정말 얼마 남지 않았군.,정말 얼마 남지 않았군.  ,there isn't much time left.,There really isn't much time left.,,there really isn't much time left.
+화르륵,화르륵  ,blaze,blaze,,blaze
+참으로 길었다..,참으로 길었다.  ,it's been such a long journey...,it's been such a long journey...,,it's been such a long journey...
+나는 네게 용서도 이해도 바랄 수 없어.,나는 네게 용서도 이해도 바랄 수 없어.  ,i cannot ask for your forgiveness or understanding.,I cannot ask you for forgiveness or understanding.,,i cannot ask for your forgiveness or understanding.
+....,....  ,......,......,,...
+타닥,타닥  ,pop,pop,,crackle
+타닥,타닥  ,crackle,crackle,,crackle
+이 죽어가는 몸뚱이로 네게 헛된 희망을 쥐여줘선 안되니까.,이 죽어가는 몸뚱이로 네게 헛된 희망을 쥐여줘선 안되니까.  ,i must not give you false hope with this dying body.,"I cannot give you false hope with this dying body, because I must not.","[한글 대화]는 ""이 죽어가는 몸뚱이로 네게 헛된 희망을 쥐여줘선 안되니까.""로, 주어는 화자이며, '헛된 희망을 쥐여주다'는 능동적인 행위다. 하지만 [1차 영어 번역문]은 ""i must not give you false hope with this dying body.""로, 의미는 대체로 일치하지만, ""쥐여줘선 안되니까""는 이유를 설명하는 문장인데, 영어 번역은 단순한 의지 표현으로 바뀌어 의미가 다소 축소되었다. 따라서 원문의 의미를 살려 능동태로 다시 번역해야 한다.",i must not deceive you with false hope with this fading body.
+"잔인하고, 오만불손하고, 도덕을 모르고 타락한","잔인하고, 오만불손하고, 도덕을 모르고 타락한  ","a cruel, arrogant, impudent, morally ignorant, and corrupted...","a cruel, arrogant, impudent, morally ignorant, and corrupted...",,you're cruel and arrogant. you're immoral and corrupt...
+더러운 악마!,더러운 악마!  ,...filthy devil!,...filthy devil!,,you're a wretched demon!
+네가 옳아.,네가 옳아.  ,you're right.,You're right.,,you're right.
+후우,후우  ,haa...,haa...,,haa...
+타닥,타닥  ,pop,pop,,crackle
+타당한 분노다.,타당한 분노다.  ,your anger is justified.,Your anger is justified.,,your anger is justified.
+스윽,스윽  ,lean,lean,"‘스윽’은 조용하고 부드럽게 움직이는 소리를 나타내는 의성어/의태어로, 효과음에 해당한다. 따라서 1차 영어 번역문을 그대로 사용해도 된다.",ssk
+전부 진실이니까..,전부 진실이니까.  ,because it's all true...,because it's all true...,,because it's all true...
+스륵,스륵  ,lean,Srrk,,lean
+결국엔 그 여자가 윈터공작가를 망하게 만드는군.,결국엔 그 여자가 윈터공작가를 망하게 만드는군.  ,"in the end, that woman is the one who's going to ruin the winter dukedom.",That woman is the one ruining the Winter Dukedom.,"""그 여자가 윈터공작가를 망하게 만든다""는 능동적인 표현이므로, 영어 번역도 능동태로 구성해야 한다.",that woman is the one who ultimately brought about house winter's ruin.
+아아- 소개장이나 받을 수 있으려나..,아아- 소개장이나 받을 수 있으려나.  ,ah... i wonder if i can at least get a letter of introduction...,ah... i wonder if i can at least get a letter of introduction...,,ah... i wander if i can at least get a recommendation letter.
+술렁술렁,술렁술렁  ,murmur,murmur,,murmur
+"하여간 웃겨,","하여간 웃겨,  ","anyway, it's ridiculous.","Anyway, it's funny.","[1차 영어 번역문] ""anyway, it's ridiculous.""의 1차 한글 번역문은 ""어쨌든, 그건 우스꽝스러워."" 정도로 해석되며, 이는 [한글 대화] ""하여간 웃겨,""와 의미는 유사하지만, ""그건""이라는 대상이 추가되어 정보의 양이 더 많아졌기 때문에 정보의 양이 다릅니다. 따라서 [한글 대화]만을 기반으로 능동태로 다시 번역해야 합니다. 주어는 생략된 감탄문이므로 영어로는 일반적인 주어 ""It's""를 사용합니다.","anyway, it's ridiculous."
+이 상황에서도 한번 입은 옷은 다시 안 입는 다잖아.,이 상황에서도 한번 입은 옷은 다시 안 입는 다잖아.  ,she says she won't wear the same dress twice even in this situation.,"She refuses to wear the same dress twice, even in a situation like this.",,"even in this situation, she refuses to wear the same dress twice."
+그마저도 버려두면 하녀가 빼돌릴까 봐 난로에 태워버린대!,그마저도 버려두면 하녀가 빼돌릴까 봐 난로에 태워버린대!  ,and she burns them in the fireplace because she thinks the maids might steal them if she leaves them out!,She even burns them in the fireplace because she's afraid the maids might steal them if she leaves them out!,,"she burns them in the fireplace, fearing the maid's might steal them!"
+수군수군,수군수군  ,whisper,whisper,,whisper
+세상에나..,세상에나.  ,goodness...,goodness...,,goodness...
+화르륵,화르륵  ,blaze,blaze,,fwooom
+타닥,타닥  ,crackle,crackle,,crackle
+타닥,타닥  ,pop,pop,,crackle
+허나 나는 네가 길을 잃지 않도록 뭐든 할 것이다.,허나 나는 네가 길을 잃지 않도록 뭐든 할 것이다.  ,but i will do whatever it takes to ensure you don't lose your way.,I will do whatever it takes to keep you from losing your way.,,but i will do whatever it takes to ensure you don't lose your way.
+타닥,타닥  ,pop,pop,,crackle
+타닥,타닥  ,crackle,crackle,,crackle
+"그걸 위해서라면 나는 과부도, 악마도,","그걸 위해서라면 나는 과부도, 악마도,  ","to achieve that, i can become a widow, a demon,","To achieve that, I will become a widow or even a demon.",,"for that, i will gladly become a widow, a demon..."
+타닥,타닥  ,crackle,crackle,,crackle
+그 무엇이라도 될 수 있어..,그 무엇이라도 될 수 있어.  ,or anything else...,or anything else...,,...or anything else.
+"스스로 길을 찾지 못하겠거든,","스스로 길을 찾지 못하겠거든,  ","if you can't find your way on your own,","If you can't find your own way,",,if you can't find your way on your own...
+화륵,화륵  ,flare,flare,,fwoom
+내가 길이 되어주마.,내가 길이 되어주마.  ,i will become the path for you.,I will become your path.,,...then i will become your path.
+"아무것도 궁금해하지도,","아무것도 궁금해하지도,  ","don't be curious about anything,",Don't be curious about anything.,"원문 ""아무것도 궁금해하지도,""는 '~하지도 말아라'라는 명령형 표현으로, ""궁금해하지 마라""는 의미다. 1차 영어 번역문은 ""don't be curious about anything,""으로 의미는 유사하지만, 주어가 빠져 있고 문맥상 명령의 대상이 명확하지 않다. 웹툰의 문맥상 이 말은 화자가 청자에게 하는 말이므로, 명확한 주어 ""you""를 포함해 능동태 명령문으로 재작성해야 한다.",don't question anything...
+쿨럭,쿨럭  ,kegh,kegh,,kugh
+쿨럭,쿨럭  ,klegh,klegh,,kugh
+두려워하지도 말아라.,두려워하지도 말아라.  ,and don't be afraid.,Do not be afraid.,"원문의 ""두려워하지도 말아라""는 명령문이며, 주어는 생략되어 있지만 문맥상 '너'를 향한 말이다. 1차 영어 번역문 ""and don't be afraid.""는 주어가 생략되어 있어 평서문처럼 보일 수 있으므로, 명확한 명령문 형태로 주어를 추가해주는 것이 적절하다.",...and don't be afraid.
+내가 너를 빛으로 인도할 것이다.,내가 너를 빛으로 인도할 것이다.  ,i will lead you to the light.,I will lead you to the light.,,i will lead you to the light...
+그 길이 나를 구렁텅이로 밀어 넣는다 하더라도..,그 길이 나를 구렁텅이로 밀어 넣는다 하더라도.  ,even if that path pushes me into the depths of despair...,even if that path pushes me into the depths of despair...,,...even if that path drags me into the depths of desire.
+"마지막을 앞둔 이 순간,","마지막을 앞둔 이 순간,  ","standing on the brink of the end,","At this moment, right before the end,","[1차 영어 번역문]을 한글로 번역하면 ""끝의 벼랑에 서 있는"" 또는 ""끝자락에 서 있는""이라는 의미로, 이는 '마지막을 앞둔 이 순간'과 유사하지만 완전히 일치하지는 않음. '마지막을 앞둔 이 순간'은 시간적인 '지금 이 순간'을 강조하는 반면, 'standing on the brink of the end'는 공간적 이미지와 함께 상태를 묘사함. 또한 원문은 '이 순간'이라는 시간 표현이 핵심인데, 1차 번역문은 이를 명확히 반영하지 않음. 따라서 의미가 완전히 일치하지 않으므로, [한글 대화]를 기반으로 능동태로 다시 번역해야 함. 주어는 문맥상 화자 자신이므로 ""I""를 사용.",standing on the edge of the end...
+쿨럭,쿨럭  ,klegh,klegh,,kugh
+쿨럭,쿨럭  ,klegh,klegh,,kugh
+더는 망설일 것이 없다.,더는 망설일 것이 없다.  ,i have no reason to hesitate anymore.,I have no reason to hesitate anymore.,"[1차 한글 번역문]은 '나는 더는 망설일 이유가 없다'로, 이는 [한글 대화] '더는 망설일 것이 없다'에 주어 '나는'을 추가한 형태로 정보의 양은 동일하다. 또한 의미도 일치하고 수동태가 아닌 능동태이므로 그대로 사용 가능하다.",...i no longer have reason to hesitate.
+"드디어,","드디어,  ","finally,","finally,","[한글 대화] '드디어,'는 감탄사로, 어떤 일이 마침내 일어났음을 강조하는 표현이다. [1차 영어 번역문] 'finally,'는 의미가 일치하며, 감탄사로 쓰였기 때문에 주어가 없어도 된다. 따라서 그대로 사용 가능하다.","finally,"
+부들부들,부들부들  ,tremble,tremble,,tremble tremble
+끝이 다가오는 거야..,끝이 다가오는 거야.  ,the end is approaching...,the end is approaching...,,the end is approaching...
+휘이이,휘이이  ,fwooosh,fwooosh,,fwoosh
+화르륵,화르륵  ,blaze,blaze,,fwooom
+화륵,화륵  ,flare,flare,,fwooom
+타닥,타닥  ,pop,pop,,crackle
+타닥,타닥  ,crackle,crackle,,crackle
+중얼,중얼  ,mutter,mutter,,mutter
+"기다려, 로웬..","기다려, 로웬.  ","wait for me, rowen...","wait for me, rowen...",,"wait for me, lowen."
+선화/채색도움: 스타래빗,선화/채색도움: 스타래빗  ,starlabbit,starlabbit,,nan
+kim_da_kim,kim_da_kim,kim_da_kim,kim_da_kim,,nan

@@ -1,0 +1,237 @@
+# PIPELINE DEFINITION
+# Name: webtoon-merge-and-save
+# Description: webtoon-merge-and-save
+# Inputs:
+#    base_model_name_or_path: str [Default: 'meta-llama/Llama-4-Scout-17B-16E-Instruct']
+#    finetuned_adapter: str [Default: 'gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417']
+#    gcs_output_dir: str [Default: 'gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged']
+#    project_id: str [Default: 'prod-ai-project']
+components:
+  comp-upload:
+    executorLabel: exec-upload
+    inputDefinitions:
+      parameters:
+        base_model_name_or_path:
+          defaultValue: meta-llama/Llama-4-Scout-17B-16E-Instruct
+          isOptional: true
+          parameterType: STRING
+        finetuned_adapter:
+          defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417
+          isOptional: true
+          parameterType: STRING
+        gcs_output_dir:
+          defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged
+          isOptional: true
+          parameterType: STRING
+        project_id:
+          defaultValue: prod-ai-project
+          isOptional: true
+          parameterType: STRING
+defaultPipelineRoot: gs://kakao-entertainment-cel-applied-ai-prod/bun//pipeline/webtoon-merge-and-save
+deploymentSpec:
+  executors:
+    exec-upload:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - upload
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.10.1'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&\
+          \  python3 -m pip install --quiet --no-warn-script-location 'transformers==4.51.1'\
+          \ && \"$0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef upload(\n    project_id: str = \"prod-ai-project\",\n    base_model_name_or_path:\
+          \ str = \"meta-llama/Llama-4-Scout-17B-16E-Instruct\",\n    finetuned_adapter:\
+          \ str = \"gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417\"\
+          ,\n    gcs_output_dir: str = \"gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged\"\
+          ,\n    ):\n\n    import subprocess\n    from transformers import AutoModelForCausalLM\n\
+          \    from peft import PeftModel\n    import torch\n    import os\n    import\
+          \ shutil\n    from tqdm import tqdm\n    tqdm.pandas()\n    import logging\n\
+          \    from transformers.models.llama4.modeling_llama4 import Llama4TextMoe,\
+          \ Llama4TextExperts\n    import gc\n\n    os.environ[\"HUGGING_FACE_HUB_TOKEN\"\
+          ] = \"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\"\n    logging.basicConfig(format='%(asctime)s,\
+          \ %(levelname)-8s [%(pathname)s:%(lineno)d] %(message)s',datefmt='%Y-%m-%d:%H:%M:%S',level=logging.WARNING)\n\
+          \n    import torch\n    import torch.nn as nn\n    from transformers.activations\
+          \ import ACT2FN\n\n    class Llama4TextExpertsWithLinear(nn.Module):\n \
+          \       def __init__(self, config):\n            super().__init__()\n  \
+          \          self.num_experts = config.num_local_experts\n            self.intermediate_size\
+          \ = config.intermediate_size\n            self.hidden_size = config.hidden_size\n\
+          \            self.expert_dim = self.intermediate_size\n\n            self.gate_up_proj\
+          \ = nn.ModuleList([\n                nn.Linear(self.hidden_size, 2 * self.expert_dim,\
+          \ bias=False)\n                for _ in range(self.num_experts)\n      \
+          \      ])\n            self.down_proj = nn.ModuleList([\n              \
+          \  nn.Linear(self.expert_dim, self.hidden_size, bias=False)\n          \
+          \      for _ in range(self.num_experts)\n            ])\n\n            self.act_fn\
+          \ = ACT2FN[config.hidden_act]\n        #nn.Linear(in_features, out_features)\uC5D0\
+          \uC11C weight shape\uC740 (out_features, in_features)\uC774\uBBC0\uB85C\
+          : T \uD574\uC57C\uD568\n        def load_from_param_tensor(self, gate_up_tensor,\
+          \ down_tensor):\n            for i in range(self.num_experts):\n       \
+          \         # \uBA3C\uC800 Linear \uB808\uC774\uC5B4\uC758 weight\uC640 bias\uB97C\
+          \ bfloat16\uC73C\uB85C \uAC15\uC81C \uBCC0\uD658\n                self.gate_up_proj[i]\
+          \ = self.gate_up_proj[i].to(dtype=torch.bfloat16)\n                self.down_proj[i]\
+          \ = self.down_proj[i].to(dtype=torch.bfloat16)\n\n                # \uB808\
+          \uC774\uC5B4 \uC790\uCCB4\uB97C \uBCF5\uC0AC \uB300\uC0C1 \uD150\uC11C\uC758\
+          \ \uB514\uBC14\uC774\uC2A4\uB85C \uC774\uB3D9\n                gate_up_tensor_device\
+          \ = gate_up_tensor[i].device\n                down_tensor_device = down_tensor[i].device\n\
+          \                self.gate_up_proj[i] = self.gate_up_proj[i].to(gate_up_tensor_device)\n\
+          \                self.gate_up_proj[i].weight = self.gate_up_proj[i].weight.to(gate_up_tensor_device)\n\
+          \n                self.down_proj[i] = self.down_proj[i].to(down_tensor_device)\n\
+          \                self.down_proj[i].weight = self.down_proj[i].weight.to(down_tensor_device)\n\
+          \n                # \uD30C\uB77C\uBBF8\uD130 \uBCF5\uC0AC (\uC774\uBBF8\
+          \ \uAC19\uC740 \uB514\uBC14\uC774\uC2A4\uC5D0 \uC788\uC74C)\n          \
+          \      self.gate_up_proj[i].weight.data.copy_(\n                    gate_up_tensor[i].T.contiguous()\n\
+          \                )\n                self.down_proj[i].weight.data.copy_(\n\
+          \                    down_tensor[i].T.contiguous()\n                )\n\n\
+          \                gate_up_tensor[i] = gate_up_tensor[i].cpu()\n         \
+          \       down_tensor[i] = down_tensor[i].cpu()\n            # \uB9AC\uC2A4\
+          \uD2B8 \uD56D\uBAA9\uC744 \uC5ED\uC21C\uC73C\uB85C \uC0AD\uC81C\uD558\uC5EC\
+          \ \uC778\uB371\uC2A4 \uC624\uB958 \uBC29\uC9C0\n            for i in range(self.num_experts\
+          \ - 1, -1, -1):\n                del gate_up_tensor[i]\n               \
+          \ del down_tensor[i]\n            del gate_up_tensor\n            del down_tensor\n\
+          \            gc.collect()\n            torch.cuda.empty_cache()\n\n\n  \
+          \      def forward(self, hidden_states: torch.Tensor) -> torch.Tensor:\n\
+          \            hidden_states = hidden_states.view(self.num_experts, -1, self.hidden_size)\n\
+          \            outputs = []\n            for i in range(self.num_experts):\n\
+          \                local_input = hidden_states[i].to(self.gate_up_proj[i].weight.device)\n\
+          \n                gate_up = self.gate_up_proj[i](local_input)\n        \
+          \        gate, up = gate_up.chunk(2, dim=-1)\n                out = self.down_proj[i](up\
+          \ * self.act_fn(gate))\n                outputs.append(out)\n          \
+          \  outputs = [out.to(\"cuda:0\") for out in outputs]  # \uB610\uB294 cat\
+          \ \uD558\uAE30 \uC804\uC5D0 \uD558\uB098\uC758 device\uB85C \uBAA8\uC74C\
+          , \uC548 \uADF8\uB7EC\uBA74 \uD130\uC9D0\n            next_states = torch.cat(outputs,\
+          \ dim=0)\n            return next_states\n\n\n    if os.path.exists('base-model'):\n\
+          \        shutil.rmtree('base-model')\n    os.mkdir('base-model')\n    #\
+          \ base model\uC774 GCS\uC5D0 \uC800\uC7A5\uB418\uC5B4 \uC788\uB294 \uACBD\
+          \uC6B0\n    if base_model_name_or_path.startswith('gs://'):\n        subprocess.run(f\"\
+          gsutil -m cp {base_model_name_or_path}/* ./base-model/\", shell=True)\n\
+          \    # base model\uC774 huggingface hub\uC5D0 \uC788\uB294 \uACBD\uC6B0\n\
+          \    else:\n        subprocess.run(\"huggingface-cli login --token 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\"\
+          , shell=True)\n        subprocess.run(\n            f'huggingface-cli download\
+          \ {base_model_name_or_path} --local-dir-use-symlinks=False --local-dir=base-model\
+          \ --include \"*.safetensors\" \"*.json\" $$',\n            shell=True)\n\
+          \    print('** Finsihed Downloading Model Checkpoint ** ')\n\n    if os.path.exists('finetuned-adapter'):\n\
+          \        shutil.rmtree('finetuned-adapter')\n    os.mkdir('finetuned-adapter')\n\
+          \    subprocess.run(f\"gsutil -m cp {finetuned_adapter}/* ./finetuned-adapter/\"\
+          , shell=True)\n    print('** Finsihed Downloading Adapter Checkpoint **\
+          \ ')\n\n    model = AutoModelForCausalLM.from_pretrained(\n        'base-model',\n\
+          \        device_map=\"auto\",\n        torch_dtype=torch.bfloat16,\n   \
+          \ )\n\n    for layer in model.model.layers:\n        if not isinstance(layer.feed_forward,\
+          \ Llama4TextMoe):\n            continue  # MoE\uAC00 \uC544\uB2CC \uACBD\
+          \uC6B0 skip\n\n        old_expert = layer.feed_forward.experts\n\n     \
+          \   # \uC0C8\uB85C\uC6B4 Linear \uAE30\uBC18 Expert \uBAA8\uB4C8 \uC0DD\uC131\
+          \n        new_expert = Llama4TextExpertsWithLinear(model.config)\n\n   \
+          \     # nn.Linear\uC758 weight\uB9CC \uCD94\uCD9C\uD574\uC11C \uB118\uACA8\
+          \uC90C\n        gate_up_weights = [proj.clone().detach().to(proj.device)\
+          \ for proj in old_expert.gate_up_proj]\n        down_weights = [proj.clone().detach().to(proj.device)\
+          \ for proj in old_expert.down_proj]\n\n\n        # weight \uBCF5\uC0AC &\
+          \ free\n        new_expert.load_from_param_tensor(\n            gate_up_tensor=gate_up_weights,\n\
+          \            down_tensor=down_weights,\n        )\n\n        # Expert \uBAA8\
+          \uB4C8 \uAD50\uCCB4\n        layer.feed_forward.experts = new_expert\n\n\
+          \        print(\"\uD30C\uB77C\uBBF8\uD130 \u2705\uCCB4\uD06C\u2705\")\n\
+          \        for name, param in layer.named_parameters():\n            print(f\"\
+          {name}: {param.shape}, device={param.device}, dtype={param.dtype}\")\n\n\
+          \    print(\"\u2705\u2705\u2705 Llama4TextExperts \uACC4\uCE35\uC774 Llama4TextExpertsWithLinear\uC73C\
+          \uB85C \uC131\uACF5\uC801\uC73C\uB85C \uAD50\uCCB4\uB418\uC5C8\uC2B5\uB2C8\
+          \uB2E4!\")\n\n\n    model = PeftModel.from_pretrained(\n        model,\n\
+          \        \"finetuned-adapter\",\n        torch_dtype=torch.bfloat16,\n \
+          \   )\n    model = model.merge_and_unload()\n    print(\"\u2705\u2705\u2705\
+          \ merge \uC644\uB8CC & copy \uC2DC\uC791\")\n\n    def copy_linear_weights_to_param_expert(param_expert,\
+          \ gate_up_linear_layers, down_linear_layers):\n        import gc\n     \
+          \   import torch\n\n        num_experts = len(gate_up_linear_layers)\n\n\
+          \        for i in range(num_experts):\n            # weight \uBCF5\uC0AC\
+          \ (transpose \uD544\uC694)\n            gate_up_weight = gate_up_linear_layers[i].weight.detach().to(torch.bfloat16).T.contiguous()\n\
+          \            down_weight = down_linear_layers[i].weight.detach().to(torch.bfloat16).T.contiguous()\n\
+          \n            # \uB514\uBC14\uC774\uC2A4 \uC77C\uCE58\n            device\
+          \ = param_expert.gate_up_proj[i].device\n            gate_up_weight = gate_up_weight.to(device)\n\
+          \            down_weight = down_weight.to(device)\n\n            # \uC2E4\
+          \uC81C \uBCF5\uC0AC\n            param_expert.gate_up_proj[i].data.copy_(gate_up_weight)\n\
+          \            param_expert.down_proj[i].data.copy_(down_weight)\n\n\n   \
+          \     # \uB9AC\uC2A4\uD2B8 \uBA54\uBAA8\uB9AC \uC815\uB9AC\n        for\
+          \ i in range(num_experts - 1, -1, -1):\n            del gate_up_linear_layers[i]\n\
+          \            del down_linear_layers[i]\n        del gate_up_linear_layers\n\
+          \        del down_linear_layers\n        gc.collect()\n        torch.cuda.empty_cache()\n\
+          \n    for layer in model.model.layers:\n        if not isinstance(layer.feed_forward.experts,\
+          \ Llama4TextExpertsWithLinear):\n            continue\n\n        old_expert\
+          \ = layer.feed_forward.experts  # Linear \uAD6C\uC870\n        new_expert\
+          \ = Llama4TextExperts(model.config)  # nn.Parameter \uAD6C\uC870\n\n   \
+          \     gate_up_linear_layers = [proj for proj in old_expert.gate_up_proj]\n\
+          \        down_linear_layers = [proj for proj in old_expert.down_proj]\n\n\
+          \        copy_linear_weights_to_param_expert(\n            param_expert=new_expert,\n\
+          \            gate_up_linear_layers=gate_up_linear_layers,\n            down_linear_layers=down_linear_layers,\n\
+          \        )\n\n        layer.feed_forward.experts = new_expert\n\n      \
+          \  print(\"\uD30C\uB77C\uBBF8\uD130 \u2705\uCCB4\uD06C\u2705\")\n      \
+          \  for name, param in layer.named_parameters():\n            print(f\"{name}:\
+          \ {param.shape}, device={param.device}, dtype={param.dtype}\")\n\n    print(\"\
+          \u2705\u2705\u2705 Llama4TextExpertsWithLinear \uACC4\uCE35\uC774 Llama4TextExperts\uC73C\
+          \uB85C \uC131\uACF5\uC801\uC73C\uB85C \uAD50\uCCB4\uB418\uC5C8\uC2B5\uB2C8\
+          \uB2E4!\")\n\n\n    model.save_pretrained('merged-model', safe_serialization=True)\n\
+          \    print('** Finsihed Saving Model** ')\n\n    # save merged model to\
+          \ GCS\n    subprocess.run(f\"gsutil -o GSUtil:parallel_composite_upload_threshold=150M\
+          \ cp merged-model/* {gcs_output_dir}/\", shell=True)\n    print('** Finsihed\
+          \ Uploading Merged Model ** ')\n\n"
+        image: asia-northeast3-docker.pkg.dev/prod-ai-project/tmp-h100/llama3.1-base@sha256:4be245a55e9cb14797d2beb4d58e2f63fbe5c3d186dcfff06a36e6351792cf21
+        resources:
+          accelerator:
+            count: '4'
+            resourceCount: '4'
+            resourceType: nvidia.com/gpu
+            type: nvidia.com/gpu
+pipelineInfo:
+  description: webtoon-merge-and-save
+  name: webtoon-merge-and-save
+root:
+  dag:
+    tasks:
+      upload:
+        cachingOptions: {}
+        componentRef:
+          name: comp-upload
+        inputs:
+          parameters:
+            base_model_name_or_path:
+              componentInputParameter: base_model_name_or_path
+            finetuned_adapter:
+              componentInputParameter: finetuned_adapter
+            gcs_output_dir:
+              componentInputParameter: gcs_output_dir
+            project_id:
+              componentInputParameter: project_id
+        taskInfo:
+          name: upload
+  inputDefinitions:
+    parameters:
+      base_model_name_or_path:
+        defaultValue: meta-llama/Llama-4-Scout-17B-16E-Instruct
+        isOptional: true
+        parameterType: STRING
+      finetuned_adapter:
+        defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417
+        isOptional: true
+        parameterType: STRING
+      gcs_output_dir:
+        defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417-merged
+        isOptional: true
+        parameterType: STRING
+      project_id:
+        defaultValue: prod-ai-project
+        isOptional: true
+        parameterType: STRING
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.10.1

@@ -6,14 +6,14 @@
 #    bf16: bool [Default: True]
 #    data_sql: str [Default: 'where data_split in ('train') and create_date = (select max(create_date) from webtoon_translation.sft_dataset)']
 #    eval_steps: int [Default: 1000000000000.0]
-#    gcs_sft_output_dir: str [Default: 'gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417']
+#    gcs_sft_output_dir: str [Default: 'gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414']
 #    gradient_accumulation_steps: int [Default: 16.0]
 #    gradient_checkpointing: bool [Default: True]
 #    learning_rate: float [Default: 5e-05]
 #    logging_steps: int [Default: 1.0]
 #    lora_alpha: int [Default: 16.0]
 #    lora_dropout: float [Default: 0.0]
-#    lora_r: int [Default: 8.0]
+#    lora_r: int [Default: 32.0]
 #    lr_scheduler_type: str [Default: 'cosine']
 #    max_seq_length: int [Default: 4096.0]
 #    max_steps: int [Default: -1.0]
@@ -24,7 +24,7 @@
 #    project_id: str [Default: 'prod-ai-project']
 #    remove_unused_columns: bool [Default: True]
 #    report_to: str [Default: 'wandb']
-#    run_name: str [Default: 'sft_webtoon_250417_llama4_109b']
+#    run_name: str [Default: 'sft_webtoon_250414_llama4_109b']
 #    save_steps: int [Default: 1000000000000.0]
 #    warmup_ratio: float [Default: 0.01]
 #    weight_decay: float [Default: 0.05]
@@ -51,7 +51,7 @@ components:
           isOptional: true
           parameterType: NUMBER_INTEGER
         gcs_sft_output_dir:
-          defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417
+          defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414
           isOptional: true
           parameterType: STRING
         gradient_accumulation_steps:
@@ -123,7 +123,7 @@ components:
           isOptional: true
           parameterType: STRING
         run_name:
-          defaultValue: sft_webtoon_250417_llama4_109b
+          defaultValue: sft_webtoon_250414_llama4_109b
           isOptional: true
           parameterType: STRING
         save_steps:
@@ -184,193 +184,81 @@ deploymentSpec:
           \ bool = True,\n        learning_rate: float = 5e-5,\n        lr_scheduler_type:\
           \ str = \"cosine\",\n        warmup_ratio: float = 0.01,\n        weight_decay:\
           \ float = 0.05,\n        bf16: bool = True,\n        remove_unused_columns:\
-          \ bool = True,\n        run_name: str = \"sft_webtoon_250417_llama4_109b\"\
+          \ bool = True,\n        run_name: str = \"sft_webtoon_250414_llama4_109b\"\
           ,\n        report_to: str = \"wandb\",\n        gcs_sft_output_dir: str\
-          \ = \"gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417\"\
-          ,):\n\n\n    import os\n    import subprocess\n    import torch\n    import\
-          \ torch.nn as nn\n    from transformers.activations import ACT2FN\n    from\
-          \ accelerate import Accelerator, init_empty_weights, infer_auto_device_map\n\
-          \    from datasets import load_dataset, Dataset\n    from peft import AutoPeftModelForCausalLM,\
-          \ LoraConfig, PeftModel, prepare_model_for_kbit_training, get_peft_model\n\
-          \    from peft.tuners.lora import Linear as LoRALinear\n    from tqdm import\
+          \ = \"gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414\"\
+          ,):\n\n\n    import os\n    import subprocess\n    import torch\n    from\
+          \ accelerate import Accelerator\n    from datasets import load_dataset,\
+          \ Dataset\n    from peft import AutoPeftModelForCausalLM, LoraConfig, PeftModel,\
+          \ prepare_model_for_kbit_training, get_peft_model\n    from tqdm import\
           \ tqdm\n    tqdm.pandas()\n    import pandas as pd\n    from transformers\
           \ import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, HfArgumentParser,\
-          \ \\\n        TrainingArguments, AutoConfig\n    from transformers.models.llama4.modeling_llama4\
-          \ import Llama4TextMoe\n    from trl import SFTConfig, SFTTrainer, DataCollatorForCompletionOnlyLM\n\
-          \    from google.cloud import bigquery\n    import gcsfs\n    import shutil\n\
-          \    import wandb\n    import glob\n    import gc\n\n    wandb.login(key='6f5b18e94c20bee59a84b92ca785d1a3acd0f06a')\n\
-          \n    import torch\n    import torch.nn as nn\n    from transformers.activations\
-          \ import ACT2FN\n\n    class Llama4TextExpertsWithLinear(nn.Module):\n \
-          \       def __init__(self, config):\n            super().__init__()\n  \
-          \          self.num_experts = config.num_local_experts\n            self.intermediate_size\
-          \ = config.intermediate_size\n            self.hidden_size = config.hidden_size\n\
-          \            self.expert_dim = self.intermediate_size\n\n            self.gate_up_proj\
-          \ = nn.ModuleList([\n                nn.Linear(self.hidden_size, 2 * self.expert_dim,\
-          \ bias=False)\n                for _ in range(self.num_experts)\n      \
-          \      ])\n            self.down_proj = nn.ModuleList([\n              \
-          \  nn.Linear(self.expert_dim, self.hidden_size, bias=False)\n          \
-          \      for _ in range(self.num_experts)\n            ])\n\n            self.act_fn\
-          \ = ACT2FN[config.hidden_act]\n        #nn.Linear(in_features, out_features)\uC5D0\
-          \uC11C weight shape\uC740 (out_features, in_features)\uC774\uBBC0\uB85C\
-          : T \uD574\uC57C\uD568\n        def load_from_param_tensor(self, gate_up_tensor,\
-          \ down_tensor):\n            print(f\"[Before cleanup Allocated]: {torch.cuda.memory_allocated()\
-          \ / 1024**2:.4f} MB\")\n            print(f\"[Before cleanup Reserved] {torch.cuda.memory_reserved()\
-          \ / 1024**2:.4f} MB\")\n            for i in range(self.num_experts):\n\
-          \                # \uBA3C\uC800 Linear \uB808\uC774\uC5B4\uC758 weight\uC640\
-          \ bias\uB97C bfloat16\uC73C\uB85C \uAC15\uC81C \uBCC0\uD658\n          \
-          \      self.gate_up_proj[i] = self.gate_up_proj[i].to(dtype=torch.bfloat16)\n\
-          \                self.down_proj[i] = self.down_proj[i].to(dtype=torch.bfloat16)\n\
-          \n                # \uB808\uC774\uC5B4 \uC790\uCCB4\uB97C \uBCF5\uC0AC \uB300\
-          \uC0C1 \uD150\uC11C\uC758 \uB514\uBC14\uC774\uC2A4\uB85C \uC774\uB3D9\n\
-          \                gate_up_tensor_device = gate_up_tensor[i].device\n    \
-          \            down_tensor_device = down_tensor[i].device\n              \
-          \  self.gate_up_proj[i] = self.gate_up_proj[i].to(gate_up_tensor_device)\n\
-          \                self.gate_up_proj[i].weight = self.gate_up_proj[i].weight.to(gate_up_tensor_device)\n\
-          \n                self.down_proj[i] = self.down_proj[i].to(down_tensor_device)\n\
-          \                self.down_proj[i].weight = self.down_proj[i].weight.to(down_tensor_device)\n\
-          \n                # \uD30C\uB77C\uBBF8\uD130 \uBCF5\uC0AC (\uC774\uBBF8\
-          \ \uAC19\uC740 \uB514\uBC14\uC774\uC2A4\uC5D0 \uC788\uC74C)\n          \
-          \      self.gate_up_proj[i].weight.data.copy_(\n                    gate_up_tensor[i].T.contiguous()\n\
-          \                )\n                self.down_proj[i].weight.data.copy_(\n\
-          \                    down_tensor[i].T.contiguous()\n                )\n\n\
-          \                gate_up_tensor[i] = gate_up_tensor[i].cpu()\n         \
-          \       down_tensor[i] = down_tensor[i].cpu()\n            # \uB9AC\uC2A4\
-          \uD2B8 \uD56D\uBAA9\uC744 \uC5ED\uC21C\uC73C\uB85C \uC0AD\uC81C\uD558\uC5EC\
-          \ \uC778\uB371\uC2A4 \uC624\uB958 \uBC29\uC9C0\n            for i in range(self.num_experts\
-          \ - 1, -1, -1):\n                del gate_up_tensor[i]\n               \
-          \ del down_tensor[i]\n            del gate_up_tensor\n            del down_tensor\n\
-          \            gc.collect()\n            torch.cuda.empty_cache()\n\n    \
-          \        print(f\"[After cleanup Allocated]: {torch.cuda.memory_allocated()\
-          \ / 1024**2:.4f} MB\")\n            print(f\"[After cleanup Reserved]: {torch.cuda.memory_reserved()\
-          \ / 1024**2:.4f} MB\")\n\n\n\n        def forward(self, hidden_states: torch.Tensor)\
-          \ -> torch.Tensor:\n            hidden_states = hidden_states.view(self.num_experts,\
-          \ -1, self.hidden_size)\n            outputs = []\n            for i in\
-          \ range(self.num_experts):\n                local_input = hidden_states[i].to(self.gate_up_proj[i].weight.device)\n\
-          \n                gate_up = self.gate_up_proj[i](local_input)\n        \
-          \        gate, up = gate_up.chunk(2, dim=-1)\n                out = self.down_proj[i](up\
-          \ * self.act_fn(gate))\n                outputs.append(out)\n          \
-          \  outputs = [out.to(\"cuda:0\") for out in outputs]  # \uB610\uB294 cat\
-          \ \uD558\uAE30 \uC804\uC5D0 \uD558\uB098\uC758 device\uB85C \uBAA8\uC74C\
-          , \uC548 \uADF8\uB7EC\uBA74 \uD130\uC9D0\n            next_states = torch.cat(outputs,\
-          \ dim=0)\n            return next_states\n\n    print(f'::: torch.cuda.device_count()\
-          \ {torch.cuda.device_count()}:::')\n\n    client = bigquery.Client(project=project_id)\n\
-          \    fs = gcsfs.GCSFileSystem(project=project_id)\n    auth_token = \"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\"\
-          \n    #pytorch memory segmentation \uBC29\uC9C0\n    os.environ[\"PYTORCH_CUDA_ALLOC_CONF\"\
+          \ \\\n        TrainingArguments\n    from trl import SFTConfig, SFTTrainer,\
+          \ DataCollatorForCompletionOnlyLM\n    from google.cloud import bigquery\n\
+          \    import gcsfs\n    import shutil\n    import wandb\n    import glob\n\
+          \    wandb.login(key='6f5b18e94c20bee59a84b92ca785d1a3acd0f06a')\n\n   \
+          \ print(f'::: torch.cuda.device_count() {torch.cuda.device_count()}:::')\n\
+          \n    client = bigquery.Client(project=project_id)\n    fs = gcsfs.GCSFileSystem(project=project_id)\n\
+          \    auth_token = \"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\"\n    #pytorch\
+          \ memory segmentation \uBC29\uC9C0\n    os.environ[\"PYTORCH_CUDA_ALLOC_CONF\"\
           ] = \"expandable_segments:False,max_split_size_mb:1024\"\n    os.environ[\"\
-          HUGGING_FACE_HUB_TOKEN\"] = auth_token\n\n\n    if os.path.exists('base-model2'):\n\
-          \        shutil.rmtree('base-model2')\n    os.mkdir('base-model2')\n   \
-          \ # base model\uC774 GCS\uC5D0 \uC800\uC7A5\uB418\uC5B4 \uC788\uB294 \uACBD\
+          HUGGING_FACE_HUB_TOKEN\"] = auth_token\n\n\n    if os.path.exists('base-model'):\n\
+          \        shutil.rmtree('base-model')\n    os.mkdir('base-model')\n    #\
+          \ base model\uC774 GCS\uC5D0 \uC800\uC7A5\uB418\uC5B4 \uC788\uB294 \uACBD\
           \uC6B0\n    if base_model_name_or_path.startswith('gs://'):\n        subprocess.run(f\"\
-          gsutil -m cp {base_model_name_or_path}/* ./base-model2/\", shell=True)\n\
+          gsutil -m cp {base_model_name_or_path}/* ./base-model/\", shell=True)\n\
           \    # base model\uC774 huggingface hub\uC5D0 \uC788\uB294 \uACBD\uC6B0\n\
           \    else:\n        subprocess.run(\"huggingface-cli login --token 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\"\
-          , shell=True)\n        subprocess.run(\n            f'huggingface-cli download\
-          \ {base_model_name_or_path} --local-dir-use-symlinks=False --local-dir=base-model2\
+          , shell=True)\n        result = subprocess.run(\n            f'huggingface-cli\
+          \ download {base_model_name_or_path} --local-dir-use-symlinks=False --local-dir=base-model\
           \ --include \"*.safetensors\" \"*.json\" $$',\n            shell=True)\n\
-          \    print('** Finsihed Downloading Model Checkpoint ** ')\n\n    peft_config\
+          \        if result.returncode == 0:\n            print(\"\u2705 \uB2E4\uC6B4\
+          \uB85C\uB4DC \uC131\uACF5!\")\n        else:\n            print(f\"\u274C\
+          \ \uB2E4\uC6B4\uB85C\uB4DC \uC2E4\uD328! returncode: {result.returncode}\"\
+          )\n    print('** Finsihed Downloading Model Checkpoint ** ')\n\n    peft_config\
           \ = LoraConfig(\n        r=lora_r,\n        lora_alpha=lora_alpha,\n   \
-          \     lora_dropout=lora_dropout,\n        target_modules=[\n           \
-          \ \"q_proj\", \"v_proj\", \"o_proj\", \"k_proj\",\n            \"shared_expert.up_proj\"\
-          , \"shared_expert.down_proj\", \"shared_expert.gate_proj\", \"router\"]+\n\
-          \        [f\"experts.gate_up_proj.{i}\" for i in range(16)]+\n        [f\"\
-          experts.down_proj.{i}\" for i in range(16)],\n        bias=\"none\",\n \
-          \       task_type=\"CAUSAL_LM\",\n    )\n\n\n    bnb_config = BitsAndBytesConfig(\n\
-          \        load_in_4bit=True,\n        bnb_4bit_quant_type=\"nf4\",\n    \
-          \    bnb_4bit_compute_dtype=torch.bfloat16,\n        bnb_4bit_use_double_quant=True,\n\
+          \     lora_dropout=lora_dropout,\n        # target_modules=[\"q_proj\",\
+          \ \"v_proj\"],\n        target_modules=[\"q_proj\", \"v_proj\", \"o_proj\"\
+          , \"k_proj\",\"up_proj\", \"down_proj\", \"gate_proj\",\"router\"],\n  \
+          \      bias=\"none\",\n        task_type=\"CAUSAL_LM\",\n    )\n\n    bnb_config\
+          \ = BitsAndBytesConfig(\n        load_in_4bit=True,\n        bnb_4bit_quant_type=\"\
+          nf4\",\n        bnb_4bit_compute_dtype=torch.bfloat16,\n        bnb_4bit_use_double_quant=True,\n\
           \        bnb_4bit_quant_storage=torch.bfloat16,#torch.float32\n    )\n\n\
-          \    # device_map = {}\n    # num_layers = 48\n    # layers_per_gpu = num_layers\
-          \ // 8\n\n    # for i in range(8):\n    #     start = i * layers_per_gpu\n\
+          \    # torch.cuda.empty_cache()\n    # from accelerate import infer_auto_device_map,\
+          \ init_empty_weights\n    # # 1. \uBE48 \uBAA8\uB378 \uBA3C\uC800 \uB85C\
+          \uB4DC\n    # with init_empty_weights():\n    #     model = AutoModelForCausalLM.from_pretrained(\n\
+          \    #         'base-model',\n    #         attn_implementation=\"flash_attention_2\"\
+          ,\n    #         torch_dtype=torch.bfloat16,\n    #         device_map=None,\n\
+          \    #         trust_remote_code=True,\n    #     )\n    # torch.cuda.empty_cache()\n\
+          \    # # 2. device_map \uCD94\uB860\n    # device_map = infer_auto_device_map(\n\
+          \    #     model,\n    #     max_memory={\n    #         i: \"80GiB\" for\
+          \ i in range(8)  # H100 80GB \uAE30\uC900\n    #     },\n    #     no_split_module_classes=[\"\
+          Llama4TextDecoderLayer\", \"Llama4VisionAttention\"],  # \uC911\uC694!\n\
+          \    # )\n\n    # device_map = {}\n    # num_layers = 48\n    # layers_per_gpu\
+          \ = num_layers // 8\n\n    # for i in range(8):\n    #     start = i * layers_per_gpu\n\
           \    #     end = (i + 1) * layers_per_gpu\n    #     for j in range(start,\
           \ end):\n    #         device_map[f\"model.layers.{j}\"] = i\n\n    # device_map.update({\n\
           \    #     \"model.embed_tokens\": 0,\n    #     \"model.norm\": 7,\n  \
           \  #     \"model.rotary_emb\": 7,\n    #     \"lm_head\": 7,\n    # })\n\
-          \n    #print(device_map)\n    # \u2705 \uADF8\uB9AC\uACE0 \uB098\uC11C auto\
-          \ device mapping\n    from accelerate import infer_auto_device_map\n   \
-          \ from accelerate.utils import get_balanced_memory\n\n\n    # 2. \uBE48\
-          \ \uBAA8\uB378 \uB85C\uB529 (\uBA54\uBAA8\uB9AC \uB0AD\uBE44 \uC5C6\uC774\
-          \ \uAD6C\uC870\uB9CC \uB85C\uB4DC\uB428)\n    # with init_empty_weights():\n\
-          \    #     model = AutoModelForCausalLM.from_pretrained(\n    #     'base-model2',\n\
-          \    #     torch_dtype=torch.bfloat16,\n    #     attn_implementation=\"\
-          flash_attention_2\",\n    #     trust_remote_code=True,\n    # )\n    #\
-          \ # 3. device_map \uCD94\uB860\n    # max_memory=get_balanced_memory(\n\
-          \    #             model,\n    #             no_split_module_classes=[\"\
-          LlamaDecoderLayer\"],\n    #             dtype=torch.bfloat16,\n    #  \
-          \       )\n    # # \u2705 95%\uB9CC \uC4F0\uB3C4\uB85D \uBE44\uC728 \uC870\
-          \uC815\n    # max_memory = {gpu_id: int(mem * 0.95) for gpu_id, mem in max_memory.items()}\n\
-          \n\n    # device_map = infer_auto_device_map(\n    #     model,\n    # \
-          \    max_memory=max_memory,\n    #     no_split_module_classes=[\"LlamaDecoderLayer\"\
-          ],\n    #     dtype=torch.bfloat16,\n    # )\n\n    # print(device_map)\n\
-          \n    manual_device_map = {\n        \"model.embed_tokens\": 0,\n      \
-          \  \"model.layers.0\": 0,\n        \"model.layers.1\": 0,\n        \"model.layers.2\"\
-          : 0,\n        \"model.layers.3\": 0,\n        \"model.layers.4\": 0,\n \
-          \       \"model.layers.5\": 0,\n        \"model.layers.6\": 1,\n       \
-          \ \"model.layers.7\": 1,\n        \"model.layers.8\": 1,\n        \"model.layers.9\"\
-          : 1,\n        \"model.layers.10\": 1,\n        \"model.layers.11\": 1,\n\
-          \        \"model.layers.12\": 2,\n        \"model.layers.13\": 2,\n    \
-          \    \"model.layers.14\": 2,\n        \"model.layers.15\": 2,\n        \"\
-          model.layers.16\": 2,\n        \"model.layers.17\": 2,\n        \"model.layers.18\"\
-          : 3,\n        \"model.layers.19\": 3,\n        \"model.layers.20\": 3,\n\
-          \        \"model.layers.21\": 3,\n        \"model.layers.22\": 3,\n    \
-          \    \"model.layers.23\": 3,\n        \"model.layers.24\": 4,\n        \"\
-          model.layers.25\": 4,\n        \"model.layers.26\": 4,\n        \"model.layers.27\"\
-          : 4,\n        \"model.layers.28\": 4,\n        \"model.layers.29\": 4,\n\
-          \        \"model.layers.30\": 5,\n        \"model.layers.31\": 5,\n    \
-          \    \"model.layers.32\": 5,\n        \"model.layers.33\": 5,\n        \"\
-          model.layers.34\": 5,\n        \"model.layers.35\": 5,\n        \"model.layers.36\"\
-          : 6,\n        \"model.layers.37\": 6,\n        \"model.layers.38\": 6,\n\
-          \        \"model.layers.39\": 6,\n        \"model.layers.40\": 6,\n    \
-          \    \"model.layers.41\": 6,\n        \"model.layers.42\": 6,\n        \"\
-          model.layers.43\": 7,\n        \"model.layers.44\": 7,\n        \"model.layers.45\"\
-          : 7,\n        \"model.layers.46\": 7,\n        \"model.layers.47\": 7,\n\
-          \        \"model.norm\": 7,\n        \"model.rotary_emb\": 7,\n        \"\
-          lm_head\": 7\n    }\n\n\n    model = AutoModelForCausalLM.from_pretrained(\n\
-          \        'base-model2',\n        torch_dtype=torch.bfloat16,\n        device_map=manual_device_map,#\"\
-          auto\",#device_map,\n        attn_implementation=\"flash_attention_2\",\n\
-          \        quantization_config=bnb_config,\n        trust_remote_code=True,\n\
-          \    )\n\n    print(f\"\uD30C\uB77C\uBBF8\uD130 \u2705\uCCB4\uD06C\u2705\
-          \ : \",model.hf_device_map)    \n\n    for layer in model.model.layers:\n\
-          \        if not isinstance(layer.feed_forward, Llama4TextMoe):\n       \
-          \     continue  # MoE\uAC00 \uC544\uB2CC \uACBD\uC6B0 skip\n\n        old_expert\
-          \ = layer.feed_forward.experts\n\n        # \uC0C8\uB85C\uC6B4 Linear \uAE30\
-          \uBC18 Expert \uBAA8\uB4C8 \uC0DD\uC131\n        new_expert = Llama4TextExpertsWithLinear(model.config)\n\
-          \n        # nn.Linear\uC758 weight\uB9CC \uCD94\uCD9C\uD574\uC11C \uB118\
-          \uACA8\uC90C\n        #device = next(layer.feed_forward.parameters()).device\
-          \  # \uB204\uB77D\uB41C `.device`\n        gate_up_weights = [proj.clone().detach().to(proj.device)\
-          \ for proj in old_expert.gate_up_proj]\n        down_weights = [proj.clone().detach().to(proj.device)\
-          \ for proj in old_expert.down_proj]\n        #\uC704 \uCF54\uB4DC\uB791\
-          \ \uAC19\uC740 \uCF54\uB4DC\n        # gate_up_weights = [proj.clone().detach()\
-          \ for proj in old_expert.gate_up_proj]\n        # down_weights = [proj.clone().detach()\
-          \ for proj in old_expert.down_proj]\n\n\n        # weight \uBCF5\uC0AC &\
-          \ free\n        new_expert.load_from_param_tensor(\n            gate_up_tensor=gate_up_weights,\n\
-          \            down_tensor=down_weights,\n        )\n\n        # Expert \uBAA8\
-          \uB4C8 \uAD50\uCCB4\n        layer.feed_forward.experts = new_expert\n\n\
-          \        print(\"\uD30C\uB77C\uBBF8\uD130 \u2705\uCCB4\uD06C\u2705\")\n\
-          \        for name, param in layer.named_parameters():\n            print(f\"\
-          {name}: {param.shape}, device={param.device}, dtype={param.dtype}\")\n\n\
-          \    print(\"\u2705\u2705\u2705 Llama4TextExperts \uACC4\uCE35\uC774 Llama4TextExpertsWithLinear\uC73C\
-          \uB85C \uC131\uACF5\uC801\uC73C\uB85C \uAD50\uCCB4\uB418\uC5C8\uC2B5\uB2C8\
-          \uB2E4!\")\n\n    # tmp = []\n    # expert_num = 16\n    # for i in range(expert_num):\n\
-          \    #     tmp.append(f\"experts.gate_up_proj.{i}\")\n    #     tmp.append(f\"\
-          experts.down_proj.{i}\")\n    # peft_config.target_modules.update(tmp)\n\
-          \n\n    model = prepare_model_for_kbit_training(model)\n    model = get_peft_model(model,\
-          \ peft_config)  # LoRA \uB808\uC774\uC5B4 \uC0DD\uC131\uB428!\n\n\n    model.print_trainable_parameters()\n\
-          \n    def print_gpu_memory():\n        for i in range(torch.cuda.device_count()):\n\
+          \n    #print(device_map)\n    model = AutoModelForCausalLM.from_pretrained(\n\
+          \        'base-model',\n        torch_dtype=torch.bfloat16,\n        device_map=\"\
+          auto\",\n        attn_implementation=\"flash_attention_2\",\n        quantization_config=bnb_config,\n\
+          \        trust_remote_code=True,\n    )\n\n    model = prepare_model_for_kbit_training(model)\n\
+          \    model = get_peft_model(model, peft_config)  # LoRA \uB808\uC774\uC5B4\
+          \ \uC0DD\uC131\uB428!\n    model.print_trainable_parameters()\n\n    def\
+          \ print_gpu_memory():\n        for i in range(torch.cuda.device_count()):\n\
           \            allocated = torch.cuda.memory_allocated(i) / (1024 ** 3)\n\
           \            reserved = torch.cuda.memory_reserved(i) / (1024 ** 3)\n  \
           \          print(f\"GPU {i}: Allocated = {allocated:.2f} GB, Reserved =\
           \ {reserved:.2f} GB\")\n\n    # \uBAA8\uB378 \uB85C\uB529 \uC9C1\uD6C4 \uD638\
           \uCD9C\n    print_gpu_memory()\n\n    #moe bug \uD68C\uD53C\uC6A9 (monkey\
-          \ patch)\n    # \uAE30\uC874 monkey patch \uAC1C\uC120 \uBC84\uC804\n  \
-          \  orig_scatter_add = torch.Tensor.scatter_add_\n\n    def safe_scatter_add_(self,\
-          \ dim, index, src):\n        # device \uBA3C\uC800 \uD1B5\uC77C\n      \
-          \  if src.device != self.device:\n            src = src.to(self.device)\n\
-          \        if index.device != self.device:\n            index = index.to(self.device)\n\
-          \        # dtype \uD1B5\uC77C\uB3C4 \uD568\uAED8\n        if src.dtype !=\
-          \ self.dtype:\n            src = src.to(self.dtype)\n        return orig_scatter_add(self,\
-          \ dim, index, src)\n\n    torch.Tensor.scatter_add_ = safe_scatter_add_\n\
-          \n\n    # prevent ```RuntimeError: element 0 of tensors does not require\
-          \ grad and does not have a grad_fn```\n    model.enable_input_require_grads()\n\
-          \n\n    # \uAE30\uC874 tokenizer\uB97C \uB798\uD551\n    class MaxLengthTokenizerWrapper:\n\
+          \ patch)\n    orig_scatter_add = torch.Tensor.scatter_add_\n    def safe_scatter_add_(self,\
+          \ dim, index, src):\n        if self.dtype != src.dtype:\n            src\
+          \ = src.to(self.dtype)\n        return orig_scatter_add(self, dim, index,\
+          \ src)\n\n    torch.Tensor.scatter_add_ = safe_scatter_add_\n\n\n    # prevent\
+          \ ```RuntimeError: element 0 of tensors does not require grad and does not\
+          \ have a grad_fn```\n    model.enable_input_require_grads()\n\n\n    # \uAE30\
+          \uC874 tokenizer\uB97C \uB798\uD551\n    class MaxLengthTokenizerWrapper:\n\
           \        def __init__(self, tokenizer, max_length):\n            self._tokenizer\
           \ = tokenizer\n            self.max_length = max_length\n\n        def pad(self,\
           \ *args, **kwargs):\n            kwargs[\"padding\"] = \"max_length\"\n\
@@ -381,17 +269,17 @@ deploymentSpec:
           \ **kwargs)\n\n    tokenizer = AutoTokenizer.from_pretrained(\"meta-llama/Llama-4-Scout-17B-16E-Instruct\"\
           , trust_remote_code=True)\n    tokenizer.pad_token = tokenizer.eos_token\
           \ #\uBE7C\uC57C\uB428, llama4\uB294 pad\uD1A0\uD070 \uAC00\uC9C0\uACE0 \uC788\
-          \uC74C -> \uADF8\uB798\uB3C4 \uC0C1\uAD00\uC5C6\uC74C\n    tokenizer.padding_side\
-          \ = \"right\"  # Fix weird overflow issue with fp16 training\n    #tokenizer\
-          \ = MaxLengthTokenizerWrapper(tokenizer, max_length=max_seq_length)\n\n\n\
-          \    def instruct_structure(prompt, system_prompt=\"\"\"You're an expert\
-          \ translator who translates Korean webtoon in English. Make sure the number\
-          \ of target sentences matches the number of source sentences. The result\
-          \ should be TSV formatted. \n    \u2022 Find a balance between staying true\
-          \ to the Korean meaning and keeping a natural flow. Don't be afraid to add\
-          \ to the text. Embellish it. \n    \u2022 Avoid translating word-for-word.\
-          \ Keep the general feeling and translate the text accordingly. \n    \u2022\
-          \ Translate with an American audience in mind. This means easy-to-read,\
+          \uC74C -> \uADF8\uB798\uB3C4 \uC0C1\uAD00\uC5C6\uC74C(\uB0B4\uBD80\uB85C\
+          \uC9C1\uC5D0 \uB530\uB77C)\n    tokenizer.padding_side = \"right\"  # Fix\
+          \ weird overflow issue with fp16 training\n    #tokenizer = MaxLengthTokenizerWrapper(tokenizer,\
+          \ max_length=max_seq_length)\n\n\n    def instruct_structure(prompt, system_prompt=\"\
+          \"\"You're an expert translator who translates Korean webtoon in English.\
+          \ Make sure the number of target sentences matches the number of source\
+          \ sentences. The result should be TSV formatted. \n    \u2022 Find a balance\
+          \ between staying true to the Korean meaning and keeping a natural flow.\
+          \ Don't be afraid to add to the text. Embellish it. \n    \u2022 Avoid translating\
+          \ word-for-word. Keep the general feeling and translate the text accordingly.\
+          \ \n    \u2022 Translate with an American audience in mind. This means easy-to-read,\
           \ conversational English.\"\"\"):\n        input_text, output_text = prompt.split('###\
           \ target')\n        input_text = input_text.replace('### glossaries', '###\
           \ glossary').replace('\\n* ', '\\n\u2022 ')\n        return f\"\"\"<|begin_of_text|><|header_start|>system<|header_end|>\n\
@@ -552,7 +440,7 @@ root:
         isOptional: true
         parameterType: NUMBER_INTEGER
       gcs_sft_output_dir:
-        defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250417
+        defaultValue: gs://kakao-entertainment-cel-applied-ai-prod/bun/llama4/llama4_109b/sft-webtoon-250414
         isOptional: true
         parameterType: STRING
       gradient_accumulation_steps:
@@ -580,7 +468,7 @@ root:
         isOptional: true
         parameterType: NUMBER_DOUBLE
       lora_r:
-        defaultValue: 8.0
+        defaultValue: 32.0
         isOptional: true
         parameterType: NUMBER_INTEGER
       lr_scheduler_type:
@@ -624,7 +512,7 @@ root:
         isOptional: true
         parameterType: STRING
       run_name:
-        defaultValue: sft_webtoon_250417_llama4_109b
+        defaultValue: sft_webtoon_250414_llama4_109b
         isOptional: true
         parameterType: STRING
       save_steps:
